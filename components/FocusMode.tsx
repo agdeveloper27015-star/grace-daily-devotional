@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import ReactDOM from 'react-dom';
 import { BibleChapter, HighlightColor } from '../types';
 
@@ -16,21 +16,15 @@ const getHighlightClass = (verseHighlights: Map<number, HighlightColor>, verseNu
   return `verse-hl-${color}`;
 };
 
-const FocusMode: React.FC<FocusModeProps> = ({
-  chapter,
-  verseHighlights,
-  onClose,
-  onPreviousChapter,
-  onNextChapter,
-}) => {
-  const [fontSize, setFontSize] = useState(1.25);
+const FocusMode: React.FC<FocusModeProps> = ({ chapter, verseHighlights, onClose, onPreviousChapter, onNextChapter }) => {
+  const [fontSize, setFontSize] = useState(1.2);
   const [showControls, setShowControls] = useState(true);
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const resetTimer = () => {
     if (timerRef.current) clearTimeout(timerRef.current);
     setShowControls(true);
-    timerRef.current = setTimeout(() => setShowControls(false), 3000);
+    timerRef.current = setTimeout(() => setShowControls(false), 2600);
   };
 
   useEffect(() => {
@@ -44,50 +38,67 @@ const FocusMode: React.FC<FocusModeProps> = ({
 
   return ReactDOM.createPortal(
     <div
-      className="fixed inset-0 z-[100] bg-grace-bg overflow-y-auto"
+      className="fixed inset-0 z-[110] overflow-y-auto bg-[rgba(246,246,244,0.98)]"
       onClick={resetTimer}
       onScroll={resetTimer}
     >
-      {/* Controls */}
-      <div className={`fixed top-0 left-0 right-0 z-10 bg-grace-bg/90 backdrop-blur-md px-6 py-4 flex items-center justify-between border-b border-grace-border transition-opacity duration-500 ${showControls ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
-        <button onClick={onClose} className="p-2 text-cream-muted hover:text-cream transition-colors">
-          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
-        </button>
-        <span className="text-xs text-cream-muted uppercase tracking-widest">{chapter.bookName} {chapter.chapterNumber}</span>
-        <div className="flex gap-2">
-          <button onClick={() => setFontSize(s => Math.max(0.9, s - 0.1))} className="p-2 text-cream-muted hover:text-cream text-xs font-bold">A-</button>
-          <button onClick={() => setFontSize(s => Math.min(2, s + 0.1))} className="p-2 text-cream-muted hover:text-cream text-sm font-bold">A+</button>
-        </div>
-      </div>
+      <header
+        className={`fixed left-0 right-0 top-0 z-10 border-b border-grace-border bg-[rgba(255,255,255,0.92)] px-4 py-3 backdrop-blur-sm transition-opacity duration-300 ${
+          showControls ? 'opacity-100' : 'pointer-events-none opacity-0'
+        }`}
+      >
+        <div className="mx-auto flex w-full max-w-4xl items-center justify-between gap-3">
+          <button onClick={onClose} className="icon-button inline-flex h-9 w-9 items-center justify-center" aria-label="Fechar">
+            <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
 
-      {/* Reading content */}
-      <div className="max-w-2xl mx-auto px-8 sm:px-12 pt-20 pb-24">
-        <h2 className="font-serif text-2xl text-cream mb-8 text-center">
-          {chapter.bookName} {chapter.chapterNumber}
-        </h2>
-        <div className="space-y-6">
-          {chapter.verses.map(verse => (
-            <div key={verse.number} className={`flex gap-4 ${getHighlightClass(verseHighlights, verse.number)} rounded-lg px-2 py-1`}>
-              <span className="text-[9px] font-bold text-grace-muted mt-2 min-w-[20px] text-right select-none">{verse.number}</span>
-              <p className="flex-1" style={{ fontFamily: "'Merriweather', serif", fontSize: `${fontSize}rem`, lineHeight: 2, color: '#EDE0D4', letterSpacing: '0.01em' }}>
+          <p className="meta-label">{chapter.bookName} {chapter.chapterNumber}</p>
+
+          <div className="inline-flex items-center gap-2">
+            <button onClick={() => setFontSize((size) => Math.max(0.95, size - 0.1))} className="pill-button px-3 py-1.5 text-xs font-semibold">
+              A-
+            </button>
+            <button onClick={() => setFontSize((size) => Math.min(2, size + 0.1))} className="pill-button px-3 py-1.5 text-xs font-semibold">
+              A+
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <main className="mx-auto w-full max-w-4xl px-6 pb-28 pt-24">
+        <h2 className="editorial-title mb-8 text-center text-5xl">{chapter.bookName} {chapter.chapterNumber}</h2>
+
+        <div className="space-y-5">
+          {chapter.verses.map((verse) => (
+            <div key={verse.number} className={`rounded-xl px-3 py-2 ${getHighlightClass(verseHighlights, verse.number)}`}>
+              <span className="meta-label mr-3 align-top">{verse.number}</span>
+              <p
+                className="reading-body inline text-cream-dark"
+                style={{ fontSize: `${fontSize}rem` }}
+              >
                 {verse.text}
               </p>
             </div>
           ))}
         </div>
-      </div>
+      </main>
 
-      {/* Bottom nav */}
-      <div className={`fixed bottom-0 left-0 right-0 bg-grace-bg/90 backdrop-blur-md px-6 py-4 flex justify-between border-t border-grace-border transition-opacity duration-500 ${showControls ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
-        <button onClick={onPreviousChapter} className="text-xs text-cream-muted hover:text-terra transition-colors flex items-center gap-2">
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" /></svg>
-          Anterior
-        </button>
-        <button onClick={onNextChapter} className="text-xs text-cream-muted hover:text-terra transition-colors flex items-center gap-2">
-          Próximo
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
-        </button>
-      </div>
+      <footer
+        className={`fixed bottom-0 left-0 right-0 border-t border-grace-border bg-[rgba(255,255,255,0.92)] px-4 py-3 backdrop-blur-sm transition-opacity duration-300 ${
+          showControls ? 'opacity-100' : 'pointer-events-none opacity-0'
+        }`}
+      >
+        <div className="mx-auto flex w-full max-w-4xl items-center justify-between gap-3">
+          <button onClick={onPreviousChapter} className="pill-button px-4 py-2 text-xs font-semibold uppercase tracking-wider">
+            Anterior
+          </button>
+          <button onClick={onNextChapter} className="pill-button px-4 py-2 text-xs font-semibold uppercase tracking-wider">
+            Próximo
+          </button>
+        </div>
+      </footer>
     </div>,
     document.body
   );

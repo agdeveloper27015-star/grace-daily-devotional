@@ -1,5 +1,21 @@
 import React from 'react';
 
+export interface NavigationTarget {
+  bookAbbrev: string;
+  chapter: number;
+  verse?: number;
+}
+
+export type AppView = 'ESTUDO' | 'LEITURA' | 'BUSCA' | 'CADERNO' | 'PERFIL';
+export type NotebookTab = 'FAVORITOS' | 'NOTAS';
+
+export interface NavigateOptions {
+  target?: NavigationTarget;
+  notebookTab?: NotebookTab;
+}
+
+export type NavigateFn = (view: AppView, options?: NavigateOptions) => void;
+
 export interface Scripture {
   text: string;
   reference: string;

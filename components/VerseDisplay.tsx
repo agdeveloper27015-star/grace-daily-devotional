@@ -1,5 +1,5 @@
 import React from 'react';
-import { BibleVerse, BibleChapter, HighlightColor } from '../types';
+import { BibleChapter, BibleVerse, HighlightColor } from '../types';
 import { DictionaryEntry } from '../services/dictionaryService';
 import { PORTUGUESE_STOP_WORDS } from '../services/stopWords';
 import VerseActionBar from './VerseActionBar';
@@ -74,25 +74,27 @@ const VerseDisplay: React.FC<VerseDisplayProps> = ({
 
     return (
       <>
-        {tokens.map((token, i) => {
+        {tokens.map((token, index) => {
           const isWord = /^[\wÀ-ÿ]+$/.test(token);
           const isStopWord = PORTUGUESE_STOP_WORDS.has(token.toLowerCase());
-
           if (!isWord || isStopWord || token.length <= 1) {
-            return <span key={i}>{token}</span>;
+            return <span key={index}>{token}</span>;
           }
 
           const localEntry = dictMap.get(token.toLowerCase());
-          const hasEntry = !!localEntry;
+          const hasEntry = Boolean(localEntry);
 
           return (
             <button
-              key={i}
-              onClick={(e) => { e.stopPropagation(); onWordClick(token, verse.number, localEntry || undefined); }}
-              className={`inline underline-offset-2 transition-all cursor-pointer font-reading ${
+              key={index}
+              onClick={(event) => {
+                event.stopPropagation();
+                onWordClick(token, verse.number, localEntry || undefined);
+              }}
+              className={`inline rounded-[4px] px-[1px] transition ${
                 hasEntry
-                  ? 'text-cream underline decoration-cream-muted/30 hover:decoration-cream-muted'
-                  : 'text-cream-dark hover:text-cream hover:underline hover:decoration-cream-muted/30'
+                  ? 'text-terra underline decoration-terra/35 underline-offset-2 hover:decoration-terra'
+                  : 'text-cream-dark hover:text-cream hover:underline hover:decoration-cream-muted/40'
               }`}
             >
               {token}
@@ -103,9 +105,9 @@ const VerseDisplay: React.FC<VerseDisplayProps> = ({
     );
   };
 
-  // Group verses into paragraphs
   const paragraphs: BibleVerse[][] = [];
   let currentParagraph: BibleVerse[] = [];
+
   for (const verse of chapter.verses) {
     currentParagraph.push(verse);
     const trimmed = verse.text.trim();
@@ -115,79 +117,77 @@ const VerseDisplay: React.FC<VerseDisplayProps> = ({
       currentParagraph = [];
     }
   }
+
   if (currentParagraph.length > 0) paragraphs.push(currentParagraph);
 
   return (
-    <div className="animate-in fade-in slide-in-from-bottom-4 duration-700">
-      <div className="flex items-center mb-6">
-        <button onClick={onGoToChapters} className="text-cream-muted hover:text-cream transition-colors mr-4">
-          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" /></svg>
-        </button>
-        <div className="flex-1">
-          <h2 className="text-xs font-semibold text-cream-muted tracking-[0.15em] uppercase">{chapter.bookName}</h2>
-          <p className="text-lg font-serif text-cream">Capítulo {chapter.chapterNumber}</p>
+    <section className="animate-in fade-in slide-in-from-bottom-4 duration-700 space-y-5">
+      <header className="paper-panel p-5 sm:p-6">
+        <div className="flex flex-wrap items-center gap-3">
+          <button onClick={onGoToChapters} className="icon-button inline-flex h-9 w-9 items-center justify-center" aria-label="Voltar">
+            <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+
+          <div className="min-w-0 flex-1">
+            <p className="section-kicker">Leitura ativa</p>
+            <h2 className="editorial-title truncate text-4xl leading-none sm:text-5xl">{chapter.bookName}</h2>
+            <p className="mt-1 text-sm text-cream-muted">Capítulo {chapter.chapterNumber}</p>
+          </div>
+
+          <button onClick={onEnterFocusMode} className="pill-button px-4 py-2 text-xs font-semibold uppercase tracking-wider">
+            Foco
+          </button>
+          <button
+            onClick={onToggleStudyMode}
+            className={`px-4 py-2 text-xs font-semibold uppercase tracking-wider ${
+              studyMode ? 'pill-button-accent' : 'pill-button'
+            }`}
+          >
+            {studyMode ? 'Modo Estudo' : 'Modo Leitura'}
+          </button>
         </div>
 
-        <button
-          onClick={onEnterFocusMode}
-          className="p-2 mr-2 rounded-full text-cream-muted hover:text-terra hover:bg-terra/10 transition-all"
-          title="Modo Foco"
-        >
-          <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15" />
-          </svg>
-        </button>
+        {studyMode && loadingDictionary && (
+          <div className="mt-4 inline-flex items-center gap-2 rounded-full border border-grace-border bg-grace-surface-2 px-3 py-1.5 text-xs text-cream-muted">
+            <span className="h-3 w-3 animate-spin rounded-full border-2 border-terra border-t-transparent" />
+            Carregando dicionário local...
+          </div>
+        )}
+      </header>
 
-        <button
-          onClick={onToggleStudyMode}
-          className={`flex items-center gap-2 px-4 py-2 rounded-full text-xs font-medium uppercase tracking-wider transition-all ${
-            studyMode ? 'bg-terra text-cream shadow-md' : 'bg-grace-surface text-cream-muted hover:bg-grace-surface-2'
-          }`}
-        >
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-          </svg>
-          {studyMode ? 'Estudo' : 'Ler'}
-        </button>
-      </div>
-
-      {studyMode && loadingDictionary && (
-        <div className="flex items-center gap-2 mb-4 px-3 py-2 bg-terra/10 rounded-xl">
-          <div className="w-4 h-4 border-2 border-terra border-t-transparent rounded-full animate-spin"></div>
-          <p className="text-xs text-terra">Carregando dicionário...</p>
-        </div>
-      )}
-
-      <div className="mb-8" onClick={() => { onSelectVerse(null); }}>
-        {paragraphs.map((paragraph, pi) => {
-          const paragraphHasSelected = selectedVerse !== null && paragraph.some(v => v.number === selectedVerse);
-          const selectedVerseObj = paragraphHasSelected ? paragraph.find(v => v.number === selectedVerse) : null;
+      <article className="paper-panel p-5 sm:p-7" onClick={() => onSelectVerse(null)}>
+        {paragraphs.map((paragraph, paragraphIndex) => {
+          const paragraphHasSelected = selectedVerse !== null && paragraph.some((verse) => verse.number === selectedVerse);
+          const selectedVerseObj = paragraphHasSelected ? paragraph.find((verse) => verse.number === selectedVerse) : null;
 
           return (
-            <React.Fragment key={pi}>
-              <p className="mb-1 text-[18px] leading-[1.8] text-cream-dark font-reading font-light">
+            <React.Fragment key={paragraphIndex}>
+              <p className="reading-body mb-2 text-[1.16rem] text-cream-dark">
                 {paragraph.map((verse) => (
                   <span
                     key={verse.number}
                     id={`verse-${verse.number}`}
-                    className={`inline verse-span rounded-sm transition-colors cursor-pointer ${getHighlightClass(verseHighlights, verse.number)} ${
+                    className={`inline cursor-pointer rounded-[4px] px-[2px] transition ${getHighlightClass(verseHighlights, verse.number)} ${
                       highlightedVerse === verse.number
-                        ? 'bg-terra/20'
+                        ? 'bg-[rgba(47,59,82,0.14)]'
                         : selectedVerse === verse.number
-                        ? 'bg-cream/10'
+                        ? 'bg-[rgba(47,59,82,0.09)]'
                         : ''
                     }`}
-                    onClick={(e) => {
-                      e.stopPropagation();
+                    onClick={(event) => {
+                      event.stopPropagation();
                       onSelectVerse(selectedVerse === verse.number ? null : verse.number);
                     }}
                   >
-                    <sup className="text-[11px] font-semibold text-terra/70 mr-[2px] ml-[2px] select-none">{verse.number}</sup>
+                    <sup className="verse-chip mr-[2px] ml-[2px] select-none">{verse.number}</sup>
                     {studyMode ? renderVerseText(verse) : <span>{verse.text}</span>}
                     {' '}
                   </span>
                 ))}
               </p>
+
               {paragraphHasSelected && selectedVerseObj && (
                 <VerseActionBar
                   verse={selectedVerseObj}
@@ -202,24 +202,23 @@ const VerseDisplay: React.FC<VerseDisplayProps> = ({
                   onRemoveHighlight={onRemoveHighlight}
                 />
               )}
-              {!paragraphHasSelected && <div className="mb-4"></div>}
+
+              {!paragraphHasSelected && <div className="mb-4" />}
             </React.Fragment>
           );
         })}
-      </div>
+      </article>
 
-      <div className="flex justify-between items-center pt-6 border-t border-grace-border">
-        <button onClick={onPreviousChapter} className="flex items-center gap-2 text-xs font-medium text-cream-muted hover:text-terra transition-colors">
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" /></svg>
+      <footer className="paper-panel flex items-center justify-between gap-3 p-4 sm:p-5">
+        <button onClick={onPreviousChapter} className="pill-button px-4 py-2 text-xs font-semibold uppercase tracking-wider">
           Anterior
         </button>
-        <span className="text-[10px] text-cream-muted uppercase tracking-widest">{chapter.bookName} {chapter.chapterNumber}</span>
-        <button onClick={onNextChapter} className="flex items-center gap-2 text-xs font-medium text-cream-muted hover:text-terra transition-colors">
+        <span className="meta-label">{chapter.bookName} {chapter.chapterNumber}</span>
+        <button onClick={onNextChapter} className="pill-button px-4 py-2 text-xs font-semibold uppercase tracking-wider">
           Próximo
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
         </button>
-      </div>
-    </div>
+      </footer>
+    </section>
   );
 };
 

@@ -5,67 +5,88 @@ import { getReadingProgress } from '../services/bibleService';
 interface ReadingProgressProps {
   books: BibleBook[];
   onBookSelect: (book: BibleBook) => void;
-  onChapterSelect: (chapterNumber: number) => void;
   onShowBooks: () => void;
+  onResumeProgress: (book: BibleBook, chapter: number) => void;
 }
 
-const ReadingProgress: React.FC<ReadingProgressProps> = ({ books, onBookSelect, onChapterSelect, onShowBooks }) => {
+const ReadingProgress: React.FC<ReadingProgressProps> = ({ books, onBookSelect, onShowBooks, onResumeProgress }) => {
+  const progress = getReadingProgress();
+
+  const plans = [
+    {
+      id: 'novo-testamento',
+      title: 'Novo Testamento',
+      subtitle: 'Evangelhos, cartas e revelação apostólica.',
+      abbrev: 'mt',
+    },
+    {
+      id: 'velho-testamento',
+      title: 'Velho Testamento',
+      subtitle: 'Lei, história, poesia e profetas.',
+      abbrev: 'gn',
+    },
+  ];
+
   return (
-    <div className="animate-in fade-in slide-in-from-bottom-4 duration-700">
-      <h2 className="text-xs font-semibold text-cream-muted tracking-[0.15em] uppercase mb-6">
-        Planos de Leitura
-      </h2>
-      <div className="space-y-6">
-        <div className="p-6 bg-grace-surface rounded-3xl border border-grace-border">
-          <h3 className="font-serif text-2xl text-cream mb-2">Novo Testamento</h3>
-          <p className="text-xs text-cream-muted uppercase tracking-widest mb-4">Leia a vida de Jesus e dos apóstolos</p>
-          <button
-            onClick={() => { const mateus = books.find(b => b.abbrev === 'mt'); if (mateus) onBookSelect(mateus); }}
-            className="bg-terra text-cream px-6 py-2 rounded-full text-xs font-semibold uppercase tracking-widest hover:bg-terra-light transition-colors"
-          >
-            Começar
-          </button>
-        </div>
+    <section className="animate-in fade-in slide-in-from-bottom-4 duration-700 space-y-5">
+      <div className="paper-panel p-5 sm:p-6">
+        <p className="section-kicker">Jornada bíblica</p>
+        <h2 className="editorial-title mt-1 text-4xl leading-none sm:text-5xl">Entrada de leitura</h2>
+        <p className="mt-2 text-sm text-cream-muted">
+          Escolha uma trilha inicial, abra todos os livros ou retome exatamente o capítulo em que você parou.
+        </p>
+      </div>
 
-        <div className="p-6 bg-grace-surface rounded-3xl border border-grace-border">
-          <h3 className="font-serif text-2xl text-cream mb-2">Velho Testamento</h3>
-          <p className="text-xs text-cream-muted uppercase tracking-widest mb-4">Desde a criação até os profetas</p>
-          <button
-            onClick={() => { const genesis = books.find(b => b.abbrev === 'gn'); if (genesis) onBookSelect(genesis); }}
-            className="bg-terra text-cream px-6 py-2 rounded-full text-xs font-semibold uppercase tracking-widest hover:bg-terra-light transition-colors"
-          >
-            Começar
-          </button>
-        </div>
+      <div className="grid gap-3 md:grid-cols-2">
+        {plans.map((plan) => (
+          <article key={plan.id} className="paper-panel p-5">
+            <p className="section-kicker">Plano sugerido</p>
+            <h3 className="editorial-title mt-1 text-3xl">{plan.title}</h3>
+            <p className="mt-2 text-sm text-cream-muted">{plan.subtitle}</p>
+            <button
+              onClick={() => {
+                const book = books.find((item) => item.abbrev === plan.abbrev);
+                if (book) onBookSelect(book);
+              }}
+              className="pill-button-accent mt-4 px-4 py-2 text-xs font-semibold uppercase tracking-wider"
+            >
+              Começar trilha
+            </button>
+          </article>
+        ))}
+      </div>
 
-        <div className="grid grid-cols-2 gap-4">
-          <div
+      <div className="paper-panel p-5 sm:p-6">
+        <div className="grid gap-3 sm:grid-cols-2">
+          <button
             onClick={onShowBooks}
-            className="p-5 border border-grace-border rounded-2xl hover:bg-grace-surface-2 transition-colors cursor-pointer group bg-grace-surface"
+            className="state-card p-4 text-left transition hover:bg-grace-surface-2"
           >
-            <p className="text-[10px] font-bold uppercase text-terra mb-1">Bíblia</p>
-            <h4 className="font-serif text-lg text-cream">Todos os Livros</h4>
-            <p className="text-xs text-cream-muted mt-1">{books.length} livros</p>
-          </div>
-          <div
+            <p className="section-kicker">Biblioteca completa</p>
+            <h4 className="editorial-title text-2xl">Todos os livros</h4>
+            <p className="mt-1 text-sm text-cream-muted">{books.length} livros disponíveis</p>
+          </button>
+
+          <button
             onClick={() => {
-              const progress = getReadingProgress();
-              if (progress && books.length > 0) {
-                const book = books.find(b => b.abbrev === progress.bookAbbrev);
-                if (book) onChapterSelect(progress.chapter);
-              } else {
+              if (!progress) {
                 onShowBooks();
+                return;
               }
+              const book = books.find((item) => item.abbrev === progress.bookAbbrev);
+              if (book) onResumeProgress(book, progress.chapter);
             }}
-            className="p-5 border border-grace-border rounded-2xl hover:bg-grace-surface-2 transition-colors cursor-pointer group bg-grace-surface"
+            className="state-card p-4 text-left transition hover:bg-grace-surface-2"
           >
-            <p className="text-[10px] font-bold uppercase text-terra mb-1">Continuar</p>
-            <h4 className="font-serif text-lg text-cream">Onde Parei</h4>
-            <p className="text-xs text-cream-muted mt-1">Retomar leitura</p>
-          </div>
+            <p className="section-kicker">Retomar sessão</p>
+            <h4 className="editorial-title text-2xl">Onde parei</h4>
+            <p className="mt-1 text-sm text-cream-muted">
+              {progress ? `${progress.bookName} ${progress.chapter}` : 'Ainda sem progresso salvo'}
+            </p>
+          </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

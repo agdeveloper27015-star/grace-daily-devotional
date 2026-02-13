@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import { BibleBook, BibleChapter, BibleVerse, HighlightColor } from '../types';
 import {
@@ -206,16 +206,22 @@ const Reading: React.FC<ReadingProps> = ({ initialTarget, onTargetConsumed, onFo
     setViewState('chapters');
   };
 
-  const handleChapterSelect = async (chapterNumber: number) => {
-    if (!selectedBook) return;
+  const handleResumeProgress = async (book: BibleBook, chapterNumber: number) => {
+    setSelectedBook(book);
+    await handleChapterSelect(chapterNumber, book);
+  };
+
+  const handleChapterSelect = async (chapterNumber: number, explicitBook?: BibleBook) => {
+    const bookToUse = explicitBook || selectedBook;
+    if (!bookToUse) return;
     setLoading(true);
     setSelectedChapterNumber(chapterNumber);
-    const chapter = await getChapter(selectedBook.abbrev, chapterNumber);
+    const chapter = await getChapter(bookToUse.abbrev, chapterNumber);
     if (chapter) {
       setCurrentChapter(chapter);
       saveReadingProgress({
-        bookAbbrev: selectedBook.abbrev,
-        bookName: selectedBook.name,
+        bookAbbrev: bookToUse.abbrev,
+        bookName: bookToUse.name,
         chapter: chapterNumber,
         timestamp: Date.now()
       });
@@ -365,9 +371,9 @@ const Reading: React.FC<ReadingProps> = ({ initialTarget, onTargetConsumed, onFo
   // === RENDER ===
 
   const renderLoading = () => (
-    <div className="flex flex-col items-center justify-center py-12">
-      <div className="w-8 h-8 border-2 border-terra border-t-transparent rounded-full animate-spin mb-4"></div>
-      <p className="text-cream-muted text-xs italic">Carregando a Palavra...</p>
+    <div className="paper-panel p-8 text-center">
+      <div className="w-8 h-8 border-2 border-terra border-t-transparent rounded-full animate-spin mx-auto mb-3"></div>
+      <p className="text-cream-muted text-sm">Carregando capítulo...</p>
     </div>
   );
 
@@ -375,16 +381,16 @@ const Reading: React.FC<ReadingProps> = ({ initialTarget, onTargetConsumed, onFo
     if (!showNoteModal || !selectedVerseForNote || !currentChapter) return null;
     return ReactDOM.createPortal(
       <div
-        className={`fixed inset-0 z-[9999] flex items-center justify-center p-4 backdrop-blur-sm transition-all duration-500 ease-in-out ${
-          closingNoteModal ? 'bg-black/0 opacity-0 backdrop-blur-none' : 'bg-black/50 opacity-100'
+        className={`fixed inset-0 z-[9999] flex items-center justify-center p-4 backdrop-blur-sm transition-all duration-300 ease-out ${
+          closingNoteModal ? 'bg-black/0 opacity-0' : 'bg-black/35 opacity-100'
         }`}
         onClick={(e) => { if (e.target === e.currentTarget) closeNoteModal(); }}
       >
-        <div className={`bg-grace-surface-2 rounded-3xl p-6 w-full max-w-md shadow-xl border border-grace-border transition-all duration-500 ease-in-out ${
-          closingNoteModal ? 'scale-75 opacity-0 translate-y-4' : 'scale-100 opacity-100 translate-y-0 animate-in zoom-in-95'
+        <div className={`w-full max-w-md rounded-3xl border border-grace-border bg-grace-surface p-6 transition-all duration-300 ease-out ${
+          closingNoteModal ? 'translate-y-3 opacity-0' : 'translate-y-0 opacity-100 animate-in zoom-in-95'
         }`}>
           <div className="mb-4">
-            <h3 className="text-[10px] font-bold uppercase tracking-widest text-terra mb-1">
+            <h3 className="section-kicker mb-1">
               {currentChapter.bookName} {currentChapter.chapterNumber}:{selectedVerseForNote.number}
             </h3>
             <p className="text-sm text-cream-muted italic line-clamp-2">
@@ -395,18 +401,18 @@ const Reading: React.FC<ReadingProps> = ({ initialTarget, onTargetConsumed, onFo
             value={noteText}
             onChange={(e) => setNoteText(e.target.value)}
             placeholder="Escreva sua reflexão sobre este versículo..."
-            className="w-full h-32 p-4 bg-grace-surface rounded-2xl border-0 resize-none focus:ring-2 focus:ring-terra/30 text-cream text-sm leading-relaxed mb-4 placeholder:text-grace-muted"
+            className="w-full h-32 p-4 bg-grace-surface-2 rounded-2xl border border-grace-border resize-none outline-none focus:border-terra text-cream text-sm leading-relaxed mb-4 placeholder:text-grace-muted"
           />
-          <div className="flex gap-3">
-            <button onClick={saveNote} className="flex-1 bg-terra text-cream py-3 rounded-full text-xs font-semibold uppercase tracking-widest hover:bg-terra-light transition-colors">
+          <div className="flex flex-wrap gap-3">
+            <button onClick={saveNote} className="pill-button-accent flex-1 py-3 text-xs font-semibold uppercase tracking-widest">
               {existingNoteId ? 'Atualizar' : 'Salvar'}
             </button>
             {existingNoteId && (
-              <button onClick={deleteCurrentNote} className="px-6 bg-red-500/10 text-red-400 py-3 rounded-full text-xs font-semibold uppercase tracking-widest hover:bg-red-500/20 transition-colors">
+              <button onClick={deleteCurrentNote} className="pill-button px-6 py-3 text-xs font-semibold uppercase tracking-widest text-[var(--danger)]">
                 Excluir
               </button>
             )}
-            <button onClick={closeNoteModal} className="flex-1 bg-grace-surface-3 text-cream-muted py-3 rounded-full text-xs font-semibold uppercase tracking-widest hover:bg-grace-border transition-colors">
+            <button onClick={closeNoteModal} className="pill-button flex-1 py-3 text-xs font-semibold uppercase tracking-widest">
               Cancelar
             </button>
           </div>
@@ -474,8 +480,8 @@ const Reading: React.FC<ReadingProps> = ({ initialTarget, onTargetConsumed, onFo
         <ReadingProgress
           books={books}
           onBookSelect={handleBookSelect}
-          onChapterSelect={handleChapterSelect}
           onShowBooks={() => setViewState('books')}
+          onResumeProgress={handleResumeProgress}
         />
       )}
       {renderNoteModal()}
@@ -493,7 +499,7 @@ const Reading: React.FC<ReadingProps> = ({ initialTarget, onTargetConsumed, onFo
       {/* Back to top */}
       <button
         onClick={scrollToTop}
-        className={`fixed bottom-6 right-6 w-12 h-12 rounded-full bg-terra text-cream shadow-lg flex items-center justify-center transition-all duration-300 hover:scale-110 z-50 ${
+        className={`fixed bottom-24 right-5 lg:bottom-6 lg:right-6 w-12 h-12 rounded-full bg-terra text-white border border-[rgba(255,255,255,0.35)] flex items-center justify-center transition-all duration-300 hover:scale-105 z-50 ${
           showBackToTop ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4 pointer-events-none'
         }`}
       >

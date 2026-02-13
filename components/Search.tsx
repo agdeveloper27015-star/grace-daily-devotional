@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import { searchBible, BibleSearchResult } from '../services/bibleService';
-import { toggleFavorite, isFavorite } from '../services/favoritesService';
-import { NavigationTarget } from '../App';
+import { isFavorite, toggleFavorite } from '../services/favoritesService';
+import { NavigateFn } from '../types';
 
 interface SearchProps {
-  onNavigate?: (view: string, target?: NavigationTarget) => void;
+  onNavigate?: NavigateFn;
 }
+
+const POPULAR_SEARCHES = ['graça', 'fé', 'sabedoria', 'esperança', 'perdão', 'paz', 'aliança', 'oração'];
 
 const Search: React.FC<SearchProps> = ({ onNavigate }) => {
   const [query, setQuery] = useState('');
@@ -14,143 +16,141 @@ const Search: React.FC<SearchProps> = ({ onNavigate }) => {
   const [searched, setSearched] = useState(false);
   const [favoritedVerses, setFavoritedVerses] = useState<Set<string>>(new Set());
 
-  const handleSearch = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!query.trim()) return;
+  const searchTerm = async (term: string) => {
+    const parsed = term.trim();
+    if (!parsed) return;
 
     setLoading(true);
     setSearched(true);
-    const searchResults = await searchBible(query);
+
+    const searchResults = await searchBible(parsed);
     setResults(searchResults);
 
     const favorited = new Set<string>();
-    searchResults.forEach(r => {
-      if (isFavorite(r.bookAbbrev, r.chapter, r.verse)) {
-        favorited.add(`${r.bookAbbrev}_${r.chapter}_${r.verse}`);
+    searchResults.forEach((item) => {
+      if (isFavorite(item.bookAbbrev, item.chapter, item.verse)) {
+        favorited.add(`${item.bookAbbrev}_${item.chapter}_${item.verse}`);
       }
     });
     setFavoritedVerses(favorited);
     setLoading(false);
   };
 
+  const handleSubmit = async (event: React.FormEvent) => {
+    event.preventDefault();
+    await searchTerm(query);
+  };
+
   const handleToggleFavorite = (result: BibleSearchResult) => {
     const key = `${result.bookAbbrev}_${result.chapter}_${result.verse}`;
-    const isNowFavorite = toggleFavorite({
+    const favorited = toggleFavorite({
       bookAbbrev: result.bookAbbrev,
       bookName: result.bookName,
       chapter: result.chapter,
       verse: result.verse,
-      text: result.text
+      text: result.text,
     });
 
-    setFavoritedVerses(prev => {
+    setFavoritedVerses((prev) => {
       const next = new Set(prev);
-      if (isNowFavorite) {
-        next.add(key);
-      } else {
-        next.delete(key);
-      }
+      if (favorited) next.add(key);
+      else next.delete(key);
       return next;
     });
   };
 
-  const popularSearches = [
-    'amor', 'paz', 'fe', 'esperanca', 'forca',
-    'perdao', 'sabedoria', 'graca', 'misericordia', 'alegria'
-  ];
-
   return (
-    <div className="animate-in fade-in slide-in-from-bottom-4 duration-700">
-      <form onSubmit={handleSearch} className="mb-6">
-        <div className="relative">
-          <input
-            type="text"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="Ex: amor, Salmos, fe, esperanca..."
-            className="w-full pl-4 pr-12 py-3 border-b-2 border-grace-border focus:border-terra focus:ring-0 outline-none text-cream font-light bg-transparent transition-all placeholder:text-grace-muted"
-          />
-          <button
-            type="submit"
-            className="absolute right-2 top-1/2 -translate-y-1/2 text-terra hover:scale-110 transition-transform"
-          >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-            </svg>
-          </button>
-        </div>
-      </form>
+    <section className="animate-in fade-in slide-in-from-bottom-4 duration-700 space-y-5">
+      <div className="paper-panel p-5 sm:p-6">
+        <p className="section-kicker">Busca semântica</p>
+        <h2 className="editorial-title mt-1 text-4xl leading-none sm:text-5xl">Descobrir conexões</h2>
+        <p className="mt-2 max-w-2xl text-sm text-cream-muted">
+          Busque por termos teológicos, nomes de livros, emoções ou temas. Toque em um resultado para abrir
+          a passagem diretamente na leitura.
+        </p>
 
-      {/* Popular searches */}
-      {!searched && (
-        <div className="mb-8">
-          <p className="text-[10px] font-bold uppercase tracking-widest text-terra mb-3">
-            Buscas Populares
-          </p>
-          <div className="flex flex-wrap gap-2">
-            {popularSearches.map((term) => (
+        <form onSubmit={handleSubmit} className="mt-5">
+          <div className="flex flex-col gap-3 sm:flex-row">
+            <input
+              type="text"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Ex: justiça, salmos, fé, consolação"
+              className="h-12 w-full rounded-2xl border border-grace-border bg-grace-surface px-4 text-base text-cream outline-none transition focus:border-terra"
+            />
+            <button type="submit" className="pill-button-accent h-12 px-6 text-sm font-semibold">
+              Buscar
+            </button>
+          </div>
+        </form>
+
+        {!searched && (
+          <div className="mt-4 flex flex-wrap gap-2">
+            {POPULAR_SEARCHES.map((term) => (
               <button
                 key={term}
-                onClick={async () => {
+                onClick={() => {
                   setQuery(term);
-                  setLoading(true);
-                  setSearched(true);
-                  const searchResults = await searchBible(term);
-                  setResults(searchResults);
-                  const favorited = new Set<string>();
-                  searchResults.forEach(r => {
-                    if (isFavorite(r.bookAbbrev, r.chapter, r.verse)) {
-                      favorited.add(`${r.bookAbbrev}_${r.chapter}_${r.verse}`);
-                    }
-                  });
-                  setFavoritedVerses(favorited);
-                  setLoading(false);
+                  void searchTerm(term);
                 }}
-                className="px-4 py-2 bg-grace-surface hover:bg-grace-surface-2 rounded-full text-xs font-medium text-cream-muted hover:text-cream transition-colors capitalize"
+                className="pill-button px-3 py-1.5 text-xs font-semibold capitalize"
               >
                 {term}
               </button>
             ))}
           </div>
+        )}
+      </div>
+
+      {loading && (
+        <div className="paper-panel p-8 text-center">
+          <div className="mx-auto h-8 w-8 animate-spin rounded-full border-2 border-terra border-t-transparent" />
+          <p className="mt-3 text-sm text-cream-muted">Buscando referências no texto bíblico...</p>
         </div>
       )}
 
-      {loading && (
-        <div className="flex flex-col items-center justify-center py-12">
-          <div className="w-8 h-8 border-2 border-terra border-t-transparent rounded-full animate-spin mb-4"></div>
-          <p className="text-cream-muted text-xs italic">Buscando nas escrituras...</p>
+      {searched && !loading && results.length === 0 && (
+        <div className="paper-panel p-8 text-center">
+          <p className="editorial-title text-3xl">Nenhum resultado</p>
+          <p className="mt-2 text-sm text-cream-muted">Tente termos mais amplos ou sinônimos em português.</p>
         </div>
       )}
 
       {searched && !loading && results.length > 0 && (
-        <div>
-          <p className="text-[10px] font-bold uppercase tracking-widest text-terra mb-4">
-            {results.length} versículo{results.length !== 1 ? 's' : ''} encontrado{results.length !== 1 ? 's' : ''}
-          </p>
+        <div className="paper-panel p-5 sm:p-6">
+          <div className="mb-4 flex items-center justify-between gap-3">
+            <p className="section-kicker">Resultados</p>
+            <p className="text-sm font-semibold text-cream">{results.length} passagens encontradas</p>
+          </div>
+
           <div className="space-y-3">
-            {results.map((result, idx) => {
+            {results.map((result, index) => {
               const key = `${result.bookAbbrev}_${result.chapter}_${result.verse}`;
+              const isFavoritedVerse = favoritedVerses.has(key);
+
               return (
-                <div
-                  key={idx}
-                  onClick={() => onNavigate && onNavigate('LEITURA', { bookAbbrev: result.bookAbbrev, chapter: result.chapter, verse: result.verse })}
-                  className="p-4 bg-grace-surface rounded-2xl group hover:bg-grace-surface-2 transition-colors relative cursor-pointer border border-grace-border"
+                <article
+                  key={`${key}_${index}`}
+                  onClick={() => onNavigate?.('LEITURA', { target: { bookAbbrev: result.bookAbbrev, chapter: result.chapter, verse: result.verse } })}
+                  className="state-card cursor-pointer p-4 transition hover:bg-grace-surface-2"
                 >
-                  <div className="flex justify-between items-start">
-                    <p className="text-[10px] font-bold uppercase tracking-widest text-terra mb-2">
+                  <div className="mb-2 flex items-start justify-between gap-3">
+                    <p className="section-kicker">
                       {result.bookName} {result.chapter}:{result.verse}
                     </p>
                     <button
-                      onClick={(e) => { e.stopPropagation(); handleToggleFavorite(result); }}
-                      className={`p-1.5 rounded-full transition-all ${
-                        favoritedVerses.has(key)
-                          ? 'text-red-400 bg-red-400/10'
-                          : 'text-grace-muted hover:text-red-400 hover:bg-red-400/10 opacity-0 group-hover:opacity-100'
+                      onClick={(event) => {
+                        event.stopPropagation();
+                        handleToggleFavorite(result);
+                      }}
+                      className={`icon-button inline-flex h-8 w-8 items-center justify-center ${
+                        isFavoritedVerse ? 'text-[var(--danger)] border-[rgba(155,34,38,0.3)]' : ''
                       }`}
+                      title={isFavoritedVerse ? 'Remover favorito' : 'Salvar favorito'}
                     >
                       <svg
-                        className="w-4 h-4"
-                        fill={favoritedVerses.has(key) ? 'currentColor' : 'none'}
+                        className="h-4 w-4"
+                        fill={isFavoritedVerse ? 'currentColor' : 'none'}
                         stroke="currentColor"
                         viewBox="0 0 24 24"
                       >
@@ -158,40 +158,15 @@ const Search: React.FC<SearchProps> = ({ onNavigate }) => {
                       </svg>
                     </button>
                   </div>
-                  <p className="text-cream-dark leading-relaxed font-light text-sm pr-8">
-                    {result.text}
-                  </p>
-                </div>
+
+                  <p className="reading-body text-[1.02rem] text-cream-dark">{result.text}</p>
+                </article>
               );
             })}
           </div>
         </div>
       )}
-
-      {searched && !loading && results.length === 0 && (
-        <div className="text-center py-16">
-          <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-grace-surface flex items-center justify-center">
-            <svg className="w-8 h-8 text-grace-muted" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-            </svg>
-          </div>
-          <p className="text-cream-muted text-sm font-light">
-            Nenhum versículo encontrado para "{query}"
-          </p>
-          <p className="text-grace-muted text-xs mt-2">
-            Tente palavras diferentes ou mais simples
-          </p>
-        </div>
-      )}
-
-      {!searched && !loading && (
-        <div className="text-center py-12">
-          <p className="text-cream-muted text-sm font-light italic">
-            Pesquise por palavras, temas ou nomes de livros da Bíblia.
-          </p>
-        </div>
-      )}
-    </div>
+    </section>
   );
 };
 
