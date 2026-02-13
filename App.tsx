@@ -136,7 +136,7 @@ const App: React.FC = () => {
       case 'BUSCA':
         return <Search onNavigate={handleNavigate} />;
       case 'CADERNO':
-        return <Notebook activeTab={notebookTab} onTabChange={setNotebookTab} onNavigate={handleNavigate} />;
+        return <Notebook activeTab={notebookTab} onTabChange={setNotebookTab} />;
       case 'PERFIL':
         return <Profile />;
       default:

@@ -147,6 +147,7 @@ const Search: React.FC<SearchProps> = ({ onNavigate }) => {
                         isFavoritedVerse ? 'text-[var(--danger)] border-[rgba(155,34,38,0.3)]' : ''
                       }`}
                       title={isFavoritedVerse ? 'Remover favorito' : 'Salvar favorito'}
+                      aria-label={isFavoritedVerse ? 'Remover favorito' : 'Salvar favorito'}
                     >
                       <svg
                         className="h-4 w-4"

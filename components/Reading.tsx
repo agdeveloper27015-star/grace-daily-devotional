@@ -237,7 +237,7 @@ const Reading: React.FC<ReadingProps> = ({ initialTarget, onTargetConsumed, onFo
       const book = books.find(b => b.abbrev === next.abbrev);
       if (book) {
         setSelectedBook(book);
-        handleChapterSelect(next.chapter);
+        handleChapterSelect(next.chapter, book);
       }
     }
   };
@@ -249,7 +249,7 @@ const Reading: React.FC<ReadingProps> = ({ initialTarget, onTargetConsumed, onFo
       const book = books.find(b => b.abbrev === prev.abbrev);
       if (book) {
         setSelectedBook(book);
-        handleChapterSelect(prev.chapter);
+        handleChapterSelect(prev.chapter, book);
       }
     }
   };

@@ -1,12 +1,11 @@
 import React from 'react';
 import Favorites from './Favorites';
 import Notes from './Notes';
-import { NavigateFn, NotebookTab } from '../types';
+import { NotebookTab } from '../types';
 
 interface NotebookProps {
   activeTab: NotebookTab;
   onTabChange: (tab: NotebookTab) => void;
-  onNavigate?: NavigateFn;
 }
 
 const Notebook: React.FC<NotebookProps> = ({ activeTab, onTabChange }) => {

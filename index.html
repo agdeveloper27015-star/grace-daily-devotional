@@ -48,7 +48,22 @@
 
   <!-- PWA: Registro do Service Worker -->
   <script>
-    if ('serviceWorker' in navigator) {
+    const isLocalDev =
+      window.location.hostname === 'localhost' ||
+      window.location.hostname === '127.0.0.1';
+
+    if ('serviceWorker' in navigator && isLocalDev) {
+      navigator.serviceWorker.getRegistrations().then((registrations) => {
+        registrations.forEach((registration) => registration.unregister());
+      });
+      if ('caches' in window) {
+        caches.keys().then((keys) => {
+          keys.forEach((key) => caches.delete(key));
+        });
+      }
+    }
+
+    if ('serviceWorker' in navigator && !isLocalDev) {
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('/sw.js')
           .then((registration) => {
