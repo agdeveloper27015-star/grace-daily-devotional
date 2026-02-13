@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Grace Daily Devotional - Premium Dark Theme */
+
+/* Animation utilities */
+.animate-in {
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+.fade-in {
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.slide-in-from-bottom-4 {
+  animation-name: slideInFromBottom4;
+}
+
+@keyframes slideInFromBottom4 {
+  from { opacity: 0; transform: translateY(1rem); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.zoom-in-95 {
+  animation-name: zoomIn95;
+}
+
+@keyframes zoomIn95 {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.slide-in-from-top-2 {
+  animation-name: slideInFromTop2;
+}
+
+@keyframes slideInFromTop2 {
+  from { opacity: 0; transform: translateY(-0.5rem); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Sidebar animations */
+@keyframes slideInFromLeft {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes slideOutToLeft {
+  from { transform: translateX(0); }
+  to { transform: translateX(-100%); }
+}
+
+/* Highlight color picker */
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.8); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.scale-in {
+  animation: scaleIn 0.2s ease-out both;
+}
+
+/* Line clamp utility */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Custom scrollbar - dark theme */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}
+
+/* Selection */
+::selection {
+  background: rgba(255, 255, 255, 0.2);
+  color: #F0F0F0;
+}
+
+/* Sidebar open - prevent body scroll */
+.sidebar-open {
+  overflow: hidden;
+}
+
+/* Verse highlight classes - inline */
+.verse-hl-yellow { background: rgba(250, 204, 21, 0.18); padding: 2px 0; border-radius: 2px; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.verse-hl-green { background: rgba(74, 222, 128, 0.18); padding: 2px 0; border-radius: 2px; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.verse-hl-blue { background: rgba(96, 165, 250, 0.18); padding: 2px 0; border-radius: 2px; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.verse-hl-pink { background: rgba(251, 113, 133, 0.18); padding: 2px 0; border-radius: 2px; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.verse-hl-orange { background: rgba(232, 148, 90, 0.18); padding: 2px 0; border-radius: 2px; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+
+/* Focus mode reading */
+.focus-mode-reading {
+  font-family: 'Merriweather', serif;
+  font-size: 1.25rem;
+  line-height: 2;
+  letter-spacing: 0.01em;
+  color: #D4D4D4;
+}
+
+.focus-controls {
+  transition: opacity 0.5s ease;
+}
+
+.focus-controls-hidden {
+  opacity: 0;
+  pointer-events: none;
+}

@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grace - Devocional</title>
+
+    <!-- PWA: Manifest e Theme -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#6B8E83" />
+    <meta name="background-color" content="#E8F1EE" />
+
+    <!-- iOS: Suporte para PWA -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Grace" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.svg" />
+
+    <!-- Outros ícones -->
+    <link rel="icon" type="image/svg+xml" href="/icons/icon-192.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@200;300;400;500;600&family=Merriweather:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+    <style>
+      .header-glow {
+        background: radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.03) 0%, rgba(10, 10, 10, 0) 70%);
+      }
+      body {
+        -webkit-tap-highlight-color: transparent;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-grace-bg text-cream font-sans antialiased">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+
+  <!-- PWA: Registro do Service Worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then((registration) => {
+            console.log('[SW] Registrado com sucesso:', registration.scope);
+          })
+          .catch((error) => {
+            console.log('[SW] Falha no registro:', error);
+          });
+      });
+    }
+  </script>
+</body>
+</html>
