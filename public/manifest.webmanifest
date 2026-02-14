@@ -1,8 +1,8 @@
 {
   "id": "/",
-  "name": "Dabar Bible",
+  "name": "Bíblia Dabar",
   "short_name": "Dabar",
-  "description": "Aplicativo devocional diario com Biblia ACF, plano de leitura anual e estudo pessoal.",
+  "description": "Leitura bíblica diária com Bíblia ACF, plano de leitura anual e estudo pessoal.",
   "lang": "pt-BR",
   "start_url": "/",
   "scope": "/",
@@ -32,7 +32,7 @@
       "sizes": "1200x630",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Dabar Bible"
+      "label": "Bíblia Dabar"
     }
   ],
   "icons": [
