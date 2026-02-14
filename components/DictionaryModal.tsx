@@ -5,13 +5,14 @@ import { DictionaryEntry } from '../services/dictionaryService';
 interface DictionaryModalProps {
   entry: DictionaryEntry | null;
   word?: string;
+  notFound?: boolean;
   bookName: string;
   chapter: number;
   verse: number;
   onClose: () => void;
 }
 
-const DictionaryModal: React.FC<DictionaryModalProps> = ({ entry, word, bookName, chapter, verse, onClose }) => {
+const DictionaryModal: React.FC<DictionaryModalProps> = ({ entry, word, notFound = false, bookName, chapter, verse, onClose }) => {
   const [isClosing, setIsClosing] = useState(false);
 
   useEffect(() => {
@@ -42,7 +43,21 @@ const DictionaryModal: React.FC<DictionaryModalProps> = ({ entry, word, bookName
   );
 
   const renderContent = () => {
-    if (!entry) return renderLoading();
+    if (!entry && !notFound) return renderLoading();
+
+    if (notFound) {
+      return (
+        <div className="space-y-3 p-5 sm:p-6">
+          <div className="state-card p-4">
+            <p className="section-kicker">Sem entrada local</p>
+            <h2 className="editorial-title text-4xl">{word || 'Termo'}</h2>
+            <p className="mt-2 text-sm text-cream-dark">
+              Esta palavra ainda nao possui registro no dicionario offline para esta referencia.
+            </p>
+          </div>
+        </div>
+      );
+    }
 
     return (
       <div className="space-y-3 p-5 sm:p-6">

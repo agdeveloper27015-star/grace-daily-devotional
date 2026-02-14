@@ -97,3 +97,66 @@ export interface VerseHighlight {
   color: HighlightColor;
   timestamp: number;
 }
+
+export type ThemePreference = 'system' | 'light' | 'dark';
+
+export interface UserSettings {
+  theme: ThemePreference;
+  notificationEnabled: boolean;
+  notificationTime: string;
+  timezone: string;
+}
+
+export interface ChapterReadRecord {
+  bookAbbrev: string;
+  chapter: number;
+  readAt: number;
+}
+
+export interface ReadingPlanChapter {
+  bookAbbrev: string;
+  bookName: string;
+  chapter: number;
+}
+
+export interface ReadingPlanDay {
+  day: number;
+  chapters: ReadingPlanChapter[];
+}
+
+export interface ReadingPlanDefinition {
+  id: string;
+  title: string;
+  description: string;
+  totalDays: number;
+  days: ReadingPlanDay[];
+}
+
+export interface ReadingPlanState {
+  planId: string;
+  isActive: boolean;
+  startDate: string;
+  completedDates: string[];
+  openedChaptersByDate: Record<string, string[]>;
+  updatedAt: number;
+}
+
+export type SyncDomain =
+  | 'favorites'
+  | 'notes'
+  | 'highlights'
+  | 'progress'
+  | 'chapters'
+  | 'settings'
+  | 'plan';
+
+export interface SyncMeta {
+  favorites: number;
+  notes: number;
+  highlights: number;
+  progress: number;
+  chapters: number;
+  settings: number;
+  plan: number;
+  lastSyncedAt: number;
+}

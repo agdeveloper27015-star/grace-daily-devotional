@@ -21,6 +21,7 @@ interface DictionaryData {
 // Cache do dicionário carregado
 let dictionaryCache: DictionaryData | null = null;
 let dictionaryLoadPromise: Promise<DictionaryData> | null = null;
+const prefixCache = new Map<string, string[]>();
 
 // Mapeamento de abreviações para nomes de livros no dicionário
 const BOOK_ABBREV_TO_DICT: Record<string, string> = {
@@ -107,16 +108,13 @@ export const loadDictionary = async (): Promise<DictionaryData> => {
   dictionaryLoadPromise = (async () => {
     try {
       // Tenta carregar do arquivo local na pasta public
-      console.log('[Dictionary] Carregando dicionário...');
       const response = await fetch('/dicionario_completo.json');
       if (!response.ok) {
         throw new Error('Failed to load dictionary: ' + response.status);
       }
       const data = await response.json();
-      const keys = Object.keys(data);
-      console.log(`[Dictionary] Carregado! Total de entradas: ${keys.length}`);
-      console.log(`[Dictionary] Primeiras chaves:`, keys.slice(0, 5));
       dictionaryCache = data;
+      prefixCache.clear();
       return data;
     } catch (error) {
       console.error('[Dictionary] Erro ao carregar:', error);
@@ -126,6 +124,16 @@ export const loadDictionary = async (): Promise<DictionaryData> => {
   })();
 
   return dictionaryLoadPromise;
+};
+
+const getCachedVerseEntries = (dictionary: DictionaryData, prefix: string): string[] => {
+  if (prefixCache.has(prefix)) {
+    return prefixCache.get(prefix)!;
+  }
+
+  const entries = Object.keys(dictionary).filter((key) => key.startsWith(prefix));
+  prefixCache.set(prefix, entries);
+  return entries;
 };
 
 /**
@@ -260,9 +268,7 @@ export const findWordsInVerse = async (
   const bookName = bookAbbrevToDictFormat(bookAbbrev);
   const prefix = `${bookName}_${chapter}_${verse}_`;
   
-  const verseEntries = Object.keys(dictionary).filter(key => key.startsWith(prefix));
-  
-  console.log(`[Dictionary] Buscando: ${prefix} - Encontradas: ${verseEntries.length} entradas`);
+  const verseEntries = getCachedVerseEntries(dictionary, prefix);
   
   if (verseEntries.length === 0) {
     return [];

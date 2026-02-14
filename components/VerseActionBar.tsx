@@ -18,6 +18,7 @@ interface VerseActionBarProps {
   highlightColor?: HighlightColor;
   onToggleFavorite: (verse: BibleVerse) => void;
   onOpenNote: (verse: BibleVerse) => void;
+  onShare: (verse: BibleVerse) => void;
   onHighlight: (verseNumber: number, color: HighlightColor) => void;
   onRemoveHighlight: (verseNumber: number) => void;
 }
@@ -31,6 +32,7 @@ const VerseActionBar: React.FC<VerseActionBarProps> = ({
   highlightColor,
   onToggleFavorite,
   onOpenNote,
+  onShare,
   onHighlight,
   onRemoveHighlight,
 }) => {
@@ -70,6 +72,20 @@ const VerseActionBar: React.FC<VerseActionBarProps> = ({
         >
           <svg className="h-4 w-4" fill={hasNote ? 'currentColor' : 'none'} stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+          </svg>
+        </button>
+
+        <button
+          onClick={(event) => {
+            event.stopPropagation();
+            onShare(verse);
+          }}
+          className="icon-button inline-flex h-8 w-8 items-center justify-center"
+          title="Compartilhar versiculo"
+          aria-label="Compartilhar versiculo"
+        >
+          <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.684 13.342C9.886 14.17 11.325 14.625 12.8 14.625c1.474 0 2.913-.456 4.116-1.283m0 0a2.1 2.1 0 113.084 1.815A2.1 2.1 0 0116.916 13.34zm-8.232 0a2.1 2.1 0 10-3.084 1.815A2.1 2.1 0 008.684 13.34zm8.232 0V9.225a2.1 2.1 0 10-4.2 0v4.117" />
           </svg>
         </button>
 

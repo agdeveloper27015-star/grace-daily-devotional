@@ -4,21 +4,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Grace - Devocional</title>
+    <title>Grace - Devocional Diario</title>
 
     <!-- PWA: Manifest e Theme -->
-    <link rel="manifest" href="/manifest.json" />
+    <link rel="manifest" href="/manifest.webmanifest" />
     <meta name="theme-color" content="#6B8E83" />
     <meta name="background-color" content="#E8F1EE" />
+    <meta name="description" content="Aplicativo devocional diario com Biblia ACF, plano anual, favoritos, notas e estudo guiado." />
+    <meta property="og:site_name" content="Grace Devocional" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Grace - Devocional Diario" />
+    <meta property="og:description" content="Seu companheiro diario para leitura biblica, notas, favoritos e crescimento espiritual." />
+    <meta property="og:url" content="%VITE_PUBLIC_APP_URL%" />
+    <meta property="og:image" content="%VITE_PUBLIC_APP_URL%/og/cover.png" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Grace - Devocional Diario" />
+    <meta name="twitter:description" content="Leitura biblica diaria com plano de 1 ano, estudo e sincronizacao." />
+    <meta name="twitter:image" content="%VITE_PUBLIC_APP_URL%/og/cover.png" />
+    <link rel="canonical" href="%VITE_PUBLIC_APP_URL%" />
 
     <!-- iOS: Suporte para PWA -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="Grace" />
-    <link rel="apple-touch-icon" href="/icons/icon-192.svg" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
 
     <!-- Outros ícones -->
-    <link rel="icon" type="image/svg+xml" href="/icons/icon-192.svg" />
+    <link rel="icon" type="image/png" href="/icons/icon-192.png" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -46,34 +59,5 @@
     <div id="root"></div>
   <script type="module" src="/index.tsx"></script>
 
-  <!-- PWA: Registro do Service Worker -->
-  <script>
-    const isLocalDev =
-      window.location.hostname === 'localhost' ||
-      window.location.hostname === '127.0.0.1';
-
-    if ('serviceWorker' in navigator && isLocalDev) {
-      navigator.serviceWorker.getRegistrations().then((registrations) => {
-        registrations.forEach((registration) => registration.unregister());
-      });
-      if ('caches' in window) {
-        caches.keys().then((keys) => {
-          keys.forEach((key) => caches.delete(key));
-        });
-      }
-    }
-
-    if ('serviceWorker' in navigator && !isLocalDev) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
-          .then((registration) => {
-            console.log('[SW] Registrado com sucesso:', registration.scope);
-          })
-          .catch((error) => {
-            console.log('[SW] Falha no registro:', error);
-          });
-      });
-    }
-  </script>
 </body>
 </html>

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { VerseNote } from '../types';
 import { deleteNote, getNotes, updateNote } from '../services/notesService';
+import { APP_DATA_UPDATED_EVENT } from '../services/localStateService';
 
 type ViewMode = 'list' | 'edit';
 
@@ -12,6 +13,14 @@ const Notes: React.FC = () => {
 
   useEffect(() => {
     loadNotes();
+
+    const refresh = () => loadNotes();
+    window.addEventListener('storage', refresh);
+    window.addEventListener(APP_DATA_UPDATED_EVENT, refresh);
+    return () => {
+      window.removeEventListener('storage', refresh);
+      window.removeEventListener(APP_DATA_UPDATED_EVENT, refresh);
+    };
   }, []);
 
   const loadNotes = () => {

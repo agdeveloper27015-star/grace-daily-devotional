@@ -2,6 +2,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import { initializeTheme } from './services/themeService';
+import { initInstallPromptListener, registerServiceWorker } from './services/pwaService';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
@@ -9,6 +11,10 @@ if (!rootElement) {
 }
 
 const root = ReactDOM.createRoot(rootElement);
+initializeTheme();
+initInstallPromptListener();
+void registerServiceWorker();
+
 root.render(
   <React.StrictMode>
     <App />

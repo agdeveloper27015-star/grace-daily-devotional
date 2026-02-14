@@ -1,14 +1,27 @@
 import { FavoriteVerse } from '../types';
+import { syncDomain } from './cloudSyncService';
+import { dispatchDataUpdated } from './localStateService';
+import { touchSyncDomain } from './syncMetaService';
+import { STORAGE_KEYS } from './storageKeys';
 
-const FAVORITES_KEY = 'grace_favorites';
+const FAVORITES_KEY = STORAGE_KEYS.favorites;
 
 export const getFavorites = (): FavoriteVerse[] => {
   const stored = localStorage.getItem(FAVORITES_KEY);
-  return stored ? JSON.parse(stored) : [];
+  if (!stored) return [];
+  try {
+    const parsed = JSON.parse(stored);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
 };
 
 export const saveFavorites = (favorites: FavoriteVerse[]): void => {
   localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites));
+  touchSyncDomain('favorites');
+  dispatchDataUpdated('favorites');
+  void syncDomain('favorites');
 };
 
 export const addFavorite = (verse: Omit<FavoriteVerse, 'id' | 'timestamp'>): FavoriteVerse => {

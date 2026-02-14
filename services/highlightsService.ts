@@ -1,14 +1,27 @@
 import { VerseHighlight, HighlightColor } from '../types';
+import { syncDomain } from './cloudSyncService';
+import { dispatchDataUpdated } from './localStateService';
+import { touchSyncDomain } from './syncMetaService';
+import { STORAGE_KEYS } from './storageKeys';
 
-const HIGHLIGHTS_KEY = 'grace_highlights';
+const HIGHLIGHTS_KEY = STORAGE_KEYS.highlights;
 
 export const getHighlights = (): VerseHighlight[] => {
   const stored = localStorage.getItem(HIGHLIGHTS_KEY);
-  return stored ? JSON.parse(stored) : [];
+  if (!stored) return [];
+  try {
+    const parsed = JSON.parse(stored);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
 };
 
 export const saveHighlights = (highlights: VerseHighlight[]): void => {
   localStorage.setItem(HIGHLIGHTS_KEY, JSON.stringify(highlights));
+  touchSyncDomain('highlights');
+  dispatchDataUpdated('highlights');
+  void syncDomain('highlights');
 };
 
 export const addHighlight = (

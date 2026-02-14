@@ -4,10 +4,12 @@ import Reading from './components/Reading';
 import Search from './components/Search';
 import Profile from './components/Profile';
 import Notebook from './components/Notebook';
+import AuthGate from './components/auth/AuthGate';
 import { AppView, NavigateFn, NavigateOptions, NavigationTarget, NotebookTab } from './types';
 import { getFavorites } from './services/favoritesService';
 import { getNotes } from './services/notesService';
 import { getReadingProgress } from './services/bibleService';
+import { APP_DATA_UPDATED_EVENT } from './services/localStateService';
 
 const VIEW_LABELS: Record<AppView, string> = {
   ESTUDO: 'Hub de Estudo',
@@ -106,9 +108,40 @@ const App: React.FC = () => {
   }, [currentView]);
 
   useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const view = params.get('view') as AppView | null;
+    const bookAbbrev = params.get('book');
+    const chapter = params.get('chapter');
+    const verse = params.get('verse');
+
+    if (view && ['ESTUDO', 'LEITURA', 'BUSCA', 'CADERNO', 'PERFIL'].includes(view)) {
+      setCurrentView(view);
+    }
+
+    if (!bookAbbrev || !chapter) return;
+
+    const parsedChapter = Number.parseInt(chapter, 10);
+    const parsedVerse = verse ? Number.parseInt(verse, 10) : undefined;
+    if (Number.isNaN(parsedChapter)) return;
+
+    setReadingTarget({
+      bookAbbrev,
+      chapter: parsedChapter,
+      verse: parsedVerse,
+    });
+    setCurrentView('LEITURA');
+  }, []);
+
+  useEffect(() => {
     const onStorage = () => syncContextStats();
+    const onDataUpdated = () => syncContextStats();
     window.addEventListener('storage', onStorage);
-    return () => window.removeEventListener('storage', onStorage);
+    window.addEventListener(APP_DATA_UPDATED_EVENT, onDataUpdated);
+
+    return () => {
+      window.removeEventListener('storage', onStorage);
+      window.removeEventListener(APP_DATA_UPDATED_EVENT, onDataUpdated);
+    };
   }, []);
 
   const currentLabel = VIEW_LABELS[currentView];
@@ -144,7 +177,7 @@ const App: React.FC = () => {
     }
   };
 
-  return (
+  const appShell = (
     <div className="app-shell">
       {!focusMode && (
         <header className="app-topbar sticky top-0 z-40">
@@ -244,6 +277,8 @@ const App: React.FC = () => {
       )}
     </div>
   );
+
+  return <AuthGate>{appShell}</AuthGate>;
 };
 
 export default App;

@@ -22,6 +22,7 @@ interface VerseDisplayProps {
   onSelectVerse: (verseNumber: number | null) => void;
   onToggleFavorite: (verse: BibleVerse) => void;
   onOpenNote: (verse: BibleVerse) => void;
+  onShare: (verse: BibleVerse) => void;
   onHighlight: (verseNumber: number, color: HighlightColor) => void;
   onRemoveHighlight: (verseNumber: number) => void;
   onWordClick: (word: string, verseNumber: number, localEntry?: DictionaryEntry) => void;
@@ -51,6 +52,7 @@ const VerseDisplay: React.FC<VerseDisplayProps> = ({
   onSelectVerse,
   onToggleFavorite,
   onOpenNote,
+  onShare,
   onHighlight,
   onRemoveHighlight,
   onWordClick,
@@ -198,6 +200,7 @@ const VerseDisplay: React.FC<VerseDisplayProps> = ({
                   highlightColor={verseHighlights.get(selectedVerseObj.number)}
                   onToggleFavorite={onToggleFavorite}
                   onOpenNote={onOpenNote}
+                  onShare={onShare}
                   onHighlight={onHighlight}
                   onRemoveHighlight={onRemoveHighlight}
                 />

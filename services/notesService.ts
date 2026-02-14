@@ -1,14 +1,27 @@
 import { VerseNote } from '../types';
+import { syncDomain } from './cloudSyncService';
+import { dispatchDataUpdated } from './localStateService';
+import { touchSyncDomain } from './syncMetaService';
+import { STORAGE_KEYS } from './storageKeys';
 
-const NOTES_KEY = 'grace_notes';
+const NOTES_KEY = STORAGE_KEYS.notes;
 
 export const getNotes = (): VerseNote[] => {
   const stored = localStorage.getItem(NOTES_KEY);
-  return stored ? JSON.parse(stored) : [];
+  if (!stored) return [];
+  try {
+    const parsed = JSON.parse(stored);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
 };
 
 export const saveNotes = (notes: VerseNote[]): void => {
   localStorage.setItem(NOTES_KEY, JSON.stringify(notes));
+  touchSyncDomain('notes');
+  dispatchDataUpdated('notes');
+  void syncDomain('notes');
 };
 
 export const addNote = (

@@ -1,0 +1,7778 @@
+{
+  "id": "bible-1y",
+  "title": "Biblia em 1 ano",
+  "description": "Leitura estruturada com inicio na data de adesao e conclusao em 365 dias.",
+  "totalDays": 365,
+  "days": [
+    {
+      "day": 1,
+      "chapters": [
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 4
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "chapters": [
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 6
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 8
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "chapters": [
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 9
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 11
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 12
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "chapters": [
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 13
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 14
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 15
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 16
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "chapters": [
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 17
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 18
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 19
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 20
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "chapters": [
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 21
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 22
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 23
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 24
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "chapters": [
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 25
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 26
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 27
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 28
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "chapters": [
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 29
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 30
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 31
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 32
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "chapters": [
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 33
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 34
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 35
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 36
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "chapters": [
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 37
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 38
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 39
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 40
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "chapters": [
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 41
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 42
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 43
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 44
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "chapters": [
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 45
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 46
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 47
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 48
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "chapters": [
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 49
+        },
+        {
+          "bookAbbrev": "gn",
+          "bookName": "Gênesis",
+          "chapter": 50
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 2
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "chapters": [
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 6
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "chapters": [
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 9
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 10
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "chapters": [
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 11
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 12
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 13
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 14
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "chapters": [
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 15
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 16
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 17
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 18
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "chapters": [
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 19
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 20
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 21
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 22
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "chapters": [
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 23
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 24
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 25
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 26
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "chapters": [
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 27
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 28
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 29
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 30
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "chapters": [
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 31
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 32
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 33
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 34
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "chapters": [
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 35
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 36
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 37
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 38
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "chapters": [
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 39
+        },
+        {
+          "bookAbbrev": "ex",
+          "bookName": "Êxodo",
+          "chapter": 40
+        },
+        {
+          "bookAbbrev": "lv",
+          "bookName": "Levítico",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "lv",
+          "bookName": "Levítico",
+          "chapter": 2
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "chapters": [
+        {
+          "bookAbbrev": "lv",
+          "bookName": "Levítico",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "lv",
+          "bookName": "Levítico",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "lv",
+          "bookName": "Levítico",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "lv",
+          "bookName": "Levítico",
+          "chapter": 6
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "chapters": [
+        {
+          "bookAbbrev": "lv",
+          "bookName": "Levítico",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "lv",
+          "bookName": "Levítico",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "lv",
+          "bookName": "Levítico",
+          "chapter": 9
+        },
+        {
+          "bookAbbrev": "lv",
+          "bookName": "Levítico",
+          "chapter": 10
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "chapters": [
+        {
+          "bookAbbrev": "lv",
+          "bookName": "Levítico",
+          "chapter": 11
+        },
+        {
+          "bookAbbrev": "lv",
+          "bookName": "Levítico",
+          "chapter": 12
+        },
+        {
+          "bookAbbrev": "lv",
+          "bookName": "Levítico",
+          "chapter": 13
+        },
+        {
+          "bookAbbrev": "lv",
+          "bookName": "Levítico",
+          "chapter": 14
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "chapters": [
+        {
+          "bookAbbrev": "lv",
+          "bookName": "Levítico",
+          "chapter": 15
+        },
+        {
+          "bookAbbrev": "lv",
+          "bookName": "Levítico",
+          "chapter": 16
+        },
+        {
+          "bookAbbrev": "lv",
+          "bookName": "Levítico",
+          "chapter": 17
+        },
+        {
+          "bookAbbrev": "lv",
+          "bookName": "Levítico",
+          "chapter": 18
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "chapters": [
+        {
+          "bookAbbrev": "lv",
+          "bookName": "Levítico",
+          "chapter": 19
+        },
+        {
+          "bookAbbrev": "lv",
+          "bookName": "Levítico",
+          "chapter": 20
+        },
+        {
+          "bookAbbrev": "lv",
+          "bookName": "Levítico",
+          "chapter": 21
+        },
+        {
+          "bookAbbrev": "lv",
+          "bookName": "Levítico",
+          "chapter": 22
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "chapters": [
+        {
+          "bookAbbrev": "lv",
+          "bookName": "Levítico",
+          "chapter": 23
+        },
+        {
+          "bookAbbrev": "lv",
+          "bookName": "Levítico",
+          "chapter": 24
+        },
+        {
+          "bookAbbrev": "lv",
+          "bookName": "Levítico",
+          "chapter": 25
+        },
+        {
+          "bookAbbrev": "lv",
+          "bookName": "Levítico",
+          "chapter": 26
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "chapters": [
+        {
+          "bookAbbrev": "lv",
+          "bookName": "Levítico",
+          "chapter": 27
+        },
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 3
+        }
+      ]
+    },
+    {
+      "day": 31,
+      "chapters": [
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 6
+        },
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 7
+        }
+      ]
+    },
+    {
+      "day": 32,
+      "chapters": [
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 9
+        },
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 11
+        }
+      ]
+    },
+    {
+      "day": 33,
+      "chapters": [
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 12
+        },
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 13
+        },
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 14
+        },
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 15
+        }
+      ]
+    },
+    {
+      "day": 34,
+      "chapters": [
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 16
+        },
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 17
+        },
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 18
+        },
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 19
+        }
+      ]
+    },
+    {
+      "day": 35,
+      "chapters": [
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 20
+        },
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 21
+        },
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 22
+        },
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 23
+        }
+      ]
+    },
+    {
+      "day": 36,
+      "chapters": [
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 24
+        },
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 25
+        },
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 26
+        },
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 27
+        }
+      ]
+    },
+    {
+      "day": 37,
+      "chapters": [
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 28
+        },
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 29
+        },
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 30
+        },
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 31
+        }
+      ]
+    },
+    {
+      "day": 38,
+      "chapters": [
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 32
+        },
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 33
+        },
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 34
+        },
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 35
+        }
+      ]
+    },
+    {
+      "day": 39,
+      "chapters": [
+        {
+          "bookAbbrev": "nm",
+          "bookName": "Números",
+          "chapter": 36
+        },
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 3
+        }
+      ]
+    },
+    {
+      "day": 40,
+      "chapters": [
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 6
+        },
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 7
+        }
+      ]
+    },
+    {
+      "day": 41,
+      "chapters": [
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 9
+        },
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 11
+        }
+      ]
+    },
+    {
+      "day": 42,
+      "chapters": [
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 12
+        },
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 13
+        },
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 14
+        },
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 15
+        }
+      ]
+    },
+    {
+      "day": 43,
+      "chapters": [
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 16
+        },
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 17
+        },
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 18
+        },
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 19
+        }
+      ]
+    },
+    {
+      "day": 44,
+      "chapters": [
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 20
+        },
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 21
+        },
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 22
+        },
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 23
+        }
+      ]
+    },
+    {
+      "day": 45,
+      "chapters": [
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 24
+        },
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 25
+        },
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 26
+        },
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 27
+        }
+      ]
+    },
+    {
+      "day": 46,
+      "chapters": [
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 28
+        },
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 29
+        },
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 30
+        },
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 31
+        }
+      ]
+    },
+    {
+      "day": 47,
+      "chapters": [
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 32
+        },
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 33
+        },
+        {
+          "bookAbbrev": "dt",
+          "bookName": "Deuteronômio",
+          "chapter": 34
+        },
+        {
+          "bookAbbrev": "js",
+          "bookName": "Josué",
+          "chapter": 1
+        }
+      ]
+    },
+    {
+      "day": 48,
+      "chapters": [
+        {
+          "bookAbbrev": "js",
+          "bookName": "Josué",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "js",
+          "bookName": "Josué",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "js",
+          "bookName": "Josué",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "js",
+          "bookName": "Josué",
+          "chapter": 5
+        }
+      ]
+    },
+    {
+      "day": 49,
+      "chapters": [
+        {
+          "bookAbbrev": "js",
+          "bookName": "Josué",
+          "chapter": 6
+        },
+        {
+          "bookAbbrev": "js",
+          "bookName": "Josué",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "js",
+          "bookName": "Josué",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "js",
+          "bookName": "Josué",
+          "chapter": 9
+        }
+      ]
+    },
+    {
+      "day": 50,
+      "chapters": [
+        {
+          "bookAbbrev": "js",
+          "bookName": "Josué",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "js",
+          "bookName": "Josué",
+          "chapter": 11
+        },
+        {
+          "bookAbbrev": "js",
+          "bookName": "Josué",
+          "chapter": 12
+        },
+        {
+          "bookAbbrev": "js",
+          "bookName": "Josué",
+          "chapter": 13
+        }
+      ]
+    },
+    {
+      "day": 51,
+      "chapters": [
+        {
+          "bookAbbrev": "js",
+          "bookName": "Josué",
+          "chapter": 14
+        },
+        {
+          "bookAbbrev": "js",
+          "bookName": "Josué",
+          "chapter": 15
+        },
+        {
+          "bookAbbrev": "js",
+          "bookName": "Josué",
+          "chapter": 16
+        },
+        {
+          "bookAbbrev": "js",
+          "bookName": "Josué",
+          "chapter": 17
+        }
+      ]
+    },
+    {
+      "day": 52,
+      "chapters": [
+        {
+          "bookAbbrev": "js",
+          "bookName": "Josué",
+          "chapter": 18
+        },
+        {
+          "bookAbbrev": "js",
+          "bookName": "Josué",
+          "chapter": 19
+        },
+        {
+          "bookAbbrev": "js",
+          "bookName": "Josué",
+          "chapter": 20
+        },
+        {
+          "bookAbbrev": "js",
+          "bookName": "Josué",
+          "chapter": 21
+        }
+      ]
+    },
+    {
+      "day": 53,
+      "chapters": [
+        {
+          "bookAbbrev": "js",
+          "bookName": "Josué",
+          "chapter": 22
+        },
+        {
+          "bookAbbrev": "js",
+          "bookName": "Josué",
+          "chapter": 23
+        },
+        {
+          "bookAbbrev": "js",
+          "bookName": "Josué",
+          "chapter": 24
+        },
+        {
+          "bookAbbrev": "jz",
+          "bookName": "Juízes",
+          "chapter": 1
+        }
+      ]
+    },
+    {
+      "day": 54,
+      "chapters": [
+        {
+          "bookAbbrev": "jz",
+          "bookName": "Juízes",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "jz",
+          "bookName": "Juízes",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "jz",
+          "bookName": "Juízes",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "jz",
+          "bookName": "Juízes",
+          "chapter": 5
+        }
+      ]
+    },
+    {
+      "day": 55,
+      "chapters": [
+        {
+          "bookAbbrev": "jz",
+          "bookName": "Juízes",
+          "chapter": 6
+        },
+        {
+          "bookAbbrev": "jz",
+          "bookName": "Juízes",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "jz",
+          "bookName": "Juízes",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "jz",
+          "bookName": "Juízes",
+          "chapter": 9
+        }
+      ]
+    },
+    {
+      "day": 56,
+      "chapters": [
+        {
+          "bookAbbrev": "jz",
+          "bookName": "Juízes",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "jz",
+          "bookName": "Juízes",
+          "chapter": 11
+        },
+        {
+          "bookAbbrev": "jz",
+          "bookName": "Juízes",
+          "chapter": 12
+        },
+        {
+          "bookAbbrev": "jz",
+          "bookName": "Juízes",
+          "chapter": 13
+        }
+      ]
+    },
+    {
+      "day": 57,
+      "chapters": [
+        {
+          "bookAbbrev": "jz",
+          "bookName": "Juízes",
+          "chapter": 14
+        },
+        {
+          "bookAbbrev": "jz",
+          "bookName": "Juízes",
+          "chapter": 15
+        },
+        {
+          "bookAbbrev": "jz",
+          "bookName": "Juízes",
+          "chapter": 16
+        },
+        {
+          "bookAbbrev": "jz",
+          "bookName": "Juízes",
+          "chapter": 17
+        }
+      ]
+    },
+    {
+      "day": 58,
+      "chapters": [
+        {
+          "bookAbbrev": "jz",
+          "bookName": "Juízes",
+          "chapter": 18
+        },
+        {
+          "bookAbbrev": "jz",
+          "bookName": "Juízes",
+          "chapter": 19
+        },
+        {
+          "bookAbbrev": "jz",
+          "bookName": "Juízes",
+          "chapter": 20
+        },
+        {
+          "bookAbbrev": "jz",
+          "bookName": "Juízes",
+          "chapter": 21
+        }
+      ]
+    },
+    {
+      "day": 59,
+      "chapters": [
+        {
+          "bookAbbrev": "rt",
+          "bookName": "Rute",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "rt",
+          "bookName": "Rute",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "rt",
+          "bookName": "Rute",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "rt",
+          "bookName": "Rute",
+          "chapter": 4
+        }
+      ]
+    },
+    {
+      "day": 60,
+      "chapters": [
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 4
+        }
+      ]
+    },
+    {
+      "day": 61,
+      "chapters": [
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 6
+        },
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 8
+        }
+      ]
+    },
+    {
+      "day": 62,
+      "chapters": [
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 9
+        },
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 11
+        },
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 12
+        }
+      ]
+    },
+    {
+      "day": 63,
+      "chapters": [
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 13
+        },
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 14
+        },
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 15
+        },
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 16
+        }
+      ]
+    },
+    {
+      "day": 64,
+      "chapters": [
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 17
+        },
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 18
+        },
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 19
+        },
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 20
+        }
+      ]
+    },
+    {
+      "day": 65,
+      "chapters": [
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 21
+        },
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 22
+        },
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 23
+        },
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 24
+        }
+      ]
+    },
+    {
+      "day": 66,
+      "chapters": [
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 25
+        },
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 26
+        },
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 27
+        },
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 28
+        }
+      ]
+    },
+    {
+      "day": 67,
+      "chapters": [
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 29
+        },
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 30
+        },
+        {
+          "bookAbbrev": "1sm",
+          "bookName": "1 Samuel",
+          "chapter": 31
+        },
+        {
+          "bookAbbrev": "2sm",
+          "bookName": "2 Samuel",
+          "chapter": 1
+        }
+      ]
+    },
+    {
+      "day": 68,
+      "chapters": [
+        {
+          "bookAbbrev": "2sm",
+          "bookName": "2 Samuel",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "2sm",
+          "bookName": "2 Samuel",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "2sm",
+          "bookName": "2 Samuel",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "2sm",
+          "bookName": "2 Samuel",
+          "chapter": 5
+        }
+      ]
+    },
+    {
+      "day": 69,
+      "chapters": [
+        {
+          "bookAbbrev": "2sm",
+          "bookName": "2 Samuel",
+          "chapter": 6
+        },
+        {
+          "bookAbbrev": "2sm",
+          "bookName": "2 Samuel",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "2sm",
+          "bookName": "2 Samuel",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "2sm",
+          "bookName": "2 Samuel",
+          "chapter": 9
+        }
+      ]
+    },
+    {
+      "day": 70,
+      "chapters": [
+        {
+          "bookAbbrev": "2sm",
+          "bookName": "2 Samuel",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "2sm",
+          "bookName": "2 Samuel",
+          "chapter": 11
+        },
+        {
+          "bookAbbrev": "2sm",
+          "bookName": "2 Samuel",
+          "chapter": 12
+        },
+        {
+          "bookAbbrev": "2sm",
+          "bookName": "2 Samuel",
+          "chapter": 13
+        }
+      ]
+    },
+    {
+      "day": 71,
+      "chapters": [
+        {
+          "bookAbbrev": "2sm",
+          "bookName": "2 Samuel",
+          "chapter": 14
+        },
+        {
+          "bookAbbrev": "2sm",
+          "bookName": "2 Samuel",
+          "chapter": 15
+        },
+        {
+          "bookAbbrev": "2sm",
+          "bookName": "2 Samuel",
+          "chapter": 16
+        },
+        {
+          "bookAbbrev": "2sm",
+          "bookName": "2 Samuel",
+          "chapter": 17
+        }
+      ]
+    },
+    {
+      "day": 72,
+      "chapters": [
+        {
+          "bookAbbrev": "2sm",
+          "bookName": "2 Samuel",
+          "chapter": 18
+        },
+        {
+          "bookAbbrev": "2sm",
+          "bookName": "2 Samuel",
+          "chapter": 19
+        },
+        {
+          "bookAbbrev": "2sm",
+          "bookName": "2 Samuel",
+          "chapter": 20
+        },
+        {
+          "bookAbbrev": "2sm",
+          "bookName": "2 Samuel",
+          "chapter": 21
+        }
+      ]
+    },
+    {
+      "day": 73,
+      "chapters": [
+        {
+          "bookAbbrev": "2sm",
+          "bookName": "2 Samuel",
+          "chapter": 22
+        },
+        {
+          "bookAbbrev": "2sm",
+          "bookName": "2 Samuel",
+          "chapter": 23
+        },
+        {
+          "bookAbbrev": "2sm",
+          "bookName": "2 Samuel",
+          "chapter": 24
+        },
+        {
+          "bookAbbrev": "1rs",
+          "bookName": "1 Reis",
+          "chapter": 1
+        }
+      ]
+    },
+    {
+      "day": 74,
+      "chapters": [
+        {
+          "bookAbbrev": "1rs",
+          "bookName": "1 Reis",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "1rs",
+          "bookName": "1 Reis",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "1rs",
+          "bookName": "1 Reis",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "1rs",
+          "bookName": "1 Reis",
+          "chapter": 5
+        }
+      ]
+    },
+    {
+      "day": 75,
+      "chapters": [
+        {
+          "bookAbbrev": "1rs",
+          "bookName": "1 Reis",
+          "chapter": 6
+        },
+        {
+          "bookAbbrev": "1rs",
+          "bookName": "1 Reis",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "1rs",
+          "bookName": "1 Reis",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "1rs",
+          "bookName": "1 Reis",
+          "chapter": 9
+        }
+      ]
+    },
+    {
+      "day": 76,
+      "chapters": [
+        {
+          "bookAbbrev": "1rs",
+          "bookName": "1 Reis",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "1rs",
+          "bookName": "1 Reis",
+          "chapter": 11
+        },
+        {
+          "bookAbbrev": "1rs",
+          "bookName": "1 Reis",
+          "chapter": 12
+        },
+        {
+          "bookAbbrev": "1rs",
+          "bookName": "1 Reis",
+          "chapter": 13
+        }
+      ]
+    },
+    {
+      "day": 77,
+      "chapters": [
+        {
+          "bookAbbrev": "1rs",
+          "bookName": "1 Reis",
+          "chapter": 14
+        },
+        {
+          "bookAbbrev": "1rs",
+          "bookName": "1 Reis",
+          "chapter": 15
+        },
+        {
+          "bookAbbrev": "1rs",
+          "bookName": "1 Reis",
+          "chapter": 16
+        },
+        {
+          "bookAbbrev": "1rs",
+          "bookName": "1 Reis",
+          "chapter": 17
+        }
+      ]
+    },
+    {
+      "day": 78,
+      "chapters": [
+        {
+          "bookAbbrev": "1rs",
+          "bookName": "1 Reis",
+          "chapter": 18
+        },
+        {
+          "bookAbbrev": "1rs",
+          "bookName": "1 Reis",
+          "chapter": 19
+        },
+        {
+          "bookAbbrev": "1rs",
+          "bookName": "1 Reis",
+          "chapter": 20
+        },
+        {
+          "bookAbbrev": "1rs",
+          "bookName": "1 Reis",
+          "chapter": 21
+        }
+      ]
+    },
+    {
+      "day": 79,
+      "chapters": [
+        {
+          "bookAbbrev": "1rs",
+          "bookName": "1 Reis",
+          "chapter": 22
+        },
+        {
+          "bookAbbrev": "2rs",
+          "bookName": "2 Reis",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "2rs",
+          "bookName": "2 Reis",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "2rs",
+          "bookName": "2 Reis",
+          "chapter": 3
+        }
+      ]
+    },
+    {
+      "day": 80,
+      "chapters": [
+        {
+          "bookAbbrev": "2rs",
+          "bookName": "2 Reis",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "2rs",
+          "bookName": "2 Reis",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "2rs",
+          "bookName": "2 Reis",
+          "chapter": 6
+        },
+        {
+          "bookAbbrev": "2rs",
+          "bookName": "2 Reis",
+          "chapter": 7
+        }
+      ]
+    },
+    {
+      "day": 81,
+      "chapters": [
+        {
+          "bookAbbrev": "2rs",
+          "bookName": "2 Reis",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "2rs",
+          "bookName": "2 Reis",
+          "chapter": 9
+        },
+        {
+          "bookAbbrev": "2rs",
+          "bookName": "2 Reis",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "2rs",
+          "bookName": "2 Reis",
+          "chapter": 11
+        }
+      ]
+    },
+    {
+      "day": 82,
+      "chapters": [
+        {
+          "bookAbbrev": "2rs",
+          "bookName": "2 Reis",
+          "chapter": 12
+        },
+        {
+          "bookAbbrev": "2rs",
+          "bookName": "2 Reis",
+          "chapter": 13
+        },
+        {
+          "bookAbbrev": "2rs",
+          "bookName": "2 Reis",
+          "chapter": 14
+        },
+        {
+          "bookAbbrev": "2rs",
+          "bookName": "2 Reis",
+          "chapter": 15
+        }
+      ]
+    },
+    {
+      "day": 83,
+      "chapters": [
+        {
+          "bookAbbrev": "2rs",
+          "bookName": "2 Reis",
+          "chapter": 16
+        },
+        {
+          "bookAbbrev": "2rs",
+          "bookName": "2 Reis",
+          "chapter": 17
+        },
+        {
+          "bookAbbrev": "2rs",
+          "bookName": "2 Reis",
+          "chapter": 18
+        },
+        {
+          "bookAbbrev": "2rs",
+          "bookName": "2 Reis",
+          "chapter": 19
+        }
+      ]
+    },
+    {
+      "day": 84,
+      "chapters": [
+        {
+          "bookAbbrev": "2rs",
+          "bookName": "2 Reis",
+          "chapter": 20
+        },
+        {
+          "bookAbbrev": "2rs",
+          "bookName": "2 Reis",
+          "chapter": 21
+        },
+        {
+          "bookAbbrev": "2rs",
+          "bookName": "2 Reis",
+          "chapter": 22
+        },
+        {
+          "bookAbbrev": "2rs",
+          "bookName": "2 Reis",
+          "chapter": 23
+        }
+      ]
+    },
+    {
+      "day": 85,
+      "chapters": [
+        {
+          "bookAbbrev": "2rs",
+          "bookName": "2 Reis",
+          "chapter": 24
+        },
+        {
+          "bookAbbrev": "2rs",
+          "bookName": "2 Reis",
+          "chapter": 25
+        },
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 2
+        }
+      ]
+    },
+    {
+      "day": 86,
+      "chapters": [
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 6
+        }
+      ]
+    },
+    {
+      "day": 87,
+      "chapters": [
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 9
+        },
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 10
+        }
+      ]
+    },
+    {
+      "day": 88,
+      "chapters": [
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 11
+        },
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 12
+        },
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 13
+        },
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 14
+        }
+      ]
+    },
+    {
+      "day": 89,
+      "chapters": [
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 15
+        },
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 16
+        },
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 17
+        },
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 18
+        }
+      ]
+    },
+    {
+      "day": 90,
+      "chapters": [
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 19
+        },
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 20
+        },
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 21
+        },
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 22
+        }
+      ]
+    },
+    {
+      "day": 91,
+      "chapters": [
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 23
+        },
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 24
+        },
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 25
+        },
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 26
+        }
+      ]
+    },
+    {
+      "day": 92,
+      "chapters": [
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 27
+        },
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 28
+        },
+        {
+          "bookAbbrev": "1cr",
+          "bookName": "1 Crônicas",
+          "chapter": 29
+        },
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 1
+        }
+      ]
+    },
+    {
+      "day": 93,
+      "chapters": [
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 5
+        }
+      ]
+    },
+    {
+      "day": 94,
+      "chapters": [
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 6
+        },
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 9
+        }
+      ]
+    },
+    {
+      "day": 95,
+      "chapters": [
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 11
+        },
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 12
+        }
+      ]
+    },
+    {
+      "day": 96,
+      "chapters": [
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 13
+        },
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 14
+        },
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 15
+        }
+      ]
+    },
+    {
+      "day": 97,
+      "chapters": [
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 16
+        },
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 17
+        },
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 18
+        }
+      ]
+    },
+    {
+      "day": 98,
+      "chapters": [
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 19
+        },
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 20
+        },
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 21
+        }
+      ]
+    },
+    {
+      "day": 99,
+      "chapters": [
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 22
+        },
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 23
+        },
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 24
+        }
+      ]
+    },
+    {
+      "day": 100,
+      "chapters": [
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 25
+        },
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 26
+        },
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 27
+        }
+      ]
+    },
+    {
+      "day": 101,
+      "chapters": [
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 28
+        },
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 29
+        },
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 30
+        }
+      ]
+    },
+    {
+      "day": 102,
+      "chapters": [
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 31
+        },
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 32
+        },
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 33
+        }
+      ]
+    },
+    {
+      "day": 103,
+      "chapters": [
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 34
+        },
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 35
+        },
+        {
+          "bookAbbrev": "2cr",
+          "bookName": "2 Crônicas",
+          "chapter": 36
+        }
+      ]
+    },
+    {
+      "day": 104,
+      "chapters": [
+        {
+          "bookAbbrev": "ed",
+          "bookName": "Esdras",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "ed",
+          "bookName": "Esdras",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "ed",
+          "bookName": "Esdras",
+          "chapter": 3
+        }
+      ]
+    },
+    {
+      "day": 105,
+      "chapters": [
+        {
+          "bookAbbrev": "ed",
+          "bookName": "Esdras",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "ed",
+          "bookName": "Esdras",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "ed",
+          "bookName": "Esdras",
+          "chapter": 6
+        }
+      ]
+    },
+    {
+      "day": 106,
+      "chapters": [
+        {
+          "bookAbbrev": "ed",
+          "bookName": "Esdras",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "ed",
+          "bookName": "Esdras",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "ed",
+          "bookName": "Esdras",
+          "chapter": 9
+        }
+      ]
+    },
+    {
+      "day": 107,
+      "chapters": [
+        {
+          "bookAbbrev": "ed",
+          "bookName": "Esdras",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "ne",
+          "bookName": "Neemias",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "ne",
+          "bookName": "Neemias",
+          "chapter": 2
+        }
+      ]
+    },
+    {
+      "day": 108,
+      "chapters": [
+        {
+          "bookAbbrev": "ne",
+          "bookName": "Neemias",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "ne",
+          "bookName": "Neemias",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "ne",
+          "bookName": "Neemias",
+          "chapter": 5
+        }
+      ]
+    },
+    {
+      "day": 109,
+      "chapters": [
+        {
+          "bookAbbrev": "ne",
+          "bookName": "Neemias",
+          "chapter": 6
+        },
+        {
+          "bookAbbrev": "ne",
+          "bookName": "Neemias",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "ne",
+          "bookName": "Neemias",
+          "chapter": 8
+        }
+      ]
+    },
+    {
+      "day": 110,
+      "chapters": [
+        {
+          "bookAbbrev": "ne",
+          "bookName": "Neemias",
+          "chapter": 9
+        },
+        {
+          "bookAbbrev": "ne",
+          "bookName": "Neemias",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "ne",
+          "bookName": "Neemias",
+          "chapter": 11
+        }
+      ]
+    },
+    {
+      "day": 111,
+      "chapters": [
+        {
+          "bookAbbrev": "ne",
+          "bookName": "Neemias",
+          "chapter": 12
+        },
+        {
+          "bookAbbrev": "ne",
+          "bookName": "Neemias",
+          "chapter": 13
+        },
+        {
+          "bookAbbrev": "et",
+          "bookName": "Ester",
+          "chapter": 1
+        }
+      ]
+    },
+    {
+      "day": 112,
+      "chapters": [
+        {
+          "bookAbbrev": "et",
+          "bookName": "Ester",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "et",
+          "bookName": "Ester",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "et",
+          "bookName": "Ester",
+          "chapter": 4
+        }
+      ]
+    },
+    {
+      "day": 113,
+      "chapters": [
+        {
+          "bookAbbrev": "et",
+          "bookName": "Ester",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "et",
+          "bookName": "Ester",
+          "chapter": 6
+        },
+        {
+          "bookAbbrev": "et",
+          "bookName": "Ester",
+          "chapter": 7
+        }
+      ]
+    },
+    {
+      "day": 114,
+      "chapters": [
+        {
+          "bookAbbrev": "et",
+          "bookName": "Ester",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "et",
+          "bookName": "Ester",
+          "chapter": 9
+        },
+        {
+          "bookAbbrev": "et",
+          "bookName": "Ester",
+          "chapter": 10
+        }
+      ]
+    },
+    {
+      "day": 115,
+      "chapters": [
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 3
+        }
+      ]
+    },
+    {
+      "day": 116,
+      "chapters": [
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 6
+        }
+      ]
+    },
+    {
+      "day": 117,
+      "chapters": [
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 9
+        }
+      ]
+    },
+    {
+      "day": 118,
+      "chapters": [
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 11
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 12
+        }
+      ]
+    },
+    {
+      "day": 119,
+      "chapters": [
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 13
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 14
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 15
+        }
+      ]
+    },
+    {
+      "day": 120,
+      "chapters": [
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 16
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 17
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 18
+        }
+      ]
+    },
+    {
+      "day": 121,
+      "chapters": [
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 19
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 20
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 21
+        }
+      ]
+    },
+    {
+      "day": 122,
+      "chapters": [
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 22
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 23
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 24
+        }
+      ]
+    },
+    {
+      "day": 123,
+      "chapters": [
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 25
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 26
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 27
+        }
+      ]
+    },
+    {
+      "day": 124,
+      "chapters": [
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 28
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 29
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 30
+        }
+      ]
+    },
+    {
+      "day": 125,
+      "chapters": [
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 31
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 32
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 33
+        }
+      ]
+    },
+    {
+      "day": 126,
+      "chapters": [
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 34
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 35
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 36
+        }
+      ]
+    },
+    {
+      "day": 127,
+      "chapters": [
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 37
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 38
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 39
+        }
+      ]
+    },
+    {
+      "day": 128,
+      "chapters": [
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 40
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 41
+        },
+        {
+          "bookAbbrev": "jó",
+          "bookName": "Jó",
+          "chapter": 42
+        }
+      ]
+    },
+    {
+      "day": 129,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 3
+        }
+      ]
+    },
+    {
+      "day": 130,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 6
+        }
+      ]
+    },
+    {
+      "day": 131,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 9
+        }
+      ]
+    },
+    {
+      "day": 132,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 11
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 12
+        }
+      ]
+    },
+    {
+      "day": 133,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 13
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 14
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 15
+        }
+      ]
+    },
+    {
+      "day": 134,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 16
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 17
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 18
+        }
+      ]
+    },
+    {
+      "day": 135,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 19
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 20
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 21
+        }
+      ]
+    },
+    {
+      "day": 136,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 22
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 23
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 24
+        }
+      ]
+    },
+    {
+      "day": 137,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 25
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 26
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 27
+        }
+      ]
+    },
+    {
+      "day": 138,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 28
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 29
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 30
+        }
+      ]
+    },
+    {
+      "day": 139,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 31
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 32
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 33
+        }
+      ]
+    },
+    {
+      "day": 140,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 34
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 35
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 36
+        }
+      ]
+    },
+    {
+      "day": 141,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 37
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 38
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 39
+        }
+      ]
+    },
+    {
+      "day": 142,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 40
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 41
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 42
+        }
+      ]
+    },
+    {
+      "day": 143,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 43
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 44
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 45
+        }
+      ]
+    },
+    {
+      "day": 144,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 46
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 47
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 48
+        }
+      ]
+    },
+    {
+      "day": 145,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 49
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 50
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 51
+        }
+      ]
+    },
+    {
+      "day": 146,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 52
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 53
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 54
+        }
+      ]
+    },
+    {
+      "day": 147,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 55
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 56
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 57
+        }
+      ]
+    },
+    {
+      "day": 148,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 58
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 59
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 60
+        }
+      ]
+    },
+    {
+      "day": 149,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 61
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 62
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 63
+        }
+      ]
+    },
+    {
+      "day": 150,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 64
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 65
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 66
+        }
+      ]
+    },
+    {
+      "day": 151,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 67
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 68
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 69
+        }
+      ]
+    },
+    {
+      "day": 152,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 70
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 71
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 72
+        }
+      ]
+    },
+    {
+      "day": 153,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 73
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 74
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 75
+        }
+      ]
+    },
+    {
+      "day": 154,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 76
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 77
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 78
+        }
+      ]
+    },
+    {
+      "day": 155,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 79
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 80
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 81
+        }
+      ]
+    },
+    {
+      "day": 156,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 82
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 83
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 84
+        }
+      ]
+    },
+    {
+      "day": 157,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 85
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 86
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 87
+        }
+      ]
+    },
+    {
+      "day": 158,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 88
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 89
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 90
+        }
+      ]
+    },
+    {
+      "day": 159,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 91
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 92
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 93
+        }
+      ]
+    },
+    {
+      "day": 160,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 94
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 95
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 96
+        }
+      ]
+    },
+    {
+      "day": 161,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 97
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 98
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 99
+        }
+      ]
+    },
+    {
+      "day": 162,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 100
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 101
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 102
+        }
+      ]
+    },
+    {
+      "day": 163,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 103
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 104
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 105
+        }
+      ]
+    },
+    {
+      "day": 164,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 106
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 107
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 108
+        }
+      ]
+    },
+    {
+      "day": 165,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 109
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 110
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 111
+        }
+      ]
+    },
+    {
+      "day": 166,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 112
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 113
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 114
+        }
+      ]
+    },
+    {
+      "day": 167,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 115
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 116
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 117
+        }
+      ]
+    },
+    {
+      "day": 168,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 118
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 119
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 120
+        }
+      ]
+    },
+    {
+      "day": 169,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 121
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 122
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 123
+        }
+      ]
+    },
+    {
+      "day": 170,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 124
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 125
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 126
+        }
+      ]
+    },
+    {
+      "day": 171,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 127
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 128
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 129
+        }
+      ]
+    },
+    {
+      "day": 172,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 130
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 131
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 132
+        }
+      ]
+    },
+    {
+      "day": 173,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 133
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 134
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 135
+        }
+      ]
+    },
+    {
+      "day": 174,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 136
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 137
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 138
+        }
+      ]
+    },
+    {
+      "day": 175,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 139
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 140
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 141
+        }
+      ]
+    },
+    {
+      "day": 176,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 142
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 143
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 144
+        }
+      ]
+    },
+    {
+      "day": 177,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 145
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 146
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 147
+        }
+      ]
+    },
+    {
+      "day": 178,
+      "chapters": [
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 148
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 149
+        },
+        {
+          "bookAbbrev": "sl",
+          "bookName": "Salmos",
+          "chapter": 150
+        }
+      ]
+    },
+    {
+      "day": 179,
+      "chapters": [
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 3
+        }
+      ]
+    },
+    {
+      "day": 180,
+      "chapters": [
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 6
+        }
+      ]
+    },
+    {
+      "day": 181,
+      "chapters": [
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 9
+        }
+      ]
+    },
+    {
+      "day": 182,
+      "chapters": [
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 11
+        },
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 12
+        }
+      ]
+    },
+    {
+      "day": 183,
+      "chapters": [
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 13
+        },
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 14
+        },
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 15
+        }
+      ]
+    },
+    {
+      "day": 184,
+      "chapters": [
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 16
+        },
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 17
+        },
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 18
+        }
+      ]
+    },
+    {
+      "day": 185,
+      "chapters": [
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 19
+        },
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 20
+        },
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 21
+        }
+      ]
+    },
+    {
+      "day": 186,
+      "chapters": [
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 22
+        },
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 23
+        },
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 24
+        }
+      ]
+    },
+    {
+      "day": 187,
+      "chapters": [
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 25
+        },
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 26
+        },
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 27
+        }
+      ]
+    },
+    {
+      "day": 188,
+      "chapters": [
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 28
+        },
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 29
+        },
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 30
+        }
+      ]
+    },
+    {
+      "day": 189,
+      "chapters": [
+        {
+          "bookAbbrev": "pv",
+          "bookName": "Provérbios",
+          "chapter": 31
+        },
+        {
+          "bookAbbrev": "ec",
+          "bookName": "Eclesiastes",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "ec",
+          "bookName": "Eclesiastes",
+          "chapter": 2
+        }
+      ]
+    },
+    {
+      "day": 190,
+      "chapters": [
+        {
+          "bookAbbrev": "ec",
+          "bookName": "Eclesiastes",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "ec",
+          "bookName": "Eclesiastes",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "ec",
+          "bookName": "Eclesiastes",
+          "chapter": 5
+        }
+      ]
+    },
+    {
+      "day": 191,
+      "chapters": [
+        {
+          "bookAbbrev": "ec",
+          "bookName": "Eclesiastes",
+          "chapter": 6
+        },
+        {
+          "bookAbbrev": "ec",
+          "bookName": "Eclesiastes",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "ec",
+          "bookName": "Eclesiastes",
+          "chapter": 8
+        }
+      ]
+    },
+    {
+      "day": 192,
+      "chapters": [
+        {
+          "bookAbbrev": "ec",
+          "bookName": "Eclesiastes",
+          "chapter": 9
+        },
+        {
+          "bookAbbrev": "ec",
+          "bookName": "Eclesiastes",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "ec",
+          "bookName": "Eclesiastes",
+          "chapter": 11
+        }
+      ]
+    },
+    {
+      "day": 193,
+      "chapters": [
+        {
+          "bookAbbrev": "ec",
+          "bookName": "Eclesiastes",
+          "chapter": 12
+        },
+        {
+          "bookAbbrev": "ct",
+          "bookName": "Cânticos",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "ct",
+          "bookName": "Cânticos",
+          "chapter": 2
+        }
+      ]
+    },
+    {
+      "day": 194,
+      "chapters": [
+        {
+          "bookAbbrev": "ct",
+          "bookName": "Cânticos",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "ct",
+          "bookName": "Cânticos",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "ct",
+          "bookName": "Cânticos",
+          "chapter": 5
+        }
+      ]
+    },
+    {
+      "day": 195,
+      "chapters": [
+        {
+          "bookAbbrev": "ct",
+          "bookName": "Cânticos",
+          "chapter": 6
+        },
+        {
+          "bookAbbrev": "ct",
+          "bookName": "Cânticos",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "ct",
+          "bookName": "Cânticos",
+          "chapter": 8
+        }
+      ]
+    },
+    {
+      "day": 196,
+      "chapters": [
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 3
+        }
+      ]
+    },
+    {
+      "day": 197,
+      "chapters": [
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 6
+        }
+      ]
+    },
+    {
+      "day": 198,
+      "chapters": [
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 9
+        }
+      ]
+    },
+    {
+      "day": 199,
+      "chapters": [
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 11
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 12
+        }
+      ]
+    },
+    {
+      "day": 200,
+      "chapters": [
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 13
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 14
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 15
+        }
+      ]
+    },
+    {
+      "day": 201,
+      "chapters": [
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 16
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 17
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 18
+        }
+      ]
+    },
+    {
+      "day": 202,
+      "chapters": [
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 19
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 20
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 21
+        }
+      ]
+    },
+    {
+      "day": 203,
+      "chapters": [
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 22
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 23
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 24
+        }
+      ]
+    },
+    {
+      "day": 204,
+      "chapters": [
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 25
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 26
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 27
+        }
+      ]
+    },
+    {
+      "day": 205,
+      "chapters": [
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 28
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 29
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 30
+        }
+      ]
+    },
+    {
+      "day": 206,
+      "chapters": [
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 31
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 32
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 33
+        }
+      ]
+    },
+    {
+      "day": 207,
+      "chapters": [
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 34
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 35
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 36
+        }
+      ]
+    },
+    {
+      "day": 208,
+      "chapters": [
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 37
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 38
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 39
+        }
+      ]
+    },
+    {
+      "day": 209,
+      "chapters": [
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 40
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 41
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 42
+        }
+      ]
+    },
+    {
+      "day": 210,
+      "chapters": [
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 43
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 44
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 45
+        }
+      ]
+    },
+    {
+      "day": 211,
+      "chapters": [
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 46
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 47
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 48
+        }
+      ]
+    },
+    {
+      "day": 212,
+      "chapters": [
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 49
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 50
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 51
+        }
+      ]
+    },
+    {
+      "day": 213,
+      "chapters": [
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 52
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 53
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 54
+        }
+      ]
+    },
+    {
+      "day": 214,
+      "chapters": [
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 55
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 56
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 57
+        }
+      ]
+    },
+    {
+      "day": 215,
+      "chapters": [
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 58
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 59
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 60
+        }
+      ]
+    },
+    {
+      "day": 216,
+      "chapters": [
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 61
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 62
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 63
+        }
+      ]
+    },
+    {
+      "day": 217,
+      "chapters": [
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 64
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 65
+        },
+        {
+          "bookAbbrev": "is",
+          "bookName": "Isaías",
+          "chapter": 66
+        }
+      ]
+    },
+    {
+      "day": 218,
+      "chapters": [
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 3
+        }
+      ]
+    },
+    {
+      "day": 219,
+      "chapters": [
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 6
+        }
+      ]
+    },
+    {
+      "day": 220,
+      "chapters": [
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 9
+        }
+      ]
+    },
+    {
+      "day": 221,
+      "chapters": [
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 11
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 12
+        }
+      ]
+    },
+    {
+      "day": 222,
+      "chapters": [
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 13
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 14
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 15
+        }
+      ]
+    },
+    {
+      "day": 223,
+      "chapters": [
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 16
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 17
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 18
+        }
+      ]
+    },
+    {
+      "day": 224,
+      "chapters": [
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 19
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 20
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 21
+        }
+      ]
+    },
+    {
+      "day": 225,
+      "chapters": [
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 22
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 23
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 24
+        }
+      ]
+    },
+    {
+      "day": 226,
+      "chapters": [
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 25
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 26
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 27
+        }
+      ]
+    },
+    {
+      "day": 227,
+      "chapters": [
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 28
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 29
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 30
+        }
+      ]
+    },
+    {
+      "day": 228,
+      "chapters": [
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 31
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 32
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 33
+        }
+      ]
+    },
+    {
+      "day": 229,
+      "chapters": [
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 34
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 35
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 36
+        }
+      ]
+    },
+    {
+      "day": 230,
+      "chapters": [
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 37
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 38
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 39
+        }
+      ]
+    },
+    {
+      "day": 231,
+      "chapters": [
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 40
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 41
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 42
+        }
+      ]
+    },
+    {
+      "day": 232,
+      "chapters": [
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 43
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 44
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 45
+        }
+      ]
+    },
+    {
+      "day": 233,
+      "chapters": [
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 46
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 47
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 48
+        }
+      ]
+    },
+    {
+      "day": 234,
+      "chapters": [
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 49
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 50
+        },
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 51
+        }
+      ]
+    },
+    {
+      "day": 235,
+      "chapters": [
+        {
+          "bookAbbrev": "jr",
+          "bookName": "Jeremias",
+          "chapter": 52
+        },
+        {
+          "bookAbbrev": "lm",
+          "bookName": "Lamentações de Jeremias",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "lm",
+          "bookName": "Lamentações de Jeremias",
+          "chapter": 2
+        }
+      ]
+    },
+    {
+      "day": 236,
+      "chapters": [
+        {
+          "bookAbbrev": "lm",
+          "bookName": "Lamentações de Jeremias",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "lm",
+          "bookName": "Lamentações de Jeremias",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "lm",
+          "bookName": "Lamentações de Jeremias",
+          "chapter": 5
+        }
+      ]
+    },
+    {
+      "day": 237,
+      "chapters": [
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 3
+        }
+      ]
+    },
+    {
+      "day": 238,
+      "chapters": [
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 6
+        }
+      ]
+    },
+    {
+      "day": 239,
+      "chapters": [
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 9
+        }
+      ]
+    },
+    {
+      "day": 240,
+      "chapters": [
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 11
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 12
+        }
+      ]
+    },
+    {
+      "day": 241,
+      "chapters": [
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 13
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 14
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 15
+        }
+      ]
+    },
+    {
+      "day": 242,
+      "chapters": [
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 16
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 17
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 18
+        }
+      ]
+    },
+    {
+      "day": 243,
+      "chapters": [
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 19
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 20
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 21
+        }
+      ]
+    },
+    {
+      "day": 244,
+      "chapters": [
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 22
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 23
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 24
+        }
+      ]
+    },
+    {
+      "day": 245,
+      "chapters": [
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 25
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 26
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 27
+        }
+      ]
+    },
+    {
+      "day": 246,
+      "chapters": [
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 28
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 29
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 30
+        }
+      ]
+    },
+    {
+      "day": 247,
+      "chapters": [
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 31
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 32
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 33
+        }
+      ]
+    },
+    {
+      "day": 248,
+      "chapters": [
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 34
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 35
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 36
+        }
+      ]
+    },
+    {
+      "day": 249,
+      "chapters": [
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 37
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 38
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 39
+        }
+      ]
+    },
+    {
+      "day": 250,
+      "chapters": [
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 40
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 41
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 42
+        }
+      ]
+    },
+    {
+      "day": 251,
+      "chapters": [
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 43
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 44
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 45
+        }
+      ]
+    },
+    {
+      "day": 252,
+      "chapters": [
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 46
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 47
+        },
+        {
+          "bookAbbrev": "ez",
+          "bookName": "Ezequiel",
+          "chapter": 48
+        }
+      ]
+    },
+    {
+      "day": 253,
+      "chapters": [
+        {
+          "bookAbbrev": "dn",
+          "bookName": "Daniel",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "dn",
+          "bookName": "Daniel",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "dn",
+          "bookName": "Daniel",
+          "chapter": 3
+        }
+      ]
+    },
+    {
+      "day": 254,
+      "chapters": [
+        {
+          "bookAbbrev": "dn",
+          "bookName": "Daniel",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "dn",
+          "bookName": "Daniel",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "dn",
+          "bookName": "Daniel",
+          "chapter": 6
+        }
+      ]
+    },
+    {
+      "day": 255,
+      "chapters": [
+        {
+          "bookAbbrev": "dn",
+          "bookName": "Daniel",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "dn",
+          "bookName": "Daniel",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "dn",
+          "bookName": "Daniel",
+          "chapter": 9
+        }
+      ]
+    },
+    {
+      "day": 256,
+      "chapters": [
+        {
+          "bookAbbrev": "dn",
+          "bookName": "Daniel",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "dn",
+          "bookName": "Daniel",
+          "chapter": 11
+        },
+        {
+          "bookAbbrev": "dn",
+          "bookName": "Daniel",
+          "chapter": 12
+        }
+      ]
+    },
+    {
+      "day": 257,
+      "chapters": [
+        {
+          "bookAbbrev": "os",
+          "bookName": "Oséias",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "os",
+          "bookName": "Oséias",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "os",
+          "bookName": "Oséias",
+          "chapter": 3
+        }
+      ]
+    },
+    {
+      "day": 258,
+      "chapters": [
+        {
+          "bookAbbrev": "os",
+          "bookName": "Oséias",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "os",
+          "bookName": "Oséias",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "os",
+          "bookName": "Oséias",
+          "chapter": 6
+        }
+      ]
+    },
+    {
+      "day": 259,
+      "chapters": [
+        {
+          "bookAbbrev": "os",
+          "bookName": "Oséias",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "os",
+          "bookName": "Oséias",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "os",
+          "bookName": "Oséias",
+          "chapter": 9
+        }
+      ]
+    },
+    {
+      "day": 260,
+      "chapters": [
+        {
+          "bookAbbrev": "os",
+          "bookName": "Oséias",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "os",
+          "bookName": "Oséias",
+          "chapter": 11
+        },
+        {
+          "bookAbbrev": "os",
+          "bookName": "Oséias",
+          "chapter": 12
+        }
+      ]
+    },
+    {
+      "day": 261,
+      "chapters": [
+        {
+          "bookAbbrev": "os",
+          "bookName": "Oséias",
+          "chapter": 13
+        },
+        {
+          "bookAbbrev": "os",
+          "bookName": "Oséias",
+          "chapter": 14
+        },
+        {
+          "bookAbbrev": "jl",
+          "bookName": "Joel",
+          "chapter": 1
+        }
+      ]
+    },
+    {
+      "day": 262,
+      "chapters": [
+        {
+          "bookAbbrev": "jl",
+          "bookName": "Joel",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "jl",
+          "bookName": "Joel",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "am",
+          "bookName": "Amós",
+          "chapter": 1
+        }
+      ]
+    },
+    {
+      "day": 263,
+      "chapters": [
+        {
+          "bookAbbrev": "am",
+          "bookName": "Amós",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "am",
+          "bookName": "Amós",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "am",
+          "bookName": "Amós",
+          "chapter": 4
+        }
+      ]
+    },
+    {
+      "day": 264,
+      "chapters": [
+        {
+          "bookAbbrev": "am",
+          "bookName": "Amós",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "am",
+          "bookName": "Amós",
+          "chapter": 6
+        },
+        {
+          "bookAbbrev": "am",
+          "bookName": "Amós",
+          "chapter": 7
+        }
+      ]
+    },
+    {
+      "day": 265,
+      "chapters": [
+        {
+          "bookAbbrev": "am",
+          "bookName": "Amós",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "am",
+          "bookName": "Amós",
+          "chapter": 9
+        },
+        {
+          "bookAbbrev": "ob",
+          "bookName": "Obadias",
+          "chapter": 1
+        }
+      ]
+    },
+    {
+      "day": 266,
+      "chapters": [
+        {
+          "bookAbbrev": "jn",
+          "bookName": "Jonas",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "jn",
+          "bookName": "Jonas",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "jn",
+          "bookName": "Jonas",
+          "chapter": 3
+        }
+      ]
+    },
+    {
+      "day": 267,
+      "chapters": [
+        {
+          "bookAbbrev": "jn",
+          "bookName": "Jonas",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "mq",
+          "bookName": "Miquéias",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "mq",
+          "bookName": "Miquéias",
+          "chapter": 2
+        }
+      ]
+    },
+    {
+      "day": 268,
+      "chapters": [
+        {
+          "bookAbbrev": "mq",
+          "bookName": "Miquéias",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "mq",
+          "bookName": "Miquéias",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "mq",
+          "bookName": "Miquéias",
+          "chapter": 5
+        }
+      ]
+    },
+    {
+      "day": 269,
+      "chapters": [
+        {
+          "bookAbbrev": "mq",
+          "bookName": "Miquéias",
+          "chapter": 6
+        },
+        {
+          "bookAbbrev": "mq",
+          "bookName": "Miquéias",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "na",
+          "bookName": "Naum",
+          "chapter": 1
+        }
+      ]
+    },
+    {
+      "day": 270,
+      "chapters": [
+        {
+          "bookAbbrev": "na",
+          "bookName": "Naum",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "na",
+          "bookName": "Naum",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "hc",
+          "bookName": "Habacuque",
+          "chapter": 1
+        }
+      ]
+    },
+    {
+      "day": 271,
+      "chapters": [
+        {
+          "bookAbbrev": "hc",
+          "bookName": "Habacuque",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "hc",
+          "bookName": "Habacuque",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "sf",
+          "bookName": "Sofonias",
+          "chapter": 1
+        }
+      ]
+    },
+    {
+      "day": 272,
+      "chapters": [
+        {
+          "bookAbbrev": "sf",
+          "bookName": "Sofonias",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "sf",
+          "bookName": "Sofonias",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "ag",
+          "bookName": "Ageu",
+          "chapter": 1
+        }
+      ]
+    },
+    {
+      "day": 273,
+      "chapters": [
+        {
+          "bookAbbrev": "ag",
+          "bookName": "Ageu",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "zc",
+          "bookName": "Zacarias",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "zc",
+          "bookName": "Zacarias",
+          "chapter": 2
+        }
+      ]
+    },
+    {
+      "day": 274,
+      "chapters": [
+        {
+          "bookAbbrev": "zc",
+          "bookName": "Zacarias",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "zc",
+          "bookName": "Zacarias",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "zc",
+          "bookName": "Zacarias",
+          "chapter": 5
+        }
+      ]
+    },
+    {
+      "day": 275,
+      "chapters": [
+        {
+          "bookAbbrev": "zc",
+          "bookName": "Zacarias",
+          "chapter": 6
+        },
+        {
+          "bookAbbrev": "zc",
+          "bookName": "Zacarias",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "zc",
+          "bookName": "Zacarias",
+          "chapter": 8
+        }
+      ]
+    },
+    {
+      "day": 276,
+      "chapters": [
+        {
+          "bookAbbrev": "zc",
+          "bookName": "Zacarias",
+          "chapter": 9
+        },
+        {
+          "bookAbbrev": "zc",
+          "bookName": "Zacarias",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "zc",
+          "bookName": "Zacarias",
+          "chapter": 11
+        }
+      ]
+    },
+    {
+      "day": 277,
+      "chapters": [
+        {
+          "bookAbbrev": "zc",
+          "bookName": "Zacarias",
+          "chapter": 12
+        },
+        {
+          "bookAbbrev": "zc",
+          "bookName": "Zacarias",
+          "chapter": 13
+        },
+        {
+          "bookAbbrev": "zc",
+          "bookName": "Zacarias",
+          "chapter": 14
+        }
+      ]
+    },
+    {
+      "day": 278,
+      "chapters": [
+        {
+          "bookAbbrev": "ml",
+          "bookName": "Malaquias",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "ml",
+          "bookName": "Malaquias",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "ml",
+          "bookName": "Malaquias",
+          "chapter": 3
+        }
+      ]
+    },
+    {
+      "day": 279,
+      "chapters": [
+        {
+          "bookAbbrev": "ml",
+          "bookName": "Malaquias",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 2
+        }
+      ]
+    },
+    {
+      "day": 280,
+      "chapters": [
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 5
+        }
+      ]
+    },
+    {
+      "day": 281,
+      "chapters": [
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 6
+        },
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 8
+        }
+      ]
+    },
+    {
+      "day": 282,
+      "chapters": [
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 9
+        },
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 11
+        }
+      ]
+    },
+    {
+      "day": 283,
+      "chapters": [
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 12
+        },
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 13
+        },
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 14
+        }
+      ]
+    },
+    {
+      "day": 284,
+      "chapters": [
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 15
+        },
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 16
+        },
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 17
+        }
+      ]
+    },
+    {
+      "day": 285,
+      "chapters": [
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 18
+        },
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 19
+        },
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 20
+        }
+      ]
+    },
+    {
+      "day": 286,
+      "chapters": [
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 21
+        },
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 22
+        },
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 23
+        }
+      ]
+    },
+    {
+      "day": 287,
+      "chapters": [
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 24
+        },
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 25
+        },
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 26
+        }
+      ]
+    },
+    {
+      "day": 288,
+      "chapters": [
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 27
+        },
+        {
+          "bookAbbrev": "mt",
+          "bookName": "Mateus",
+          "chapter": 28
+        },
+        {
+          "bookAbbrev": "mc",
+          "bookName": "Marcos",
+          "chapter": 1
+        }
+      ]
+    },
+    {
+      "day": 289,
+      "chapters": [
+        {
+          "bookAbbrev": "mc",
+          "bookName": "Marcos",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "mc",
+          "bookName": "Marcos",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "mc",
+          "bookName": "Marcos",
+          "chapter": 4
+        }
+      ]
+    },
+    {
+      "day": 290,
+      "chapters": [
+        {
+          "bookAbbrev": "mc",
+          "bookName": "Marcos",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "mc",
+          "bookName": "Marcos",
+          "chapter": 6
+        },
+        {
+          "bookAbbrev": "mc",
+          "bookName": "Marcos",
+          "chapter": 7
+        }
+      ]
+    },
+    {
+      "day": 291,
+      "chapters": [
+        {
+          "bookAbbrev": "mc",
+          "bookName": "Marcos",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "mc",
+          "bookName": "Marcos",
+          "chapter": 9
+        },
+        {
+          "bookAbbrev": "mc",
+          "bookName": "Marcos",
+          "chapter": 10
+        }
+      ]
+    },
+    {
+      "day": 292,
+      "chapters": [
+        {
+          "bookAbbrev": "mc",
+          "bookName": "Marcos",
+          "chapter": 11
+        },
+        {
+          "bookAbbrev": "mc",
+          "bookName": "Marcos",
+          "chapter": 12
+        },
+        {
+          "bookAbbrev": "mc",
+          "bookName": "Marcos",
+          "chapter": 13
+        }
+      ]
+    },
+    {
+      "day": 293,
+      "chapters": [
+        {
+          "bookAbbrev": "mc",
+          "bookName": "Marcos",
+          "chapter": 14
+        },
+        {
+          "bookAbbrev": "mc",
+          "bookName": "Marcos",
+          "chapter": 15
+        },
+        {
+          "bookAbbrev": "mc",
+          "bookName": "Marcos",
+          "chapter": 16
+        }
+      ]
+    },
+    {
+      "day": 294,
+      "chapters": [
+        {
+          "bookAbbrev": "lc",
+          "bookName": "Lucas",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "lc",
+          "bookName": "Lucas",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "lc",
+          "bookName": "Lucas",
+          "chapter": 3
+        }
+      ]
+    },
+    {
+      "day": 295,
+      "chapters": [
+        {
+          "bookAbbrev": "lc",
+          "bookName": "Lucas",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "lc",
+          "bookName": "Lucas",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "lc",
+          "bookName": "Lucas",
+          "chapter": 6
+        }
+      ]
+    },
+    {
+      "day": 296,
+      "chapters": [
+        {
+          "bookAbbrev": "lc",
+          "bookName": "Lucas",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "lc",
+          "bookName": "Lucas",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "lc",
+          "bookName": "Lucas",
+          "chapter": 9
+        }
+      ]
+    },
+    {
+      "day": 297,
+      "chapters": [
+        {
+          "bookAbbrev": "lc",
+          "bookName": "Lucas",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "lc",
+          "bookName": "Lucas",
+          "chapter": 11
+        },
+        {
+          "bookAbbrev": "lc",
+          "bookName": "Lucas",
+          "chapter": 12
+        }
+      ]
+    },
+    {
+      "day": 298,
+      "chapters": [
+        {
+          "bookAbbrev": "lc",
+          "bookName": "Lucas",
+          "chapter": 13
+        },
+        {
+          "bookAbbrev": "lc",
+          "bookName": "Lucas",
+          "chapter": 14
+        },
+        {
+          "bookAbbrev": "lc",
+          "bookName": "Lucas",
+          "chapter": 15
+        }
+      ]
+    },
+    {
+      "day": 299,
+      "chapters": [
+        {
+          "bookAbbrev": "lc",
+          "bookName": "Lucas",
+          "chapter": 16
+        },
+        {
+          "bookAbbrev": "lc",
+          "bookName": "Lucas",
+          "chapter": 17
+        },
+        {
+          "bookAbbrev": "lc",
+          "bookName": "Lucas",
+          "chapter": 18
+        }
+      ]
+    },
+    {
+      "day": 300,
+      "chapters": [
+        {
+          "bookAbbrev": "lc",
+          "bookName": "Lucas",
+          "chapter": 19
+        },
+        {
+          "bookAbbrev": "lc",
+          "bookName": "Lucas",
+          "chapter": 20
+        },
+        {
+          "bookAbbrev": "lc",
+          "bookName": "Lucas",
+          "chapter": 21
+        }
+      ]
+    },
+    {
+      "day": 301,
+      "chapters": [
+        {
+          "bookAbbrev": "lc",
+          "bookName": "Lucas",
+          "chapter": 22
+        },
+        {
+          "bookAbbrev": "lc",
+          "bookName": "Lucas",
+          "chapter": 23
+        },
+        {
+          "bookAbbrev": "lc",
+          "bookName": "Lucas",
+          "chapter": 24
+        }
+      ]
+    },
+    {
+      "day": 302,
+      "chapters": [
+        {
+          "bookAbbrev": "jo",
+          "bookName": "João",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "jo",
+          "bookName": "João",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "jo",
+          "bookName": "João",
+          "chapter": 3
+        }
+      ]
+    },
+    {
+      "day": 303,
+      "chapters": [
+        {
+          "bookAbbrev": "jo",
+          "bookName": "João",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "jo",
+          "bookName": "João",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "jo",
+          "bookName": "João",
+          "chapter": 6
+        }
+      ]
+    },
+    {
+      "day": 304,
+      "chapters": [
+        {
+          "bookAbbrev": "jo",
+          "bookName": "João",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "jo",
+          "bookName": "João",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "jo",
+          "bookName": "João",
+          "chapter": 9
+        }
+      ]
+    },
+    {
+      "day": 305,
+      "chapters": [
+        {
+          "bookAbbrev": "jo",
+          "bookName": "João",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "jo",
+          "bookName": "João",
+          "chapter": 11
+        },
+        {
+          "bookAbbrev": "jo",
+          "bookName": "João",
+          "chapter": 12
+        }
+      ]
+    },
+    {
+      "day": 306,
+      "chapters": [
+        {
+          "bookAbbrev": "jo",
+          "bookName": "João",
+          "chapter": 13
+        },
+        {
+          "bookAbbrev": "jo",
+          "bookName": "João",
+          "chapter": 14
+        },
+        {
+          "bookAbbrev": "jo",
+          "bookName": "João",
+          "chapter": 15
+        }
+      ]
+    },
+    {
+      "day": 307,
+      "chapters": [
+        {
+          "bookAbbrev": "jo",
+          "bookName": "João",
+          "chapter": 16
+        },
+        {
+          "bookAbbrev": "jo",
+          "bookName": "João",
+          "chapter": 17
+        },
+        {
+          "bookAbbrev": "jo",
+          "bookName": "João",
+          "chapter": 18
+        }
+      ]
+    },
+    {
+      "day": 308,
+      "chapters": [
+        {
+          "bookAbbrev": "jo",
+          "bookName": "João",
+          "chapter": 19
+        },
+        {
+          "bookAbbrev": "jo",
+          "bookName": "João",
+          "chapter": 20
+        },
+        {
+          "bookAbbrev": "jo",
+          "bookName": "João",
+          "chapter": 21
+        }
+      ]
+    },
+    {
+      "day": 309,
+      "chapters": [
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 3
+        }
+      ]
+    },
+    {
+      "day": 310,
+      "chapters": [
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 6
+        }
+      ]
+    },
+    {
+      "day": 311,
+      "chapters": [
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 9
+        }
+      ]
+    },
+    {
+      "day": 312,
+      "chapters": [
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 11
+        },
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 12
+        }
+      ]
+    },
+    {
+      "day": 313,
+      "chapters": [
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 13
+        },
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 14
+        },
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 15
+        }
+      ]
+    },
+    {
+      "day": 314,
+      "chapters": [
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 16
+        },
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 17
+        },
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 18
+        }
+      ]
+    },
+    {
+      "day": 315,
+      "chapters": [
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 19
+        },
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 20
+        },
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 21
+        }
+      ]
+    },
+    {
+      "day": 316,
+      "chapters": [
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 22
+        },
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 23
+        },
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 24
+        }
+      ]
+    },
+    {
+      "day": 317,
+      "chapters": [
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 25
+        },
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 26
+        },
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 27
+        }
+      ]
+    },
+    {
+      "day": 318,
+      "chapters": [
+        {
+          "bookAbbrev": "atos",
+          "bookName": "Atos",
+          "chapter": 28
+        },
+        {
+          "bookAbbrev": "rm",
+          "bookName": "Romanos",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "rm",
+          "bookName": "Romanos",
+          "chapter": 2
+        }
+      ]
+    },
+    {
+      "day": 319,
+      "chapters": [
+        {
+          "bookAbbrev": "rm",
+          "bookName": "Romanos",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "rm",
+          "bookName": "Romanos",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "rm",
+          "bookName": "Romanos",
+          "chapter": 5
+        }
+      ]
+    },
+    {
+      "day": 320,
+      "chapters": [
+        {
+          "bookAbbrev": "rm",
+          "bookName": "Romanos",
+          "chapter": 6
+        },
+        {
+          "bookAbbrev": "rm",
+          "bookName": "Romanos",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "rm",
+          "bookName": "Romanos",
+          "chapter": 8
+        }
+      ]
+    },
+    {
+      "day": 321,
+      "chapters": [
+        {
+          "bookAbbrev": "rm",
+          "bookName": "Romanos",
+          "chapter": 9
+        },
+        {
+          "bookAbbrev": "rm",
+          "bookName": "Romanos",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "rm",
+          "bookName": "Romanos",
+          "chapter": 11
+        }
+      ]
+    },
+    {
+      "day": 322,
+      "chapters": [
+        {
+          "bookAbbrev": "rm",
+          "bookName": "Romanos",
+          "chapter": 12
+        },
+        {
+          "bookAbbrev": "rm",
+          "bookName": "Romanos",
+          "chapter": 13
+        },
+        {
+          "bookAbbrev": "rm",
+          "bookName": "Romanos",
+          "chapter": 14
+        }
+      ]
+    },
+    {
+      "day": 323,
+      "chapters": [
+        {
+          "bookAbbrev": "rm",
+          "bookName": "Romanos",
+          "chapter": 15
+        },
+        {
+          "bookAbbrev": "rm",
+          "bookName": "Romanos",
+          "chapter": 16
+        },
+        {
+          "bookAbbrev": "1co",
+          "bookName": "1 Coríntios",
+          "chapter": 1
+        }
+      ]
+    },
+    {
+      "day": 324,
+      "chapters": [
+        {
+          "bookAbbrev": "1co",
+          "bookName": "1 Coríntios",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "1co",
+          "bookName": "1 Coríntios",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "1co",
+          "bookName": "1 Coríntios",
+          "chapter": 4
+        }
+      ]
+    },
+    {
+      "day": 325,
+      "chapters": [
+        {
+          "bookAbbrev": "1co",
+          "bookName": "1 Coríntios",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "1co",
+          "bookName": "1 Coríntios",
+          "chapter": 6
+        },
+        {
+          "bookAbbrev": "1co",
+          "bookName": "1 Coríntios",
+          "chapter": 7
+        }
+      ]
+    },
+    {
+      "day": 326,
+      "chapters": [
+        {
+          "bookAbbrev": "1co",
+          "bookName": "1 Coríntios",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "1co",
+          "bookName": "1 Coríntios",
+          "chapter": 9
+        },
+        {
+          "bookAbbrev": "1co",
+          "bookName": "1 Coríntios",
+          "chapter": 10
+        }
+      ]
+    },
+    {
+      "day": 327,
+      "chapters": [
+        {
+          "bookAbbrev": "1co",
+          "bookName": "1 Coríntios",
+          "chapter": 11
+        },
+        {
+          "bookAbbrev": "1co",
+          "bookName": "1 Coríntios",
+          "chapter": 12
+        },
+        {
+          "bookAbbrev": "1co",
+          "bookName": "1 Coríntios",
+          "chapter": 13
+        }
+      ]
+    },
+    {
+      "day": 328,
+      "chapters": [
+        {
+          "bookAbbrev": "1co",
+          "bookName": "1 Coríntios",
+          "chapter": 14
+        },
+        {
+          "bookAbbrev": "1co",
+          "bookName": "1 Coríntios",
+          "chapter": 15
+        },
+        {
+          "bookAbbrev": "1co",
+          "bookName": "1 Coríntios",
+          "chapter": 16
+        }
+      ]
+    },
+    {
+      "day": 329,
+      "chapters": [
+        {
+          "bookAbbrev": "2co",
+          "bookName": "2 Coríntios",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "2co",
+          "bookName": "2 Coríntios",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "2co",
+          "bookName": "2 Coríntios",
+          "chapter": 3
+        }
+      ]
+    },
+    {
+      "day": 330,
+      "chapters": [
+        {
+          "bookAbbrev": "2co",
+          "bookName": "2 Coríntios",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "2co",
+          "bookName": "2 Coríntios",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "2co",
+          "bookName": "2 Coríntios",
+          "chapter": 6
+        }
+      ]
+    },
+    {
+      "day": 331,
+      "chapters": [
+        {
+          "bookAbbrev": "2co",
+          "bookName": "2 Coríntios",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "2co",
+          "bookName": "2 Coríntios",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "2co",
+          "bookName": "2 Coríntios",
+          "chapter": 9
+        }
+      ]
+    },
+    {
+      "day": 332,
+      "chapters": [
+        {
+          "bookAbbrev": "2co",
+          "bookName": "2 Coríntios",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "2co",
+          "bookName": "2 Coríntios",
+          "chapter": 11
+        },
+        {
+          "bookAbbrev": "2co",
+          "bookName": "2 Coríntios",
+          "chapter": 12
+        }
+      ]
+    },
+    {
+      "day": 333,
+      "chapters": [
+        {
+          "bookAbbrev": "2co",
+          "bookName": "2 Coríntios",
+          "chapter": 13
+        },
+        {
+          "bookAbbrev": "gl",
+          "bookName": "Gálatas",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "gl",
+          "bookName": "Gálatas",
+          "chapter": 2
+        }
+      ]
+    },
+    {
+      "day": 334,
+      "chapters": [
+        {
+          "bookAbbrev": "gl",
+          "bookName": "Gálatas",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "gl",
+          "bookName": "Gálatas",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "gl",
+          "bookName": "Gálatas",
+          "chapter": 5
+        }
+      ]
+    },
+    {
+      "day": 335,
+      "chapters": [
+        {
+          "bookAbbrev": "gl",
+          "bookName": "Gálatas",
+          "chapter": 6
+        },
+        {
+          "bookAbbrev": "ef",
+          "bookName": "Efésios",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "ef",
+          "bookName": "Efésios",
+          "chapter": 2
+        }
+      ]
+    },
+    {
+      "day": 336,
+      "chapters": [
+        {
+          "bookAbbrev": "ef",
+          "bookName": "Efésios",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "ef",
+          "bookName": "Efésios",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "ef",
+          "bookName": "Efésios",
+          "chapter": 5
+        }
+      ]
+    },
+    {
+      "day": 337,
+      "chapters": [
+        {
+          "bookAbbrev": "ef",
+          "bookName": "Efésios",
+          "chapter": 6
+        },
+        {
+          "bookAbbrev": "fp",
+          "bookName": "Filipenses",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "fp",
+          "bookName": "Filipenses",
+          "chapter": 2
+        }
+      ]
+    },
+    {
+      "day": 338,
+      "chapters": [
+        {
+          "bookAbbrev": "fp",
+          "bookName": "Filipenses",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "fp",
+          "bookName": "Filipenses",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "cl",
+          "bookName": "Colossenses",
+          "chapter": 1
+        }
+      ]
+    },
+    {
+      "day": 339,
+      "chapters": [
+        {
+          "bookAbbrev": "cl",
+          "bookName": "Colossenses",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "cl",
+          "bookName": "Colossenses",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "cl",
+          "bookName": "Colossenses",
+          "chapter": 4
+        }
+      ]
+    },
+    {
+      "day": 340,
+      "chapters": [
+        {
+          "bookAbbrev": "1ts",
+          "bookName": "1 Tessalonicenses",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "1ts",
+          "bookName": "1 Tessalonicenses",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "1ts",
+          "bookName": "1 Tessalonicenses",
+          "chapter": 3
+        }
+      ]
+    },
+    {
+      "day": 341,
+      "chapters": [
+        {
+          "bookAbbrev": "1ts",
+          "bookName": "1 Tessalonicenses",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "1ts",
+          "bookName": "1 Tessalonicenses",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "2ts",
+          "bookName": "2 Tessalonicenses",
+          "chapter": 1
+        }
+      ]
+    },
+    {
+      "day": 342,
+      "chapters": [
+        {
+          "bookAbbrev": "2ts",
+          "bookName": "2 Tessalonicenses",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "2ts",
+          "bookName": "2 Tessalonicenses",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "1tm",
+          "bookName": "1 Timóteo",
+          "chapter": 1
+        }
+      ]
+    },
+    {
+      "day": 343,
+      "chapters": [
+        {
+          "bookAbbrev": "1tm",
+          "bookName": "1 Timóteo",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "1tm",
+          "bookName": "1 Timóteo",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "1tm",
+          "bookName": "1 Timóteo",
+          "chapter": 4
+        }
+      ]
+    },
+    {
+      "day": 344,
+      "chapters": [
+        {
+          "bookAbbrev": "1tm",
+          "bookName": "1 Timóteo",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "1tm",
+          "bookName": "1 Timóteo",
+          "chapter": 6
+        },
+        {
+          "bookAbbrev": "2tm",
+          "bookName": "2 Timóteo",
+          "chapter": 1
+        }
+      ]
+    },
+    {
+      "day": 345,
+      "chapters": [
+        {
+          "bookAbbrev": "2tm",
+          "bookName": "2 Timóteo",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "2tm",
+          "bookName": "2 Timóteo",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "2tm",
+          "bookName": "2 Timóteo",
+          "chapter": 4
+        }
+      ]
+    },
+    {
+      "day": 346,
+      "chapters": [
+        {
+          "bookAbbrev": "tt",
+          "bookName": "Tito",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "tt",
+          "bookName": "Tito",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "tt",
+          "bookName": "Tito",
+          "chapter": 3
+        }
+      ]
+    },
+    {
+      "day": 347,
+      "chapters": [
+        {
+          "bookAbbrev": "fm",
+          "bookName": "Filemom",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "hb",
+          "bookName": "Hebreus",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "hb",
+          "bookName": "Hebreus",
+          "chapter": 2
+        }
+      ]
+    },
+    {
+      "day": 348,
+      "chapters": [
+        {
+          "bookAbbrev": "hb",
+          "bookName": "Hebreus",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "hb",
+          "bookName": "Hebreus",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "hb",
+          "bookName": "Hebreus",
+          "chapter": 5
+        }
+      ]
+    },
+    {
+      "day": 349,
+      "chapters": [
+        {
+          "bookAbbrev": "hb",
+          "bookName": "Hebreus",
+          "chapter": 6
+        },
+        {
+          "bookAbbrev": "hb",
+          "bookName": "Hebreus",
+          "chapter": 7
+        },
+        {
+          "bookAbbrev": "hb",
+          "bookName": "Hebreus",
+          "chapter": 8
+        }
+      ]
+    },
+    {
+      "day": 350,
+      "chapters": [
+        {
+          "bookAbbrev": "hb",
+          "bookName": "Hebreus",
+          "chapter": 9
+        },
+        {
+          "bookAbbrev": "hb",
+          "bookName": "Hebreus",
+          "chapter": 10
+        },
+        {
+          "bookAbbrev": "hb",
+          "bookName": "Hebreus",
+          "chapter": 11
+        }
+      ]
+    },
+    {
+      "day": 351,
+      "chapters": [
+        {
+          "bookAbbrev": "hb",
+          "bookName": "Hebreus",
+          "chapter": 12
+        },
+        {
+          "bookAbbrev": "hb",
+          "bookName": "Hebreus",
+          "chapter": 13
+        },
+        {
+          "bookAbbrev": "tg",
+          "bookName": "Tiago",
+          "chapter": 1
+        }
+      ]
+    },
+    {
+      "day": 352,
+      "chapters": [
+        {
+          "bookAbbrev": "tg",
+          "bookName": "Tiago",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "tg",
+          "bookName": "Tiago",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "tg",
+          "bookName": "Tiago",
+          "chapter": 4
+        }
+      ]
+    },
+    {
+      "day": 353,
+      "chapters": [
+        {
+          "bookAbbrev": "tg",
+          "bookName": "Tiago",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "1pe",
+          "bookName": "1 Pedro",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "1pe",
+          "bookName": "1 Pedro",
+          "chapter": 2
+        }
+      ]
+    },
+    {
+      "day": 354,
+      "chapters": [
+        {
+          "bookAbbrev": "1pe",
+          "bookName": "1 Pedro",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "1pe",
+          "bookName": "1 Pedro",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "1pe",
+          "bookName": "1 Pedro",
+          "chapter": 5
+        }
+      ]
+    },
+    {
+      "day": 355,
+      "chapters": [
+        {
+          "bookAbbrev": "2pe",
+          "bookName": "2 Pedro",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "2pe",
+          "bookName": "2 Pedro",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "2pe",
+          "bookName": "2 Pedro",
+          "chapter": 3
+        }
+      ]
+    },
+    {
+      "day": 356,
+      "chapters": [
+        {
+          "bookAbbrev": "1jo",
+          "bookName": "1 João",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "1jo",
+          "bookName": "1 João",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "1jo",
+          "bookName": "1 João",
+          "chapter": 3
+        }
+      ]
+    },
+    {
+      "day": 357,
+      "chapters": [
+        {
+          "bookAbbrev": "1jo",
+          "bookName": "1 João",
+          "chapter": 4
+        },
+        {
+          "bookAbbrev": "1jo",
+          "bookName": "1 João",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "2jo",
+          "bookName": "2 João",
+          "chapter": 1
+        }
+      ]
+    },
+    {
+      "day": 358,
+      "chapters": [
+        {
+          "bookAbbrev": "3jo",
+          "bookName": "3 João",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "jd",
+          "bookName": "Judas",
+          "chapter": 1
+        },
+        {
+          "bookAbbrev": "ap",
+          "bookName": "Apocalipse",
+          "chapter": 1
+        }
+      ]
+    },
+    {
+      "day": 359,
+      "chapters": [
+        {
+          "bookAbbrev": "ap",
+          "bookName": "Apocalipse",
+          "chapter": 2
+        },
+        {
+          "bookAbbrev": "ap",
+          "bookName": "Apocalipse",
+          "chapter": 3
+        },
+        {
+          "bookAbbrev": "ap",
+          "bookName": "Apocalipse",
+          "chapter": 4
+        }
+      ]
+    },
+    {
+      "day": 360,
+      "chapters": [
+        {
+          "bookAbbrev": "ap",
+          "bookName": "Apocalipse",
+          "chapter": 5
+        },
+        {
+          "bookAbbrev": "ap",
+          "bookName": "Apocalipse",
+          "chapter": 6
+        },
+        {
+          "bookAbbrev": "ap",
+          "bookName": "Apocalipse",
+          "chapter": 7
+        }
+      ]
+    },
+    {
+      "day": 361,
+      "chapters": [
+        {
+          "bookAbbrev": "ap",
+          "bookName": "Apocalipse",
+          "chapter": 8
+        },
+        {
+          "bookAbbrev": "ap",
+          "bookName": "Apocalipse",
+          "chapter": 9
+        },
+        {
+          "bookAbbrev": "ap",
+          "bookName": "Apocalipse",
+          "chapter": 10
+        }
+      ]
+    },
+    {
+      "day": 362,
+      "chapters": [
+        {
+          "bookAbbrev": "ap",
+          "bookName": "Apocalipse",
+          "chapter": 11
+        },
+        {
+          "bookAbbrev": "ap",
+          "bookName": "Apocalipse",
+          "chapter": 12
+        },
+        {
+          "bookAbbrev": "ap",
+          "bookName": "Apocalipse",
+          "chapter": 13
+        }
+      ]
+    },
+    {
+      "day": 363,
+      "chapters": [
+        {
+          "bookAbbrev": "ap",
+          "bookName": "Apocalipse",
+          "chapter": 14
+        },
+        {
+          "bookAbbrev": "ap",
+          "bookName": "Apocalipse",
+          "chapter": 15
+        },
+        {
+          "bookAbbrev": "ap",
+          "bookName": "Apocalipse",
+          "chapter": 16
+        }
+      ]
+    },
+    {
+      "day": 364,
+      "chapters": [
+        {
+          "bookAbbrev": "ap",
+          "bookName": "Apocalipse",
+          "chapter": 17
+        },
+        {
+          "bookAbbrev": "ap",
+          "bookName": "Apocalipse",
+          "chapter": 18
+        },
+        {
+          "bookAbbrev": "ap",
+          "bookName": "Apocalipse",
+          "chapter": 19
+        }
+      ]
+    },
+    {
+      "day": 365,
+      "chapters": [
+        {
+          "bookAbbrev": "ap",
+          "bookName": "Apocalipse",
+          "chapter": 20
+        },
+        {
+          "bookAbbrev": "ap",
+          "bookName": "Apocalipse",
+          "chapter": 21
+        },
+        {
+          "bookAbbrev": "ap",
+          "bookName": "Apocalipse",
+          "chapter": 22
+        }
+      ]
+    }
+  ]
+}

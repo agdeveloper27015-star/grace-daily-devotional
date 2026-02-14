@@ -1,0 +1,52 @@
+{
+  "id": "/",
+  "name": "Grace - Devocional Diario",
+  "short_name": "Grace",
+  "description": "Aplicativo devocional diario com Biblia ACF, plano de leitura anual e estudo pessoal.",
+  "lang": "pt-BR",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "portrait",
+  "theme_color": "#6B8E83",
+  "background_color": "#E8F1EE",
+  "categories": ["lifestyle", "books", "education"],
+  "shortcuts": [
+    {
+      "name": "Leitura",
+      "short_name": "Leitura",
+      "url": "/?view=LEITURA",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Busca",
+      "short_name": "Busca",
+      "url": "/?view=BUSCA",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/og/cover.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Grace Devocional"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

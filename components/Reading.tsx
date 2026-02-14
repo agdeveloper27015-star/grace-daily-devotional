@@ -7,7 +7,8 @@ import {
   saveReadingProgress,
   getReadingProgress,
   getNextChapter,
-  getPreviousChapter
+  getPreviousChapter,
+  markChapterRead,
 } from '../services/bibleService';
 import { isFavorite, toggleFavorite } from '../services/favoritesService';
 import { hasNote, addNote, getNoteByReference, updateNote, deleteNote } from '../services/notesService';
@@ -19,6 +20,9 @@ import ChapterSelector from './ChapterSelector';
 import VerseDisplay from './VerseDisplay';
 import FocusMode from './FocusMode';
 import ReadingProgress from './ReadingProgress';
+import { markChapterOpened } from '../services/readingPlanService';
+import { shareVerse } from '../services/shareService';
+import { APP_DATA_UPDATED_EVENT } from '../services/localStateService';
 
 type ViewState = 'plans' | 'books' | 'chapters' | 'reading';
 
@@ -45,6 +49,7 @@ const Reading: React.FC<ReadingProps> = ({ initialTarget, onTargetConsumed, onFo
   const [highlightedVerse, setHighlightedVerse] = useState<number | null>(null);
   const [showBackToTop, setShowBackToTop] = useState(false);
   const [selectedVerse, setSelectedVerse] = useState<number | null>(null);
+  const [shareFeedback, setShareFeedback] = useState<string | null>(null);
 
   // Note modal
   const [showNoteModal, setShowNoteModal] = useState(false);
@@ -62,6 +67,8 @@ const Reading: React.FC<ReadingProps> = ({ initialTarget, onTargetConsumed, onFo
   const [showDictionaryModal, setShowDictionaryModal] = useState(false);
   const [selectedDictionaryEntry, setSelectedDictionaryEntry] = useState<DictionaryEntry | null>(null);
   const [selectedWord, setSelectedWord] = useState('');
+  const [selectedDictionaryVerse, setSelectedDictionaryVerse] = useState<number>(0);
+  const [dictionaryNotFound, setDictionaryNotFound] = useState(false);
   const [loadingDictionary, setLoadingDictionary] = useState(false);
 
   // Highlights
@@ -105,6 +112,21 @@ const Reading: React.FC<ReadingProps> = ({ initialTarget, onTargetConsumed, onFo
       checkVersesWithNotes();
       loadHighlights();
     }
+  }, [currentChapter]);
+
+  useEffect(() => {
+    const refresh = () => {
+      checkFavoritedVerses();
+      checkVersesWithNotes();
+      loadHighlights();
+    };
+
+    window.addEventListener('storage', refresh);
+    window.addEventListener(APP_DATA_UPDATED_EVENT, refresh);
+    return () => {
+      window.removeEventListener('storage', refresh);
+      window.removeEventListener(APP_DATA_UPDATED_EVENT, refresh);
+    };
   }, [currentChapter]);
 
   useEffect(() => {
@@ -225,6 +247,8 @@ const Reading: React.FC<ReadingProps> = ({ initialTarget, onTargetConsumed, onFo
         chapter: chapterNumber,
         timestamp: Date.now()
       });
+      markChapterRead(bookToUse.abbrev, chapterNumber);
+      void markChapterOpened(bookToUse.abbrev, chapterNumber);
       setViewState('reading');
     }
     setLoading(false);
@@ -289,6 +313,28 @@ const Reading: React.FC<ReadingProps> = ({ initialTarget, onTargetConsumed, onFo
     setVerseHighlights(prev => { const m = new Map(prev); m.delete(verseNumber); return m; });
   };
 
+  const handleShareVerse = async (verse: BibleVerse) => {
+    if (!currentChapter) return;
+
+    const result = await shareVerse({
+      text: verse.text,
+      reference: `${currentChapter.bookName} ${currentChapter.chapterNumber}:${verse.number}`,
+      bookAbbrev: currentChapter.bookAbbrev,
+      chapter: currentChapter.chapterNumber,
+      verse: verse.number,
+    });
+
+    if (result === 'shared') {
+      setShareFeedback('Versiculo compartilhado.');
+    } else if (result === 'copied') {
+      setShareFeedback('Versiculo copiado para a area de transferencia.');
+    } else {
+      setShareFeedback('Nao foi possivel compartilhar agora.');
+    }
+
+    setTimeout(() => setShareFeedback(null), 2400);
+  };
+
   // Note modal
   const openNoteModal = (verse: BibleVerse) => {
     if (!currentChapter) return;
@@ -345,9 +391,11 @@ const Reading: React.FC<ReadingProps> = ({ initialTarget, onTargetConsumed, onFo
   };
 
   // Dictionary
-  const openDictionaryModalForEntry = (entry: DictionaryEntry) => {
+  const openDictionaryModalForEntry = (entry: DictionaryEntry, verseNumber: number) => {
     setSelectedWord(entry.palavra_pt);
     setSelectedDictionaryEntry(entry);
+    setSelectedDictionaryVerse(verseNumber);
+    setDictionaryNotFound(false);
     setShowDictionaryModal(true);
   };
 
@@ -356,16 +404,21 @@ const Reading: React.FC<ReadingProps> = ({ initialTarget, onTargetConsumed, onFo
     setTimeout(() => {
       setSelectedDictionaryEntry(null);
       setSelectedWord('');
+      setSelectedDictionaryVerse(0);
+      setDictionaryNotFound(false);
     }, 300);
   };
 
   const handleWordClick = async (word: string, verseNumber: number, localEntry?: DictionaryEntry) => {
     if (localEntry) {
-      openDictionaryModalForEntry(localEntry);
+      openDictionaryModalForEntry(localEntry, verseNumber);
       return;
     }
-    // No AI fallback — dictionary is offline-only now
-    // If no local entry, show nothing
+    setSelectedWord(word);
+    setSelectedDictionaryEntry(null);
+    setSelectedDictionaryVerse(verseNumber);
+    setDictionaryNotFound(true);
+    setShowDictionaryModal(true);
   };
 
   // === RENDER ===
@@ -428,9 +481,10 @@ const Reading: React.FC<ReadingProps> = ({ initialTarget, onTargetConsumed, onFo
       <DictionaryModal
         entry={selectedDictionaryEntry}
         word={selectedWord}
+        notFound={dictionaryNotFound}
         bookName={currentChapter?.bookName || ''}
         chapter={currentChapter?.chapterNumber || 0}
-        verse={0}
+        verse={selectedDictionaryVerse}
         onClose={closeDictionaryModal}
       />
     );
@@ -466,6 +520,7 @@ const Reading: React.FC<ReadingProps> = ({ initialTarget, onTargetConsumed, onFo
           onSelectVerse={setSelectedVerse}
           onToggleFavorite={handleToggleFavorite}
           onOpenNote={openNoteModal}
+          onShare={handleShareVerse}
           onHighlight={handleHighlight}
           onRemoveHighlight={removeVerseHighlight}
           onWordClick={handleWordClick}
@@ -486,6 +541,11 @@ const Reading: React.FC<ReadingProps> = ({ initialTarget, onTargetConsumed, onFo
       )}
       {renderNoteModal()}
       {renderDictionaryModal()}
+      {shareFeedback && (
+        <div className="fixed left-1/2 top-5 z-[120] -translate-x-1/2 rounded-full border border-grace-border bg-grace-surface px-4 py-2 text-xs font-semibold text-cream shadow-sm">
+          {shareFeedback}
+        </div>
+      )}
       {focusMode && currentChapter && (
         <FocusMode
           chapter={currentChapter}
@@ -499,9 +559,10 @@ const Reading: React.FC<ReadingProps> = ({ initialTarget, onTargetConsumed, onFo
       {/* Back to top */}
       <button
         onClick={scrollToTop}
-        className={`fixed bottom-24 right-5 lg:bottom-6 lg:right-6 w-12 h-12 rounded-full bg-terra text-white border border-[rgba(255,255,255,0.35)] flex items-center justify-center transition-all duration-300 hover:scale-105 z-50 ${
+        className={`back-to-top fixed right-5 lg:right-6 w-12 h-12 rounded-full bg-terra text-white border border-[rgba(255,255,255,0.35)] flex items-center justify-center transition-all duration-300 hover:scale-105 z-50 ${
           showBackToTop ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4 pointer-events-none'
         }`}
+        aria-label="Voltar ao topo"
       >
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" /></svg>
       </button>

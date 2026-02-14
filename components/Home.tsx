@@ -4,6 +4,7 @@ import { getDailyVerse, getReadingPercentage, getReadingProgress as getBibleProg
 import { getFavorites } from '../services/favoritesService';
 import { getNotes } from '../services/notesService';
 import { NavigateFn } from '../types';
+import { APP_DATA_UPDATED_EVENT } from '../services/localStateService';
 
 interface HomeProps {
   onNavigate?: NavigateFn;
@@ -21,6 +22,17 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
 
   useEffect(() => {
     loadContext();
+
+    const refresh = () => {
+      void loadContext();
+    };
+
+    window.addEventListener('storage', refresh);
+    window.addEventListener(APP_DATA_UPDATED_EVENT, refresh);
+    return () => {
+      window.removeEventListener('storage', refresh);
+      window.removeEventListener(APP_DATA_UPDATED_EVENT, refresh);
+    };
   }, []);
 
   const loadContext = async () => {

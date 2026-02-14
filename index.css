@@ -25,6 +25,8 @@
   --highlight-blue: #60a5fa;
   --highlight-pink: #fb7185;
   --highlight-orange: #e8945a;
+  --surface-glass: rgba(255, 255, 255, 0.88);
+  --surface-nav: rgba(255, 255, 255, 0.95);
 
   --space-1: 4px;
   --space-2: 8px;
@@ -43,6 +45,28 @@
   --motion-base: 180ms;
   --motion-slow: 260ms;
   --ease-standard: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+[data-theme='dark'] {
+  --bg-page: #121619;
+  --bg-surface-1: #1b2227;
+  --bg-surface-2: #252f36;
+  --bg-surface-3: #32404a;
+  --fg-primary: #f2f6f8;
+  --fg-secondary: #d5dfe5;
+  --fg-muted: #99a9b5;
+  --fg-subtle: #7b8b96;
+  --border-subtle: rgba(242, 246, 248, 0.09);
+  --border-default: rgba(242, 246, 248, 0.18);
+  --accent: #89a3c7;
+  --accent-soft: #9cb6d8;
+  --accent-deep: #6d89af;
+  --surface-glass: rgba(18, 22, 25, 0.84);
+  --surface-nav: rgba(18, 22, 25, 0.94);
+  --success: #5e9b7f;
+  --warning: #c8a25a;
+  --danger: #da7c82;
+  --info: #7ea5d7;
 }
 
 * {
@@ -105,7 +129,7 @@ body::before {
 
 .app-topbar {
   backdrop-filter: blur(8px);
-  background: rgba(246, 246, 244, 0.88);
+  background: var(--surface-glass);
   border-bottom: 1px solid var(--border-subtle);
 }
 
@@ -121,7 +145,7 @@ body::before {
 
 .paper-panel {
   border: 1px solid var(--border-subtle);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.92) 100%);
+  background: linear-gradient(180deg, var(--bg-surface-1) 0%, var(--bg-surface-1) 100%);
   border-radius: var(--radius-lg);
 }
 
@@ -154,21 +178,12 @@ body::before {
   transition: all var(--motion-base) var(--ease-standard);
 }
 
-.pill-button:hover {
-  border-color: rgba(47, 59, 82, 0.35);
-  color: var(--accent);
-}
-
 .pill-button-accent {
   border-radius: 999px;
   border: 1px solid transparent;
   background: var(--accent);
   color: #ffffff;
   transition: all var(--motion-base) var(--ease-standard);
-}
-
-.pill-button-accent:hover {
-  background: var(--accent-soft);
 }
 
 .pill-button:disabled,
@@ -186,12 +201,6 @@ body::before {
   transition: all var(--motion-base) var(--ease-standard);
 }
 
-.icon-button:hover {
-  color: var(--accent);
-  border-color: rgba(47, 59, 82, 0.35);
-  background: #ffffff;
-}
-
 .app-bottom-nav {
   position: fixed;
   left: 0;
@@ -199,8 +208,9 @@ body::before {
   bottom: 0;
   z-index: 60;
   border-top: 1px solid var(--border-subtle);
-  background: rgba(255, 255, 255, 0.95);
+  background: var(--surface-nav);
   backdrop-filter: blur(8px);
+  padding-bottom: env(safe-area-inset-bottom);
 }
 
 .app-bottom-nav button {
@@ -376,6 +386,23 @@ textarea:focus-visible {
   color: var(--fg-primary);
 }
 
+@media (hover: hover) {
+  .pill-button:hover {
+    border-color: var(--accent-soft);
+    color: var(--accent);
+  }
+
+  .pill-button-accent:hover {
+    background: var(--accent-soft);
+  }
+
+  .icon-button:hover {
+    color: var(--accent);
+    border-color: var(--accent-soft);
+    background: var(--bg-surface-1);
+  }
+}
+
 .verse-hl-yellow {
   background: rgba(250, 204, 21, 0.2);
   padding: 2px 0;
@@ -423,4 +450,14 @@ textarea:focus-visible {
 .focus-controls-hidden {
   opacity: 0;
   pointer-events: none;
+}
+
+.back-to-top {
+  bottom: calc(env(safe-area-inset-bottom) + 5.5rem);
+}
+
+@media (min-width: 1024px) {
+  .back-to-top {
+    bottom: 1.5rem;
+  }
 }
