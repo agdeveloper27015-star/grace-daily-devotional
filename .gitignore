@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 
 .vercel
+public/dicionario_completo_old.json
+public/dicionario_strong_backup.json

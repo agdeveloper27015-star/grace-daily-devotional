@@ -37,6 +37,25 @@ export const registerServiceWorker = async (): Promise<void> => {
   if (typeof window === 'undefined' || !('serviceWorker' in navigator)) return;
   if (!import.meta.env.PROD) return;
 
+  const isLocalHost =
+    window.location.hostname === 'localhost' ||
+    window.location.hostname === '127.0.0.1' ||
+    window.location.hostname === '0.0.0.0';
+
+  if (isLocalHost) {
+    try {
+      const registrations = await navigator.serviceWorker.getRegistrations();
+      await Promise.all(registrations.map((registration) => registration.unregister()));
+      if ('caches' in window) {
+        const keys = await caches.keys();
+        await Promise.all(keys.map((key) => caches.delete(key)));
+      }
+    } catch (error) {
+      console.error('[SW] Falha ao limpar ambiente local:', error);
+    }
+    return;
+  }
+
   try {
     await navigator.serviceWorker.register('/sw.js');
   } catch (error) {

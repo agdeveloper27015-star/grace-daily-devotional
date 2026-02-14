@@ -56,7 +56,36 @@
 <link rel="stylesheet" href="/index.css">
 </head>
   <body class="bg-grace-bg text-cream font-sans antialiased">
-    <div id="root"></div>
+    <div id="root">
+      <div style="padding:24px;color:#f3efe3;font-family:system-ui,sans-serif;">
+        Carregando Grace Devocional... se continuar vazio, faca um hard refresh (Ctrl+Shift+R).
+      </div>
+    </div>
+  <script>
+    (function clearLocalPreviewCaches() {
+      const isLocalhost =
+        window.location.hostname === 'localhost' ||
+        window.location.hostname === '127.0.0.1';
+
+      if (!isLocalhost) return;
+
+      window.addEventListener('load', async () => {
+        try {
+          if ('serviceWorker' in navigator) {
+            const registrations = await navigator.serviceWorker.getRegistrations();
+            await Promise.all(registrations.map((registration) => registration.unregister()));
+          }
+
+          if ('caches' in window) {
+            const cacheNames = await caches.keys();
+            await Promise.all(cacheNames.map((name) => caches.delete(name)));
+          }
+        } catch (error) {
+          console.warn('Falha ao limpar cache local do preview', error);
+        }
+      });
+    })();
+  </script>
   <script type="module" src="/index.tsx"></script>
 
 </body>
