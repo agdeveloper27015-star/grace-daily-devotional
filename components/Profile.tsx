@@ -255,7 +255,7 @@ const Profile: React.FC = () => {
 
       <div className="paper-panel p-5 text-center">
         <p className="section-kicker">Sobre</p>
-        <p className="mt-1 text-sm text-cream-dark">Grace Daily Devotional 2.0</p>
+        <p className="mt-1 text-sm text-cream-dark">Dabar Bible 2.0</p>
         <p className="text-xs text-cream-muted">Feito para estudo biblico diario</p>
       </div>
     </section>

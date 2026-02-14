@@ -183,7 +183,7 @@ const App: React.FC = () => {
         <header className="app-topbar sticky top-0 z-40">
           <div className="mx-auto flex w-full max-w-[1400px] items-center justify-between px-4 py-4 lg:px-6">
             <div>
-              <p className="meta-label">Grace Devocional</p>
+              <p className="meta-label">Dabar Bible</p>
               <h1 className="editorial-title text-[28px] leading-none lg:text-[34px]">{greeting}, Peregrino</h1>
             </div>
 

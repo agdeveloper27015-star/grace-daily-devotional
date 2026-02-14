@@ -1,7 +1,7 @@
 {
   "id": "/",
-  "name": "Grace - Devocional Diario",
-  "short_name": "Grace",
+  "name": "Dabar Bible",
+  "short_name": "Dabar",
   "description": "Aplicativo devocional diario com Biblia ACF, plano de leitura anual e estudo pessoal.",
   "lang": "pt-BR",
   "start_url": "/",
@@ -32,7 +32,7 @@
       "sizes": "1200x630",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Grace Devocional"
+      "label": "Dabar Bible"
     }
   ],
   "icons": [

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'grace-cache-v4';
+const CACHE_NAME = 'dabar-cache-v1';
 const OFFLINE_URL = '/';
 
 const PRECACHE_URLS = [
@@ -107,7 +107,7 @@ self.addEventListener('fetch', (event) => {
 
 self.addEventListener('push', (event) => {
   const data = event.data ? event.data.json() : {};
-  const title = data.title || 'Grace Devocional';
+  const title = data.title || 'Dabar Bible';
   const body = data.body || 'Seu lembrete diario de leitura chegou.';
   const url = data.url || '/';
 

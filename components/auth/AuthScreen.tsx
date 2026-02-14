@@ -22,7 +22,7 @@ const AuthScreen: React.FC = () => {
     <main className="mx-auto flex min-h-screen w-full max-w-3xl items-center px-4 py-10">
       <section className="paper-panel w-full p-6 sm:p-8">
         <p className="section-kicker">Acesso obrigatorio</p>
-        <h1 className="editorial-title mt-2 text-5xl leading-none">Grace Devocional</h1>
+        <h1 className="editorial-title mt-2 text-5xl leading-none">Dabar Bible</h1>
         <p className="mt-3 text-sm text-cream-muted">
           Entre com sua conta Google para sincronizar progresso, favoritos e notas em todos os dispositivos.
         </p>

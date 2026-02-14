@@ -80,7 +80,7 @@ Deno.serve(async () => {
           },
         },
         JSON.stringify({
-          title: 'Grace Devocional',
+          title: 'Dabar Bible',
           body: 'Seu lembrete diario: reserve um tempo para sua leitura de hoje.',
           url: '/',
           at: now.toISOString(),
