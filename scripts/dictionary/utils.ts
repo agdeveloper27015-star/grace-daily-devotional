@@ -160,6 +160,27 @@ const ROOT_WORD_REPLACEMENTS: Record<string, string> = {
   sky: 'céu',
   cloud: 'nuvem',
   clouds: 'nuvens',
+  wind: 'vento',
+  spirit: 'espírito',
+  breath: 'sopro',
+  life: 'vida',
+  wrath: 'ira',
+  anger: 'ira',
+  fury: 'fúria',
+  force: 'força',
+  strong: 'forte',
+  violent: 'forte',
+  sensible: 'sensível',
+  ressemblance: 'semelhança',
+  exhalation: 'expiração',
+  vapour: 'vapor',
+  vapor: 'vapor',
+  unsubstantiality: 'fragilidade',
+  extension: 'extensão',
+  region: 'região',
+  sensible: 'sensível',
+  term: 'termo',
+  meaning: 'sentido',
   dark: 'escuro',
   darkness: 'trevas',
   misery: 'miséria',
@@ -185,7 +206,7 @@ const ROOT_WORD_REPLACEMENTS: Record<string, string> = {
   in: 'em',
 };
 
-const LIKELY_ENGLISH_RE = /\b(?:the|and|for|with|from|where|when|above|below|literal|figurative|manner|phrase|because|therefore)\b/i;
+const LIKELY_ENGLISH_RE = /\b(?:the|and|with|from|where|when|above|below|literal|figurative|manner|phrase|because|therefore|meaning|term|word|sense|breath|wind|spirit|violent|sensible|ressemblance|exhalation|extension|region)\b/i;
 const RESIDUAL_ENGLISH_TOKENS = new Set([
   'whether',
   'sunrise',
@@ -213,11 +234,26 @@ const RESIDUAL_ENGLISH_TOKENS = new Set([
   'itc',
   'literal',
   'figurative',
+  'ressemblance',
+  'breath',
+  'sensible',
+  'violent',
+  'exhalation',
+  'unsubstantiality',
+  'meaning',
+  'sense',
+  'word',
+  'term',
+  'force',
+  'wrath',
+  'fury',
 ]);
 
 const hasResidualEnglish = (value: string): boolean => {
   const tokens = value
     .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
     .split(/[^a-z]+/g)
     .map((token) => token.trim())
     .filter(Boolean);
@@ -355,19 +391,27 @@ export const normalizePalavraPt = (raw: string, tokenFromKey: string): string =>
   return joined || source;
 };
 
-export const normalizeRootMeaning = (raw: string, strong: string): string => {
-  const source = normalizeToken(raw || '');
-  if (!source) return `Sentido lexical conforme o léxico Strong ${strong}.`;
+const pickReaderLemma = (value: string): string => {
+  const normalized = normalizeToken(value).split('/')[0].trim();
+  if (!normalized) return 'esta palavra';
+  if (LIKELY_ENGLISH_RE.test(normalized) || hasResidualEnglish(normalized)) {
+    return 'esta palavra';
+  }
+  return normalized;
+};
 
-  const words = source.split(' ').map((word) => ROOT_WORD_REPLACEMENTS[word] || word);
-  const rebuilt = words.join(' ').replace(/\s+/g, ' ').trim();
-  if (LIKELY_ENGLISH_RE.test(rebuilt) || hasResidualEnglish(rebuilt)) {
-    return `Sentido lexical do termo conforme o léxico Strong ${strong}.`;
+const rootFallback = (lemmaHint: string, strong: string): string => {
+  void strong;
+  const lemma = pickReaderLemma(lemmaHint);
+  if (lemma === 'esta palavra') {
+    return 'Ideia básica: termo central do texto original.';
   }
-  if (rebuilt.length < 12) {
-    return `${toSentenceCase(rebuilt)} no campo semântico de ${strong}.`;
-  }
-  return toSentenceCase(rebuilt);
+  return `Ideia básica: ${lemma}.`;
+};
+
+export const normalizeRootMeaning = (raw: string, strong: string, lemmaHint = ''): string => {
+  void raw;
+  return rootFallback(lemmaHint, strong);
 };
 
 export const extractSnippet = (text: string, maxLength = 128): string => {
@@ -463,17 +507,31 @@ const hasBaseIssues = (entry: DictionaryEntry): boolean => {
   return false;
 };
 
+const hasDidacticIssues = (entry: DictionaryEntry): boolean => {
+  const fields = [
+    entry.significado_raiz,
+    entry.significado_contextual,
+    entry.explicacao_detalhada,
+    entry.por_que_esta_palavra,
+    entry.conexao_teologica,
+  ];
+
+  return fields.some((field) => LIKELY_ENGLISH_RE.test(field) || hasResidualEnglish(field));
+};
+
 export const shouldReprocessEntry = (entry: DictionaryEntry): boolean => {
-  return hasEmptyContextFields(entry) || hasInvalidReferences(entry) || hasBaseIssues(entry);
+  return hasEmptyContextFields(entry) || hasInvalidReferences(entry) || hasBaseIssues(entry) || hasDidacticIssues(entry);
 };
 
 export const normalizeBaseEntry = (entry: DictionaryEntry, keyToken: string): DictionaryEntry => {
+  const palavraPt = normalizePalavraPt(entry.palavra_pt, keyToken);
+  const strong = String(entry.strong || '').trim() || '—';
   const normalized: DictionaryEntry = {
-    palavra_pt: normalizePalavraPt(entry.palavra_pt, keyToken),
+    palavra_pt: palavraPt,
     palavra_original: String(entry.palavra_original || '').trim() || '—',
     transliteracao: String(entry.transliteracao || '').trim() || '—',
-    strong: String(entry.strong || '').trim() || '—',
-    significado_raiz: normalizeRootMeaning(String(entry.significado_raiz || ''), String(entry.strong || '').trim() || '—'),
+    strong,
+    significado_raiz: normalizeRootMeaning(String(entry.significado_raiz || ''), strong, palavraPt),
     significado_contextual: String(entry.significado_contextual || '').trim(),
     explicacao_detalhada: String(entry.explicacao_detalhada || '').trim(),
     por_que_esta_palavra: String(entry.por_que_esta_palavra || '').trim(),
@@ -497,22 +555,30 @@ export const generateLocalContextualEntry = (
   const verseText = getVerseText(bibleLookup, parsed.bookKey, parsed.chapter, parsed.verse);
   const snippet = extractSnippet(verseText || normalized.palavra_pt, 140);
   const reference = formatReference(bibleLookup, parsed.bookKey, parsed.chapter, parsed.verse);
-  const lemma = normalized.palavra_pt.split('/')[0] || normalized.palavra_pt;
+  const lemma = pickReaderLemma(normalized.palavra_pt);
+  const displayLemma = lemma === 'esta palavra' ? 'esta palavra' : `"${lemma}"`;
+  const rootIdea = normalized.significado_raiz
+    .replace(/^ideia básica:\s*/i, '')
+    .replace(/\(Strong [^)]+\)\.?/gi, '')
+    .trim()
+    .toLowerCase();
 
   const references = buildReferencesForEntry(key, normalized, occurrenceMap, bibleLookup);
 
   const significadoContextual =
-    `Em ${reference}, \"${lemma}\" aparece dentro da frase \"${snippet}\" e ajuda a delimitar o sentido imediato do versículo no fluxo do capítulo.`;
+    `Em ${reference}, ${displayLemma} aparece na frase "${snippet}". Em palavras simples, essa escolha ajuda a entender a mensagem principal do versículo.`;
 
   const explicacaoDetalhada =
-    `${normalized.palavra_original} (${normalized.transliteracao}, ${normalized.strong}) mantém o campo semântico de ${normalized.significado_raiz.toLowerCase()}. ` +
-    `Nesta ocorrência, o termo atua como elemento-chave da construção textual de ${reference}, preservando nuances que nem sempre aparecem em traduções literais.`;
+    `No texto original (${normalized.palavra_original}; ${normalized.transliteracao}; ${normalized.strong}), ${displayLemma} traz a ideia de ${rootIdea || 'sentido central do termo'}. ` +
+    `Aqui, essa palavra deixa o ensino de ${reference} mais claro para o leitor.`;
 
   const porqueEstaPalavra =
-    `O autor emprega \"${lemma}\" para conduzir a interpretação do leitor no ponto central de ${reference}, evitando ambiguidades e destacando a ênfase teológica da passagem.`;
+    `O autor usa ${displayLemma} para comunicar a ideia central sem confusão. ` +
+    `Sem essa escolha, o versículo perderia clareza.`;
 
   const conexaoTeologica =
-    `A temática desta ocorrência conversa com ${references[1] || references[0]}, mostrando continuidade da revelação bíblica e aprofundando a leitura de ${reference}.`;
+    `Esse mesmo tema aparece em ${references[1] || references[0]}. ` +
+    `Lendo junto com ${reference}, fica mais fácil perceber a continuidade da mensagem bíblica.`;
 
   return {
     ...normalized,
