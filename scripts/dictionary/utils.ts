@@ -560,6 +560,7 @@ export const generateLocalContextualEntry = (
   const rootIdea = normalized.significado_raiz
     .replace(/^ideia básica:\s*/i, '')
     .replace(/\(Strong [^)]+\)\.?/gi, '')
+    .replace(/[.;:,\s]+$/g, '')
     .trim()
     .toLowerCase();
 

@@ -1,10 +1,10 @@
 {
-  "version": "dict-315f74173a04",
-  "generatedAt": "2026-02-15T04:05:47.101Z",
+  "version": "dict-ee085cd69993",
+  "generatedAt": "2026-02-15T04:11:21.533Z",
   "totalEntries": 82714,
   "totalBooks": 66,
   "totalChapters": 1189,
-  "dictionaryHash": "315f74173a049bf1a49b197db2e4473c74c83ae170ecd9ba07435f3fee304017",
+  "dictionaryHash": "ee085cd699935920ad907798dcaf60152589a3e091c11b906af2963c4e97595d",
   "books": {
     "genesis": {
       "chapters": [
@@ -1530,5947 +1530,5947 @@
     "genesis_1": {
       "path": "/data/dictionary/chapters/genesis/1.json",
       "entryCount": 89,
-      "size": 88861
+      "size": 88772
     },
     "genesis_2": {
       "path": "/data/dictionary/chapters/genesis/2.json",
       "entryCount": 73,
-      "size": 72732
+      "size": 72659
     },
     "genesis_3": {
       "path": "/data/dictionary/chapters/genesis/3.json",
       "entryCount": 65,
-      "size": 65425
+      "size": 65360
     },
     "genesis_4": {
       "path": "/data/dictionary/chapters/genesis/4.json",
       "entryCount": 72,
-      "size": 72173
+      "size": 72101
     },
     "genesis_5": {
       "path": "/data/dictionary/chapters/genesis/5.json",
       "entryCount": 95,
-      "size": 91890
+      "size": 91795
     },
     "genesis_6": {
       "path": "/data/dictionary/chapters/genesis/6.json",
       "entryCount": 62,
-      "size": 62394
+      "size": 62332
     },
     "genesis_7": {
       "path": "/data/dictionary/chapters/genesis/7.json",
       "entryCount": 64,
-      "size": 63665
+      "size": 63601
     },
     "genesis_8": {
       "path": "/data/dictionary/chapters/genesis/8.json",
       "entryCount": 58,
-      "size": 57573
+      "size": 57515
     },
     "genesis_9": {
       "path": "/data/dictionary/chapters/genesis/9.json",
       "entryCount": 80,
-      "size": 79402
+      "size": 79322
     },
     "genesis_10": {
       "path": "/data/dictionary/chapters/genesis/10.json",
       "entryCount": 76,
-      "size": 74782
+      "size": 74706
     },
     "genesis_11": {
       "path": "/data/dictionary/chapters/genesis/11.json",
       "entryCount": 93,
-      "size": 91523
+      "size": 91430
     },
     "genesis_12": {
       "path": "/data/dictionary/chapters/genesis/12.json",
       "entryCount": 57,
-      "size": 57763
+      "size": 57706
     },
     "genesis_13": {
       "path": "/data/dictionary/chapters/genesis/13.json",
       "entryCount": 50,
-      "size": 50311
+      "size": 50261
     },
     "genesis_14": {
       "path": "/data/dictionary/chapters/genesis/14.json",
       "entryCount": 61,
-      "size": 61937
+      "size": 61876
     },
     "genesis_15": {
       "path": "/data/dictionary/chapters/genesis/15.json",
       "entryCount": 53,
-      "size": 53337
+      "size": 53284
     },
     "genesis_16": {
       "path": "/data/dictionary/chapters/genesis/16.json",
       "entryCount": 47,
-      "size": 47747
+      "size": 47700
     },
     "genesis_17": {
       "path": "/data/dictionary/chapters/genesis/17.json",
       "entryCount": 78,
-      "size": 79193
+      "size": 79115
     },
     "genesis_18": {
       "path": "/data/dictionary/chapters/genesis/18.json",
       "entryCount": 94,
-      "size": 95770
+      "size": 95676
     },
     "genesis_19": {
       "path": "/data/dictionary/chapters/genesis/19.json",
       "entryCount": 107,
-      "size": 109255
+      "size": 109148
     },
     "genesis_20": {
       "path": "/data/dictionary/chapters/genesis/20.json",
       "entryCount": 53,
-      "size": 54333
+      "size": 54280
     },
     "genesis_21": {
       "path": "/data/dictionary/chapters/genesis/21.json",
       "entryCount": 93,
-      "size": 92675
+      "size": 92582
     },
     "genesis_22": {
       "path": "/data/dictionary/chapters/genesis/22.json",
       "entryCount": 65,
-      "size": 65786
+      "size": 65721
     },
     "genesis_23": {
       "path": "/data/dictionary/chapters/genesis/23.json",
       "entryCount": 53,
-      "size": 53557
+      "size": 53504
     },
     "genesis_24": {
       "path": "/data/dictionary/chapters/genesis/24.json",
       "entryCount": 188,
-      "size": 190755
+      "size": 190567
     },
     "genesis_25": {
       "path": "/data/dictionary/chapters/genesis/25.json",
       "entryCount": 93,
-      "size": 92701
+      "size": 92608
     },
     "genesis_26": {
       "path": "/data/dictionary/chapters/genesis/26.json",
       "entryCount": 95,
-      "size": 96206
+      "size": 96111
     },
     "genesis_27": {
       "path": "/data/dictionary/chapters/genesis/27.json",
       "entryCount": 128,
-      "size": 129737
+      "size": 129609
     },
     "genesis_28": {
       "path": "/data/dictionary/chapters/genesis/28.json",
       "entryCount": 64,
-      "size": 64946
+      "size": 64882
     },
     "genesis_29": {
       "path": "/data/dictionary/chapters/genesis/29.json",
       "entryCount": 98,
-      "size": 97843
+      "size": 97745
     },
     "genesis_30": {
       "path": "/data/dictionary/chapters/genesis/30.json",
       "entryCount": 114,
-      "size": 113703
+      "size": 113589
     },
     "genesis_31": {
       "path": "/data/dictionary/chapters/genesis/31.json",
       "entryCount": 145,
-      "size": 147031
+      "size": 146886
     },
     "genesis_32": {
       "path": "/data/dictionary/chapters/genesis/32.json",
       "entryCount": 93,
-      "size": 93808
+      "size": 93715
     },
     "genesis_33": {
       "path": "/data/dictionary/chapters/genesis/33.json",
       "entryCount": 56,
-      "size": 56609
+      "size": 56553
     },
     "genesis_34": {
       "path": "/data/dictionary/chapters/genesis/34.json",
       "entryCount": 86,
-      "size": 86774
+      "size": 86688
     },
     "genesis_35": {
       "path": "/data/dictionary/chapters/genesis/35.json",
       "entryCount": 80,
-      "size": 80354
+      "size": 80274
     },
     "genesis_36": {
       "path": "/data/dictionary/chapters/genesis/36.json",
       "entryCount": 121,
-      "size": 120641
+      "size": 120520
     },
     "genesis_37": {
       "path": "/data/dictionary/chapters/genesis/37.json",
       "entryCount": 92,
-      "size": 93052
+      "size": 92960
     },
     "genesis_38": {
       "path": "/data/dictionary/chapters/genesis/38.json",
       "entryCount": 79,
-      "size": 80024
+      "size": 79945
     },
     "genesis_39": {
       "path": "/data/dictionary/chapters/genesis/39.json",
       "entryCount": 65,
-      "size": 66223
+      "size": 66158
     },
     "genesis_40": {
       "path": "/data/dictionary/chapters/genesis/40.json",
       "entryCount": 57,
-      "size": 57921
+      "size": 57864
     },
     "genesis_41": {
       "path": "/data/dictionary/chapters/genesis/41.json",
       "entryCount": 152,
-      "size": 153813
+      "size": 153661
     },
     "genesis_42": {
       "path": "/data/dictionary/chapters/genesis/42.json",
       "entryCount": 109,
-      "size": 110380
+      "size": 110271
     },
     "genesis_43": {
       "path": "/data/dictionary/chapters/genesis/43.json",
       "entryCount": 98,
-      "size": 99731
+      "size": 99633
     },
     "genesis_44": {
       "path": "/data/dictionary/chapters/genesis/44.json",
       "entryCount": 98,
-      "size": 99142
+      "size": 99044
     },
     "genesis_45": {
       "path": "/data/dictionary/chapters/genesis/45.json",
       "entryCount": 78,
-      "size": 79417
+      "size": 79339
     },
     "genesis_46": {
       "path": "/data/dictionary/chapters/genesis/46.json",
       "entryCount": 92,
-      "size": 91709
+      "size": 91617
     },
     "genesis_47": {
       "path": "/data/dictionary/chapters/genesis/47.json",
       "entryCount": 90,
-      "size": 91885
+      "size": 91795
     },
     "genesis_48": {
       "path": "/data/dictionary/chapters/genesis/48.json",
       "entryCount": 62,
-      "size": 63398
+      "size": 63336
     },
     "genesis_49": {
       "path": "/data/dictionary/chapters/genesis/49.json",
       "entryCount": 80,
-      "size": 80613
+      "size": 80533
     },
     "genesis_50": {
       "path": "/data/dictionary/chapters/genesis/50.json",
       "entryCount": 74,
-      "size": 75046
+      "size": 74972
     },
     "exodo_1": {
       "path": "/data/dictionary/chapters/exodo/1.json",
       "entryCount": 55,
-      "size": 54024
+      "size": 53969
     },
     "exodo_2": {
       "path": "/data/dictionary/chapters/exodo/2.json",
       "entryCount": 74,
-      "size": 73468
+      "size": 73394
     },
     "exodo_3": {
       "path": "/data/dictionary/chapters/exodo/3.json",
       "entryCount": 64,
-      "size": 64653
+      "size": 64589
     },
     "exodo_4": {
       "path": "/data/dictionary/chapters/exodo/4.json",
       "entryCount": 89,
-      "size": 88581
+      "size": 88492
     },
     "exodo_5": {
       "path": "/data/dictionary/chapters/exodo/5.json",
       "entryCount": 65,
-      "size": 64743
+      "size": 64678
     },
     "exodo_6": {
       "path": "/data/dictionary/chapters/exodo/6.json",
       "entryCount": 85,
-      "size": 84466
+      "size": 84381
     },
     "exodo_7": {
       "path": "/data/dictionary/chapters/exodo/7.json",
       "entryCount": 80,
-      "size": 78917
+      "size": 78837
     },
     "exodo_8": {
       "path": "/data/dictionary/chapters/exodo/8.json",
       "entryCount": 77,
-      "size": 77419
+      "size": 77342
     },
     "exodo_9": {
       "path": "/data/dictionary/chapters/exodo/9.json",
       "entryCount": 100,
-      "size": 100142
+      "size": 100042
     },
     "exodo_10": {
       "path": "/data/dictionary/chapters/exodo/10.json",
       "entryCount": 83,
-      "size": 83994
+      "size": 83911
     },
     "exodo_11": {
       "path": "/data/dictionary/chapters/exodo/11.json",
       "entryCount": 30,
-      "size": 30250
+      "size": 30220
     },
     "exodo_12": {
       "path": "/data/dictionary/chapters/exodo/12.json",
       "entryCount": 145,
-      "size": 144992
+      "size": 144847
     },
     "exodo_13": {
       "path": "/data/dictionary/chapters/exodo/13.json",
       "entryCount": 59,
-      "size": 58843
+      "size": 58784
     },
     "exodo_14": {
       "path": "/data/dictionary/chapters/exodo/14.json",
       "entryCount": 88,
-      "size": 88843
+      "size": 88755
     },
     "exodo_15": {
       "path": "/data/dictionary/chapters/exodo/15.json",
       "entryCount": 76,
-      "size": 76073
+      "size": 75997
     },
     "exodo_16": {
       "path": "/data/dictionary/chapters/exodo/16.json",
       "entryCount": 105,
-      "size": 104816
+      "size": 104711
     },
     "exodo_17": {
       "path": "/data/dictionary/chapters/exodo/17.json",
       "entryCount": 46,
-      "size": 46378
+      "size": 46332
     },
     "exodo_18": {
       "path": "/data/dictionary/chapters/exodo/18.json",
       "entryCount": 75,
-      "size": 75031
+      "size": 74956
     },
     "exodo_19": {
       "path": "/data/dictionary/chapters/exodo/19.json",
       "entryCount": 71,
-      "size": 71260
+      "size": 71189
     },
     "exodo_20": {
       "path": "/data/dictionary/chapters/exodo/20.json",
       "entryCount": 74,
-      "size": 72643
+      "size": 72569
     },
     "exodo_21": {
       "path": "/data/dictionary/chapters/exodo/21.json",
       "entryCount": 97,
-      "size": 95519
+      "size": 95422
     },
     "exodo_22": {
       "path": "/data/dictionary/chapters/exodo/22.json",
       "entryCount": 84,
-      "size": 83175
+      "size": 83091
     },
     "exodo_23": {
       "path": "/data/dictionary/chapters/exodo/23.json",
       "entryCount": 87,
-      "size": 86950
+      "size": 86863
     },
     "exodo_24": {
       "path": "/data/dictionary/chapters/exodo/24.json",
       "entryCount": 49,
-      "size": 49336
+      "size": 49287
     },
     "exodo_25": {
       "path": "/data/dictionary/chapters/exodo/25.json",
       "entryCount": 87,
-      "size": 86154
+      "size": 86067
     },
     "exodo_26": {
       "path": "/data/dictionary/chapters/exodo/26.json",
       "entryCount": 79,
-      "size": 79763
+      "size": 79684
     },
     "exodo_27": {
       "path": "/data/dictionary/chapters/exodo/27.json",
       "entryCount": 50,
-      "size": 50549
+      "size": 50499
     },
     "exodo_28": {
       "path": "/data/dictionary/chapters/exodo/28.json",
       "entryCount": 113,
-      "size": 113724
+      "size": 113611
     },
     "exodo_29": {
       "path": "/data/dictionary/chapters/exodo/29.json",
       "entryCount": 121,
-      "size": 122259
+      "size": 122138
     },
     "exodo_30": {
       "path": "/data/dictionary/chapters/exodo/30.json",
       "entryCount": 101,
-      "size": 100787
+      "size": 100686
     },
     "exodo_31": {
       "path": "/data/dictionary/chapters/exodo/31.json",
       "entryCount": 47,
-      "size": 46822
+      "size": 46775
     },
     "exodo_32": {
       "path": "/data/dictionary/chapters/exodo/32.json",
       "entryCount": 101,
-      "size": 101651
+      "size": 101550
     },
     "exodo_33": {
       "path": "/data/dictionary/chapters/exodo/33.json",
       "entryCount": 67,
-      "size": 67238
+      "size": 67171
     },
     "exodo_34": {
       "path": "/data/dictionary/chapters/exodo/34.json",
       "entryCount": 94,
-      "size": 94885
+      "size": 94791
     },
     "exodo_35": {
       "path": "/data/dictionary/chapters/exodo/35.json",
       "entryCount": 90,
-      "size": 90161
+      "size": 90071
     },
     "exodo_36": {
       "path": "/data/dictionary/chapters/exodo/36.json",
       "entryCount": 85,
-      "size": 85436
+      "size": 85351
     },
     "exodo_37": {
       "path": "/data/dictionary/chapters/exodo/37.json",
       "entryCount": 58,
-      "size": 57689
+      "size": 57631
     },
     "exodo_38": {
       "path": "/data/dictionary/chapters/exodo/38.json",
       "entryCount": 75,
-      "size": 75788
+      "size": 75713
     },
     "exodo_39": {
       "path": "/data/dictionary/chapters/exodo/39.json",
       "entryCount": 107,
-      "size": 107163
+      "size": 107056
     },
     "exodo_40": {
       "path": "/data/dictionary/chapters/exodo/40.json",
       "entryCount": 102,
-      "size": 101155
+      "size": 101053
     },
     "levitico_1": {
       "path": "/data/dictionary/chapters/levitico/1.json",
       "entryCount": 45,
-      "size": 46599
+      "size": 46554
     },
     "levitico_2": {
       "path": "/data/dictionary/chapters/levitico/2.json",
       "entryCount": 44,
-      "size": 45414
+      "size": 45370
     },
     "levitico_3": {
       "path": "/data/dictionary/chapters/levitico/3.json",
       "entryCount": 45,
-      "size": 46498
+      "size": 46453
     },
     "levitico_4": {
       "path": "/data/dictionary/chapters/levitico/4.json",
       "entryCount": 91,
-      "size": 94159
+      "size": 94068
     },
     "levitico_5": {
       "path": "/data/dictionary/chapters/levitico/5.json",
       "entryCount": 70,
-      "size": 70065
+      "size": 69995
     },
     "levitico_6": {
       "path": "/data/dictionary/chapters/levitico/6.json",
       "entryCount": 60,
-      "size": 61495
+      "size": 61435
     },
     "levitico_7": {
       "path": "/data/dictionary/chapters/levitico/7.json",
       "entryCount": 96,
-      "size": 98381
+      "size": 98285
     },
     "levitico_8": {
       "path": "/data/dictionary/chapters/levitico/8.json",
       "entryCount": 101,
-      "size": 102899
+      "size": 102798
     },
     "levitico_9": {
       "path": "/data/dictionary/chapters/levitico/9.json",
       "entryCount": 57,
-      "size": 58150
+      "size": 58093
     },
     "levitico_10": {
       "path": "/data/dictionary/chapters/levitico/10.json",
       "entryCount": 55,
-      "size": 56682
+      "size": 56627
     },
     "levitico_11": {
       "path": "/data/dictionary/chapters/levitico/11.json",
       "entryCount": 99,
-      "size": 100496
+      "size": 100397
     },
     "levitico_12": {
       "path": "/data/dictionary/chapters/levitico/12.json",
       "entryCount": 21,
-      "size": 21572
+      "size": 21551
     },
     "levitico_13": {
       "path": "/data/dictionary/chapters/levitico/13.json",
       "entryCount": 156,
-      "size": 160659
+      "size": 160503
     },
     "levitico_14": {
       "path": "/data/dictionary/chapters/levitico/14.json",
       "entryCount": 156,
-      "size": 161049
+      "size": 160893
     },
     "levitico_15": {
       "path": "/data/dictionary/chapters/levitico/15.json",
       "entryCount": 85,
-      "size": 87774
+      "size": 87689
     },
     "levitico_16": {
       "path": "/data/dictionary/chapters/levitico/16.json",
       "entryCount": 94,
-      "size": 97740
+      "size": 97646
     },
     "levitico_17": {
       "path": "/data/dictionary/chapters/levitico/17.json",
       "entryCount": 46,
-      "size": 47452
+      "size": 47406
     },
     "levitico_18": {
       "path": "/data/dictionary/chapters/levitico/18.json",
       "entryCount": 85,
-      "size": 86312
+      "size": 86227
     },
     "levitico_19": {
       "path": "/data/dictionary/chapters/levitico/19.json",
       "entryCount": 103,
-      "size": 105090
+      "size": 104987
     },
     "levitico_20": {
       "path": "/data/dictionary/chapters/levitico/20.json",
       "entryCount": 80,
-      "size": 82795
+      "size": 82715
     },
     "levitico_21": {
       "path": "/data/dictionary/chapters/levitico/21.json",
       "entryCount": 65,
-      "size": 66271
+      "size": 66206
     },
     "levitico_22": {
       "path": "/data/dictionary/chapters/levitico/22.json",
       "entryCount": 93,
-      "size": 94765
+      "size": 94672
     },
     "levitico_23": {
       "path": "/data/dictionary/chapters/levitico/23.json",
       "entryCount": 120,
-      "size": 122129
+      "size": 122009
     },
     "levitico_24": {
       "path": "/data/dictionary/chapters/levitico/24.json",
       "entryCount": 63,
-      "size": 63747
+      "size": 63684
     },
     "levitico_25": {
       "path": "/data/dictionary/chapters/levitico/25.json",
       "entryCount": 161,
-      "size": 164808
+      "size": 164647
     },
     "levitico_26": {
       "path": "/data/dictionary/chapters/levitico/26.json",
       "entryCount": 134,
-      "size": 137911
+      "size": 137777
     },
     "levitico_27": {
       "path": "/data/dictionary/chapters/levitico/27.json",
       "entryCount": 93,
-      "size": 95615
+      "size": 95522
     },
     "numeros_1": {
       "path": "/data/dictionary/chapters/numeros/1.json",
       "entryCount": 153,
-      "size": 153090
+      "size": 152937
     },
     "numeros_2": {
       "path": "/data/dictionary/chapters/numeros/2.json",
       "entryCount": 90,
-      "size": 90968
+      "size": 90878
     },
     "numeros_3": {
       "path": "/data/dictionary/chapters/numeros/3.json",
       "entryCount": 143,
-      "size": 144613
+      "size": 144470
     },
     "numeros_4": {
       "path": "/data/dictionary/chapters/numeros/4.json",
       "entryCount": 136,
-      "size": 138319
+      "size": 138183
     },
     "numeros_5": {
       "path": "/data/dictionary/chapters/numeros/5.json",
       "entryCount": 89,
-      "size": 90383
+      "size": 90294
     },
     "numeros_6": {
       "path": "/data/dictionary/chapters/numeros/6.json",
       "entryCount": 73,
-      "size": 73291
+      "size": 73218
     },
     "numeros_7": {
       "path": "/data/dictionary/chapters/numeros/7.json",
       "entryCount": 213,
-      "size": 209309
+      "size": 209096
     },
     "numeros_8": {
       "path": "/data/dictionary/chapters/numeros/8.json",
       "entryCount": 72,
-      "size": 72525
+      "size": 72453
     },
     "numeros_9": {
       "path": "/data/dictionary/chapters/numeros/9.json",
       "entryCount": 62,
-      "size": 62579
+      "size": 62517
     },
     "numeros_10": {
       "path": "/data/dictionary/chapters/numeros/10.json",
       "entryCount": 99,
-      "size": 99427
+      "size": 99328
     },
     "numeros_11": {
       "path": "/data/dictionary/chapters/numeros/11.json",
       "entryCount": 96,
-      "size": 97516
+      "size": 97420
     },
     "numeros_12": {
       "path": "/data/dictionary/chapters/numeros/12.json",
       "entryCount": 43,
-      "size": 43398
+      "size": 43355
     },
     "numeros_13": {
       "path": "/data/dictionary/chapters/numeros/13.json",
       "entryCount": 90,
-      "size": 89509
+      "size": 89419
     },
     "numeros_14": {
       "path": "/data/dictionary/chapters/numeros/14.json",
       "entryCount": 130,
-      "size": 131710
+      "size": 131580
     },
     "numeros_15": {
       "path": "/data/dictionary/chapters/numeros/15.json",
       "entryCount": 108,
-      "size": 109694
+      "size": 109586
     },
     "numeros_16": {
       "path": "/data/dictionary/chapters/numeros/16.json",
       "entryCount": 101,
-      "size": 102413
+      "size": 102312
     },
     "numeros_17": {
       "path": "/data/dictionary/chapters/numeros/17.json",
       "entryCount": 80,
-      "size": 75958
+      "size": 75878
     },
     "numeros_18": {
       "path": "/data/dictionary/chapters/numeros/18.json",
       "entryCount": 85,
-      "size": 87508
+      "size": 87423
     },
     "numeros_19": {
       "path": "/data/dictionary/chapters/numeros/19.json",
       "entryCount": 59,
-      "size": 60498
+      "size": 60439
     },
     "numeros_20": {
       "path": "/data/dictionary/chapters/numeros/20.json",
       "entryCount": 85,
-      "size": 86498
+      "size": 86413
     },
     "numeros_21": {
       "path": "/data/dictionary/chapters/numeros/21.json",
       "entryCount": 88,
-      "size": 89680
+      "size": 89592
     },
     "numeros_22": {
       "path": "/data/dictionary/chapters/numeros/22.json",
       "entryCount": 109,
-      "size": 111581
+      "size": 111472
     },
     "numeros_23": {
       "path": "/data/dictionary/chapters/numeros/23.json",
       "entryCount": 80,
-      "size": 81449
+      "size": 81369
     },
     "numeros_24": {
       "path": "/data/dictionary/chapters/numeros/24.json",
       "entryCount": 63,
-      "size": 64038
+      "size": 63975
     },
     "numeros_25": {
       "path": "/data/dictionary/chapters/numeros/25.json",
       "entryCount": 52,
-      "size": 51985
+      "size": 51933
     },
     "numeros_26": {
       "path": "/data/dictionary/chapters/numeros/26.json",
       "entryCount": 177,
-      "size": 179845
+      "size": 179668
     },
     "numeros_27": {
       "path": "/data/dictionary/chapters/numeros/27.json",
       "entryCount": 61,
-      "size": 61803
+      "size": 61742
     },
     "numeros_28": {
       "path": "/data/dictionary/chapters/numeros/28.json",
       "entryCount": 73,
-      "size": 73820
+      "size": 73747
     },
     "numeros_29": {
       "path": "/data/dictionary/chapters/numeros/29.json",
       "entryCount": 83,
-      "size": 84642
+      "size": 84559
     },
     "numeros_30": {
       "path": "/data/dictionary/chapters/numeros/30.json",
       "entryCount": 51,
-      "size": 52004
+      "size": 51953
     },
     "numeros_31": {
       "path": "/data/dictionary/chapters/numeros/31.json",
       "entryCount": 147,
-      "size": 147996
+      "size": 147849
     },
     "numeros_32": {
       "path": "/data/dictionary/chapters/numeros/32.json",
       "entryCount": 116,
-      "size": 117554
+      "size": 117438
     },
     "numeros_33": {
       "path": "/data/dictionary/chapters/numeros/33.json",
       "entryCount": 127,
-      "size": 125702
+      "size": 125575
     },
     "numeros_34": {
       "path": "/data/dictionary/chapters/numeros/34.json",
       "entryCount": 82,
-      "size": 81422
+      "size": 81340
     },
     "numeros_35": {
       "path": "/data/dictionary/chapters/numeros/35.json",
       "entryCount": 94,
-      "size": 95696
+      "size": 95602
     },
     "numeros_36": {
       "path": "/data/dictionary/chapters/numeros/36.json",
       "entryCount": 38,
-      "size": 39037
+      "size": 38999
     },
     "deuteronomio_1": {
       "path": "/data/dictionary/chapters/deuteronomio/1.json",
       "entryCount": 128,
-      "size": 133569
+      "size": 133441
     },
     "deuteronomio_2": {
       "path": "/data/dictionary/chapters/deuteronomio/2.json",
       "entryCount": 107,
-      "size": 111590
+      "size": 111483
     },
     "deuteronomio_3": {
       "path": "/data/dictionary/chapters/deuteronomio/3.json",
       "entryCount": 80,
-      "size": 83897
+      "size": 83817
     },
     "deuteronomio_4": {
       "path": "/data/dictionary/chapters/deuteronomio/4.json",
       "entryCount": 141,
-      "size": 148496
+      "size": 148355
     },
     "deuteronomio_5": {
       "path": "/data/dictionary/chapters/deuteronomio/5.json",
       "entryCount": 94,
-      "size": 97186
+      "size": 97092
     },
     "deuteronomio_6": {
       "path": "/data/dictionary/chapters/deuteronomio/6.json",
       "entryCount": 73,
-      "size": 75728
+      "size": 75655
     },
     "deuteronomio_7": {
       "path": "/data/dictionary/chapters/deuteronomio/7.json",
       "entryCount": 76,
-      "size": 80378
+      "size": 80302
     },
     "deuteronomio_8": {
       "path": "/data/dictionary/chapters/deuteronomio/8.json",
       "entryCount": 56,
-      "size": 58610
+      "size": 58554
     },
     "deuteronomio_9": {
       "path": "/data/dictionary/chapters/deuteronomio/9.json",
       "entryCount": 81,
-      "size": 85648
+      "size": 85567
     },
     "deuteronomio_10": {
       "path": "/data/dictionary/chapters/deuteronomio/10.json",
       "entryCount": 64,
-      "size": 67407
+      "size": 67343
     },
     "deuteronomio_11": {
       "path": "/data/dictionary/chapters/deuteronomio/11.json",
       "entryCount": 95,
-      "size": 100207
+      "size": 100112
     },
     "deuteronomio_12": {
       "path": "/data/dictionary/chapters/deuteronomio/12.json",
       "entryCount": 84,
-      "size": 88783
+      "size": 88699
     },
     "deuteronomio_13": {
       "path": "/data/dictionary/chapters/deuteronomio/13.json",
       "entryCount": 54,
-      "size": 56720
+      "size": 56666
     },
     "deuteronomio_14": {
       "path": "/data/dictionary/chapters/deuteronomio/14.json",
       "entryCount": 64,
-      "size": 65901
+      "size": 65837
     },
     "deuteronomio_15": {
       "path": "/data/dictionary/chapters/deuteronomio/15.json",
       "entryCount": 68,
-      "size": 71789
+      "size": 71721
     },
     "deuteronomio_16": {
       "path": "/data/dictionary/chapters/deuteronomio/16.json",
       "entryCount": 57,
-      "size": 60172
+      "size": 60115
     },
     "deuteronomio_17": {
       "path": "/data/dictionary/chapters/deuteronomio/17.json",
       "entryCount": 57,
-      "size": 61006
+      "size": 60949
     },
     "deuteronomio_18": {
       "path": "/data/dictionary/chapters/deuteronomio/18.json",
       "entryCount": 61,
-      "size": 64180
+      "size": 64119
     },
     "deuteronomio_19": {
       "path": "/data/dictionary/chapters/deuteronomio/19.json",
       "entryCount": 59,
-      "size": 62162
+      "size": 62103
     },
     "deuteronomio_20": {
       "path": "/data/dictionary/chapters/deuteronomio/20.json",
       "entryCount": 59,
-      "size": 62650
+      "size": 62591
     },
     "deuteronomio_21": {
       "path": "/data/dictionary/chapters/deuteronomio/21.json",
       "entryCount": 67,
-      "size": 70791
+      "size": 70724
     },
     "deuteronomio_22": {
       "path": "/data/dictionary/chapters/deuteronomio/22.json",
       "entryCount": 78,
-      "size": 82144
+      "size": 82066
     },
     "deuteronomio_23": {
       "path": "/data/dictionary/chapters/deuteronomio/23.json",
       "entryCount": 75,
-      "size": 78424
+      "size": 78349
     },
     "deuteronomio_24": {
       "path": "/data/dictionary/chapters/deuteronomio/24.json",
       "entryCount": 62,
-      "size": 65089
+      "size": 65027
     },
     "deuteronomio_25": {
       "path": "/data/dictionary/chapters/deuteronomio/25.json",
       "entryCount": 55,
-      "size": 57392
+      "size": 57337
     },
     "deuteronomio_26": {
       "path": "/data/dictionary/chapters/deuteronomio/26.json",
       "entryCount": 56,
-      "size": 59593
+      "size": 59537
     },
     "deuteronomio_27": {
       "path": "/data/dictionary/chapters/deuteronomio/27.json",
       "entryCount": 74,
-      "size": 76688
+      "size": 76614
     },
     "deuteronomio_28": {
       "path": "/data/dictionary/chapters/deuteronomio/28.json",
       "entryCount": 187,
-      "size": 196782
+      "size": 196595
     },
     "deuteronomio_29": {
       "path": "/data/dictionary/chapters/deuteronomio/29.json",
       "entryCount": 78,
-      "size": 82377
+      "size": 82299
     },
     "deuteronomio_30": {
       "path": "/data/dictionary/chapters/deuteronomio/30.json",
       "entryCount": 59,
-      "size": 62411
+      "size": 62352
     },
     "deuteronomio_31": {
       "path": "/data/dictionary/chapters/deuteronomio/31.json",
       "entryCount": 81,
-      "size": 85760
+      "size": 85679
     },
     "deuteronomio_32": {
       "path": "/data/dictionary/chapters/deuteronomio/32.json",
       "entryCount": 146,
-      "size": 152697
+      "size": 152551
     },
     "deuteronomio_33": {
       "path": "/data/dictionary/chapters/deuteronomio/33.json",
       "entryCount": 80,
-      "size": 84086
+      "size": 84006
     },
     "deuteronomio_34": {
       "path": "/data/dictionary/chapters/deuteronomio/34.json",
       "entryCount": 35,
-      "size": 36608
+      "size": 36573
     },
     "josue_1": {
       "path": "/data/dictionary/chapters/josue/1.json",
       "entryCount": 50,
-      "size": 50024
+      "size": 49974
     },
     "josue_2": {
       "path": "/data/dictionary/chapters/josue/2.json",
       "entryCount": 66,
-      "size": 66777
+      "size": 66711
     },
     "josue_3": {
       "path": "/data/dictionary/chapters/josue/3.json",
       "entryCount": 46,
-      "size": 46446
+      "size": 46400
     },
     "josue_4": {
       "path": "/data/dictionary/chapters/josue/4.json",
       "entryCount": 68,
-      "size": 67590
+      "size": 67522
     },
     "josue_5": {
       "path": "/data/dictionary/chapters/josue/5.json",
       "entryCount": 44,
-      "size": 44373
+      "size": 44329
     },
     "josue_6": {
       "path": "/data/dictionary/chapters/josue/6.json",
       "entryCount": 80,
-      "size": 80496
+      "size": 80416
     },
     "josue_7": {
       "path": "/data/dictionary/chapters/josue/7.json",
       "entryCount": 75,
-      "size": 75848
+      "size": 75773
     },
     "josue_8": {
       "path": "/data/dictionary/chapters/josue/8.json",
       "entryCount": 103,
-      "size": 103660
+      "size": 103557
     },
     "josue_9": {
       "path": "/data/dictionary/chapters/josue/9.json",
       "entryCount": 75,
-      "size": 75285
+      "size": 75210
     },
     "josue_10": {
       "path": "/data/dictionary/chapters/josue/10.json",
       "entryCount": 118,
-      "size": 118540
+      "size": 118422
     },
     "josue_11": {
       "path": "/data/dictionary/chapters/josue/11.json",
       "entryCount": 67,
-      "size": 67760
+      "size": 67693
     },
     "josue_12": {
       "path": "/data/dictionary/chapters/josue/12.json",
       "entryCount": 64,
-      "size": 61732
+      "size": 61668
     },
     "josue_13": {
       "path": "/data/dictionary/chapters/josue/13.json",
       "entryCount": 81,
-      "size": 81095
+      "size": 81014
     },
     "josue_14": {
       "path": "/data/dictionary/chapters/josue/14.json",
       "entryCount": 45,
-      "size": 45605
+      "size": 45560
     },
     "josue_15": {
       "path": "/data/dictionary/chapters/josue/15.json",
       "entryCount": 134,
-      "size": 130688
+      "size": 130554
     },
     "josue_16": {
       "path": "/data/dictionary/chapters/josue/16.json",
       "entryCount": 27,
-      "size": 27005
+      "size": 26978
     },
     "josue_17": {
       "path": "/data/dictionary/chapters/josue/17.json",
       "entryCount": 51,
-      "size": 51860
+      "size": 51809
     },
     "josue_18": {
       "path": "/data/dictionary/chapters/josue/18.json",
       "entryCount": 74,
-      "size": 74450
+      "size": 74376
     },
     "josue_19": {
       "path": "/data/dictionary/chapters/josue/19.json",
       "entryCount": 116,
-      "size": 113948
+      "size": 113832
     },
     "josue_20": {
       "path": "/data/dictionary/chapters/josue/20.json",
       "entryCount": 25,
-      "size": 25385
+      "size": 25360
     },
     "josue_21": {
       "path": "/data/dictionary/chapters/josue/21.json",
       "entryCount": 126,
-      "size": 126018
+      "size": 125892
     },
     "josue_22": {
       "path": "/data/dictionary/chapters/josue/22.json",
       "entryCount": 93,
-      "size": 95334
+      "size": 95241
     },
     "josue_23": {
       "path": "/data/dictionary/chapters/josue/23.json",
       "entryCount": 48,
-      "size": 48667
+      "size": 48619
     },
     "josue_24": {
       "path": "/data/dictionary/chapters/josue/24.json",
       "entryCount": 94,
-      "size": 95265
+      "size": 95171
     },
     "juizes_1": {
       "path": "/data/dictionary/chapters/juizes/1.json",
       "entryCount": 102,
-      "size": 102849
+      "size": 102747
     },
     "juizes_2": {
       "path": "/data/dictionary/chapters/juizes/2.json",
       "entryCount": 67,
-      "size": 67711
+      "size": 67644
     },
     "juizes_3": {
       "path": "/data/dictionary/chapters/juizes/3.json",
       "entryCount": 87,
-      "size": 88088
+      "size": 88001
     },
     "juizes_4": {
       "path": "/data/dictionary/chapters/juizes/4.json",
       "entryCount": 65,
-      "size": 66196
+      "size": 66131
     },
     "juizes_5": {
       "path": "/data/dictionary/chapters/juizes/5.json",
       "entryCount": 74,
-      "size": 74327
+      "size": 74253
     },
     "juizes_6": {
       "path": "/data/dictionary/chapters/juizes/6.json",
       "entryCount": 114,
-      "size": 115726
+      "size": 115612
     },
     "juizes_7": {
       "path": "/data/dictionary/chapters/juizes/7.json",
       "entryCount": 74,
-      "size": 75527
+      "size": 75453
     },
     "juizes_8": {
       "path": "/data/dictionary/chapters/juizes/8.json",
       "entryCount": 103,
-      "size": 104195
+      "size": 104092
     },
     "juizes_9": {
       "path": "/data/dictionary/chapters/juizes/9.json",
       "entryCount": 164,
-      "size": 166789
+      "size": 166625
     },
     "juizes_10": {
       "path": "/data/dictionary/chapters/juizes/10.json",
       "entryCount": 52,
-      "size": 52431
+      "size": 52379
     },
     "juizes_11": {
       "path": "/data/dictionary/chapters/juizes/11.json",
       "entryCount": 115,
-      "size": 117087
+      "size": 116972
     },
     "juizes_12": {
       "path": "/data/dictionary/chapters/juizes/12.json",
       "entryCount": 42,
-      "size": 41965
+      "size": 41923
     },
     "juizes_13": {
       "path": "/data/dictionary/chapters/juizes/13.json",
       "entryCount": 72,
-      "size": 73329
+      "size": 73257
     },
     "juizes_14": {
       "path": "/data/dictionary/chapters/juizes/14.json",
       "entryCount": 54,
-      "size": 54977
+      "size": 54923
     },
     "juizes_15": {
       "path": "/data/dictionary/chapters/juizes/15.json",
       "entryCount": 58,
-      "size": 58999
+      "size": 58941
     },
     "juizes_16": {
       "path": "/data/dictionary/chapters/juizes/16.json",
       "entryCount": 87,
-      "size": 89452
+      "size": 89365
     },
     "juizes_17": {
       "path": "/data/dictionary/chapters/juizes/17.json",
       "entryCount": 38,
-      "size": 38281
+      "size": 38243
     },
     "juizes_18": {
       "path": "/data/dictionary/chapters/juizes/18.json",
       "entryCount": 90,
-      "size": 91917
+      "size": 91827
     },
     "juizes_19": {
       "path": "/data/dictionary/chapters/juizes/19.json",
       "entryCount": 87,
-      "size": 89230
+      "size": 89143
     },
     "juizes_20": {
       "path": "/data/dictionary/chapters/juizes/20.json",
       "entryCount": 136,
-      "size": 138137
+      "size": 138001
     },
     "juizes_21": {
       "path": "/data/dictionary/chapters/juizes/21.json",
       "entryCount": 71,
-      "size": 72116
+      "size": 72045
     },
     "rute_1": {
       "path": "/data/dictionary/chapters/rute/1.json",
       "entryCount": 62,
-      "size": 61154
+      "size": 61092
     },
     "rute_2": {
       "path": "/data/dictionary/chapters/rute/2.json",
       "entryCount": 62,
-      "size": 61777
+      "size": 61715
     },
     "rute_3": {
       "path": "/data/dictionary/chapters/rute/3.json",
       "entryCount": 52,
-      "size": 51303
+      "size": 51251
     },
     "rute_4": {
       "path": "/data/dictionary/chapters/rute/4.json",
       "entryCount": 64,
-      "size": 62565
+      "size": 62501
     },
     "1samuel_1": {
       "path": "/data/dictionary/chapters/1samuel/1.json",
       "entryCount": 83,
-      "size": 84107
+      "size": 84024
     },
     "1samuel_2": {
       "path": "/data/dictionary/chapters/1samuel/2.json",
       "entryCount": 102,
-      "size": 104218
+      "size": 104116
     },
     "1samuel_3": {
       "path": "/data/dictionary/chapters/1samuel/3.json",
       "entryCount": 61,
-      "size": 62029
+      "size": 61968
     },
     "1samuel_4": {
       "path": "/data/dictionary/chapters/1samuel/4.json",
       "entryCount": 63,
-      "size": 64641
+      "size": 64578
     },
     "1samuel_5": {
       "path": "/data/dictionary/chapters/1samuel/5.json",
       "entryCount": 35,
-      "size": 35649
+      "size": 35614
     },
     "1samuel_6": {
       "path": "/data/dictionary/chapters/1samuel/6.json",
       "entryCount": 57,
-      "size": 58608
+      "size": 58551
     },
     "1samuel_7": {
       "path": "/data/dictionary/chapters/1samuel/7.json",
       "entryCount": 48,
-      "size": 48490
+      "size": 48442
     },
     "1samuel_8": {
       "path": "/data/dictionary/chapters/1samuel/8.json",
       "entryCount": 61,
-      "size": 61208
+      "size": 61147
     },
     "1samuel_9": {
       "path": "/data/dictionary/chapters/1samuel/9.json",
       "entryCount": 74,
-      "size": 75740
+      "size": 75666
     },
     "1samuel_10": {
       "path": "/data/dictionary/chapters/1samuel/10.json",
       "entryCount": 78,
-      "size": 79593
+      "size": 79515
     },
     "1samuel_11": {
       "path": "/data/dictionary/chapters/1samuel/11.json",
       "entryCount": 43,
-      "size": 43978
+      "size": 43935
     },
     "1samuel_12": {
       "path": "/data/dictionary/chapters/1samuel/12.json",
       "entryCount": 73,
-      "size": 75050
+      "size": 74977
     },
     "1samuel_13": {
       "path": "/data/dictionary/chapters/1samuel/13.json",
       "entryCount": 61,
-      "size": 62865
+      "size": 62804
     },
     "1samuel_14": {
       "path": "/data/dictionary/chapters/1samuel/14.json",
       "entryCount": 145,
-      "size": 148508
+      "size": 148363
     },
     "1samuel_15": {
       "path": "/data/dictionary/chapters/1samuel/15.json",
       "entryCount": 99,
-      "size": 100744
+      "size": 100645
     },
     "1samuel_16": {
       "path": "/data/dictionary/chapters/1samuel/16.json",
       "entryCount": 67,
-      "size": 68536
+      "size": 68469
     },
     "1samuel_17": {
       "path": "/data/dictionary/chapters/1samuel/17.json",
       "entryCount": 155,
-      "size": 158631
+      "size": 158476
     },
     "1samuel_18": {
       "path": "/data/dictionary/chapters/1samuel/18.json",
       "entryCount": 84,
-      "size": 84807
+      "size": 84723
     },
     "1samuel_19": {
       "path": "/data/dictionary/chapters/1samuel/19.json",
       "entryCount": 66,
-      "size": 67647
+      "size": 67581
     },
     "1samuel_20": {
       "path": "/data/dictionary/chapters/1samuel/20.json",
       "entryCount": 118,
-      "size": 120938
+      "size": 120820
     },
     "1samuel_21": {
       "path": "/data/dictionary/chapters/1samuel/21.json",
       "entryCount": 48,
-      "size": 48928
+      "size": 48880
     },
     "1samuel_22": {
       "path": "/data/dictionary/chapters/1samuel/22.json",
       "entryCount": 64,
-      "size": 65603
+      "size": 65539
     },
     "1samuel_23": {
       "path": "/data/dictionary/chapters/1samuel/23.json",
       "entryCount": 77,
-      "size": 79147
+      "size": 79070
     },
     "1samuel_24": {
       "path": "/data/dictionary/chapters/1samuel/24.json",
       "entryCount": 66,
-      "size": 67126
+      "size": 67060
     },
     "1samuel_25": {
       "path": "/data/dictionary/chapters/1samuel/25.json",
       "entryCount": 128,
-      "size": 131358
+      "size": 131230
     },
     "1samuel_26": {
       "path": "/data/dictionary/chapters/1samuel/26.json",
       "entryCount": 73,
-      "size": 75103
+      "size": 75030
     },
     "1samuel_27": {
       "path": "/data/dictionary/chapters/1samuel/27.json",
       "entryCount": 36,
-      "size": 36727
+      "size": 36691
     },
     "1samuel_28": {
       "path": "/data/dictionary/chapters/1samuel/28.json",
       "entryCount": 73,
-      "size": 74906
+      "size": 74833
     },
     "1samuel_29": {
       "path": "/data/dictionary/chapters/1samuel/29.json",
       "entryCount": 29,
-      "size": 29804
+      "size": 29775
     },
     "1samuel_30": {
       "path": "/data/dictionary/chapters/1samuel/30.json",
       "entryCount": 81,
-      "size": 83143
+      "size": 83062
     },
     "1samuel_31": {
       "path": "/data/dictionary/chapters/1samuel/31.json",
       "entryCount": 38,
-      "size": 38602
+      "size": 38564
     },
     "2samuel_1": {
       "path": "/data/dictionary/chapters/2samuel/1.json",
       "entryCount": 73,
-      "size": 73686
+      "size": 73613
     },
     "2samuel_2": {
       "path": "/data/dictionary/chapters/2samuel/2.json",
       "entryCount": 87,
-      "size": 88729
+      "size": 88642
     },
     "2samuel_3": {
       "path": "/data/dictionary/chapters/2samuel/3.json",
       "entryCount": 113,
-      "size": 114858
+      "size": 114745
     },
     "2samuel_4": {
       "path": "/data/dictionary/chapters/2samuel/4.json",
       "entryCount": 32,
-      "size": 32533
+      "size": 32501
     },
     "2samuel_5": {
       "path": "/data/dictionary/chapters/2samuel/5.json",
       "entryCount": 68,
-      "size": 68343
+      "size": 68275
     },
     "2samuel_6": {
       "path": "/data/dictionary/chapters/2samuel/6.json",
       "entryCount": 65,
-      "size": 65879
+      "size": 65814
     },
     "2samuel_7": {
       "path": "/data/dictionary/chapters/2samuel/7.json",
       "entryCount": 84,
-      "size": 85206
+      "size": 85122
     },
     "2samuel_8": {
       "path": "/data/dictionary/chapters/2samuel/8.json",
       "entryCount": 45,
-      "size": 45224
+      "size": 45179
     },
     "2samuel_9": {
       "path": "/data/dictionary/chapters/2samuel/9.json",
       "entryCount": 39,
-      "size": 39173
+      "size": 39134
     },
     "2samuel_10": {
       "path": "/data/dictionary/chapters/2samuel/10.json",
       "entryCount": 57,
-      "size": 58444
+      "size": 58387
     },
     "2samuel_11": {
       "path": "/data/dictionary/chapters/2samuel/11.json",
       "entryCount": 79,
-      "size": 80878
+      "size": 80799
     },
     "2samuel_12": {
       "path": "/data/dictionary/chapters/2samuel/12.json",
       "entryCount": 92,
-      "size": 94219
+      "size": 94127
     },
     "2samuel_13": {
       "path": "/data/dictionary/chapters/2samuel/13.json",
       "entryCount": 112,
-      "size": 114547
+      "size": 114435
     },
     "2samuel_14": {
       "path": "/data/dictionary/chapters/2samuel/14.json",
       "entryCount": 94,
-      "size": 95849
+      "size": 95755
     },
     "2samuel_15": {
       "path": "/data/dictionary/chapters/2samuel/15.json",
       "entryCount": 106,
-      "size": 108465
+      "size": 108359
     },
     "2samuel_16": {
       "path": "/data/dictionary/chapters/2samuel/16.json",
       "entryCount": 69,
-      "size": 70418
+      "size": 70349
     },
     "2samuel_17": {
       "path": "/data/dictionary/chapters/2samuel/17.json",
       "entryCount": 83,
-      "size": 85211
+      "size": 85128
     },
     "2samuel_18": {
       "path": "/data/dictionary/chapters/2samuel/18.json",
       "entryCount": 90,
-      "size": 91854
+      "size": 91764
     },
     "2samuel_19": {
       "path": "/data/dictionary/chapters/2samuel/19.json",
       "entryCount": 127,
-      "size": 129210
+      "size": 129083
     },
     "2samuel_20": {
       "path": "/data/dictionary/chapters/2samuel/20.json",
       "entryCount": 72,
-      "size": 73409
+      "size": 73337
     },
     "2samuel_21": {
       "path": "/data/dictionary/chapters/2samuel/21.json",
       "entryCount": 63,
-      "size": 64553
+      "size": 64490
     },
     "2samuel_22": {
       "path": "/data/dictionary/chapters/2samuel/22.json",
       "entryCount": 141,
-      "size": 139551
+      "size": 139410
     },
     "2samuel_23": {
       "path": "/data/dictionary/chapters/2samuel/23.json",
       "entryCount": 100,
-      "size": 100262
+      "size": 100162
     },
     "2samuel_24": {
       "path": "/data/dictionary/chapters/2samuel/24.json",
       "entryCount": 72,
-      "size": 73729
+      "size": 73657
     },
     "1reis_1": {
       "path": "/data/dictionary/chapters/1reis/1.json",
       "entryCount": 151,
-      "size": 151548
+      "size": 151397
     },
     "1reis_2": {
       "path": "/data/dictionary/chapters/1reis/2.json",
       "entryCount": 134,
-      "size": 134598
+      "size": 134464
     },
     "1reis_3": {
       "path": "/data/dictionary/chapters/1reis/3.json",
       "entryCount": 80,
-      "size": 80160
+      "size": 80080
     },
     "1reis_4": {
       "path": "/data/dictionary/chapters/1reis/4.json",
       "entryCount": 54,
-      "size": 52175
+      "size": 52121
     },
     "1reis_5": {
       "path": "/data/dictionary/chapters/1reis/5.json",
       "entryCount": 87,
-      "size": 82673
+      "size": 82586
     },
     "1reis_6": {
       "path": "/data/dictionary/chapters/1reis/6.json",
       "entryCount": 100,
-      "size": 99266
+      "size": 99166
     },
     "1reis_7": {
       "path": "/data/dictionary/chapters/1reis/7.json",
       "entryCount": 116,
-      "size": 117064
+      "size": 116948
     },
     "1reis_8": {
       "path": "/data/dictionary/chapters/1reis/8.json",
       "entryCount": 188,
-      "size": 189584
+      "size": 189396
     },
     "1reis_9": {
       "path": "/data/dictionary/chapters/1reis/9.json",
       "entryCount": 78,
-      "size": 78062
+      "size": 77984
     },
     "1reis_10": {
       "path": "/data/dictionary/chapters/1reis/10.json",
       "entryCount": 79,
-      "size": 79514
+      "size": 79435
     },
     "1reis_11": {
       "path": "/data/dictionary/chapters/1reis/11.json",
       "entryCount": 120,
-      "size": 121609
+      "size": 121489
     },
     "1reis_12": {
       "path": "/data/dictionary/chapters/1reis/12.json",
       "entryCount": 94,
-      "size": 94419
+      "size": 94325
     },
     "1reis_13": {
       "path": "/data/dictionary/chapters/1reis/13.json",
       "entryCount": 99,
-      "size": 100341
+      "size": 100242
     },
     "1reis_14": {
       "path": "/data/dictionary/chapters/1reis/14.json",
       "entryCount": 87,
-      "size": 88064
+      "size": 87977
     },
     "1reis_15": {
       "path": "/data/dictionary/chapters/1reis/15.json",
       "entryCount": 100,
-      "size": 100280
+      "size": 100180
     },
     "1reis_16": {
       "path": "/data/dictionary/chapters/1reis/16.json",
       "entryCount": 98,
-      "size": 98902
+      "size": 98804
     },
     "1reis_17": {
       "path": "/data/dictionary/chapters/1reis/17.json",
       "entryCount": 68,
-      "size": 68419
+      "size": 68351
     },
     "1reis_18": {
       "path": "/data/dictionary/chapters/1reis/18.json",
       "entryCount": 132,
-      "size": 133280
+      "size": 133148
     },
     "1reis_19": {
       "path": "/data/dictionary/chapters/1reis/19.json",
       "entryCount": 60,
-      "size": 61348
+      "size": 61288
     },
     "1reis_20": {
       "path": "/data/dictionary/chapters/1reis/20.json",
       "entryCount": 122,
-      "size": 123506
+      "size": 123384
     },
     "1reis_21": {
       "path": "/data/dictionary/chapters/1reis/21.json",
       "entryCount": 84,
-      "size": 84951
+      "size": 84867
     },
     "1reis_22": {
       "path": "/data/dictionary/chapters/1reis/22.json",
       "entryCount": 154,
-      "size": 154480
+      "size": 154326
     },
     "2reis_1": {
       "path": "/data/dictionary/chapters/2reis/1.json",
       "entryCount": 50,
-      "size": 50345
+      "size": 50295
     },
     "2reis_2": {
       "path": "/data/dictionary/chapters/2reis/2.json",
       "entryCount": 73,
-      "size": 73674
+      "size": 73601
     },
     "2reis_3": {
       "path": "/data/dictionary/chapters/2reis/3.json",
       "entryCount": 81,
-      "size": 80990
+      "size": 80909
     },
     "2reis_4": {
       "path": "/data/dictionary/chapters/2reis/4.json",
       "entryCount": 126,
-      "size": 126042
+      "size": 125916
     },
     "2reis_5": {
       "path": "/data/dictionary/chapters/2reis/5.json",
       "entryCount": 79,
-      "size": 80131
+      "size": 80052
     },
     "2reis_6": {
       "path": "/data/dictionary/chapters/2reis/6.json",
       "entryCount": 97,
-      "size": 97228
+      "size": 97131
     },
     "2reis_7": {
       "path": "/data/dictionary/chapters/2reis/7.json",
       "entryCount": 58,
-      "size": 58681
+      "size": 58623
     },
     "2reis_8": {
       "path": "/data/dictionary/chapters/2reis/8.json",
       "entryCount": 84,
-      "size": 84681
+      "size": 84597
     },
     "2reis_9": {
       "path": "/data/dictionary/chapters/2reis/9.json",
       "entryCount": 99,
-      "size": 100106
+      "size": 100007
     },
     "2reis_10": {
       "path": "/data/dictionary/chapters/2reis/10.json",
       "entryCount": 103,
-      "size": 103726
+      "size": 103623
     },
     "2reis_11": {
       "path": "/data/dictionary/chapters/2reis/11.json",
       "entryCount": 58,
-      "size": 58679
+      "size": 58621
     },
     "2reis_12": {
       "path": "/data/dictionary/chapters/2reis/12.json",
       "entryCount": 65,
-      "size": 65559
+      "size": 65494
     },
     "2reis_13": {
       "path": "/data/dictionary/chapters/2reis/13.json",
       "entryCount": 74,
-      "size": 75171
+      "size": 75097
     },
     "2reis_14": {
       "path": "/data/dictionary/chapters/2reis/14.json",
       "entryCount": 86,
-      "size": 86818
+      "size": 86732
     },
     "2reis_15": {
       "path": "/data/dictionary/chapters/2reis/15.json",
       "entryCount": 113,
-      "size": 113802
+      "size": 113689
     },
     "2reis_16": {
       "path": "/data/dictionary/chapters/2reis/16.json",
       "entryCount": 60,
-      "size": 60943
+      "size": 60883
     },
     "2reis_17": {
       "path": "/data/dictionary/chapters/2reis/17.json",
       "entryCount": 119,
-      "size": 120789
+      "size": 120670
     },
     "2reis_18": {
       "path": "/data/dictionary/chapters/2reis/18.json",
       "entryCount": 103,
-      "size": 104938
+      "size": 104835
     },
     "2reis_19": {
       "path": "/data/dictionary/chapters/2reis/19.json",
       "entryCount": 104,
-      "size": 105230
+      "size": 105126
     },
     "2reis_20": {
       "path": "/data/dictionary/chapters/2reis/20.json",
       "entryCount": 62,
-      "size": 62654
+      "size": 62592
     },
     "2reis_21": {
       "path": "/data/dictionary/chapters/2reis/21.json",
       "entryCount": 73,
-      "size": 73387
+      "size": 73314
     },
     "2reis_22": {
       "path": "/data/dictionary/chapters/2reis/22.json",
       "entryCount": 60,
-      "size": 61075
+      "size": 61015
     },
     "2reis_23": {
       "path": "/data/dictionary/chapters/2reis/23.json",
       "entryCount": 106,
-      "size": 108176
+      "size": 108070
     },
     "2reis_24": {
       "path": "/data/dictionary/chapters/2reis/24.json",
       "entryCount": 56,
-      "size": 56556
+      "size": 56500
     },
     "2reis_25": {
       "path": "/data/dictionary/chapters/2reis/25.json",
       "entryCount": 80,
-      "size": 80759
+      "size": 80679
     },
     "1cronicas_1": {
       "path": "/data/dictionary/chapters/1cronicas/1.json",
       "entryCount": 135,
-      "size": 132208
+      "size": 132073
     },
     "1cronicas_2": {
       "path": "/data/dictionary/chapters/1cronicas/2.json",
       "entryCount": 141,
-      "size": 139594
+      "size": 139453
     },
     "1cronicas_3": {
       "path": "/data/dictionary/chapters/1cronicas/3.json",
       "entryCount": 59,
-      "size": 59113
+      "size": 59054
     },
     "1cronicas_4": {
       "path": "/data/dictionary/chapters/1cronicas/4.json",
       "entryCount": 118,
-      "size": 118956
+      "size": 118838
     },
     "1cronicas_5": {
       "path": "/data/dictionary/chapters/1cronicas/5.json",
       "entryCount": 101,
-      "size": 99989
+      "size": 99888
     },
     "1cronicas_6": {
       "path": "/data/dictionary/chapters/1cronicas/6.json",
       "entryCount": 175,
-      "size": 173483
+      "size": 173308
     },
     "1cronicas_7": {
       "path": "/data/dictionary/chapters/1cronicas/7.json",
       "entryCount": 111,
-      "size": 111870
+      "size": 111759
     },
     "1cronicas_8": {
       "path": "/data/dictionary/chapters/1cronicas/8.json",
       "entryCount": 103,
-      "size": 101556
+      "size": 101453
     },
     "1cronicas_9": {
       "path": "/data/dictionary/chapters/1cronicas/9.json",
       "entryCount": 120,
-      "size": 122203
+      "size": 122083
     },
     "1cronicas_10": {
       "path": "/data/dictionary/chapters/1cronicas/10.json",
       "entryCount": 40,
-      "size": 41200
+      "size": 41160
     },
     "1cronicas_11": {
       "path": "/data/dictionary/chapters/1cronicas/11.json",
       "entryCount": 118,
-      "size": 119568
+      "size": 119450
     },
     "1cronicas_12": {
       "path": "/data/dictionary/chapters/1cronicas/12.json",
       "entryCount": 105,
-      "size": 107703
+      "size": 107598
     },
     "1cronicas_13": {
       "path": "/data/dictionary/chapters/1cronicas/13.json",
       "entryCount": 39,
-      "size": 40316
+      "size": 40277
     },
     "1cronicas_14": {
       "path": "/data/dictionary/chapters/1cronicas/14.json",
       "entryCount": 45,
-      "size": 46091
+      "size": 46046
     },
     "1cronicas_15": {
       "path": "/data/dictionary/chapters/1cronicas/15.json",
       "entryCount": 65,
-      "size": 67426
+      "size": 67361
     },
     "1cronicas_16": {
       "path": "/data/dictionary/chapters/1cronicas/16.json",
       "entryCount": 113,
-      "size": 115440
+      "size": 115327
     },
     "1cronicas_17": {
       "path": "/data/dictionary/chapters/1cronicas/17.json",
       "entryCount": 77,
-      "size": 80280
+      "size": 80203
     },
     "1cronicas_18": {
       "path": "/data/dictionary/chapters/1cronicas/18.json",
       "entryCount": 43,
-      "size": 44228
+      "size": 44185
     },
     "1cronicas_19": {
       "path": "/data/dictionary/chapters/1cronicas/19.json",
       "entryCount": 55,
-      "size": 57486
+      "size": 57431
     },
     "1cronicas_20": {
       "path": "/data/dictionary/chapters/1cronicas/20.json",
       "entryCount": 23,
-      "size": 23773
+      "size": 23750
     },
     "1cronicas_21": {
       "path": "/data/dictionary/chapters/1cronicas/21.json",
       "entryCount": 84,
-      "size": 86794
+      "size": 86710
     },
     "1cronicas_22": {
       "path": "/data/dictionary/chapters/1cronicas/22.json",
       "entryCount": 54,
-      "size": 56855
+      "size": 56801
     },
     "1cronicas_23": {
       "path": "/data/dictionary/chapters/1cronicas/23.json",
       "entryCount": 89,
-      "size": 90876
+      "size": 90787
     },
     "1cronicas_24": {
       "path": "/data/dictionary/chapters/1cronicas/24.json",
       "entryCount": 75,
-      "size": 75226
+      "size": 75151
     },
     "1cronicas_25": {
       "path": "/data/dictionary/chapters/1cronicas/25.json",
       "entryCount": 79,
-      "size": 79278
+      "size": 79199
     },
     "1cronicas_26": {
       "path": "/data/dictionary/chapters/1cronicas/26.json",
       "entryCount": 87,
-      "size": 89716
+      "size": 89629
     },
     "1cronicas_27": {
       "path": "/data/dictionary/chapters/1cronicas/27.json",
       "entryCount": 78,
-      "size": 80081
+      "size": 80003
     },
     "1cronicas_28": {
       "path": "/data/dictionary/chapters/1cronicas/28.json",
       "entryCount": 51,
-      "size": 53622
+      "size": 53571
     },
     "1cronicas_29": {
       "path": "/data/dictionary/chapters/1cronicas/29.json",
       "entryCount": 84,
-      "size": 88166
+      "size": 88082
     },
     "2cronicas_1": {
       "path": "/data/dictionary/chapters/2cronicas/1.json",
       "entryCount": 50,
-      "size": 51931
+      "size": 51881
     },
     "2cronicas_2": {
       "path": "/data/dictionary/chapters/2cronicas/2.json",
       "entryCount": 47,
-      "size": 49059
+      "size": 49012
     },
     "2cronicas_3": {
       "path": "/data/dictionary/chapters/2cronicas/3.json",
       "entryCount": 45,
-      "size": 46575
+      "size": 46530
     },
     "2cronicas_4": {
       "path": "/data/dictionary/chapters/2cronicas/4.json",
       "entryCount": 54,
-      "size": 55474
+      "size": 55420
     },
     "2cronicas_5": {
       "path": "/data/dictionary/chapters/2cronicas/5.json",
       "entryCount": 38,
-      "size": 39620
+      "size": 39582
     },
     "2cronicas_6": {
       "path": "/data/dictionary/chapters/2cronicas/6.json",
       "entryCount": 122,
-      "size": 127457
+      "size": 127335
     },
     "2cronicas_7": {
       "path": "/data/dictionary/chapters/2cronicas/7.json",
       "entryCount": 62,
-      "size": 64566
+      "size": 64504
     },
     "2cronicas_8": {
       "path": "/data/dictionary/chapters/2cronicas/8.json",
       "entryCount": 46,
-      "size": 47014
+      "size": 46968
     },
     "2cronicas_9": {
       "path": "/data/dictionary/chapters/2cronicas/9.json",
       "entryCount": 87,
-      "size": 89399
+      "size": 89312
     },
     "2cronicas_10": {
       "path": "/data/dictionary/chapters/2cronicas/10.json",
       "entryCount": 54,
-      "size": 56017
+      "size": 55963
     },
     "2cronicas_11": {
       "path": "/data/dictionary/chapters/2cronicas/11.json",
       "entryCount": 60,
-      "size": 61598
+      "size": 61538
     },
     "2cronicas_12": {
       "path": "/data/dictionary/chapters/2cronicas/12.json",
       "entryCount": 42,
-      "size": 43618
+      "size": 43576
     },
     "2cronicas_13": {
       "path": "/data/dictionary/chapters/2cronicas/13.json",
       "entryCount": 66,
-      "size": 68902
+      "size": 68836
     },
     "2cronicas_14": {
       "path": "/data/dictionary/chapters/2cronicas/14.json",
       "entryCount": 38,
-      "size": 39173
+      "size": 39135
     },
     "2cronicas_15": {
       "path": "/data/dictionary/chapters/2cronicas/15.json",
       "entryCount": 54,
-      "size": 55767
+      "size": 55713
     },
     "2cronicas_16": {
       "path": "/data/dictionary/chapters/2cronicas/16.json",
       "entryCount": 40,
-      "size": 41924
+      "size": 41884
     },
     "2cronicas_17": {
       "path": "/data/dictionary/chapters/2cronicas/17.json",
       "entryCount": 52,
-      "size": 53606
+      "size": 53554
     },
     "2cronicas_18": {
       "path": "/data/dictionary/chapters/2cronicas/18.json",
       "entryCount": 99,
-      "size": 103019
+      "size": 102920
     },
     "2cronicas_19": {
       "path": "/data/dictionary/chapters/2cronicas/19.json",
       "entryCount": 32,
-      "size": 33466
+      "size": 33434
     },
     "2cronicas_20": {
       "path": "/data/dictionary/chapters/2cronicas/20.json",
       "entryCount": 104,
-      "size": 109024
+      "size": 108920
     },
     "2cronicas_21": {
       "path": "/data/dictionary/chapters/2cronicas/21.json",
       "entryCount": 55,
-      "size": 57600
+      "size": 57545
     },
     "2cronicas_22": {
       "path": "/data/dictionary/chapters/2cronicas/22.json",
       "entryCount": 35,
-      "size": 36808
+      "size": 36773
     },
     "2cronicas_23": {
       "path": "/data/dictionary/chapters/2cronicas/23.json",
       "entryCount": 59,
-      "size": 61988
+      "size": 61929
     },
     "2cronicas_24": {
       "path": "/data/dictionary/chapters/2cronicas/24.json",
       "entryCount": 79,
-      "size": 82425
+      "size": 82346
     },
     "2cronicas_25": {
       "path": "/data/dictionary/chapters/2cronicas/25.json",
       "entryCount": 80,
-      "size": 83810
+      "size": 83730
     },
     "2cronicas_26": {
       "path": "/data/dictionary/chapters/2cronicas/26.json",
       "entryCount": 66,
-      "size": 68981
+      "size": 68915
     },
     "2cronicas_27": {
       "path": "/data/dictionary/chapters/2cronicas/27.json",
       "entryCount": 25,
-      "size": 25732
+      "size": 25707
     },
     "2cronicas_28": {
       "path": "/data/dictionary/chapters/2cronicas/28.json",
       "entryCount": 74,
-      "size": 77650
+      "size": 77576
     },
     "2cronicas_29": {
       "path": "/data/dictionary/chapters/2cronicas/29.json",
       "entryCount": 94,
-      "size": 98442
+      "size": 98348
     },
     "2cronicas_30": {
       "path": "/data/dictionary/chapters/2cronicas/30.json",
       "entryCount": 78,
-      "size": 82080
+      "size": 82002
     },
     "2cronicas_31": {
       "path": "/data/dictionary/chapters/2cronicas/31.json",
       "entryCount": 57,
-      "size": 59981
+      "size": 59924
     },
     "2cronicas_32": {
       "path": "/data/dictionary/chapters/2cronicas/32.json",
       "entryCount": 91,
-      "size": 95884
+      "size": 95793
     },
     "2cronicas_33": {
       "path": "/data/dictionary/chapters/2cronicas/33.json",
       "entryCount": 73,
-      "size": 76042
+      "size": 75969
     },
     "2cronicas_34": {
       "path": "/data/dictionary/chapters/2cronicas/34.json",
       "entryCount": 95,
-      "size": 99500
+      "size": 99405
     },
     "2cronicas_35": {
       "path": "/data/dictionary/chapters/2cronicas/35.json",
       "entryCount": 73,
-      "size": 76689
+      "size": 76616
     },
     "2cronicas_36": {
       "path": "/data/dictionary/chapters/2cronicas/36.json",
       "entryCount": 63,
-      "size": 66266
+      "size": 66203
     },
     "esdras_1": {
       "path": "/data/dictionary/chapters/esdras/1.json",
       "entryCount": 28,
-      "size": 28344
+      "size": 28316
     },
     "esdras_2": {
       "path": "/data/dictionary/chapters/esdras/2.json",
       "entryCount": 180,
-      "size": 171906
+      "size": 171726
     },
     "esdras_3": {
       "path": "/data/dictionary/chapters/esdras/3.json",
       "entryCount": 35,
-      "size": 35837
+      "size": 35802
     },
     "esdras_4": {
       "path": "/data/dictionary/chapters/esdras/4.json",
       "entryCount": 61,
-      "size": 62116
+      "size": 62055
     },
     "esdras_5": {
       "path": "/data/dictionary/chapters/esdras/5.json",
       "entryCount": 47,
-      "size": 47872
+      "size": 47825
     },
     "esdras_6": {
       "path": "/data/dictionary/chapters/esdras/6.json",
       "entryCount": 58,
-      "size": 59167
+      "size": 59109
     },
     "esdras_7": {
       "path": "/data/dictionary/chapters/esdras/7.json",
       "entryCount": 72,
-      "size": 72582
+      "size": 72510
     },
     "esdras_8": {
       "path": "/data/dictionary/chapters/esdras/8.json",
       "entryCount": 97,
-      "size": 96371
+      "size": 96274
     },
     "esdras_9": {
       "path": "/data/dictionary/chapters/esdras/9.json",
       "entryCount": 42,
-      "size": 42821
+      "size": 42779
     },
     "esdras_10": {
       "path": "/data/dictionary/chapters/esdras/10.json",
       "entryCount": 110,
-      "size": 108439
+      "size": 108329
     },
     "neemias_1": {
       "path": "/data/dictionary/chapters/neemias/1.json",
       "entryCount": 32,
-      "size": 32761
+      "size": 32729
     },
     "neemias_2": {
       "path": "/data/dictionary/chapters/neemias/2.json",
       "entryCount": 53,
-      "size": 53739
+      "size": 53686
     },
     "neemias_3": {
       "path": "/data/dictionary/chapters/neemias/3.json",
       "entryCount": 102,
-      "size": 101219
+      "size": 101117
     },
     "neemias_4": {
       "path": "/data/dictionary/chapters/neemias/4.json",
       "entryCount": 44,
-      "size": 44635
+      "size": 44591
     },
     "neemias_5": {
       "path": "/data/dictionary/chapters/neemias/5.json",
       "entryCount": 53,
-      "size": 53514
+      "size": 53461
     },
     "neemias_6": {
       "path": "/data/dictionary/chapters/neemias/6.json",
       "entryCount": 54,
-      "size": 54872
+      "size": 54818
     },
     "neemias_7": {
       "path": "/data/dictionary/chapters/neemias/7.json",
       "entryCount": 189,
-      "size": 183317
+      "size": 183128
     },
     "neemias_8": {
       "path": "/data/dictionary/chapters/neemias/8.json",
       "entryCount": 51,
-      "size": 52137
+      "size": 52086
     },
     "neemias_9": {
       "path": "/data/dictionary/chapters/neemias/9.json",
       "entryCount": 105,
-      "size": 107558
+      "size": 107453
     },
     "neemias_10": {
       "path": "/data/dictionary/chapters/neemias/10.json",
       "entryCount": 88,
-      "size": 85896
+      "size": 85808
     },
     "neemias_11": {
       "path": "/data/dictionary/chapters/neemias/11.json",
       "entryCount": 83,
-      "size": 82914
+      "size": 82831
     },
     "neemias_12": {
       "path": "/data/dictionary/chapters/neemias/12.json",
       "entryCount": 105,
-      "size": 105185
+      "size": 105080
     },
     "neemias_13": {
       "path": "/data/dictionary/chapters/neemias/13.json",
       "entryCount": 84,
-      "size": 85931
+      "size": 85847
     },
     "ester_1": {
       "path": "/data/dictionary/chapters/ester/1.json",
       "entryCount": 58,
-      "size": 58309
+      "size": 58251
     },
     "ester_2": {
       "path": "/data/dictionary/chapters/ester/2.json",
       "entryCount": 62,
-      "size": 61845
+      "size": 61783
     },
     "ester_3": {
       "path": "/data/dictionary/chapters/ester/3.json",
       "entryCount": 44,
-      "size": 43834
+      "size": 43790
     },
     "ester_4": {
       "path": "/data/dictionary/chapters/ester/4.json",
       "entryCount": 45,
-      "size": 44018
+      "size": 43973
     },
     "ester_5": {
       "path": "/data/dictionary/chapters/ester/5.json",
       "entryCount": 40,
-      "size": 39650
+      "size": 39610
     },
     "ester_6": {
       "path": "/data/dictionary/chapters/ester/6.json",
       "entryCount": 38,
-      "size": 37795
+      "size": 37757
     },
     "ester_7": {
       "path": "/data/dictionary/chapters/ester/7.json",
       "entryCount": 29,
-      "size": 28732
+      "size": 28703
     },
     "ester_8": {
       "path": "/data/dictionary/chapters/ester/8.json",
       "entryCount": 50,
-      "size": 49724
+      "size": 49674
     },
     "ester_9": {
       "path": "/data/dictionary/chapters/ester/9.json",
       "entryCount": 81,
-      "size": 80885
+      "size": 80804
     },
     "ester_10": {
       "path": "/data/dictionary/chapters/ester/10.json",
       "entryCount": 9,
-      "size": 8837
+      "size": 8828
     },
     "jo_1": {
       "path": "/data/dictionary/chapters/jo/1.json",
       "entryCount": 65,
-      "size": 63276
+      "size": 63211
     },
     "jo_2": {
       "path": "/data/dictionary/chapters/jo/2.json",
       "entryCount": 37,
-      "size": 36033
+      "size": 35996
     },
     "jo_3": {
       "path": "/data/dictionary/chapters/jo/3.json",
       "entryCount": 66,
-      "size": 61764
+      "size": 61698
     },
     "jo_4": {
       "path": "/data/dictionary/chapters/jo/4.json",
       "entryCount": 48,
-      "size": 45350
+      "size": 45302
     },
     "jo_5": {
       "path": "/data/dictionary/chapters/jo/5.json",
       "entryCount": 71,
-      "size": 66926
+      "size": 66855
     },
     "jo_6": {
       "path": "/data/dictionary/chapters/jo/6.json",
       "entryCount": 74,
-      "size": 70072
+      "size": 69998
     },
     "jo_7": {
       "path": "/data/dictionary/chapters/jo/7.json",
       "entryCount": 55,
-      "size": 52259
+      "size": 52204
     },
     "jo_8": {
       "path": "/data/dictionary/chapters/jo/8.json",
       "entryCount": 63,
-      "size": 59413
+      "size": 59350
     },
     "jo_9": {
       "path": "/data/dictionary/chapters/jo/9.json",
       "entryCount": 96,
-      "size": 89889
+      "size": 89793
     },
     "jo_10": {
       "path": "/data/dictionary/chapters/jo/10.json",
       "entryCount": 59,
-      "size": 56228
+      "size": 56169
     },
     "jo_11": {
       "path": "/data/dictionary/chapters/jo/11.json",
       "entryCount": 53,
-      "size": 50553
+      "size": 50500
     },
     "jo_12": {
       "path": "/data/dictionary/chapters/jo/12.json",
       "entryCount": 66,
-      "size": 62503
+      "size": 62437
     },
     "jo_13": {
       "path": "/data/dictionary/chapters/jo/13.json",
       "entryCount": 75,
-      "size": 70617
+      "size": 70542
     },
     "jo_14": {
       "path": "/data/dictionary/chapters/jo/14.json",
       "entryCount": 58,
-      "size": 55038
+      "size": 54980
     },
     "jo_15": {
       "path": "/data/dictionary/chapters/jo/15.json",
       "entryCount": 96,
-      "size": 90923
+      "size": 90827
     },
     "jo_16": {
       "path": "/data/dictionary/chapters/jo/16.json",
       "entryCount": 59,
-      "size": 56376
+      "size": 56317
     },
     "jo_17": {
       "path": "/data/dictionary/chapters/jo/17.json",
       "entryCount": 40,
-      "size": 37999
+      "size": 37959
     },
     "jo_18": {
       "path": "/data/dictionary/chapters/jo/18.json",
       "entryCount": 50,
-      "size": 47273
+      "size": 47223
     },
     "jo_19": {
       "path": "/data/dictionary/chapters/jo/19.json",
       "entryCount": 77,
-      "size": 72908
+      "size": 72831
     },
     "jo_20": {
       "path": "/data/dictionary/chapters/jo/20.json",
       "entryCount": 78,
-      "size": 74298
+      "size": 74220
     },
     "jo_21": {
       "path": "/data/dictionary/chapters/jo/21.json",
       "entryCount": 90,
-      "size": 85095
+      "size": 85005
     },
     "jo_22": {
       "path": "/data/dictionary/chapters/jo/22.json",
       "entryCount": 78,
-      "size": 73546
+      "size": 73468
     },
     "jo_23": {
       "path": "/data/dictionary/chapters/jo/23.json",
       "entryCount": 48,
-      "size": 45108
+      "size": 45060
     },
     "jo_24": {
       "path": "/data/dictionary/chapters/jo/24.json",
       "entryCount": 67,
-      "size": 64237
+      "size": 64170
     },
     "jo_25": {
       "path": "/data/dictionary/chapters/jo/25.json",
       "entryCount": 17,
-      "size": 15864
+      "size": 15847
     },
     "jo_26": {
       "path": "/data/dictionary/chapters/jo/26.json",
       "entryCount": 40,
-      "size": 37868
+      "size": 37828
     },
     "jo_27": {
       "path": "/data/dictionary/chapters/jo/27.json",
       "entryCount": 61,
-      "size": 57381
+      "size": 57320
     },
     "jo_28": {
       "path": "/data/dictionary/chapters/jo/28.json",
       "entryCount": 75,
-      "size": 70622
+      "size": 70547
     },
     "jo_29": {
       "path": "/data/dictionary/chapters/jo/29.json",
       "entryCount": 63,
-      "size": 59885
+      "size": 59822
     },
     "jo_30": {
       "path": "/data/dictionary/chapters/jo/30.json",
       "entryCount": 83,
-      "size": 78662
+      "size": 78579
     },
     "jo_31": {
       "path": "/data/dictionary/chapters/jo/31.json",
       "entryCount": 109,
-      "size": 103580
+      "size": 103471
     },
     "jo_32": {
       "path": "/data/dictionary/chapters/jo/32.json",
       "entryCount": 58,
-      "size": 55423
+      "size": 55365
     },
     "jo_33": {
       "path": "/data/dictionary/chapters/jo/33.json",
       "entryCount": 86,
-      "size": 81175
+      "size": 81089
     },
     "jo_34": {
       "path": "/data/dictionary/chapters/jo/34.json",
       "entryCount": 98,
-      "size": 93013
+      "size": 92915
     },
     "jo_35": {
       "path": "/data/dictionary/chapters/jo/35.json",
       "entryCount": 42,
-      "size": 39577
+      "size": 39535
     },
     "jo_36": {
       "path": "/data/dictionary/chapters/jo/36.json",
       "entryCount": 88,
-      "size": 83491
+      "size": 83403
     },
     "jo_37": {
       "path": "/data/dictionary/chapters/jo/37.json",
       "entryCount": 62,
-      "size": 58831
+      "size": 58769
     },
     "jo_38": {
       "path": "/data/dictionary/chapters/jo/38.json",
       "entryCount": 107,
-      "size": 100940
+      "size": 100833
     },
     "jo_39": {
       "path": "/data/dictionary/chapters/jo/39.json",
       "entryCount": 72,
-      "size": 68000
+      "size": 67928
     },
     "jo_40": {
       "path": "/data/dictionary/chapters/jo/40.json",
       "entryCount": 74,
-      "size": 68673
+      "size": 68599
     },
     "jo_41": {
       "path": "/data/dictionary/chapters/jo/41.json",
       "entryCount": 64,
-      "size": 60921
+      "size": 60857
     },
     "jo_42": {
       "path": "/data/dictionary/chapters/jo/42.json",
       "entryCount": 49,
-      "size": 47281
+      "size": 47232
     },
     "salmos_1": {
       "path": "/data/dictionary/chapters/salmos/1.json",
       "entryCount": 16,
-      "size": 15762
+      "size": 15746
     },
     "salmos_2": {
       "path": "/data/dictionary/chapters/salmos/2.json",
       "entryCount": 31,
-      "size": 29716
+      "size": 29685
     },
     "salmos_3": {
       "path": "/data/dictionary/chapters/salmos/3.json",
       "entryCount": 26,
-      "size": 24964
+      "size": 24938
     },
     "salmos_4": {
       "path": "/data/dictionary/chapters/salmos/4.json",
       "entryCount": 24,
-      "size": 23305
+      "size": 23281
     },
     "salmos_5": {
       "path": "/data/dictionary/chapters/salmos/5.json",
       "entryCount": 36,
-      "size": 35254
+      "size": 35218
     },
     "salmos_6": {
       "path": "/data/dictionary/chapters/salmos/6.json",
       "entryCount": 27,
-      "size": 26136
+      "size": 26109
     },
     "salmos_7": {
       "path": "/data/dictionary/chapters/salmos/7.json",
       "entryCount": 45,
-      "size": 43598
+      "size": 43553
     },
     "salmos_8": {
       "path": "/data/dictionary/chapters/salmos/8.json",
       "entryCount": 26,
-      "size": 24823
+      "size": 24797
     },
     "salmos_9": {
       "path": "/data/dictionary/chapters/salmos/9.json",
       "entryCount": 59,
-      "size": 57545
+      "size": 57486
     },
     "salmos_10": {
       "path": "/data/dictionary/chapters/salmos/10.json",
       "entryCount": 50,
-      "size": 49465
+      "size": 49415
     },
     "salmos_11": {
       "path": "/data/dictionary/chapters/salmos/11.json",
       "entryCount": 19,
-      "size": 18873
+      "size": 18854
     },
     "salmos_12": {
       "path": "/data/dictionary/chapters/salmos/12.json",
       "entryCount": 26,
-      "size": 25401
+      "size": 25375
     },
     "salmos_13": {
       "path": "/data/dictionary/chapters/salmos/13.json",
       "entryCount": 15,
-      "size": 14680
+      "size": 14665
     },
     "salmos_14": {
       "path": "/data/dictionary/chapters/salmos/14.json",
       "entryCount": 21,
-      "size": 20925
+      "size": 20904
     },
     "salmos_15": {
       "path": "/data/dictionary/chapters/salmos/15.json",
       "entryCount": 14,
-      "size": 13876
+      "size": 13862
     },
     "salmos_16": {
       "path": "/data/dictionary/chapters/salmos/16.json",
       "entryCount": 29,
-      "size": 28512
+      "size": 28483
     },
     "salmos_17": {
       "path": "/data/dictionary/chapters/salmos/17.json",
       "entryCount": 38,
-      "size": 37624
+      "size": 37586
     },
     "salmos_18": {
       "path": "/data/dictionary/chapters/salmos/18.json",
       "entryCount": 141,
-      "size": 137536
+      "size": 137395
     },
     "salmos_19": {
       "path": "/data/dictionary/chapters/salmos/19.json",
       "entryCount": 37,
-      "size": 36192
+      "size": 36155
     },
     "salmos_20": {
       "path": "/data/dictionary/chapters/salmos/20.json",
       "entryCount": 26,
-      "size": 24951
+      "size": 24925
     },
     "salmos_21": {
       "path": "/data/dictionary/chapters/salmos/21.json",
       "entryCount": 37,
-      "size": 35685
+      "size": 35648
     },
     "salmos_22": {
       "path": "/data/dictionary/chapters/salmos/22.json",
       "entryCount": 87,
-      "size": 84565
+      "size": 84478
     },
     "salmos_23": {
       "path": "/data/dictionary/chapters/salmos/23.json",
       "entryCount": 14,
-      "size": 13958
+      "size": 13944
     },
     "salmos_24": {
       "path": "/data/dictionary/chapters/salmos/24.json",
       "entryCount": 27,
-      "size": 26214
+      "size": 26187
     },
     "salmos_25": {
       "path": "/data/dictionary/chapters/salmos/25.json",
       "entryCount": 59,
-      "size": 57358
+      "size": 57299
     },
     "salmos_26": {
       "path": "/data/dictionary/chapters/salmos/26.json",
       "entryCount": 32,
-      "size": 31031
+      "size": 30999
     },
     "salmos_27": {
       "path": "/data/dictionary/chapters/salmos/27.json",
       "entryCount": 40,
-      "size": 39828
+      "size": 39788
     },
     "salmos_28": {
       "path": "/data/dictionary/chapters/salmos/28.json",
       "entryCount": 26,
-      "size": 26114
+      "size": 26088
     },
     "salmos_29": {
       "path": "/data/dictionary/chapters/salmos/29.json",
       "entryCount": 31,
-      "size": 29811
+      "size": 29780
     },
     "salmos_30": {
       "path": "/data/dictionary/chapters/salmos/30.json",
       "entryCount": 35,
-      "size": 33935
+      "size": 33900
     },
     "salmos_31": {
       "path": "/data/dictionary/chapters/salmos/31.json",
       "entryCount": 69,
-      "size": 68490
+      "size": 68421
     },
     "salmos_32": {
       "path": "/data/dictionary/chapters/salmos/32.json",
       "entryCount": 27,
-      "size": 26824
+      "size": 26797
     },
     "salmos_33": {
       "path": "/data/dictionary/chapters/salmos/33.json",
       "entryCount": 60,
-      "size": 58166
+      "size": 58106
     },
     "salmos_34": {
       "path": "/data/dictionary/chapters/salmos/34.json",
       "entryCount": 64,
-      "size": 61467
+      "size": 61403
     },
     "salmos_35": {
       "path": "/data/dictionary/chapters/salmos/35.json",
       "entryCount": 77,
-      "size": 75883
+      "size": 75806
     },
     "salmos_36": {
       "path": "/data/dictionary/chapters/salmos/36.json",
       "entryCount": 35,
-      "size": 34159
+      "size": 34124
     },
     "salmos_37": {
       "path": "/data/dictionary/chapters/salmos/37.json",
       "entryCount": 115,
-      "size": 112249
+      "size": 112134
     },
     "salmos_38": {
       "path": "/data/dictionary/chapters/salmos/38.json",
       "entryCount": 61,
-      "size": 59107
+      "size": 59046
     },
     "salmos_39": {
       "path": "/data/dictionary/chapters/salmos/39.json",
       "entryCount": 39,
-      "size": 38529
+      "size": 38490
     },
     "salmos_40": {
       "path": "/data/dictionary/chapters/salmos/40.json",
       "entryCount": 45,
-      "size": 44908
+      "size": 44863
     },
     "salmos_41": {
       "path": "/data/dictionary/chapters/salmos/41.json",
       "entryCount": 38,
-      "size": 37035
+      "size": 36997
     },
     "salmos_42": {
       "path": "/data/dictionary/chapters/salmos/42.json",
       "entryCount": 33,
-      "size": 32839
+      "size": 32806
     },
     "salmos_43": {
       "path": "/data/dictionary/chapters/salmos/43.json",
       "entryCount": 14,
-      "size": 14124
+      "size": 14110
     },
     "salmos_44": {
       "path": "/data/dictionary/chapters/salmos/44.json",
       "entryCount": 77,
-      "size": 74848
+      "size": 74771
     },
     "salmos_45": {
       "path": "/data/dictionary/chapters/salmos/45.json",
       "entryCount": 43,
-      "size": 42091
+      "size": 42048
     },
     "salmos_46": {
       "path": "/data/dictionary/chapters/salmos/46.json",
       "entryCount": 33,
-      "size": 32042
+      "size": 32009
     },
     "salmos_47": {
       "path": "/data/dictionary/chapters/salmos/47.json",
       "entryCount": 27,
-      "size": 25648
+      "size": 25621
     },
     "salmos_48": {
       "path": "/data/dictionary/chapters/salmos/48.json",
       "entryCount": 37,
-      "size": 35513
+      "size": 35476
     },
     "salmos_49": {
       "path": "/data/dictionary/chapters/salmos/49.json",
       "entryCount": 57,
-      "size": 55426
+      "size": 55369
     },
     "salmos_50": {
       "path": "/data/dictionary/chapters/salmos/50.json",
       "entryCount": 64,
-      "size": 62087
+      "size": 62023
     },
     "salmos_51": {
       "path": "/data/dictionary/chapters/salmos/51.json",
       "entryCount": 55,
-      "size": 53695
+      "size": 53640
     },
     "salmos_52": {
       "path": "/data/dictionary/chapters/salmos/52.json",
       "entryCount": 33,
-      "size": 31771
+      "size": 31738
     },
     "salmos_53": {
       "path": "/data/dictionary/chapters/salmos/53.json",
       "entryCount": 21,
-      "size": 20907
+      "size": 20886
     },
     "salmos_54": {
       "path": "/data/dictionary/chapters/salmos/54.json",
       "entryCount": 26,
-      "size": 24982
+      "size": 24956
     },
     "salmos_55": {
       "path": "/data/dictionary/chapters/salmos/55.json",
       "entryCount": 65,
-      "size": 63450
+      "size": 63385
     },
     "salmos_56": {
       "path": "/data/dictionary/chapters/salmos/56.json",
       "entryCount": 40,
-      "size": 38677
+      "size": 38637
     },
     "salmos_57": {
       "path": "/data/dictionary/chapters/salmos/57.json",
       "entryCount": 30,
-      "size": 29402
+      "size": 29372
     },
     "salmos_58": {
       "path": "/data/dictionary/chapters/salmos/58.json",
       "entryCount": 32,
-      "size": 31181
+      "size": 31149
     },
     "salmos_59": {
       "path": "/data/dictionary/chapters/salmos/59.json",
       "entryCount": 51,
-      "size": 50053
+      "size": 50002
     },
     "salmos_60": {
       "path": "/data/dictionary/chapters/salmos/60.json",
       "entryCount": 36,
-      "size": 34554
+      "size": 34518
     },
     "salmos_61": {
       "path": "/data/dictionary/chapters/salmos/61.json",
       "entryCount": 26,
-      "size": 24870
+      "size": 24844
     },
     "salmos_62": {
       "path": "/data/dictionary/chapters/salmos/62.json",
       "entryCount": 36,
-      "size": 35615
+      "size": 35579
     },
     "salmos_63": {
       "path": "/data/dictionary/chapters/salmos/63.json",
       "entryCount": 33,
-      "size": 31769
+      "size": 31736
     },
     "salmos_64": {
       "path": "/data/dictionary/chapters/salmos/64.json",
       "entryCount": 26,
-      "size": 25331
+      "size": 25305
     },
     "salmos_65": {
       "path": "/data/dictionary/chapters/salmos/65.json",
       "entryCount": 38,
-      "size": 37111
+      "size": 37073
     },
     "salmos_66": {
       "path": "/data/dictionary/chapters/salmos/66.json",
       "entryCount": 52,
-      "size": 50376
+      "size": 50324
     },
     "salmos_67": {
       "path": "/data/dictionary/chapters/salmos/67.json",
       "entryCount": 22,
-      "size": 21011
+      "size": 20989
     },
     "salmos_68": {
       "path": "/data/dictionary/chapters/salmos/68.json",
       "entryCount": 93,
-      "size": 92160
+      "size": 92067
     },
     "salmos_69": {
       "path": "/data/dictionary/chapters/salmos/69.json",
       "entryCount": 98,
-      "size": 96086
+      "size": 95988
     },
     "salmos_70": {
       "path": "/data/dictionary/chapters/salmos/70.json",
       "entryCount": 15,
-      "size": 14643
+      "size": 14628
     },
     "salmos_71": {
       "path": "/data/dictionary/chapters/salmos/71.json",
       "entryCount": 65,
-      "size": 64200
+      "size": 64135
     },
     "salmos_72": {
       "path": "/data/dictionary/chapters/salmos/72.json",
       "entryCount": 55,
-      "size": 53708
+      "size": 53653
     },
     "salmos_73": {
       "path": "/data/dictionary/chapters/salmos/73.json",
       "entryCount": 75,
-      "size": 72485
+      "size": 72410
     },
     "salmos_74": {
       "path": "/data/dictionary/chapters/salmos/74.json",
       "entryCount": 61,
-      "size": 59750
+      "size": 59689
     },
     "salmos_75": {
       "path": "/data/dictionary/chapters/salmos/75.json",
       "entryCount": 30,
-      "size": 28730
+      "size": 28700
     },
     "salmos_76": {
       "path": "/data/dictionary/chapters/salmos/76.json",
       "entryCount": 35,
-      "size": 33925
+      "size": 33890
     },
     "salmos_77": {
       "path": "/data/dictionary/chapters/salmos/77.json",
       "entryCount": 61,
-      "size": 59064
+      "size": 59003
     },
     "salmos_78": {
       "path": "/data/dictionary/chapters/salmos/78.json",
       "entryCount": 188,
-      "size": 183224
+      "size": 183036
     },
     "salmos_79": {
       "path": "/data/dictionary/chapters/salmos/79.json",
       "entryCount": 35,
-      "size": 35116
+      "size": 35081
     },
     "salmos_80": {
       "path": "/data/dictionary/chapters/salmos/80.json",
       "entryCount": 51,
-      "size": 49450
+      "size": 49399
     },
     "salmos_81": {
       "path": "/data/dictionary/chapters/salmos/81.json",
       "entryCount": 43,
-      "size": 41310
+      "size": 41267
     },
     "salmos_82": {
       "path": "/data/dictionary/chapters/salmos/82.json",
       "entryCount": 22,
-      "size": 21034
+      "size": 21012
     },
     "salmos_83": {
       "path": "/data/dictionary/chapters/salmos/83.json",
       "entryCount": 48,
-      "size": 46215
+      "size": 46167
     },
     "salmos_84": {
       "path": "/data/dictionary/chapters/salmos/84.json",
       "entryCount": 36,
-      "size": 35463
+      "size": 35427
     },
     "salmos_85": {
       "path": "/data/dictionary/chapters/salmos/85.json",
       "entryCount": 39,
-      "size": 37651
+      "size": 37612
     },
     "salmos_86": {
       "path": "/data/dictionary/chapters/salmos/86.json",
       "entryCount": 48,
-      "size": 46799
+      "size": 46751
     },
     "salmos_87": {
       "path": "/data/dictionary/chapters/salmos/87.json",
       "entryCount": 19,
-      "size": 18347
+      "size": 18328
     },
     "salmos_88": {
       "path": "/data/dictionary/chapters/salmos/88.json",
       "entryCount": 50,
-      "size": 48599
+      "size": 48549
     },
     "salmos_89": {
       "path": "/data/dictionary/chapters/salmos/89.json",
       "entryCount": 149,
-      "size": 145363
+      "size": 145214
     },
     "salmos_90": {
       "path": "/data/dictionary/chapters/salmos/90.json",
       "entryCount": 47,
-      "size": 45657
+      "size": 45610
     },
     "salmos_91": {
       "path": "/data/dictionary/chapters/salmos/91.json",
       "entryCount": 42,
-      "size": 40988
+      "size": 40946
     },
     "salmos_92": {
       "path": "/data/dictionary/chapters/salmos/92.json",
       "entryCount": 42,
-      "size": 40598
+      "size": 40556
     },
     "salmos_93": {
       "path": "/data/dictionary/chapters/salmos/93.json",
       "entryCount": 13,
-      "size": 12832
+      "size": 12819
     },
     "salmos_94": {
       "path": "/data/dictionary/chapters/salmos/94.json",
       "entryCount": 63,
-      "size": 61305
+      "size": 61242
     },
     "salmos_95": {
       "path": "/data/dictionary/chapters/salmos/95.json",
       "entryCount": 28,
-      "size": 27070
+      "size": 27042
     },
     "salmos_96": {
       "path": "/data/dictionary/chapters/salmos/96.json",
       "entryCount": 36,
-      "size": 35037
+      "size": 35001
     },
     "salmos_97": {
       "path": "/data/dictionary/chapters/salmos/97.json",
       "entryCount": 32,
-      "size": 31104
+      "size": 31072
     },
     "salmos_98": {
       "path": "/data/dictionary/chapters/salmos/98.json",
       "entryCount": 25,
-      "size": 24424
+      "size": 24399
     },
     "salmos_99": {
       "path": "/data/dictionary/chapters/salmos/99.json",
       "entryCount": 25,
-      "size": 24561
+      "size": 24536
     },
     "salmos_100": {
       "path": "/data/dictionary/chapters/salmos/100.json",
       "entryCount": 15,
-      "size": 14705
+      "size": 14690
     },
     "salmos_101": {
       "path": "/data/dictionary/chapters/salmos/101.json",
       "entryCount": 22,
-      "size": 21919
+      "size": 21897
     },
     "salmos_102": {
       "path": "/data/dictionary/chapters/salmos/102.json",
       "entryCount": 80,
-      "size": 77477
+      "size": 77397
     },
     "salmos_103": {
       "path": "/data/dictionary/chapters/salmos/103.json",
       "entryCount": 59,
-      "size": 58146
+      "size": 58087
     },
     "salmos_104": {
       "path": "/data/dictionary/chapters/salmos/104.json",
       "entryCount": 88,
-      "size": 85898
+      "size": 85810
     },
     "salmos_105": {
       "path": "/data/dictionary/chapters/salmos/105.json",
       "entryCount": 119,
-      "size": 114868
+      "size": 114749
     },
     "salmos_106": {
       "path": "/data/dictionary/chapters/salmos/106.json",
       "entryCount": 134,
-      "size": 131294
+      "size": 131160
     },
     "salmos_107": {
       "path": "/data/dictionary/chapters/salmos/107.json",
       "entryCount": 114,
-      "size": 111127
+      "size": 111013
     },
     "salmos_108": {
       "path": "/data/dictionary/chapters/salmos/108.json",
       "entryCount": 37,
-      "size": 35880
+      "size": 35843
     },
     "salmos_109": {
       "path": "/data/dictionary/chapters/salmos/109.json",
       "entryCount": 82,
-      "size": 80565
+      "size": 80483
     },
     "salmos_110": {
       "path": "/data/dictionary/chapters/salmos/110.json",
       "entryCount": 20,
-      "size": 19845
+      "size": 19825
     },
     "salmos_111": {
       "path": "/data/dictionary/chapters/salmos/111.json",
       "entryCount": 27,
-      "size": 26556
+      "size": 26529
     },
     "salmos_112": {
       "path": "/data/dictionary/chapters/salmos/112.json",
       "entryCount": 28,
-      "size": 27501
+      "size": 27473
     },
     "salmos_113": {
       "path": "/data/dictionary/chapters/salmos/113.json",
       "entryCount": 23,
-      "size": 22115
+      "size": 22092
     },
     "salmos_114": {
       "path": "/data/dictionary/chapters/salmos/114.json",
       "entryCount": 23,
-      "size": 21921
+      "size": 21898
     },
     "salmos_115": {
       "path": "/data/dictionary/chapters/salmos/115.json",
       "entryCount": 51,
-      "size": 49260
+      "size": 49209
     },
     "salmos_116": {
       "path": "/data/dictionary/chapters/salmos/116.json",
       "entryCount": 52,
-      "size": 50155
+      "size": 50103
     },
     "salmos_117": {
       "path": "/data/dictionary/chapters/salmos/117.json",
       "entryCount": 6,
-      "size": 5869
+      "size": 5863
     },
     "salmos_118": {
       "path": "/data/dictionary/chapters/salmos/118.json",
       "entryCount": 85,
-      "size": 82444
+      "size": 82359
     },
     "salmos_119": {
       "path": "/data/dictionary/chapters/salmos/119.json",
       "entryCount": 454,
-      "size": 443308
+      "size": 442854
     },
     "salmos_120": {
       "path": "/data/dictionary/chapters/salmos/120.json",
       "entryCount": 19,
-      "size": 18114
+      "size": 18095
     },
     "salmos_121": {
       "path": "/data/dictionary/chapters/salmos/121.json",
       "entryCount": 20,
-      "size": 18982
+      "size": 18962
     },
     "salmos_122": {
       "path": "/data/dictionary/chapters/salmos/122.json",
       "entryCount": 23,
-      "size": 22010
+      "size": 21987
     },
     "salmos_123": {
       "path": "/data/dictionary/chapters/salmos/123.json",
       "entryCount": 12,
-      "size": 11931
+      "size": 11919
     },
     "salmos_124": {
       "path": "/data/dictionary/chapters/salmos/124.json",
       "entryCount": 18,
-      "size": 17419
+      "size": 17401
     },
     "salmos_125": {
       "path": "/data/dictionary/chapters/salmos/125.json",
       "entryCount": 15,
-      "size": 15191
+      "size": 15176
     },
     "salmos_126": {
       "path": "/data/dictionary/chapters/salmos/126.json",
       "entryCount": 17,
-      "size": 16786
+      "size": 16769
     },
     "salmos_127": {
       "path": "/data/dictionary/chapters/salmos/127.json",
       "entryCount": 14,
-      "size": 13939
+      "size": 13925
     },
     "salmos_128": {
       "path": "/data/dictionary/chapters/salmos/128.json",
       "entryCount": 17,
-      "size": 16610
+      "size": 16593
     },
     "salmos_129": {
       "path": "/data/dictionary/chapters/salmos/129.json",
       "entryCount": 21,
-      "size": 20273
+      "size": 20252
     },
     "salmos_130": {
       "path": "/data/dictionary/chapters/salmos/130.json",
       "entryCount": 22,
-      "size": 21300
+      "size": 21278
     },
     "salmos_131": {
       "path": "/data/dictionary/chapters/salmos/131.json",
       "entryCount": 8,
-      "size": 8026
+      "size": 8018
     },
     "salmos_132": {
       "path": "/data/dictionary/chapters/salmos/132.json",
       "entryCount": 48,
-      "size": 47187
+      "size": 47139
     },
     "salmos_133": {
       "path": "/data/dictionary/chapters/salmos/133.json",
       "entryCount": 8,
-      "size": 8032
+      "size": 8024
     },
     "salmos_134": {
       "path": "/data/dictionary/chapters/salmos/134.json",
       "entryCount": 8,
-      "size": 7770
+      "size": 7762
     },
     "salmos_135": {
       "path": "/data/dictionary/chapters/salmos/135.json",
       "entryCount": 56,
-      "size": 54332
+      "size": 54276
     },
     "salmos_136": {
       "path": "/data/dictionary/chapters/salmos/136.json",
       "entryCount": 73,
-      "size": 71088
+      "size": 71015
     },
     "salmos_137": {
       "path": "/data/dictionary/chapters/salmos/137.json",
       "entryCount": 22,
-      "size": 21851
+      "size": 21829
     },
     "salmos_138": {
       "path": "/data/dictionary/chapters/salmos/138.json",
       "entryCount": 23,
-      "size": 22868
+      "size": 22845
     },
     "salmos_139": {
       "path": "/data/dictionary/chapters/salmos/139.json",
       "entryCount": 66,
-      "size": 64432
+      "size": 64366
     },
     "salmos_140": {
       "path": "/data/dictionary/chapters/salmos/140.json",
       "entryCount": 38,
-      "size": 37243
+      "size": 37205
     },
     "salmos_141": {
       "path": "/data/dictionary/chapters/salmos/141.json",
       "entryCount": 27,
-      "size": 26991
+      "size": 26964
     },
     "salmos_142": {
       "path": "/data/dictionary/chapters/salmos/142.json",
       "entryCount": 18,
-      "size": 17618
+      "size": 17600
     },
     "salmos_143": {
       "path": "/data/dictionary/chapters/salmos/143.json",
       "entryCount": 35,
-      "size": 35042
+      "size": 35007
     },
     "salmos_144": {
       "path": "/data/dictionary/chapters/salmos/144.json",
       "entryCount": 41,
-      "size": 40833
+      "size": 40792
     },
     "salmos_145": {
       "path": "/data/dictionary/chapters/salmos/145.json",
       "entryCount": 58,
-      "size": 56698
+      "size": 56640
     },
     "salmos_146": {
       "path": "/data/dictionary/chapters/salmos/146.json",
       "entryCount": 29,
-      "size": 28505
+      "size": 28476
     },
     "salmos_147": {
       "path": "/data/dictionary/chapters/salmos/147.json",
       "entryCount": 53,
-      "size": 51747
+      "size": 51694
     },
     "salmos_148": {
       "path": "/data/dictionary/chapters/salmos/148.json",
       "entryCount": 37,
-      "size": 35636
+      "size": 35599
     },
     "salmos_149": {
       "path": "/data/dictionary/chapters/salmos/149.json",
       "entryCount": 21,
-      "size": 20432
+      "size": 20411
     },
     "salmos_150": {
       "path": "/data/dictionary/chapters/salmos/150.json",
       "entryCount": 14,
-      "size": 13581
+      "size": 13567
     },
     "proverbios_1": {
       "path": "/data/dictionary/chapters/proverbios/1.json",
       "entryCount": 86,
-      "size": 86299
+      "size": 86213
     },
     "proverbios_2": {
       "path": "/data/dictionary/chapters/proverbios/2.json",
       "entryCount": 58,
-      "size": 57832
+      "size": 57774
     },
     "proverbios_3": {
       "path": "/data/dictionary/chapters/proverbios/3.json",
       "entryCount": 96,
-      "size": 95741
+      "size": 95645
     },
     "proverbios_4": {
       "path": "/data/dictionary/chapters/proverbios/4.json",
       "entryCount": 70,
-      "size": 69488
+      "size": 69418
     },
     "proverbios_5": {
       "path": "/data/dictionary/chapters/proverbios/5.json",
       "entryCount": 58,
-      "size": 57639
+      "size": 57581
     },
     "proverbios_6": {
       "path": "/data/dictionary/chapters/proverbios/6.json",
       "entryCount": 95,
-      "size": 94594
+      "size": 94499
     },
     "proverbios_7": {
       "path": "/data/dictionary/chapters/proverbios/7.json",
       "entryCount": 65,
-      "size": 64109
+      "size": 64044
     },
     "proverbios_8": {
       "path": "/data/dictionary/chapters/proverbios/8.json",
       "entryCount": 92,
-      "size": 91826
+      "size": 91734
     },
     "proverbios_9": {
       "path": "/data/dictionary/chapters/proverbios/9.json",
       "entryCount": 52,
-      "size": 51532
+      "size": 51480
     },
     "proverbios_10": {
       "path": "/data/dictionary/chapters/proverbios/10.json",
       "entryCount": 88,
-      "size": 88786
+      "size": 88698
     },
     "proverbios_11": {
       "path": "/data/dictionary/chapters/proverbios/11.json",
       "entryCount": 87,
-      "size": 87803
+      "size": 87716
     },
     "proverbios_12": {
       "path": "/data/dictionary/chapters/proverbios/12.json",
       "entryCount": 74,
-      "size": 74768
+      "size": 74694
     },
     "proverbios_13": {
       "path": "/data/dictionary/chapters/proverbios/13.json",
       "entryCount": 68,
-      "size": 68584
+      "size": 68516
     },
     "proverbios_14": {
       "path": "/data/dictionary/chapters/proverbios/14.json",
       "entryCount": 99,
-      "size": 100071
+      "size": 99972
     },
     "proverbios_15": {
       "path": "/data/dictionary/chapters/proverbios/15.json",
       "entryCount": 91,
-      "size": 91684
+      "size": 91593
     },
     "proverbios_16": {
       "path": "/data/dictionary/chapters/proverbios/16.json",
       "entryCount": 95,
-      "size": 95846
+      "size": 95751
     },
     "proverbios_17": {
       "path": "/data/dictionary/chapters/proverbios/17.json",
       "entryCount": 70,
-      "size": 70774
+      "size": 70704
     },
     "proverbios_18": {
       "path": "/data/dictionary/chapters/proverbios/18.json",
       "entryCount": 61,
-      "size": 61403
+      "size": 61342
     },
     "proverbios_19": {
       "path": "/data/dictionary/chapters/proverbios/19.json",
       "entryCount": 78,
-      "size": 78774
+      "size": 78696
     },
     "proverbios_20": {
       "path": "/data/dictionary/chapters/proverbios/20.json",
       "entryCount": 82,
-      "size": 82969
+      "size": 82887
     },
     "proverbios_21": {
       "path": "/data/dictionary/chapters/proverbios/21.json",
       "entryCount": 89,
-      "size": 89486
+      "size": 89397
     },
     "proverbios_22": {
       "path": "/data/dictionary/chapters/proverbios/22.json",
       "entryCount": 71,
-      "size": 71668
+      "size": 71597
     },
     "proverbios_23": {
       "path": "/data/dictionary/chapters/proverbios/23.json",
       "entryCount": 90,
-      "size": 90399
+      "size": 90309
     },
     "proverbios_24": {
       "path": "/data/dictionary/chapters/proverbios/24.json",
       "entryCount": 89,
-      "size": 89965
+      "size": 89876
     },
     "proverbios_25": {
       "path": "/data/dictionary/chapters/proverbios/25.json",
       "entryCount": 74,
-      "size": 74617
+      "size": 74543
     },
     "proverbios_26": {
       "path": "/data/dictionary/chapters/proverbios/26.json",
       "entryCount": 70,
-      "size": 70235
+      "size": 70165
     },
     "proverbios_27": {
       "path": "/data/dictionary/chapters/proverbios/27.json",
       "entryCount": 66,
-      "size": 66529
+      "size": 66463
     },
     "proverbios_28": {
       "path": "/data/dictionary/chapters/proverbios/28.json",
       "entryCount": 74,
-      "size": 75343
+      "size": 75269
     },
     "proverbios_29": {
       "path": "/data/dictionary/chapters/proverbios/29.json",
       "entryCount": 74,
-      "size": 74654
+      "size": 74580
     },
     "proverbios_30": {
       "path": "/data/dictionary/chapters/proverbios/30.json",
       "entryCount": 82,
-      "size": 82902
+      "size": 82820
     },
     "proverbios_31": {
       "path": "/data/dictionary/chapters/proverbios/31.json",
       "entryCount": 82,
-      "size": 81314
+      "size": 81232
     },
     "eclesiastes_1": {
       "path": "/data/dictionary/chapters/eclesiastes/1.json",
       "entryCount": 50,
-      "size": 50999
+      "size": 50949
     },
     "eclesiastes_2": {
       "path": "/data/dictionary/chapters/eclesiastes/2.json",
       "entryCount": 73,
-      "size": 75840
+      "size": 75767
     },
     "eclesiastes_3": {
       "path": "/data/dictionary/chapters/eclesiastes/3.json",
       "entryCount": 59,
-      "size": 59715
+      "size": 59656
     },
     "eclesiastes_4": {
       "path": "/data/dictionary/chapters/eclesiastes/4.json",
       "entryCount": 47,
-      "size": 47232
+      "size": 47185
     },
     "eclesiastes_5": {
       "path": "/data/dictionary/chapters/eclesiastes/5.json",
       "entryCount": 51,
-      "size": 52714
+      "size": 52663
     },
     "eclesiastes_6": {
       "path": "/data/dictionary/chapters/eclesiastes/6.json",
       "entryCount": 33,
-      "size": 33309
+      "size": 33276
     },
     "eclesiastes_7": {
       "path": "/data/dictionary/chapters/eclesiastes/7.json",
       "entryCount": 81,
-      "size": 82294
+      "size": 82213
     },
     "eclesiastes_8": {
       "path": "/data/dictionary/chapters/eclesiastes/8.json",
       "entryCount": 49,
-      "size": 50812
+      "size": 50763
     },
     "eclesiastes_9": {
       "path": "/data/dictionary/chapters/eclesiastes/9.json",
       "entryCount": 50,
-      "size": 51765
+      "size": 51715
     },
     "eclesiastes_10": {
       "path": "/data/dictionary/chapters/eclesiastes/10.json",
       "entryCount": 51,
-      "size": 52194
+      "size": 52143
     },
     "eclesiastes_11": {
       "path": "/data/dictionary/chapters/eclesiastes/11.json",
       "entryCount": 29,
-      "size": 29658
+      "size": 29629
     },
     "eclesiastes_12": {
       "path": "/data/dictionary/chapters/eclesiastes/12.json",
       "entryCount": 35,
-      "size": 36186
+      "size": 36151
     },
     "cantares_1": {
       "path": "/data/dictionary/chapters/cantares/1.json",
       "entryCount": 38,
-      "size": 37795
+      "size": 37757
     },
     "cantares_2": {
       "path": "/data/dictionary/chapters/cantares/2.json",
       "entryCount": 39,
-      "size": 39002
+      "size": 38963
     },
     "cantares_3": {
       "path": "/data/dictionary/chapters/cantares/3.json",
       "entryCount": 27,
-      "size": 27180
+      "size": 27153
     },
     "cantares_4": {
       "path": "/data/dictionary/chapters/cantares/4.json",
       "entryCount": 39,
-      "size": 39655
+      "size": 39616
     },
     "cantares_5": {
       "path": "/data/dictionary/chapters/cantares/5.json",
       "entryCount": 41,
-      "size": 41753
+      "size": 41712
     },
     "cantares_6": {
       "path": "/data/dictionary/chapters/cantares/6.json",
       "entryCount": 29,
-      "size": 29238
+      "size": 29209
     },
     "cantares_7": {
       "path": "/data/dictionary/chapters/cantares/7.json",
       "entryCount": 32,
-      "size": 31890
+      "size": 31858
     },
     "cantares_8": {
       "path": "/data/dictionary/chapters/cantares/8.json",
       "entryCount": 40,
-      "size": 40809
+      "size": 40769
     },
     "isaias_1": {
       "path": "/data/dictionary/chapters/isaias/1.json",
       "entryCount": 77,
-      "size": 77609
+      "size": 77532
     },
     "isaias_2": {
       "path": "/data/dictionary/chapters/isaias/2.json",
       "entryCount": 62,
-      "size": 61545
+      "size": 61483
     },
     "isaias_3": {
       "path": "/data/dictionary/chapters/isaias/3.json",
       "entryCount": 64,
-      "size": 64156
+      "size": 64092
     },
     "isaias_4": {
       "path": "/data/dictionary/chapters/isaias/4.json",
       "entryCount": 17,
-      "size": 17382
+      "size": 17365
     },
     "isaias_5": {
       "path": "/data/dictionary/chapters/isaias/5.json",
       "entryCount": 76,
-      "size": 76934
+      "size": 76858
     },
     "isaias_6": {
       "path": "/data/dictionary/chapters/isaias/6.json",
       "entryCount": 38,
-      "size": 38171
+      "size": 38133
     },
     "isaias_7": {
       "path": "/data/dictionary/chapters/isaias/7.json",
       "entryCount": 71,
-      "size": 71207
+      "size": 71136
     },
     "isaias_8": {
       "path": "/data/dictionary/chapters/isaias/8.json",
       "entryCount": 62,
-      "size": 61927
+      "size": 61865
     },
     "isaias_9": {
       "path": "/data/dictionary/chapters/isaias/9.json",
       "entryCount": 55,
-      "size": 55508
+      "size": 55453
     },
     "isaias_10": {
       "path": "/data/dictionary/chapters/isaias/10.json",
       "entryCount": 89,
-      "size": 90165
+      "size": 90076
     },
     "isaias_11": {
       "path": "/data/dictionary/chapters/isaias/11.json",
       "entryCount": 41,
-      "size": 41936
+      "size": 41895
     },
     "isaias_12": {
       "path": "/data/dictionary/chapters/isaias/12.json",
       "entryCount": 17,
-      "size": 16974
+      "size": 16957
     },
     "isaias_13": {
       "path": "/data/dictionary/chapters/isaias/13.json",
       "entryCount": 57,
-      "size": 57841
+      "size": 57784
     },
     "isaias_14": {
       "path": "/data/dictionary/chapters/isaias/14.json",
       "entryCount": 83,
-      "size": 84614
+      "size": 84531
     },
     "isaias_15": {
       "path": "/data/dictionary/chapters/isaias/15.json",
       "entryCount": 22,
-      "size": 22421
+      "size": 22399
     },
     "isaias_16": {
       "path": "/data/dictionary/chapters/isaias/16.json",
       "entryCount": 37,
-      "size": 37700
+      "size": 37663
     },
     "isaias_17": {
       "path": "/data/dictionary/chapters/isaias/17.json",
       "entryCount": 38,
-      "size": 38828
+      "size": 38790
     },
     "isaias_18": {
       "path": "/data/dictionary/chapters/isaias/18.json",
       "entryCount": 18,
-      "size": 18514
+      "size": 18496
     },
     "isaias_19": {
       "path": "/data/dictionary/chapters/isaias/19.json",
       "entryCount": 66,
-      "size": 67343
+      "size": 67277
     },
     "isaias_20": {
       "path": "/data/dictionary/chapters/isaias/20.json",
       "entryCount": 15,
-      "size": 15386
+      "size": 15371
     },
     "isaias_21": {
       "path": "/data/dictionary/chapters/isaias/21.json",
       "entryCount": 39,
-      "size": 39260
+      "size": 39221
     },
     "isaias_22": {
       "path": "/data/dictionary/chapters/isaias/22.json",
       "entryCount": 63,
-      "size": 63843
+      "size": 63780
     },
     "isaias_23": {
       "path": "/data/dictionary/chapters/isaias/23.json",
       "entryCount": 47,
-      "size": 47220
+      "size": 47173
     },
     "isaias_24": {
       "path": "/data/dictionary/chapters/isaias/24.json",
       "entryCount": 62,
-      "size": 62113
+      "size": 62051
     },
     "isaias_25": {
       "path": "/data/dictionary/chapters/isaias/25.json",
       "entryCount": 33,
-      "size": 33824
+      "size": 33791
     },
     "isaias_26": {
       "path": "/data/dictionary/chapters/isaias/26.json",
       "entryCount": 53,
-      "size": 53818
+      "size": 53765
     },
     "isaias_27": {
       "path": "/data/dictionary/chapters/isaias/27.json",
       "entryCount": 38,
-      "size": 38391
+      "size": 38353
     },
     "isaias_28": {
       "path": "/data/dictionary/chapters/isaias/28.json",
       "entryCount": 76,
-      "size": 77595
+      "size": 77519
     },
     "isaias_29": {
       "path": "/data/dictionary/chapters/isaias/29.json",
       "entryCount": 67,
-      "size": 68709
+      "size": 68642
     },
     "isaias_30": {
       "path": "/data/dictionary/chapters/isaias/30.json",
       "entryCount": 88,
-      "size": 90501
+      "size": 90413
     },
     "isaias_31": {
       "path": "/data/dictionary/chapters/isaias/31.json",
       "entryCount": 23,
-      "size": 23636
+      "size": 23613
     },
     "isaias_32": {
       "path": "/data/dictionary/chapters/isaias/32.json",
       "entryCount": 55,
-      "size": 55265
+      "size": 55210
     },
     "isaias_33": {
       "path": "/data/dictionary/chapters/isaias/33.json",
       "entryCount": 67,
-      "size": 67949
+      "size": 67882
     },
     "isaias_34": {
       "path": "/data/dictionary/chapters/isaias/34.json",
       "entryCount": 46,
-      "size": 47133
+      "size": 47087
     },
     "isaias_35": {
       "path": "/data/dictionary/chapters/isaias/35.json",
       "entryCount": 26,
-      "size": 26391
+      "size": 26365
     },
     "isaias_36": {
       "path": "/data/dictionary/chapters/isaias/36.json",
       "entryCount": 59,
-      "size": 60625
+      "size": 60566
     },
     "isaias_37": {
       "path": "/data/dictionary/chapters/isaias/37.json",
       "entryCount": 107,
-      "size": 108786
+      "size": 108679
     },
     "isaias_38": {
       "path": "/data/dictionary/chapters/isaias/38.json",
       "entryCount": 59,
-      "size": 59085
+      "size": 59026
     },
     "isaias_39": {
       "path": "/data/dictionary/chapters/isaias/39.json",
       "entryCount": 24,
-      "size": 24380
+      "size": 24356
     },
     "isaias_40": {
       "path": "/data/dictionary/chapters/isaias/40.json",
       "entryCount": 81,
-      "size": 81519
+      "size": 81438
     },
     "isaias_41": {
       "path": "/data/dictionary/chapters/isaias/41.json",
       "entryCount": 75,
-      "size": 75950
+      "size": 75875
     },
     "isaias_42": {
       "path": "/data/dictionary/chapters/isaias/42.json",
       "entryCount": 69,
-      "size": 69911
+      "size": 69842
     },
     "isaias_43": {
       "path": "/data/dictionary/chapters/isaias/43.json",
       "entryCount": 73,
-      "size": 73503
+      "size": 73430
     },
     "isaias_44": {
       "path": "/data/dictionary/chapters/isaias/44.json",
       "entryCount": 73,
-      "size": 74903
+      "size": 74830
     },
     "isaias_45": {
       "path": "/data/dictionary/chapters/isaias/45.json",
       "entryCount": 65,
-      "size": 66457
+      "size": 66392
     },
     "isaias_46": {
       "path": "/data/dictionary/chapters/isaias/46.json",
       "entryCount": 36,
-      "size": 36466
+      "size": 36430
     },
     "isaias_47": {
       "path": "/data/dictionary/chapters/isaias/47.json",
       "entryCount": 40,
-      "size": 41197
+      "size": 41157
     },
     "isaias_48": {
       "path": "/data/dictionary/chapters/isaias/48.json",
       "entryCount": 60,
-      "size": 60962
+      "size": 60902
     },
     "isaias_49": {
       "path": "/data/dictionary/chapters/isaias/49.json",
       "entryCount": 73,
-      "size": 74546
+      "size": 74473
     },
     "isaias_50": {
       "path": "/data/dictionary/chapters/isaias/50.json",
       "entryCount": 31,
-      "size": 31570
+      "size": 31539
     },
     "isaias_51": {
       "path": "/data/dictionary/chapters/isaias/51.json",
       "entryCount": 65,
-      "size": 67018
+      "size": 66953
     },
     "isaias_52": {
       "path": "/data/dictionary/chapters/isaias/52.json",
       "entryCount": 42,
-      "size": 42826
+      "size": 42784
     },
     "isaias_53": {
       "path": "/data/dictionary/chapters/isaias/53.json",
       "entryCount": 32,
-      "size": 32976
+      "size": 32944
     },
     "isaias_54": {
       "path": "/data/dictionary/chapters/isaias/54.json",
       "entryCount": 47,
-      "size": 48185
+      "size": 48138
     },
     "isaias_55": {
       "path": "/data/dictionary/chapters/isaias/55.json",
       "entryCount": 36,
-      "size": 36857
+      "size": 36821
     },
     "isaias_56": {
       "path": "/data/dictionary/chapters/isaias/56.json",
       "entryCount": 34,
-      "size": 34678
+      "size": 34644
     },
     "isaias_57": {
       "path": "/data/dictionary/chapters/isaias/57.json",
       "entryCount": 60,
-      "size": 60863
+      "size": 60803
     },
     "isaias_58": {
       "path": "/data/dictionary/chapters/isaias/58.json",
       "entryCount": 39,
-      "size": 40346
+      "size": 40307
     },
     "isaias_59": {
       "path": "/data/dictionary/chapters/isaias/59.json",
       "entryCount": 51,
-      "size": 52823
+      "size": 52772
     },
     "isaias_60": {
       "path": "/data/dictionary/chapters/isaias/60.json",
       "entryCount": 58,
-      "size": 59272
+      "size": 59214
     },
     "isaias_61": {
       "path": "/data/dictionary/chapters/isaias/61.json",
       "entryCount": 31,
-      "size": 32061
+      "size": 32030
     },
     "isaias_62": {
       "path": "/data/dictionary/chapters/isaias/62.json",
       "entryCount": 35,
-      "size": 35595
+      "size": 35560
     },
     "isaias_63": {
       "path": "/data/dictionary/chapters/isaias/63.json",
       "entryCount": 48,
-      "size": 48944
+      "size": 48896
     },
     "isaias_64": {
       "path": "/data/dictionary/chapters/isaias/64.json",
       "entryCount": 30,
-      "size": 30501
+      "size": 30471
     },
     "isaias_65": {
       "path": "/data/dictionary/chapters/isaias/65.json",
       "entryCount": 68,
-      "size": 69566
+      "size": 69498
     },
     "isaias_66": {
       "path": "/data/dictionary/chapters/isaias/66.json",
       "entryCount": 67,
-      "size": 68723
+      "size": 68656
     },
     "jeremias_1": {
       "path": "/data/dictionary/chapters/jeremias/1.json",
       "entryCount": 54,
-      "size": 54617
+      "size": 54563
     },
     "jeremias_2": {
       "path": "/data/dictionary/chapters/jeremias/2.json",
       "entryCount": 108,
-      "size": 110466
+      "size": 110358
     },
     "jeremias_3": {
       "path": "/data/dictionary/chapters/jeremias/3.json",
       "entryCount": 73,
-      "size": 74506
+      "size": 74433
     },
     "jeremias_4": {
       "path": "/data/dictionary/chapters/jeremias/4.json",
       "entryCount": 86,
-      "size": 87568
+      "size": 87482
     },
     "jeremias_5": {
       "path": "/data/dictionary/chapters/jeremias/5.json",
       "entryCount": 87,
-      "size": 88252
+      "size": 88165
     },
     "jeremias_6": {
       "path": "/data/dictionary/chapters/jeremias/6.json",
       "entryCount": 82,
-      "size": 83218
+      "size": 83136
     },
     "jeremias_7": {
       "path": "/data/dictionary/chapters/jeremias/7.json",
       "entryCount": 96,
-      "size": 98027
+      "size": 97931
     },
     "jeremias_8": {
       "path": "/data/dictionary/chapters/jeremias/8.json",
       "entryCount": 64,
-      "size": 64659
+      "size": 64595
     },
     "jeremias_9": {
       "path": "/data/dictionary/chapters/jeremias/9.json",
       "entryCount": 71,
-      "size": 72689
+      "size": 72618
     },
     "jeremias_10": {
       "path": "/data/dictionary/chapters/jeremias/10.json",
       "entryCount": 71,
-      "size": 72528
+      "size": 72457
     },
     "jeremias_11": {
       "path": "/data/dictionary/chapters/jeremias/11.json",
       "entryCount": 66,
-      "size": 68011
+      "size": 67945
     },
     "jeremias_12": {
       "path": "/data/dictionary/chapters/jeremias/12.json",
       "entryCount": 46,
-      "size": 47311
+      "size": 47265
     },
     "jeremias_13": {
       "path": "/data/dictionary/chapters/jeremias/13.json",
       "entryCount": 77,
-      "size": 78405
+      "size": 78328
     },
     "jeremias_14": {
       "path": "/data/dictionary/chapters/jeremias/14.json",
       "entryCount": 61,
-      "size": 62958
+      "size": 62897
     },
     "jeremias_15": {
       "path": "/data/dictionary/chapters/jeremias/15.json",
       "entryCount": 59,
-      "size": 60898
+      "size": 60839
     },
     "jeremias_16": {
       "path": "/data/dictionary/chapters/jeremias/16.json",
       "entryCount": 60,
-      "size": 61618
+      "size": 61558
     },
     "jeremias_17": {
       "path": "/data/dictionary/chapters/jeremias/17.json",
       "entryCount": 75,
-      "size": 77196
+      "size": 77121
     },
     "jeremias_18": {
       "path": "/data/dictionary/chapters/jeremias/18.json",
       "entryCount": 65,
-      "size": 66162
+      "size": 66097
     },
     "jeremias_19": {
       "path": "/data/dictionary/chapters/jeremias/19.json",
       "entryCount": 43,
-      "size": 44389
+      "size": 44346
     },
     "jeremias_20": {
       "path": "/data/dictionary/chapters/jeremias/20.json",
       "entryCount": 51,
-      "size": 52410
+      "size": 52359
     },
     "jeremias_21": {
       "path": "/data/dictionary/chapters/jeremias/21.json",
       "entryCount": 39,
-      "size": 39901
+      "size": 39862
     },
     "jeremias_22": {
       "path": "/data/dictionary/chapters/jeremias/22.json",
       "entryCount": 87,
-      "size": 89707
+      "size": 89620
     },
     "jeremias_23": {
       "path": "/data/dictionary/chapters/jeremias/23.json",
       "entryCount": 112,
-      "size": 115479
+      "size": 115367
     },
     "jeremias_24": {
       "path": "/data/dictionary/chapters/jeremias/24.json",
       "entryCount": 29,
-      "size": 29850
+      "size": 29821
     },
     "jeremias_25": {
       "path": "/data/dictionary/chapters/jeremias/25.json",
       "entryCount": 103,
-      "size": 105187
+      "size": 105084
     },
     "jeremias_26": {
       "path": "/data/dictionary/chapters/jeremias/26.json",
       "entryCount": 67,
-      "size": 69037
+      "size": 68970
     },
     "jeremias_27": {
       "path": "/data/dictionary/chapters/jeremias/27.json",
       "entryCount": 63,
-      "size": 65383
+      "size": 65320
     },
     "jeremias_28": {
       "path": "/data/dictionary/chapters/jeremias/28.json",
       "entryCount": 47,
-      "size": 48421
+      "size": 48374
     },
     "jeremias_29": {
       "path": "/data/dictionary/chapters/jeremias/29.json",
       "entryCount": 91,
-      "size": 93057
+      "size": 92966
     },
     "jeremias_30": {
       "path": "/data/dictionary/chapters/jeremias/30.json",
       "entryCount": 66,
-      "size": 67331
+      "size": 67265
     },
     "jeremias_31": {
       "path": "/data/dictionary/chapters/jeremias/31.json",
       "entryCount": 107,
-      "size": 109887
+      "size": 109780
     },
     "jeremias_32": {
       "path": "/data/dictionary/chapters/jeremias/32.json",
       "entryCount": 126,
-      "size": 129403
+      "size": 129277
     },
     "jeremias_33": {
       "path": "/data/dictionary/chapters/jeremias/33.json",
       "entryCount": 74,
-      "size": 75894
+      "size": 75820
     },
     "jeremias_34": {
       "path": "/data/dictionary/chapters/jeremias/34.json",
       "entryCount": 63,
-      "size": 65231
+      "size": 65168
     },
     "jeremias_35": {
       "path": "/data/dictionary/chapters/jeremias/35.json",
       "entryCount": 55,
-      "size": 56357
+      "size": 56302
     },
     "jeremias_36": {
       "path": "/data/dictionary/chapters/jeremias/36.json",
       "entryCount": 87,
-      "size": 89597
+      "size": 89510
     },
     "jeremias_37": {
       "path": "/data/dictionary/chapters/jeremias/37.json",
       "entryCount": 59,
-      "size": 60357
+      "size": 60298
     },
     "jeremias_38": {
       "path": "/data/dictionary/chapters/jeremias/38.json",
       "entryCount": 76,
-      "size": 77935
+      "size": 77859
     },
     "jeremias_39": {
       "path": "/data/dictionary/chapters/jeremias/39.json",
       "entryCount": 51,
-      "size": 52163
+      "size": 52112
     },
     "jeremias_40": {
       "path": "/data/dictionary/chapters/jeremias/40.json",
       "entryCount": 46,
-      "size": 47491
+      "size": 47445
     },
     "jeremias_41": {
       "path": "/data/dictionary/chapters/jeremias/41.json",
       "entryCount": 52,
-      "size": 53393
+      "size": 53341
     },
     "jeremias_42": {
       "path": "/data/dictionary/chapters/jeremias/42.json",
       "entryCount": 62,
-      "size": 63748
+      "size": 63686
     },
     "jeremias_43": {
       "path": "/data/dictionary/chapters/jeremias/43.json",
       "entryCount": 37,
-      "size": 37956
+      "size": 37919
     },
     "jeremias_44": {
       "path": "/data/dictionary/chapters/jeremias/44.json",
       "entryCount": 86,
-      "size": 89335
+      "size": 89249
     },
     "jeremias_45": {
       "path": "/data/dictionary/chapters/jeremias/45.json",
       "entryCount": 15,
-      "size": 15406
+      "size": 15391
     },
     "jeremias_46": {
       "path": "/data/dictionary/chapters/jeremias/46.json",
       "entryCount": 74,
-      "size": 75695
+      "size": 75621
     },
     "jeremias_47": {
       "path": "/data/dictionary/chapters/jeremias/47.json",
       "entryCount": 19,
-      "size": 19473
+      "size": 19454
     },
     "jeremias_48": {
       "path": "/data/dictionary/chapters/jeremias/48.json",
       "entryCount": 125,
-      "size": 126978
+      "size": 126853
     },
     "jeremias_49": {
       "path": "/data/dictionary/chapters/jeremias/49.json",
       "entryCount": 105,
-      "size": 108000
+      "size": 107895
     },
     "jeremias_50": {
       "path": "/data/dictionary/chapters/jeremias/50.json",
       "entryCount": 124,
-      "size": 128027
+      "size": 127903
     },
     "jeremias_51": {
       "path": "/data/dictionary/chapters/jeremias/51.json",
       "entryCount": 168,
-      "size": 173256
+      "size": 173088
     },
     "jeremias_52": {
       "path": "/data/dictionary/chapters/jeremias/52.json",
       "entryCount": 91,
-      "size": 93253
+      "size": 93162
     },
     "lamentacoes_1": {
       "path": "/data/dictionary/chapters/lamentacoes/1.json",
       "entryCount": 59,
-      "size": 66862
+      "size": 66803
     },
     "lamentacoes_2": {
       "path": "/data/dictionary/chapters/lamentacoes/2.json",
       "entryCount": 63,
-      "size": 71627
+      "size": 71564
     },
     "lamentacoes_3": {
       "path": "/data/dictionary/chapters/lamentacoes/3.json",
       "entryCount": 172,
-      "size": 180541
+      "size": 180369
     },
     "lamentacoes_4": {
       "path": "/data/dictionary/chapters/lamentacoes/4.json",
       "entryCount": 62,
-      "size": 68864
+      "size": 68802
     },
     "lamentacoes_5": {
       "path": "/data/dictionary/chapters/lamentacoes/5.json",
       "entryCount": 61,
-      "size": 63795
+      "size": 63734
     },
     "ezequiel_1": {
       "path": "/data/dictionary/chapters/ezequiel/1.json",
       "entryCount": 76,
-      "size": 77352
+      "size": 77276
     },
     "ezequiel_2": {
       "path": "/data/dictionary/chapters/ezequiel/2.json",
       "entryCount": 27,
-      "size": 27194
+      "size": 27167
     },
     "ezequiel_3": {
       "path": "/data/dictionary/chapters/ezequiel/3.json",
       "entryCount": 76,
-      "size": 77559
+      "size": 77483
     },
     "ezequiel_4": {
       "path": "/data/dictionary/chapters/ezequiel/4.json",
       "entryCount": 47,
-      "size": 47853
+      "size": 47806
     },
     "ezequiel_5": {
       "path": "/data/dictionary/chapters/ezequiel/5.json",
       "entryCount": 47,
-      "size": 48435
+      "size": 48388
     },
     "ezequiel_6": {
       "path": "/data/dictionary/chapters/ezequiel/6.json",
       "entryCount": 40,
-      "size": 40409
+      "size": 40369
     },
     "ezequiel_7": {
       "path": "/data/dictionary/chapters/ezequiel/7.json",
       "entryCount": 75,
-      "size": 76028
+      "size": 75953
     },
     "ezequiel_8": {
       "path": "/data/dictionary/chapters/ezequiel/8.json",
       "entryCount": 52,
-      "size": 52787
+      "size": 52735
     },
     "ezequiel_9": {
       "path": "/data/dictionary/chapters/ezequiel/9.json",
       "entryCount": 33,
-      "size": 33683
+      "size": 33650
     },
     "ezequiel_10": {
       "path": "/data/dictionary/chapters/ezequiel/10.json",
       "entryCount": 49,
-      "size": 50057
+      "size": 50008
     },
     "ezequiel_11": {
       "path": "/data/dictionary/chapters/ezequiel/11.json",
       "entryCount": 72,
-      "size": 73367
+      "size": 73295
     },
     "ezequiel_12": {
       "path": "/data/dictionary/chapters/ezequiel/12.json",
       "entryCount": 80,
-      "size": 81303
+      "size": 81223
     },
     "ezequiel_13": {
       "path": "/data/dictionary/chapters/ezequiel/13.json",
       "entryCount": 66,
-      "size": 68169
+      "size": 68103
     },
     "ezequiel_14": {
       "path": "/data/dictionary/chapters/ezequiel/14.json",
       "entryCount": 65,
-      "size": 66682
+      "size": 66617
     },
     "ezequiel_15": {
       "path": "/data/dictionary/chapters/ezequiel/15.json",
       "entryCount": 23,
-      "size": 23342
+      "size": 23319
     },
     "ezequiel_16": {
       "path": "/data/dictionary/chapters/ezequiel/16.json",
       "entryCount": 176,
-      "size": 180551
+      "size": 180375
     },
     "ezequiel_17": {
       "path": "/data/dictionary/chapters/ezequiel/17.json",
       "entryCount": 69,
-      "size": 71023
+      "size": 70954
     },
     "ezequiel_18": {
       "path": "/data/dictionary/chapters/ezequiel/18.json",
       "entryCount": 91,
-      "size": 93215
+      "size": 93124
     },
     "ezequiel_19": {
       "path": "/data/dictionary/chapters/ezequiel/19.json",
       "entryCount": 36,
-      "size": 36650
+      "size": 36614
     },
     "ezequiel_20": {
       "path": "/data/dictionary/chapters/ezequiel/20.json",
       "entryCount": 128,
-      "size": 131779
+      "size": 131651
     },
     "ezequiel_21": {
       "path": "/data/dictionary/chapters/ezequiel/21.json",
       "entryCount": 105,
-      "size": 105607
+      "size": 105502
     },
     "ezequiel_22": {
       "path": "/data/dictionary/chapters/ezequiel/22.json",
       "entryCount": 84,
-      "size": 85598
+      "size": 85514
     },
     "ezequiel_23": {
       "path": "/data/dictionary/chapters/ezequiel/23.json",
       "entryCount": 130,
-      "size": 133102
+      "size": 132972
     },
     "ezequiel_24": {
       "path": "/data/dictionary/chapters/ezequiel/24.json",
       "entryCount": 76,
-      "size": 77016
+      "size": 76940
     },
     "ezequiel_25": {
       "path": "/data/dictionary/chapters/ezequiel/25.json",
       "entryCount": 48,
-      "size": 49105
+      "size": 49057
     },
     "ezequiel_26": {
       "path": "/data/dictionary/chapters/ezequiel/26.json",
       "entryCount": 54,
-      "size": 55481
+      "size": 55427
     },
     "ezequiel_27": {
       "path": "/data/dictionary/chapters/ezequiel/27.json",
       "entryCount": 93,
-      "size": 94802
+      "size": 94709
     },
     "ezequiel_28": {
       "path": "/data/dictionary/chapters/ezequiel/28.json",
       "entryCount": 73,
-      "size": 74373
+      "size": 74300
     },
     "ezequiel_29": {
       "path": "/data/dictionary/chapters/ezequiel/29.json",
       "entryCount": 59,
-      "size": 60725
+      "size": 60666
     },
     "ezequiel_30": {
       "path": "/data/dictionary/chapters/ezequiel/30.json",
       "entryCount": 74,
-      "size": 75365
+      "size": 75291
     },
     "ezequiel_31": {
       "path": "/data/dictionary/chapters/ezequiel/31.json",
       "entryCount": 50,
-      "size": 51563
+      "size": 51513
     },
     "ezequiel_32": {
       "path": "/data/dictionary/chapters/ezequiel/32.json",
       "entryCount": 86,
-      "size": 88132
+      "size": 88046
     },
     "ezequiel_33": {
       "path": "/data/dictionary/chapters/ezequiel/33.json",
       "entryCount": 95,
-      "size": 97506
+      "size": 97411
     },
     "ezequiel_34": {
       "path": "/data/dictionary/chapters/ezequiel/34.json",
       "entryCount": 83,
-      "size": 84844
+      "size": 84761
     },
     "ezequiel_35": {
       "path": "/data/dictionary/chapters/ezequiel/35.json",
       "entryCount": 44,
-      "size": 44790
+      "size": 44746
     },
     "ezequiel_36": {
       "path": "/data/dictionary/chapters/ezequiel/36.json",
       "entryCount": 110,
-      "size": 113463
+      "size": 113353
     },
     "ezequiel_37": {
       "path": "/data/dictionary/chapters/ezequiel/37.json",
       "entryCount": 76,
-      "size": 77692
+      "size": 77616
     },
     "ezequiel_38": {
       "path": "/data/dictionary/chapters/ezequiel/38.json",
       "entryCount": 64,
-      "size": 65518
+      "size": 65454
     },
     "ezequiel_39": {
       "path": "/data/dictionary/chapters/ezequiel/39.json",
       "entryCount": 78,
-      "size": 79744
+      "size": 79666
     },
     "ezequiel_40": {
       "path": "/data/dictionary/chapters/ezequiel/40.json",
       "entryCount": 111,
-      "size": 114506
+      "size": 114395
     },
     "ezequiel_41": {
       "path": "/data/dictionary/chapters/ezequiel/41.json",
       "entryCount": 67,
-      "size": 69186
+      "size": 69119
     },
     "ezequiel_42": {
       "path": "/data/dictionary/chapters/ezequiel/42.json",
       "entryCount": 41,
-      "size": 42450
+      "size": 42409
     },
     "ezequiel_43": {
       "path": "/data/dictionary/chapters/ezequiel/43.json",
       "entryCount": 74,
-      "size": 75750
+      "size": 75676
     },
     "ezequiel_44": {
       "path": "/data/dictionary/chapters/ezequiel/44.json",
       "entryCount": 83,
-      "size": 85834
+      "size": 85751
     },
     "ezequiel_45": {
       "path": "/data/dictionary/chapters/ezequiel/45.json",
       "entryCount": 63,
-      "size": 65438
+      "size": 65375
     },
     "ezequiel_46": {
       "path": "/data/dictionary/chapters/ezequiel/46.json",
       "entryCount": 59,
-      "size": 60766
+      "size": 60707
     },
     "ezequiel_47": {
       "path": "/data/dictionary/chapters/ezequiel/47.json",
       "entryCount": 62,
-      "size": 63669
+      "size": 63607
     },
     "ezequiel_48": {
       "path": "/data/dictionary/chapters/ezequiel/48.json",
       "entryCount": 93,
-      "size": 94520
+      "size": 94427
     },
     "daniel_1": {
       "path": "/data/dictionary/chapters/daniel/1.json",
       "entryCount": 52,
-      "size": 51761
+      "size": 51709
     },
     "daniel_2": {
       "path": "/data/dictionary/chapters/daniel/2.json",
       "entryCount": 130,
-      "size": 132364
+      "size": 132234
     },
     "daniel_3": {
       "path": "/data/dictionary/chapters/daniel/3.json",
       "entryCount": 80,
-      "size": 80679
+      "size": 80599
     },
     "daniel_4": {
       "path": "/data/dictionary/chapters/daniel/4.json",
       "entryCount": 81,
-      "size": 82708
+      "size": 82627
     },
     "daniel_5": {
       "path": "/data/dictionary/chapters/daniel/5.json",
       "entryCount": 74,
-      "size": 74992
+      "size": 74918
     },
     "daniel_6": {
       "path": "/data/dictionary/chapters/daniel/6.json",
       "entryCount": 70,
-      "size": 71143
+      "size": 71073
     },
     "daniel_7": {
       "path": "/data/dictionary/chapters/daniel/7.json",
       "entryCount": 68,
-      "size": 69195
+      "size": 69127
     },
     "daniel_8": {
       "path": "/data/dictionary/chapters/daniel/8.json",
       "entryCount": 72,
-      "size": 73057
+      "size": 72985
     },
     "daniel_9": {
       "path": "/data/dictionary/chapters/daniel/9.json",
       "entryCount": 76,
-      "size": 78050
+      "size": 77974
     },
     "daniel_10": {
       "path": "/data/dictionary/chapters/daniel/10.json",
       "entryCount": 58,
-      "size": 58876
+      "size": 58818
     },
     "daniel_11": {
       "path": "/data/dictionary/chapters/daniel/11.json",
       "entryCount": 126,
-      "size": 128790
+      "size": 128664
     },
     "daniel_12": {
       "path": "/data/dictionary/chapters/daniel/12.json",
       "entryCount": 36,
-      "size": 36229
+      "size": 36193
     },
     "oseias_1": {
       "path": "/data/dictionary/chapters/oseias/1.json",
       "entryCount": 22,
-      "size": 21930
+      "size": 21908
     },
     "oseias_2": {
       "path": "/data/dictionary/chapters/oseias/2.json",
       "entryCount": 70,
-      "size": 69438
+      "size": 69368
     },
     "oseias_3": {
       "path": "/data/dictionary/chapters/oseias/3.json",
       "entryCount": 13,
-      "size": 13083
+      "size": 13070
     },
     "oseias_4": {
       "path": "/data/dictionary/chapters/oseias/4.json",
       "entryCount": 53,
-      "size": 53565
+      "size": 53512
     },
     "oseias_5": {
       "path": "/data/dictionary/chapters/oseias/5.json",
       "entryCount": 40,
-      "size": 40429
+      "size": 40389
     },
     "oseias_6": {
       "path": "/data/dictionary/chapters/oseias/6.json",
       "entryCount": 31,
-      "size": 31047
+      "size": 31016
     },
     "oseias_7": {
       "path": "/data/dictionary/chapters/oseias/7.json",
       "entryCount": 38,
-      "size": 38132
+      "size": 38094
     },
     "oseias_8": {
       "path": "/data/dictionary/chapters/oseias/8.json",
       "entryCount": 37,
-      "size": 37023
+      "size": 36986
     },
     "oseias_9": {
       "path": "/data/dictionary/chapters/oseias/9.json",
       "entryCount": 47,
-      "size": 47517
+      "size": 47470
     },
     "oseias_10": {
       "path": "/data/dictionary/chapters/oseias/10.json",
       "entryCount": 39,
-      "size": 40016
+      "size": 39977
     },
     "oseias_11": {
       "path": "/data/dictionary/chapters/oseias/11.json",
       "entryCount": 30,
-      "size": 30014
+      "size": 29984
     },
     "oseias_12": {
       "path": "/data/dictionary/chapters/oseias/12.json",
       "entryCount": 40,
-      "size": 40011
+      "size": 39971
     },
     "oseias_13": {
       "path": "/data/dictionary/chapters/oseias/13.json",
       "entryCount": 40,
-      "size": 40155
+      "size": 40115
     },
     "oseias_14": {
       "path": "/data/dictionary/chapters/oseias/14.json",
       "entryCount": 28,
-      "size": 28035
+      "size": 28007
     },
     "joel_1": {
       "path": "/data/dictionary/chapters/joel/1.json",
       "entryCount": 52,
-      "size": 51543
+      "size": 51491
     },
     "joel_2": {
       "path": "/data/dictionary/chapters/joel/2.json",
       "entryCount": 72,
-      "size": 71993
+      "size": 71921
     },
     "joel_3": {
       "path": "/data/dictionary/chapters/joel/3.json",
       "entryCount": 14,
-      "size": 13812
+      "size": 13798
     },
     "joel_4": {
       "path": "/data/dictionary/chapters/joel/4.json",
       "entryCount": 57,
-      "size": 50179
+      "size": 50122
     },
     "amos_1": {
       "path": "/data/dictionary/chapters/amos/1.json",
       "entryCount": 40,
-      "size": 39735
+      "size": 39695
     },
     "amos_2": {
       "path": "/data/dictionary/chapters/amos/2.json",
       "entryCount": 44,
-      "size": 43805
+      "size": 43761
     },
     "amos_3": {
       "path": "/data/dictionary/chapters/amos/3.json",
       "entryCount": 43,
-      "size": 42654
+      "size": 42611
     },
     "amos_4": {
       "path": "/data/dictionary/chapters/amos/4.json",
       "entryCount": 33,
-      "size": 33579
+      "size": 33546
     },
     "amos_5": {
       "path": "/data/dictionary/chapters/amos/5.json",
       "entryCount": 75,
-      "size": 74065
+      "size": 73990
     },
     "amos_6": {
       "path": "/data/dictionary/chapters/amos/6.json",
       "entryCount": 39,
-      "size": 38948
+      "size": 38909
     },
     "amos_7": {
       "path": "/data/dictionary/chapters/amos/7.json",
       "entryCount": 50,
-      "size": 49838
+      "size": 49788
     },
     "amos_8": {
       "path": "/data/dictionary/chapters/amos/8.json",
       "entryCount": 41,
-      "size": 40770
+      "size": 40729
     },
     "amos_9": {
       "path": "/data/dictionary/chapters/amos/9.json",
       "entryCount": 43,
-      "size": 43397
+      "size": 43354
     },
     "obadias_1": {
       "path": "/data/dictionary/chapters/obadias/1.json",
       "entryCount": 58,
-      "size": 58845
+      "size": 58787
     },
     "jonas_1": {
       "path": "/data/dictionary/chapters/jonas/1.json",
       "entryCount": 47,
-      "size": 46666
+      "size": 46619
     },
     "jonas_2": {
       "path": "/data/dictionary/chapters/jonas/2.json",
       "entryCount": 31,
-      "size": 30269
+      "size": 30238
     },
     "jonas_3": {
       "path": "/data/dictionary/chapters/jonas/3.json",
       "entryCount": 30,
-      "size": 29880
+      "size": 29850
     },
     "jonas_4": {
       "path": "/data/dictionary/chapters/jonas/4.json",
       "entryCount": 32,
-      "size": 31716
+      "size": 31684
     },
     "miqueias_1": {
       "path": "/data/dictionary/chapters/miqueias/1.json",
       "entryCount": 37,
-      "size": 37679
+      "size": 37642
     },
     "miqueias_2": {
       "path": "/data/dictionary/chapters/miqueias/2.json",
       "entryCount": 37,
-      "size": 38305
+      "size": 38268
     },
     "miqueias_3": {
       "path": "/data/dictionary/chapters/miqueias/3.json",
       "entryCount": 34,
-      "size": 35206
+      "size": 35172
     },
     "miqueias_4": {
       "path": "/data/dictionary/chapters/miqueias/4.json",
       "entryCount": 40,
-      "size": 41021
+      "size": 40981
     },
     "miqueias_5": {
       "path": "/data/dictionary/chapters/miqueias/5.json",
       "entryCount": 41,
-      "size": 41771
+      "size": 41730
     },
     "miqueias_6": {
       "path": "/data/dictionary/chapters/miqueias/6.json",
       "entryCount": 41,
-      "size": 41753
+      "size": 41712
     },
     "miqueias_7": {
       "path": "/data/dictionary/chapters/miqueias/7.json",
       "entryCount": 52,
-      "size": 53045
+      "size": 52993
     },
     "naum_1": {
       "path": "/data/dictionary/chapters/naum/1.json",
       "entryCount": 35,
-      "size": 34397
+      "size": 34362
     },
     "naum_2": {
       "path": "/data/dictionary/chapters/naum/2.json",
       "entryCount": 34,
-      "size": 33901
+      "size": 33867
     },
     "naum_3": {
       "path": "/data/dictionary/chapters/naum/3.json",
       "entryCount": 50,
-      "size": 49802
+      "size": 49752
     },
     "habacuque_1": {
       "path": "/data/dictionary/chapters/habacuque/1.json",
       "entryCount": 43,
-      "size": 43977
+      "size": 43934
     },
     "habacuque_2": {
       "path": "/data/dictionary/chapters/habacuque/2.json",
       "entryCount": 58,
-      "size": 59151
+      "size": 59093
     },
     "habacuque_3": {
       "path": "/data/dictionary/chapters/habacuque/3.json",
       "entryCount": 52,
-      "size": 52519
+      "size": 52467
     },
     "sofonias_1": {
       "path": "/data/dictionary/chapters/sofonias/1.json",
       "entryCount": 50,
-      "size": 51082
+      "size": 51032
     },
     "sofonias_2": {
       "path": "/data/dictionary/chapters/sofonias/2.json",
       "entryCount": 42,
-      "size": 42522
+      "size": 42480
     },
     "sofonias_3": {
       "path": "/data/dictionary/chapters/sofonias/3.json",
       "entryCount": 53,
-      "size": 54245
+      "size": 54192
     },
     "ageu_1": {
       "path": "/data/dictionary/chapters/ageu/1.json",
       "entryCount": 45,
-      "size": 44054
+      "size": 44009
     },
     "ageu_2": {
       "path": "/data/dictionary/chapters/ageu/2.json",
       "entryCount": 67,
-      "size": 66959
+      "size": 66892
     },
     "zacarias_1": {
       "path": "/data/dictionary/chapters/zacarias/1.json",
       "entryCount": 50,
-      "size": 51108
+      "size": 51058
     },
     "zacarias_2": {
       "path": "/data/dictionary/chapters/zacarias/2.json",
       "entryCount": 50,
-      "size": 48757
+      "size": 48707
     },
     "zacarias_3": {
       "path": "/data/dictionary/chapters/zacarias/3.json",
       "entryCount": 30,
-      "size": 30527
+      "size": 30497
     },
     "zacarias_4": {
       "path": "/data/dictionary/chapters/zacarias/4.json",
       "entryCount": 38,
-      "size": 38076
+      "size": 38038
     },
     "zacarias_5": {
       "path": "/data/dictionary/chapters/zacarias/5.json",
       "entryCount": 29,
-      "size": 29029
+      "size": 29000
     },
     "zacarias_6": {
       "path": "/data/dictionary/chapters/zacarias/6.json",
       "entryCount": 42,
-      "size": 42760
+      "size": 42718
     },
     "zacarias_7": {
       "path": "/data/dictionary/chapters/zacarias/7.json",
       "entryCount": 39,
-      "size": 39660
+      "size": 39621
     },
     "zacarias_8": {
       "path": "/data/dictionary/chapters/zacarias/8.json",
       "entryCount": 64,
-      "size": 65185
+      "size": 65121
     },
     "zacarias_9": {
       "path": "/data/dictionary/chapters/zacarias/9.json",
       "entryCount": 47,
-      "size": 47941
+      "size": 47894
     },
     "zacarias_10": {
       "path": "/data/dictionary/chapters/zacarias/10.json",
       "entryCount": 33,
-      "size": 33999
+      "size": 33966
     },
     "zacarias_11": {
       "path": "/data/dictionary/chapters/zacarias/11.json",
       "entryCount": 47,
-      "size": 48228
+      "size": 48181
     },
     "zacarias_12": {
       "path": "/data/dictionary/chapters/zacarias/12.json",
       "entryCount": 37,
-      "size": 38034
+      "size": 37997
     },
     "zacarias_13": {
       "path": "/data/dictionary/chapters/zacarias/13.json",
       "entryCount": 26,
-      "size": 26809
+      "size": 26783
     },
     "zacarias_14": {
       "path": "/data/dictionary/chapters/zacarias/14.json",
       "entryCount": 60,
-      "size": 61313
+      "size": 61253
     },
     "malaquias_1": {
       "path": "/data/dictionary/chapters/malaquias/1.json",
       "entryCount": 38,
-      "size": 39320
+      "size": 39282
     },
     "malaquias_2": {
       "path": "/data/dictionary/chapters/malaquias/2.json",
       "entryCount": 46,
-      "size": 47667
+      "size": 47621
     },
     "malaquias_3": {
       "path": "/data/dictionary/chapters/malaquias/3.json",
       "entryCount": 69,
-      "size": 69122
+      "size": 69053
     },
     "mateus_1": {
       "path": "/data/dictionary/chapters/mateus/1.json",
       "entryCount": 66,
-      "size": 63979
+      "size": 63913
     },
     "mateus_2": {
       "path": "/data/dictionary/chapters/mateus/2.json",
       "entryCount": 52,
-      "size": 51830
+      "size": 51778
     },
     "mateus_3": {
       "path": "/data/dictionary/chapters/mateus/3.json",
       "entryCount": 44,
-      "size": 43454
+      "size": 43410
     },
     "mateus_4": {
       "path": "/data/dictionary/chapters/mateus/4.json",
       "entryCount": 60,
-      "size": 58936
+      "size": 58876
     },
     "mateus_5": {
       "path": "/data/dictionary/chapters/mateus/5.json",
       "entryCount": 124,
-      "size": 121965
+      "size": 121841
     },
     "mateus_6": {
       "path": "/data/dictionary/chapters/mateus/6.json",
       "entryCount": 75,
-      "size": 74398
+      "size": 74323
     },
     "mateus_7": {
       "path": "/data/dictionary/chapters/mateus/7.json",
       "entryCount": 64,
-      "size": 62866
+      "size": 62802
     },
     "mateus_8": {
       "path": "/data/dictionary/chapters/mateus/8.json",
       "entryCount": 81,
-      "size": 79951
+      "size": 79870
     },
     "mateus_9": {
       "path": "/data/dictionary/chapters/mateus/9.json",
       "entryCount": 90,
-      "size": 88750
+      "size": 88660
     },
     "mateus_10": {
       "path": "/data/dictionary/chapters/mateus/10.json",
       "entryCount": 86,
-      "size": 84796
+      "size": 84710
     },
     "mateus_11": {
       "path": "/data/dictionary/chapters/mateus/11.json",
       "entryCount": 74,
-      "size": 73444
+      "size": 73370
     },
     "mateus_12": {
       "path": "/data/dictionary/chapters/mateus/12.json",
       "entryCount": 114,
-      "size": 113636
+      "size": 113522
     },
     "mateus_13": {
       "path": "/data/dictionary/chapters/mateus/13.json",
       "entryCount": 143,
-      "size": 142253
+      "size": 142110
     },
     "mateus_14": {
       "path": "/data/dictionary/chapters/mateus/14.json",
       "entryCount": 80,
-      "size": 78220
+      "size": 78140
     },
     "mateus_15": {
       "path": "/data/dictionary/chapters/mateus/15.json",
       "entryCount": 93,
-      "size": 91931
+      "size": 91838
     },
     "mateus_16": {
       "path": "/data/dictionary/chapters/mateus/16.json",
       "entryCount": 59,
-      "size": 59311
+      "size": 59252
     },
     "mateus_17": {
       "path": "/data/dictionary/chapters/mateus/17.json",
       "entryCount": 66,
-      "size": 65693
+      "size": 65627
     },
     "mateus_18": {
       "path": "/data/dictionary/chapters/mateus/18.json",
       "entryCount": 74,
-      "size": 74356
+      "size": 74282
     },
     "mateus_19": {
       "path": "/data/dictionary/chapters/mateus/19.json",
       "entryCount": 72,
-      "size": 71627
+      "size": 71555
     },
     "mateus_20": {
       "path": "/data/dictionary/chapters/mateus/20.json",
       "entryCount": 78,
-      "size": 77366
+      "size": 77288
     },
     "mateus_21": {
       "path": "/data/dictionary/chapters/mateus/21.json",
       "entryCount": 102,
-      "size": 101992
+      "size": 101890
     },
     "mateus_22": {
       "path": "/data/dictionary/chapters/mateus/22.json",
       "entryCount": 106,
-      "size": 103524
+      "size": 103418
     },
     "mateus_23": {
       "path": "/data/dictionary/chapters/mateus/23.json",
       "entryCount": 82,
-      "size": 81667
+      "size": 81585
     },
     "mateus_24": {
       "path": "/data/dictionary/chapters/mateus/24.json",
       "entryCount": 123,
-      "size": 121343
+      "size": 121220
     },
     "mateus_25": {
       "path": "/data/dictionary/chapters/mateus/25.json",
       "entryCount": 112,
-      "size": 110863
+      "size": 110751
     },
     "mateus_26": {
       "path": "/data/dictionary/chapters/mateus/26.json",
       "entryCount": 190,
-      "size": 188702
+      "size": 188512
     },
     "mateus_27": {
       "path": "/data/dictionary/chapters/mateus/27.json",
       "entryCount": 160,
-      "size": 158021
+      "size": 157861
     },
     "mateus_28": {
       "path": "/data/dictionary/chapters/mateus/28.json",
       "entryCount": 46,
-      "size": 45777
+      "size": 45731
     },
     "marcos_1": {
       "path": "/data/dictionary/chapters/marcos/1.json",
       "entryCount": 110,
-      "size": 108031
+      "size": 107921
     },
     "marcos_2": {
       "path": "/data/dictionary/chapters/marcos/2.json",
       "entryCount": 65,
-      "size": 64466
+      "size": 64401
     },
     "marcos_3": {
       "path": "/data/dictionary/chapters/marcos/3.json",
       "entryCount": 81,
-      "size": 79177
+      "size": 79096
     },
     "marcos_4": {
       "path": "/data/dictionary/chapters/marcos/4.json",
       "entryCount": 101,
-      "size": 98930
+      "size": 98829
     },
     "marcos_5": {
       "path": "/data/dictionary/chapters/marcos/5.json",
       "entryCount": 94,
-      "size": 91553
+      "size": 91459
     },
     "marcos_6": {
       "path": "/data/dictionary/chapters/marcos/6.json",
       "entryCount": 122,
-      "size": 120843
+      "size": 120721
     },
     "marcos_7": {
       "path": "/data/dictionary/chapters/marcos/7.json",
       "entryCount": 85,
-      "size": 83933
+      "size": 83848
     },
     "marcos_8": {
       "path": "/data/dictionary/chapters/marcos/8.json",
       "entryCount": 84,
-      "size": 82623
+      "size": 82539
     },
     "marcos_9": {
       "path": "/data/dictionary/chapters/marcos/9.json",
       "entryCount": 123,
-      "size": 121624
+      "size": 121501
     },
     "marcos_10": {
       "path": "/data/dictionary/chapters/marcos/10.json",
       "entryCount": 127,
-      "size": 125866
+      "size": 125739
     },
     "marcos_11": {
       "path": "/data/dictionary/chapters/marcos/11.json",
       "entryCount": 75,
-      "size": 74867
+      "size": 74792
     },
     "marcos_12": {
       "path": "/data/dictionary/chapters/marcos/12.json",
       "entryCount": 106,
-      "size": 106626
+      "size": 106520
     },
     "marcos_13": {
       "path": "/data/dictionary/chapters/marcos/13.json",
       "entryCount": 87,
-      "size": 85975
+      "size": 85888
     },
     "marcos_14": {
       "path": "/data/dictionary/chapters/marcos/14.json",
       "entryCount": 182,
-      "size": 180526
+      "size": 180344
     },
     "marcos_15": {
       "path": "/data/dictionary/chapters/marcos/15.json",
       "entryCount": 115,
-      "size": 112977
+      "size": 112862
     },
     "marcos_16": {
       "path": "/data/dictionary/chapters/marcos/16.json",
       "entryCount": 51,
-      "size": 50415
+      "size": 50364
     },
     "lucas_1": {
       "path": "/data/dictionary/chapters/lucas/1.json",
       "entryCount": 213,
-      "size": 206489
+      "size": 206276
     },
     "lucas_2": {
       "path": "/data/dictionary/chapters/lucas/2.json",
       "entryCount": 126,
-      "size": 122769
+      "size": 122643
     },
     "lucas_3": {
       "path": "/data/dictionary/chapters/lucas/3.json",
       "entryCount": 96,
-      "size": 93809
+      "size": 93713
     },
     "lucas_4": {
       "path": "/data/dictionary/chapters/lucas/4.json",
       "entryCount": 107,
-      "size": 105156
+      "size": 105049
     },
     "lucas_5": {
       "path": "/data/dictionary/chapters/lucas/5.json",
       "entryCount": 93,
-      "size": 91735
+      "size": 91642
     },
     "lucas_6": {
       "path": "/data/dictionary/chapters/lucas/6.json",
       "entryCount": 120,
-      "size": 118512
+      "size": 118392
     },
     "lucas_7": {
       "path": "/data/dictionary/chapters/lucas/7.json",
       "entryCount": 106,
-      "size": 104078
+      "size": 103972
     },
     "lucas_8": {
       "path": "/data/dictionary/chapters/lucas/8.json",
       "entryCount": 136,
-      "size": 134194
+      "size": 134058
     },
     "lucas_9": {
       "path": "/data/dictionary/chapters/lucas/9.json",
       "entryCount": 147,
-      "size": 145549
+      "size": 145402
     },
     "lucas_10": {
       "path": "/data/dictionary/chapters/lucas/10.json",
       "entryCount": 100,
-      "size": 99087
+      "size": 98987
     },
     "lucas_11": {
       "path": "/data/dictionary/chapters/lucas/11.json",
       "entryCount": 125,
-      "size": 124315
+      "size": 124190
     },
     "lucas_12": {
       "path": "/data/dictionary/chapters/lucas/12.json",
       "entryCount": 147,
-      "size": 144776
+      "size": 144629
     },
     "lucas_13": {
       "path": "/data/dictionary/chapters/lucas/13.json",
       "entryCount": 86,
-      "size": 85108
+      "size": 85022
     },
     "lucas_14": {
       "path": "/data/dictionary/chapters/lucas/14.json",
       "entryCount": 81,
-      "size": 79665
+      "size": 79584
     },
     "lucas_15": {
       "path": "/data/dictionary/chapters/lucas/15.json",
       "entryCount": 60,
-      "size": 58667
+      "size": 58607
     },
     "lucas_16": {
       "path": "/data/dictionary/chapters/lucas/16.json",
       "entryCount": 74,
-      "size": 73581
+      "size": 73507
     },
     "lucas_17": {
       "path": "/data/dictionary/chapters/lucas/17.json",
       "entryCount": 90,
-      "size": 87509
+      "size": 87419
     },
     "lucas_18": {
       "path": "/data/dictionary/chapters/lucas/18.json",
       "entryCount": 106,
-      "size": 103151
+      "size": 103045
     },
     "lucas_19": {
       "path": "/data/dictionary/chapters/lucas/19.json",
       "entryCount": 109,
-      "size": 106887
+      "size": 106778
     },
     "lucas_20": {
       "path": "/data/dictionary/chapters/lucas/20.json",
       "entryCount": 116,
-      "size": 113514
+      "size": 113398
     },
     "lucas_21": {
       "path": "/data/dictionary/chapters/lucas/21.json",
       "entryCount": 97,
-      "size": 95262
+      "size": 95165
     },
     "lucas_22": {
       "path": "/data/dictionary/chapters/lucas/22.json",
       "entryCount": 165,
-      "size": 160264
+      "size": 160099
     },
     "lucas_23": {
       "path": "/data/dictionary/chapters/lucas/23.json",
       "entryCount": 140,
-      "size": 137471
+      "size": 137331
     },
     "lucas_24": {
       "path": "/data/dictionary/chapters/lucas/24.json",
       "entryCount": 135,
-      "size": 132173
+      "size": 132038
     },
     "joao_1": {
       "path": "/data/dictionary/chapters/joao/1.json",
       "entryCount": 127,
-      "size": 122912
+      "size": 122785
     },
     "joao_2": {
       "path": "/data/dictionary/chapters/joao/2.json",
       "entryCount": 65,
-      "size": 62769
+      "size": 62704
     },
     "joao_3": {
       "path": "/data/dictionary/chapters/joao/3.json",
       "entryCount": 94,
-      "size": 91367
+      "size": 91273
     },
     "joao_4": {
       "path": "/data/dictionary/chapters/joao/4.json",
       "entryCount": 135,
-      "size": 130688
+      "size": 130553
     },
     "joao_5": {
       "path": "/data/dictionary/chapters/joao/5.json",
       "entryCount": 107,
-      "size": 104004
+      "size": 103897
     },
     "joao_6": {
       "path": "/data/dictionary/chapters/joao/6.json",
       "entryCount": 168,
-      "size": 161946
+      "size": 161778
     },
     "joao_7": {
       "path": "/data/dictionary/chapters/joao/7.json",
       "entryCount": 131,
-      "size": 126336
+      "size": 126205
     },
     "joao_8": {
       "path": "/data/dictionary/chapters/joao/8.json",
       "entryCount": 145,
-      "size": 141258
+      "size": 141113
     },
     "joao_9": {
       "path": "/data/dictionary/chapters/joao/9.json",
       "entryCount": 99,
-      "size": 95231
+      "size": 95132
     },
     "joao_10": {
       "path": "/data/dictionary/chapters/joao/10.json",
       "entryCount": 101,
-      "size": 98516
+      "size": 98415
     },
     "joao_11": {
       "path": "/data/dictionary/chapters/joao/11.json",
       "entryCount": 142,
-      "size": 137781
+      "size": 137639
     },
     "joao_12": {
       "path": "/data/dictionary/chapters/joao/12.json",
       "entryCount": 125,
-      "size": 122384
+      "size": 122259
     },
     "joao_13": {
       "path": "/data/dictionary/chapters/joao/13.json",
       "entryCount": 98,
-      "size": 96206
+      "size": 96108
     },
     "joao_14": {
       "path": "/data/dictionary/chapters/joao/14.json",
       "entryCount": 71,
-      "size": 69613
+      "size": 69542
     },
     "joao_15": {
       "path": "/data/dictionary/chapters/joao/15.json",
       "entryCount": 57,
-      "size": 56007
+      "size": 55950
     },
     "joao_16": {
       "path": "/data/dictionary/chapters/joao/16.json",
       "entryCount": 79,
-      "size": 77244
+      "size": 77165
     },
     "joao_17": {
       "path": "/data/dictionary/chapters/joao/17.json",
       "entryCount": 60,
-      "size": 58496
+      "size": 58436
     },
     "joao_18": {
       "path": "/data/dictionary/chapters/joao/18.json",
       "entryCount": 98,
-      "size": 96689
+      "size": 96591
     },
     "joao_19": {
       "path": "/data/dictionary/chapters/joao/19.json",
       "entryCount": 102,
-      "size": 101142
+      "size": 101040
     },
     "joao_20": {
       "path": "/data/dictionary/chapters/joao/20.json",
       "entryCount": 73,
-      "size": 71779
+      "size": 71706
     },
     "joao_21": {
       "path": "/data/dictionary/chapters/joao/21.json",
       "entryCount": 57,
-      "size": 56776
+      "size": 56719
     },
     "atos_1": {
       "path": "/data/dictionary/chapters/atos/1.json",
       "entryCount": 72,
-      "size": 71780
+      "size": 71708
     },
     "atos_2": {
       "path": "/data/dictionary/chapters/atos/2.json",
       "entryCount": 122,
-      "size": 119710
+      "size": 119588
     },
     "atos_3": {
       "path": "/data/dictionary/chapters/atos/3.json",
       "entryCount": 66,
-      "size": 64236
+      "size": 64170
     },
     "atos_4": {
       "path": "/data/dictionary/chapters/atos/4.json",
       "entryCount": 94,
-      "size": 92319
+      "size": 92225
     },
     "atos_5": {
       "path": "/data/dictionary/chapters/atos/5.json",
       "entryCount": 99,
-      "size": 97134
+      "size": 97035
     },
     "atos_6": {
       "path": "/data/dictionary/chapters/atos/6.json",
       "entryCount": 41,
-      "size": 40465
+      "size": 40424
     },
     "atos_7": {
       "path": "/data/dictionary/chapters/atos/7.json",
       "entryCount": 142,
-      "size": 138875
+      "size": 138733
     },
     "atos_8": {
       "path": "/data/dictionary/chapters/atos/8.json",
       "entryCount": 102,
-      "size": 99647
+      "size": 99545
     },
     "atos_9": {
       "path": "/data/dictionary/chapters/atos/9.json",
       "entryCount": 105,
-      "size": 103234
+      "size": 103129
     },
     "atos_10": {
       "path": "/data/dictionary/chapters/atos/10.json",
       "entryCount": 124,
-      "size": 121789
+      "size": 121665
     },
     "atos_11": {
       "path": "/data/dictionary/chapters/atos/11.json",
       "entryCount": 78,
-      "size": 76667
+      "size": 76589
     },
     "atos_12": {
       "path": "/data/dictionary/chapters/atos/12.json",
       "entryCount": 64,
-      "size": 62951
+      "size": 62887
     },
     "atos_13": {
       "path": "/data/dictionary/chapters/atos/13.json",
       "entryCount": 131,
-      "size": 129192
+      "size": 129061
     },
     "atos_14": {
       "path": "/data/dictionary/chapters/atos/14.json",
       "entryCount": 65,
-      "size": 64088
+      "size": 64023
     },
     "atos_15": {
       "path": "/data/dictionary/chapters/atos/15.json",
       "entryCount": 108,
-      "size": 106162
+      "size": 106054
     },
     "atos_16": {
       "path": "/data/dictionary/chapters/atos/16.json",
       "entryCount": 94,
-      "size": 93140
+      "size": 93046
     },
     "atos_17": {
       "path": "/data/dictionary/chapters/atos/17.json",
       "entryCount": 87,
-      "size": 86410
+      "size": 86323
     },
     "atos_18": {
       "path": "/data/dictionary/chapters/atos/18.json",
       "entryCount": 69,
-      "size": 67923
+      "size": 67854
     },
     "atos_19": {
       "path": "/data/dictionary/chapters/atos/19.json",
       "entryCount": 102,
-      "size": 101250
+      "size": 101148
     },
     "atos_20": {
       "path": "/data/dictionary/chapters/atos/20.json",
       "entryCount": 95,
-      "size": 94031
+      "size": 93936
     },
     "atos_21": {
       "path": "/data/dictionary/chapters/atos/21.json",
       "entryCount": 90,
-      "size": 89744
+      "size": 89654
     },
     "atos_22": {
       "path": "/data/dictionary/chapters/atos/22.json",
       "entryCount": 67,
-      "size": 66304
+      "size": 66237
     },
     "atos_23": {
       "path": "/data/dictionary/chapters/atos/23.json",
       "entryCount": 80,
-      "size": 79354
+      "size": 79274
     },
     "atos_24": {
       "path": "/data/dictionary/chapters/atos/24.json",
       "entryCount": 67,
-      "size": 66477
+      "size": 66410
     },
     "atos_25": {
       "path": "/data/dictionary/chapters/atos/25.json",
       "entryCount": 72,
-      "size": 71822
+      "size": 71750
     },
     "atos_26": {
       "path": "/data/dictionary/chapters/atos/26.json",
       "entryCount": 80,
-      "size": 78927
+      "size": 78847
     },
     "atos_27": {
       "path": "/data/dictionary/chapters/atos/27.json",
       "entryCount": 93,
-      "size": 91791
+      "size": 91698
     },
     "atos_28": {
       "path": "/data/dictionary/chapters/atos/28.json",
       "entryCount": 77,
-      "size": 76325
+      "size": 76248
     },
     "romanos_1": {
       "path": "/data/dictionary/chapters/romanos/1.json",
       "entryCount": 78,
-      "size": 78941
+      "size": 78863
     },
     "romanos_2": {
       "path": "/data/dictionary/chapters/romanos/2.json",
       "entryCount": 73,
-      "size": 72456
+      "size": 72383
     },
     "romanos_3": {
       "path": "/data/dictionary/chapters/romanos/3.json",
       "entryCount": 79,
-      "size": 77594
+      "size": 77515
     },
     "romanos_4": {
       "path": "/data/dictionary/chapters/romanos/4.json",
       "entryCount": 68,
-      "size": 67665
+      "size": 67597
     },
     "romanos_5": {
       "path": "/data/dictionary/chapters/romanos/5.json",
       "entryCount": 54,
-      "size": 54383
+      "size": 54329
     },
     "romanos_6": {
       "path": "/data/dictionary/chapters/romanos/6.json",
       "entryCount": 56,
-      "size": 55544
+      "size": 55488
     },
     "romanos_7": {
       "path": "/data/dictionary/chapters/romanos/7.json",
       "entryCount": 70,
-      "size": 69233
+      "size": 69163
     },
     "romanos_8": {
       "path": "/data/dictionary/chapters/romanos/8.json",
       "entryCount": 98,
-      "size": 98308
+      "size": 98210
     },
     "romanos_9": {
       "path": "/data/dictionary/chapters/romanos/9.json",
       "entryCount": 88,
-      "size": 86991
+      "size": 86903
     },
     "romanos_10": {
       "path": "/data/dictionary/chapters/romanos/10.json",
       "entryCount": 59,
-      "size": 58960
+      "size": 58901
     },
     "romanos_11": {
       "path": "/data/dictionary/chapters/romanos/11.json",
       "entryCount": 85,
-      "size": 85545
+      "size": 85460
     },
     "romanos_12": {
       "path": "/data/dictionary/chapters/romanos/12.json",
       "entryCount": 56,
-      "size": 55749
+      "size": 55693
     },
     "romanos_13": {
       "path": "/data/dictionary/chapters/romanos/13.json",
       "entryCount": 37,
-      "size": 37570
+      "size": 37533
     },
     "romanos_14": {
       "path": "/data/dictionary/chapters/romanos/14.json",
       "entryCount": 63,
-      "size": 63209
+      "size": 63146
     },
     "romanos_15": {
       "path": "/data/dictionary/chapters/romanos/15.json",
       "entryCount": 81,
-      "size": 81827
+      "size": 81746
     },
     "romanos_16": {
       "path": "/data/dictionary/chapters/romanos/16.json",
       "entryCount": 71,
-      "size": 70919
+      "size": 70848
     },
     "1corintios_1": {
       "path": "/data/dictionary/chapters/1corintios/1.json",
       "entryCount": 80,
-      "size": 81999
+      "size": 81919
     },
     "1corintios_2": {
       "path": "/data/dictionary/chapters/1corintios/2.json",
       "entryCount": 45,
-      "size": 46716
+      "size": 46671
     },
     "1corintios_3": {
       "path": "/data/dictionary/chapters/1corintios/3.json",
       "entryCount": 63,
-      "size": 64056
+      "size": 63993
     },
     "1corintios_4": {
       "path": "/data/dictionary/chapters/1corintios/4.json",
       "entryCount": 50,
-      "size": 51616
+      "size": 51566
     },
     "1corintios_5": {
       "path": "/data/dictionary/chapters/1corintios/5.json",
       "entryCount": 35,
-      "size": 36242
+      "size": 36207
     },
     "1corintios_6": {
       "path": "/data/dictionary/chapters/1corintios/6.json",
       "entryCount": 48,
-      "size": 49650
+      "size": 49602
     },
     "1corintios_7": {
       "path": "/data/dictionary/chapters/1corintios/7.json",
       "entryCount": 101,
-      "size": 103981
+      "size": 103880
     },
     "1corintios_8": {
       "path": "/data/dictionary/chapters/1corintios/8.json",
       "entryCount": 38,
-      "size": 39283
+      "size": 39245
     },
     "1corintios_9": {
       "path": "/data/dictionary/chapters/1corintios/9.json",
       "entryCount": 65,
-      "size": 66993
+      "size": 66928
     },
     "1corintios_10": {
       "path": "/data/dictionary/chapters/1corintios/10.json",
       "entryCount": 85,
-      "size": 87270
+      "size": 87185
     },
     "1corintios_11": {
       "path": "/data/dictionary/chapters/1corintios/11.json",
       "entryCount": 86,
-      "size": 88510
+      "size": 88424
     },
     "1corintios_12": {
       "path": "/data/dictionary/chapters/1corintios/12.json",
       "entryCount": 71,
-      "size": 72854
+      "size": 72783
     },
     "1corintios_13": {
       "path": "/data/dictionary/chapters/1corintios/13.json",
       "entryCount": 30,
-      "size": 30914
+      "size": 30884
     },
     "1corintios_14": {
       "path": "/data/dictionary/chapters/1corintios/14.json",
       "entryCount": 102,
-      "size": 106319
+      "size": 106217
     },
     "1corintios_15": {
       "path": "/data/dictionary/chapters/1corintios/15.json",
       "entryCount": 152,
-      "size": 156214
+      "size": 156062
     },
     "1corintios_16": {
       "path": "/data/dictionary/chapters/1corintios/16.json",
       "entryCount": 54,
-      "size": 55128
+      "size": 55074
     },
     "2corintios_1": {
       "path": "/data/dictionary/chapters/2corintios/1.json",
       "entryCount": 65,
-      "size": 67733
+      "size": 67668
     },
     "2corintios_2": {
       "path": "/data/dictionary/chapters/2corintios/2.json",
       "entryCount": 46,
-      "size": 47048
+      "size": 47002
     },
     "2corintios_3": {
       "path": "/data/dictionary/chapters/2corintios/3.json",
       "entryCount": 44,
-      "size": 45347
+      "size": 45303
     },
     "2corintios_4": {
       "path": "/data/dictionary/chapters/2corintios/4.json",
       "entryCount": 50,
-      "size": 51813
+      "size": 51763
     },
     "2corintios_5": {
       "path": "/data/dictionary/chapters/2corintios/5.json",
       "entryCount": 54,
-      "size": 55547
+      "size": 55493
     },
     "2corintios_6": {
       "path": "/data/dictionary/chapters/2corintios/6.json",
       "entryCount": 45,
-      "size": 46056
+      "size": 46011
     },
     "2corintios_7": {
       "path": "/data/dictionary/chapters/2corintios/7.json",
       "entryCount": 42,
-      "size": 43950
+      "size": 43908
     },
     "2corintios_8": {
       "path": "/data/dictionary/chapters/2corintios/8.json",
       "entryCount": 67,
-      "size": 69786
+      "size": 69719
     },
     "2corintios_9": {
       "path": "/data/dictionary/chapters/2corintios/9.json",
       "entryCount": 37,
-      "size": 38545
+      "size": 38508
     },
     "2corintios_10": {
       "path": "/data/dictionary/chapters/2corintios/10.json",
       "entryCount": 44,
-      "size": 45872
+      "size": 45828
     },
     "2corintios_11": {
       "path": "/data/dictionary/chapters/2corintios/11.json",
       "entryCount": 83,
-      "size": 85799
+      "size": 85716
     },
     "2corintios_12": {
       "path": "/data/dictionary/chapters/2corintios/12.json",
       "entryCount": 58,
-      "size": 60229
+      "size": 60171
     },
     "2corintios_13": {
       "path": "/data/dictionary/chapters/2corintios/13.json",
       "entryCount": 31,
-      "size": 31809
+      "size": 31778
     },
     "galatas_1": {
       "path": "/data/dictionary/chapters/galatas/1.json",
       "entryCount": 63,
-      "size": 62525
+      "size": 62462
     },
     "galatas_2": {
       "path": "/data/dictionary/chapters/galatas/2.json",
       "entryCount": 57,
-      "size": 57754
+      "size": 57697
     },
     "galatas_3": {
       "path": "/data/dictionary/chapters/galatas/3.json",
       "entryCount": 79,
-      "size": 78557
+      "size": 78478
     },
     "galatas_4": {
       "path": "/data/dictionary/chapters/galatas/4.json",
       "entryCount": 75,
-      "size": 74270
+      "size": 74195
     },
     "galatas_5": {
       "path": "/data/dictionary/chapters/galatas/5.json",
       "entryCount": 68,
-      "size": 66824
+      "size": 66756
     },
     "galatas_6": {
       "path": "/data/dictionary/chapters/galatas/6.json",
       "entryCount": 46,
-      "size": 45539
+      "size": 45493
     },
     "efesios_1": {
       "path": "/data/dictionary/chapters/efesios/1.json",
       "entryCount": 59,
-      "size": 59514
+      "size": 59455
     },
     "efesios_2": {
       "path": "/data/dictionary/chapters/efesios/2.json",
       "entryCount": 50,
-      "size": 49859
+      "size": 49809
     },
     "efesios_3": {
       "path": "/data/dictionary/chapters/efesios/3.json",
       "entryCount": 51,
-      "size": 51010
+      "size": 50959
     },
     "efesios_4": {
       "path": "/data/dictionary/chapters/efesios/4.json",
       "entryCount": 81,
-      "size": 80538
+      "size": 80457
     },
     "efesios_5": {
       "path": "/data/dictionary/chapters/efesios/5.json",
       "entryCount": 89,
-      "size": 87781
+      "size": 87692
     },
     "efesios_6": {
       "path": "/data/dictionary/chapters/efesios/6.json",
       "entryCount": 62,
-      "size": 61994
+      "size": 61932
     },
     "filipenses_1": {
       "path": "/data/dictionary/chapters/filipenses/1.json",
       "entryCount": 81,
-      "size": 82102
+      "size": 82021
     },
     "filipenses_2": {
       "path": "/data/dictionary/chapters/filipenses/2.json",
       "entryCount": 73,
-      "size": 74381
+      "size": 74308
     },
     "filipenses_3": {
       "path": "/data/dictionary/chapters/filipenses/3.json",
       "entryCount": 53,
-      "size": 54257
+      "size": 54204
     },
     "filipenses_4": {
       "path": "/data/dictionary/chapters/filipenses/4.json",
       "entryCount": 63,
-      "size": 63637
+      "size": 63574
     },
     "colossenses_1": {
       "path": "/data/dictionary/chapters/colossenses/1.json",
       "entryCount": 77,
-      "size": 79289
+      "size": 79212
     },
     "colossenses_2": {
       "path": "/data/dictionary/chapters/colossenses/2.json",
       "entryCount": 61,
-      "size": 62633
+      "size": 62572
     },
     "colossenses_3": {
       "path": "/data/dictionary/chapters/colossenses/3.json",
       "entryCount": 64,
-      "size": 65006
+      "size": 64942
     },
     "colossenses_4": {
       "path": "/data/dictionary/chapters/colossenses/4.json",
       "entryCount": 47,
-      "size": 48019
+      "size": 47972
     },
     "1tessalonicenses_1": {
       "path": "/data/dictionary/chapters/1tessalonicenses/1.json",
       "entryCount": 30,
-      "size": 32051
+      "size": 32021
     },
     "1tessalonicenses_2": {
       "path": "/data/dictionary/chapters/1tessalonicenses/2.json",
       "entryCount": 53,
-      "size": 56818
+      "size": 56765
     },
     "1tessalonicenses_3": {
       "path": "/data/dictionary/chapters/1tessalonicenses/3.json",
       "entryCount": 33,
-      "size": 35216
+      "size": 35183
     },
     "1tessalonicenses_4": {
       "path": "/data/dictionary/chapters/1tessalonicenses/4.json",
       "entryCount": 45,
-      "size": 47973
+      "size": 47928
     },
     "1tessalonicenses_5": {
       "path": "/data/dictionary/chapters/1tessalonicenses/5.json",
       "entryCount": 67,
-      "size": 68908
+      "size": 68841
     },
     "2tessalonicenses_1": {
       "path": "/data/dictionary/chapters/2tessalonicenses/1.json",
       "entryCount": 35,
-      "size": 37408
+      "size": 37373
     },
     "2tessalonicenses_2": {
       "path": "/data/dictionary/chapters/2tessalonicenses/2.json",
       "entryCount": 47,
-      "size": 49782
+      "size": 49735
     },
     "2tessalonicenses_3": {
       "path": "/data/dictionary/chapters/2tessalonicenses/3.json",
       "entryCount": 46,
-      "size": 48047
+      "size": 48001
     },
     "1timoteo_1": {
       "path": "/data/dictionary/chapters/1timoteo/1.json",
       "entryCount": 50,
-      "size": 50679
+      "size": 50629
     },
     "1timoteo_2": {
       "path": "/data/dictionary/chapters/1timoteo/2.json",
       "entryCount": 39,
-      "size": 39328
+      "size": 39289
     },
     "1timoteo_3": {
       "path": "/data/dictionary/chapters/1timoteo/3.json",
       "entryCount": 42,
-      "size": 42526
+      "size": 42484
     },
     "1timoteo_4": {
       "path": "/data/dictionary/chapters/1timoteo/4.json",
       "entryCount": 38,
-      "size": 38467
+      "size": 38429
     },
     "1timoteo_5": {
       "path": "/data/dictionary/chapters/1timoteo/5.json",
       "entryCount": 56,
-      "size": 56970
+      "size": 56914
     },
     "1timoteo_6": {
       "path": "/data/dictionary/chapters/1timoteo/6.json",
       "entryCount": 58,
-      "size": 59666
+      "size": 59608
     },
     "2timoteo_1": {
       "path": "/data/dictionary/chapters/2timoteo/1.json",
       "entryCount": 49,
-      "size": 50139
+      "size": 50090
     },
     "2timoteo_2": {
       "path": "/data/dictionary/chapters/2timoteo/2.json",
       "entryCount": 57,
-      "size": 57609
+      "size": 57552
     },
     "2timoteo_3": {
       "path": "/data/dictionary/chapters/2timoteo/3.json",
       "entryCount": 40,
-      "size": 40768
+      "size": 40728
     },
     "2timoteo_4": {
       "path": "/data/dictionary/chapters/2timoteo/4.json",
       "entryCount": 60,
-      "size": 60559
+      "size": 60499
     },
     "tito_1": {
       "path": "/data/dictionary/chapters/tito/1.json",
       "entryCount": 42,
-      "size": 41708
+      "size": 41666
     },
     "tito_2": {
       "path": "/data/dictionary/chapters/tito/2.json",
       "entryCount": 41,
-      "size": 39943
+      "size": 39902
     },
     "tito_3": {
       "path": "/data/dictionary/chapters/tito/3.json",
       "entryCount": 39,
-      "size": 38377
+      "size": 38338
     },
     "filemom_1": {
       "path": "/data/dictionary/chapters/filemom/1.json",
       "entryCount": 62,
-      "size": 60887
+      "size": 60825
     },
     "hebreus_1": {
       "path": "/data/dictionary/chapters/hebreus/1.json",
       "entryCount": 31,
-      "size": 30895
+      "size": 30864
     },
     "hebreus_2": {
       "path": "/data/dictionary/chapters/hebreus/2.json",
       "entryCount": 43,
-      "size": 43609
+      "size": 43566
     },
     "hebreus_3": {
       "path": "/data/dictionary/chapters/hebreus/3.json",
       "entryCount": 49,
-      "size": 48624
+      "size": 48575
     },
     "hebreus_4": {
       "path": "/data/dictionary/chapters/hebreus/4.json",
       "entryCount": 47,
-      "size": 47341
+      "size": 47294
     },
     "hebreus_5": {
       "path": "/data/dictionary/chapters/hebreus/5.json",
       "entryCount": 37,
-      "size": 37086
+      "size": 37049
     },
     "hebreus_6": {
       "path": "/data/dictionary/chapters/hebreus/6.json",
       "entryCount": 50,
-      "size": 50003
+      "size": 49953
     },
     "hebreus_7": {
       "path": "/data/dictionary/chapters/hebreus/7.json",
       "entryCount": 80,
-      "size": 80070
+      "size": 79990
     },
     "hebreus_8": {
       "path": "/data/dictionary/chapters/hebreus/8.json",
       "entryCount": 33,
-      "size": 33572
+      "size": 33539
     },
     "hebreus_9": {
       "path": "/data/dictionary/chapters/hebreus/9.json",
       "entryCount": 66,
-      "size": 67002
+      "size": 66936
     },
     "hebreus_10": {
       "path": "/data/dictionary/chapters/hebreus/10.json",
       "entryCount": 106,
-      "size": 105957
+      "size": 105851
     },
     "hebreus_11": {
       "path": "/data/dictionary/chapters/hebreus/11.json",
       "entryCount": 103,
-      "size": 102848
+      "size": 102745
     },
     "hebreus_12": {
       "path": "/data/dictionary/chapters/hebreus/12.json",
       "entryCount": 72,
-      "size": 72630
+      "size": 72558
     },
     "hebreus_13": {
       "path": "/data/dictionary/chapters/hebreus/13.json",
       "entryCount": 64,
-      "size": 63947
+      "size": 63883
     },
     "tiago_1": {
       "path": "/data/dictionary/chapters/tiago/1.json",
       "entryCount": 62,
-      "size": 60571
+      "size": 60509
     },
     "tiago_2": {
       "path": "/data/dictionary/chapters/tiago/2.json",
       "entryCount": 70,
-      "size": 68416
+      "size": 68346
     },
     "tiago_3": {
       "path": "/data/dictionary/chapters/tiago/3.json",
       "entryCount": 42,
-      "size": 41464
+      "size": 41422
     },
     "tiago_4": {
       "path": "/data/dictionary/chapters/tiago/4.json",
       "entryCount": 42,
-      "size": 40750
+      "size": 40708
     },
     "tiago_5": {
       "path": "/data/dictionary/chapters/tiago/5.json",
       "entryCount": 56,
-      "size": 55610
+      "size": 55554
     },
     "1pedro_1": {
       "path": "/data/dictionary/chapters/1pedro/1.json",
       "entryCount": 63,
-      "size": 63546
+      "size": 63483
     },
     "1pedro_2": {
       "path": "/data/dictionary/chapters/1pedro/2.json",
       "entryCount": 60,
-      "size": 60297
+      "size": 60237
     },
     "1pedro_3": {
       "path": "/data/dictionary/chapters/1pedro/3.json",
       "entryCount": 62,
-      "size": 62609
+      "size": 62547
     },
     "1pedro_4": {
       "path": "/data/dictionary/chapters/1pedro/4.json",
       "entryCount": 45,
-      "size": 45093
+      "size": 45048
     },
     "1pedro_5": {
       "path": "/data/dictionary/chapters/1pedro/5.json",
       "entryCount": 31,
-      "size": 31052
+      "size": 31021
     },
     "2pedro_1": {
       "path": "/data/dictionary/chapters/2pedro/1.json",
       "entryCount": 54,
-      "size": 54359
+      "size": 54305
     },
     "2pedro_2": {
       "path": "/data/dictionary/chapters/2pedro/2.json",
       "entryCount": 50,
-      "size": 51226
+      "size": 51176
     },
     "2pedro_3": {
       "path": "/data/dictionary/chapters/2pedro/3.json",
       "entryCount": 48,
-      "size": 48914
+      "size": 48866
     },
     "1joao_1": {
       "path": "/data/dictionary/chapters/1joao/1.json",
       "entryCount": 24,
-      "size": 24160
+      "size": 24136
     },
     "1joao_2": {
       "path": "/data/dictionary/chapters/1joao/2.json",
       "entryCount": 65,
-      "size": 64745
+      "size": 64680
     },
     "1joao_3": {
       "path": "/data/dictionary/chapters/1joao/3.json",
       "entryCount": 60,
-      "size": 59483
+      "size": 59423
     },
     "1joao_4": {
       "path": "/data/dictionary/chapters/1joao/4.json",
       "entryCount": 50,
-      "size": 49530
+      "size": 49480
     },
     "1joao_5": {
       "path": "/data/dictionary/chapters/1joao/5.json",
       "entryCount": 53,
-      "size": 52295
+      "size": 52242
     },
     "2joao_1": {
       "path": "/data/dictionary/chapters/2joao/1.json",
       "entryCount": 29,
-      "size": 29071
+      "size": 29042
     },
     "3joao_1": {
       "path": "/data/dictionary/chapters/3joao/1.json",
       "entryCount": 37,
-      "size": 36458
+      "size": 36421
     },
     "judas_1": {
       "path": "/data/dictionary/chapters/judas/1.json",
       "entryCount": 62,
-      "size": 61602
+      "size": 61540
     },
     "apocalipse_1": {
       "path": "/data/dictionary/chapters/apocalipse/1.json",
       "entryCount": 45,
-      "size": 46516
+      "size": 46471
     },
     "apocalipse_2": {
       "path": "/data/dictionary/chapters/apocalipse/2.json",
       "entryCount": 74,
-      "size": 76179
+      "size": 76105
     },
     "apocalipse_3": {
       "path": "/data/dictionary/chapters/apocalipse/3.json",
       "entryCount": 54,
-      "size": 55162
+      "size": 55108
     },
     "apocalipse_4": {
       "path": "/data/dictionary/chapters/apocalipse/4.json",
       "entryCount": 29,
-      "size": 30155
+      "size": 30126
     },
     "apocalipse_5": {
       "path": "/data/dictionary/chapters/apocalipse/5.json",
       "entryCount": 34,
-      "size": 34679
+      "size": 34645
     },
     "apocalipse_6": {
       "path": "/data/dictionary/chapters/apocalipse/6.json",
       "entryCount": 36,
-      "size": 36782
+      "size": 36746
     },
     "apocalipse_7": {
       "path": "/data/dictionary/chapters/apocalipse/7.json",
       "entryCount": 47,
-      "size": 47818
+      "size": 47771
     },
     "apocalipse_8": {
       "path": "/data/dictionary/chapters/apocalipse/8.json",
       "entryCount": 30,
-      "size": 30860
+      "size": 30830
     },
     "apocalipse_9": {
       "path": "/data/dictionary/chapters/apocalipse/9.json",
       "entryCount": 44,
-      "size": 44472
+      "size": 44428
     },
     "apocalipse_10": {
       "path": "/data/dictionary/chapters/apocalipse/10.json",
       "entryCount": 28,
-      "size": 28621
+      "size": 28593
     },
     "apocalipse_11": {
       "path": "/data/dictionary/chapters/apocalipse/11.json",
       "entryCount": 49,
-      "size": 50711
+      "size": 50662
     },
     "apocalipse_12": {
       "path": "/data/dictionary/chapters/apocalipse/12.json",
       "entryCount": 49,
-      "size": 50202
+      "size": 50153
     },
     "apocalipse_13": {
       "path": "/data/dictionary/chapters/apocalipse/13.json",
       "entryCount": 43,
-      "size": 44151
+      "size": 44108
     },
     "apocalipse_14": {
       "path": "/data/dictionary/chapters/apocalipse/14.json",
       "entryCount": 49,
-      "size": 50729
+      "size": 50680
     },
     "apocalipse_15": {
       "path": "/data/dictionary/chapters/apocalipse/15.json",
       "entryCount": 21,
-      "size": 21642
+      "size": 21621
     },
     "apocalipse_16": {
       "path": "/data/dictionary/chapters/apocalipse/16.json",
       "entryCount": 53,
-      "size": 54685
+      "size": 54632
     },
     "apocalipse_17": {
       "path": "/data/dictionary/chapters/apocalipse/17.json",
       "entryCount": 42,
-      "size": 43252
+      "size": 43210
     },
     "apocalipse_18": {
       "path": "/data/dictionary/chapters/apocalipse/18.json",
       "entryCount": 51,
-      "size": 52939
+      "size": 52888
     },
     "apocalipse_19": {
       "path": "/data/dictionary/chapters/apocalipse/19.json",
       "entryCount": 52,
-      "size": 54166
+      "size": 54114
     },
     "apocalipse_20": {
       "path": "/data/dictionary/chapters/apocalipse/20.json",
       "entryCount": 37,
-      "size": 37970
+      "size": 37933
     },
     "apocalipse_21": {
       "path": "/data/dictionary/chapters/apocalipse/21.json",
       "entryCount": 64,
-      "size": 66058
+      "size": 65994
     },
     "apocalipse_22": {
       "path": "/data/dictionary/chapters/apocalipse/22.json",
       "entryCount": 55,
-      "size": 56718
+      "size": 56663
     }
   }
 }
