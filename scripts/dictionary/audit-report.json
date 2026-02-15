@@ -1,0 +1,339 @@
+{
+  "generatedAt": "2026-02-15T03:20:54.291Z",
+  "totalEntries": 82714,
+  "invalidKeys": 0,
+  "reprocess": 0,
+  "complete": 82714,
+  "byBook": {
+    "genesis": {
+      "total": 4225,
+      "reprocess": 0,
+      "complete": 4225
+    },
+    "exodo": {
+      "total": 3235,
+      "reprocess": 0,
+      "complete": 3235
+    },
+    "levitico": {
+      "total": 2318,
+      "reprocess": 0,
+      "complete": 2318
+    },
+    "numeros": {
+      "total": 3448,
+      "reprocess": 0,
+      "complete": 3448
+    },
+    "deuteronomio": {
+      "total": 2691,
+      "reprocess": 0,
+      "complete": 2691
+    },
+    "josue": {
+      "total": 1770,
+      "reprocess": 0,
+      "complete": 1770
+    },
+    "juizes": {
+      "total": 1752,
+      "reprocess": 0,
+      "complete": 1752
+    },
+    "rute": {
+      "total": 240,
+      "reprocess": 0,
+      "complete": 240
+    },
+    "1samuel": {
+      "total": 2286,
+      "reprocess": 0,
+      "complete": 2286
+    },
+    "2samuel": {
+      "total": 1963,
+      "reprocess": 0,
+      "complete": 1963
+    },
+    "1reis": {
+      "total": 2285,
+      "reprocess": 0,
+      "complete": 2285
+    },
+    "2reis": {
+      "total": 2069,
+      "reprocess": 0,
+      "complete": 2069
+    },
+    "1cronicas": {
+      "total": 2467,
+      "reprocess": 0,
+      "complete": 2467
+    },
+    "2cronicas": {
+      "total": 2289,
+      "reprocess": 0,
+      "complete": 2289
+    },
+    "esdras": {
+      "total": 730,
+      "reprocess": 0,
+      "complete": 730
+    },
+    "neemias": {
+      "total": 1043,
+      "reprocess": 0,
+      "complete": 1043
+    },
+    "ester": {
+      "total": 456,
+      "reprocess": 0,
+      "complete": 456
+    },
+    "jo": {
+      "total": 2817,
+      "reprocess": 0,
+      "complete": 2817
+    },
+    "salmos": {
+      "total": 6800,
+      "reprocess": 0,
+      "complete": 6800
+    },
+    "proverbios": {
+      "total": 2426,
+      "reprocess": 0,
+      "complete": 2426
+    },
+    "eclesiastes": {
+      "total": 608,
+      "reprocess": 0,
+      "complete": 608
+    },
+    "cantares": {
+      "total": 285,
+      "reprocess": 0,
+      "complete": 285
+    },
+    "isaias": {
+      "total": 3456,
+      "reprocess": 0,
+      "complete": 3456
+    },
+    "jeremias": {
+      "total": 3801,
+      "reprocess": 0,
+      "complete": 3801
+    },
+    "lamentacoes": {
+      "total": 417,
+      "reprocess": 0,
+      "complete": 417
+    },
+    "ezequiel": {
+      "total": 3463,
+      "reprocess": 0,
+      "complete": 3463
+    },
+    "daniel": {
+      "total": 923,
+      "reprocess": 0,
+      "complete": 923
+    },
+    "oseias": {
+      "total": 528,
+      "reprocess": 0,
+      "complete": 528
+    },
+    "joel": {
+      "total": 195,
+      "reprocess": 0,
+      "complete": 195
+    },
+    "amos": {
+      "total": 408,
+      "reprocess": 0,
+      "complete": 408
+    },
+    "obadias": {
+      "total": 58,
+      "reprocess": 0,
+      "complete": 58
+    },
+    "jonas": {
+      "total": 140,
+      "reprocess": 0,
+      "complete": 140
+    },
+    "miqueias": {
+      "total": 282,
+      "reprocess": 0,
+      "complete": 282
+    },
+    "naum": {
+      "total": 119,
+      "reprocess": 0,
+      "complete": 119
+    },
+    "habacuque": {
+      "total": 153,
+      "reprocess": 0,
+      "complete": 153
+    },
+    "sofonias": {
+      "total": 145,
+      "reprocess": 0,
+      "complete": 145
+    },
+    "ageu": {
+      "total": 112,
+      "reprocess": 0,
+      "complete": 112
+    },
+    "zacarias": {
+      "total": 592,
+      "reprocess": 0,
+      "complete": 592
+    },
+    "malaquias": {
+      "total": 153,
+      "reprocess": 0,
+      "complete": 153
+    },
+    "mateus": {
+      "total": 2516,
+      "reprocess": 0,
+      "complete": 2516
+    },
+    "marcos": {
+      "total": 1608,
+      "reprocess": 0,
+      "complete": 1608
+    },
+    "lucas": {
+      "total": 2775,
+      "reprocess": 0,
+      "complete": 2775
+    },
+    "joao": {
+      "total": 2134,
+      "reprocess": 0,
+      "complete": 2134
+    },
+    "atos": {
+      "total": 2486,
+      "reprocess": 0,
+      "complete": 2486
+    },
+    "romanos": {
+      "total": 1116,
+      "reprocess": 0,
+      "complete": 1116
+    },
+    "1corintios": {
+      "total": 1105,
+      "reprocess": 0,
+      "complete": 1105
+    },
+    "2corintios": {
+      "total": 666,
+      "reprocess": 0,
+      "complete": 666
+    },
+    "galatas": {
+      "total": 388,
+      "reprocess": 0,
+      "complete": 388
+    },
+    "efesios": {
+      "total": 392,
+      "reprocess": 0,
+      "complete": 392
+    },
+    "filipenses": {
+      "total": 270,
+      "reprocess": 0,
+      "complete": 270
+    },
+    "colossenses": {
+      "total": 249,
+      "reprocess": 0,
+      "complete": 249
+    },
+    "1tessalonicenses": {
+      "total": 228,
+      "reprocess": 0,
+      "complete": 228
+    },
+    "2tessalonicenses": {
+      "total": 128,
+      "reprocess": 0,
+      "complete": 128
+    },
+    "1timoteo": {
+      "total": 283,
+      "reprocess": 0,
+      "complete": 283
+    },
+    "2timoteo": {
+      "total": 206,
+      "reprocess": 0,
+      "complete": 206
+    },
+    "tito": {
+      "total": 122,
+      "reprocess": 0,
+      "complete": 122
+    },
+    "filemom": {
+      "total": 62,
+      "reprocess": 0,
+      "complete": 62
+    },
+    "hebreus": {
+      "total": 781,
+      "reprocess": 0,
+      "complete": 781
+    },
+    "tiago": {
+      "total": 272,
+      "reprocess": 0,
+      "complete": 272
+    },
+    "1pedro": {
+      "total": 261,
+      "reprocess": 0,
+      "complete": 261
+    },
+    "2pedro": {
+      "total": 152,
+      "reprocess": 0,
+      "complete": 152
+    },
+    "1joao": {
+      "total": 252,
+      "reprocess": 0,
+      "complete": 252
+    },
+    "2joao": {
+      "total": 29,
+      "reprocess": 0,
+      "complete": 29
+    },
+    "3joao": {
+      "total": 37,
+      "reprocess": 0,
+      "complete": 37
+    },
+    "judas": {
+      "total": 62,
+      "reprocess": 0,
+      "complete": 62
+    },
+    "apocalipse": {
+      "total": 986,
+      "reprocess": 0,
+      "complete": 986
+    }
+  }
+}

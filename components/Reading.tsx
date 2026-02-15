@@ -23,6 +23,12 @@ import ReadingProgress from './ReadingProgress';
 import { markChapterOpened } from '../services/readingPlanService';
 import { shareVerse } from '../services/shareService';
 import { APP_DATA_UPDATED_EVENT } from '../services/localStateService';
+import {
+  DICTIONARY_WARMUP_EVENT,
+  DictionaryWarmupStatus,
+  getDictionaryWarmupStatus,
+  warmupDictionaryOffline,
+} from '../services/dictionaryWarmupService';
 
 type ViewState = 'plans' | 'books' | 'chapters' | 'reading';
 
@@ -50,6 +56,9 @@ const Reading: React.FC<ReadingProps> = ({ initialTarget, onTargetConsumed, onFo
   const [showBackToTop, setShowBackToTop] = useState(false);
   const [selectedVerse, setSelectedVerse] = useState<number | null>(null);
   const [shareFeedback, setShareFeedback] = useState<string | null>(null);
+  const [dictionaryWarmupStatus, setDictionaryWarmupStatus] = useState<DictionaryWarmupStatus>(() =>
+    getDictionaryWarmupStatus()
+  );
 
   // Note modal
   const [showNoteModal, setShowNoteModal] = useState(false);
@@ -132,6 +141,29 @@ const Reading: React.FC<ReadingProps> = ({ initialTarget, onTargetConsumed, onFo
   useEffect(() => {
     onFocusModeChange?.(focusMode);
   }, [focusMode]);
+
+  useEffect(() => {
+    const handleWarmupEvent = (event: Event) => {
+      const detail = (event as CustomEvent<DictionaryWarmupStatus>).detail;
+      if (detail) {
+        setDictionaryWarmupStatus(detail);
+      } else {
+        setDictionaryWarmupStatus(getDictionaryWarmupStatus());
+      }
+    };
+
+    setDictionaryWarmupStatus(getDictionaryWarmupStatus());
+    window.addEventListener(DICTIONARY_WARMUP_EVENT, handleWarmupEvent as EventListener);
+
+    const status = getDictionaryWarmupStatus();
+    if (status.phase !== 'done' && status.phase !== 'running') {
+      void warmupDictionaryOffline();
+    }
+
+    return () => {
+      window.removeEventListener(DICTIONARY_WARMUP_EVENT, handleWarmupEvent as EventListener);
+    };
+  }, []);
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -490,6 +522,42 @@ const Reading: React.FC<ReadingProps> = ({ initialTarget, onTargetConsumed, onFo
     );
   };
 
+  const renderDictionaryWarmupBanner = () => {
+    if (dictionaryWarmupStatus.phase === 'done') {
+      return (
+        <div className="mb-4 rounded-2xl border border-grace-border bg-grace-surface px-4 py-3 text-xs text-cream-muted">
+          Dicionário offline pronto para uso.
+        </div>
+      );
+    }
+
+    if (dictionaryWarmupStatus.phase === 'error') {
+      return (
+        <div className="mb-4 rounded-2xl border border-[rgba(199,92,92,0.35)] bg-[rgba(199,92,92,0.08)] px-4 py-3 text-xs text-cream">
+          Não foi possível concluir a sincronização offline do dicionário.
+          <button
+            onClick={() => void warmupDictionaryOffline({ force: true })}
+            className="ml-2 font-semibold underline underline-offset-2"
+          >
+            Tentar novamente
+          </button>
+        </div>
+      );
+    }
+
+    const percentage = dictionaryWarmupStatus.percentage || 0;
+    return (
+      <div className="mb-4 rounded-2xl border border-grace-border bg-grace-surface px-4 py-3">
+        <p className="text-xs font-semibold text-cream">
+          Sincronizando dicionário offline: {percentage}%
+        </p>
+        <div className="mt-2 h-1.5 w-full overflow-hidden rounded-full bg-grace-surface-2">
+          <div className="h-full bg-terra transition-all duration-300" style={{ width: `${percentage}%` }} />
+        </div>
+      </div>
+    );
+  };
+
   return (
     <>
       {viewState === 'books' && (
@@ -506,31 +574,39 @@ const Reading: React.FC<ReadingProps> = ({ initialTarget, onTargetConsumed, onFo
           onBack={() => setViewState('books')}
         />
       )}
-      {viewState === 'reading' && (loading ? renderLoading() : currentChapter && (
-        <VerseDisplay
-          chapter={currentChapter}
-          studyMode={studyMode}
-          loadingDictionary={loadingDictionary}
-          dictionaryWords={dictionaryWords}
-          favoritedVerses={favoritedVerses}
-          versesWithNotes={versesWithNotes}
-          verseHighlights={verseHighlights}
-          highlightedVerse={highlightedVerse}
-          selectedVerse={selectedVerse}
-          onSelectVerse={setSelectedVerse}
-          onToggleFavorite={handleToggleFavorite}
-          onOpenNote={openNoteModal}
-          onShare={handleShareVerse}
-          onHighlight={handleHighlight}
-          onRemoveHighlight={removeVerseHighlight}
-          onWordClick={handleWordClick}
-          onPreviousChapter={handlePreviousChapter}
-          onNextChapter={handleNextChapter}
-          onGoToChapters={() => setViewState('chapters')}
-          onEnterFocusMode={() => setFocusMode(true)}
-          onToggleStudyMode={() => setStudyMode(!studyMode)}
-        />
-      ))}
+      {viewState === 'reading' &&
+        (loading ? (
+          renderLoading()
+        ) : (
+          currentChapter && (
+            <>
+              {renderDictionaryWarmupBanner()}
+              <VerseDisplay
+                chapter={currentChapter}
+                studyMode={studyMode}
+                loadingDictionary={loadingDictionary}
+                dictionaryWords={dictionaryWords}
+                favoritedVerses={favoritedVerses}
+                versesWithNotes={versesWithNotes}
+                verseHighlights={verseHighlights}
+                highlightedVerse={highlightedVerse}
+                selectedVerse={selectedVerse}
+                onSelectVerse={setSelectedVerse}
+                onToggleFavorite={handleToggleFavorite}
+                onOpenNote={openNoteModal}
+                onShare={handleShareVerse}
+                onHighlight={handleHighlight}
+                onRemoveHighlight={removeVerseHighlight}
+                onWordClick={handleWordClick}
+                onPreviousChapter={handlePreviousChapter}
+                onNextChapter={handleNextChapter}
+                onGoToChapters={() => setViewState('chapters')}
+                onEnterFocusMode={() => setFocusMode(true)}
+                onToggleStudyMode={() => setStudyMode(!studyMode)}
+              />
+            </>
+          )
+        ))}
       {viewState === 'plans' && (
         <ReadingProgress
           books={books}

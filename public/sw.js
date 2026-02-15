@@ -1,5 +1,7 @@
-const CACHE_NAME = 'biblia-dabar-cache-v1';
+const CACHE_NAME = 'biblia-dabar-cache-v2';
 const OFFLINE_URL = '/';
+const DICTIONARY_INDEX_URL = '/data/dictionary/index.json';
+const DICTIONARY_SYNC_MARKER_URL = '/data/dictionary/.sync-state.json';
 
 const PRECACHE_URLS = [
   '/',
@@ -9,8 +11,7 @@ const PRECACHE_URLS = [
   '/icons/icon-512.png',
   '/data/pt_acf.json',
   '/data/readingPlans/bibleInOneYear.json',
-  '/dicionario_completo.json',
-  '/dicionario_mestre.json',
+  DICTIONARY_INDEX_URL,
   '/og/cover.png',
 ];
 
@@ -51,6 +52,34 @@ const cacheFirst = async (request) => {
 
   return response;
 };
+
+const persistDictionarySyncMarker = async (payload) => {
+  const cache = await caches.open(CACHE_NAME);
+  const body = JSON.stringify(payload || {});
+  await cache.put(
+    DICTIONARY_SYNC_MARKER_URL,
+    new Response(body, {
+      headers: { 'content-type': 'application/json' },
+    })
+  );
+};
+
+self.addEventListener('message', (event) => {
+  if (event.data === 'SKIP_WAITING') {
+    self.skipWaiting();
+    return;
+  }
+
+  if (event.data?.type === 'DICTIONARY_SYNC_COMPLETE') {
+    event.waitUntil(
+      persistDictionarySyncMarker({
+        ...event.data.payload,
+        synced: true,
+        cache: CACHE_NAME,
+      })
+    );
+  }
+});
 
 self.addEventListener('fetch', (event) => {
   const { request } = event;

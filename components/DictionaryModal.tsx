@@ -15,6 +15,14 @@ interface DictionaryModalProps {
 const DictionaryModal: React.FC<DictionaryModalProps> = ({ entry, word, notFound = false, bookName, chapter, verse, onClose }) => {
   const [isClosing, setIsClosing] = useState(false);
 
+  const references = (entry?.referencias_relacionadas || []).map((item) => {
+    if (typeof item === 'string') return item;
+    if (item && typeof item === 'object' && 'referencia' in item) {
+      return String((item as { referencia?: string }).referencia || '').trim();
+    }
+    return '';
+  }).filter(Boolean);
+
   useEffect(() => {
     document.body.style.overflow = 'hidden';
     return () => {
@@ -106,14 +114,13 @@ const DictionaryModal: React.FC<DictionaryModalProps> = ({ entry, word, notFound
           </div>
         )}
 
-        {entry.referencias_relacionadas?.length > 0 && (
+        {references.length > 0 && (
           <div className="state-card p-4">
             <p className="section-kicker">Referências relacionadas</p>
             <div className="mt-3 space-y-2">
-              {entry.referencias_relacionadas.map((reference, index) => (
+              {references.map((reference, index) => (
                 <div key={index} className="rounded-xl border border-grace-border bg-grace-surface-2 p-3">
-                  <p className="text-sm font-semibold text-cream">{reference.referencia}</p>
-                  <p className="mt-1 text-xs text-cream-muted">{reference.relevancia}</p>
+                  <p className="text-sm font-semibold text-cream">{reference}</p>
                 </div>
               ))}
             </div>

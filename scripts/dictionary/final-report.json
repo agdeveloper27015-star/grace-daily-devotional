@@ -1,0 +1,348 @@
+{
+  "generatedAt": "2026-02-15T03:20:56.823Z",
+  "totalEntries": 82714,
+  "withContext": 82714,
+  "withoutContext": 0,
+  "invalidStrong": 0,
+  "coveragePercentage": 100,
+  "byBook": {
+    "genesis": {
+      "total": 4225,
+      "withContext": 4225,
+      "withoutContext": 0
+    },
+    "exodo": {
+      "total": 3235,
+      "withContext": 3235,
+      "withoutContext": 0
+    },
+    "levitico": {
+      "total": 2318,
+      "withContext": 2318,
+      "withoutContext": 0
+    },
+    "numeros": {
+      "total": 3448,
+      "withContext": 3448,
+      "withoutContext": 0
+    },
+    "deuteronomio": {
+      "total": 2691,
+      "withContext": 2691,
+      "withoutContext": 0
+    },
+    "josue": {
+      "total": 1770,
+      "withContext": 1770,
+      "withoutContext": 0
+    },
+    "juizes": {
+      "total": 1752,
+      "withContext": 1752,
+      "withoutContext": 0
+    },
+    "rute": {
+      "total": 240,
+      "withContext": 240,
+      "withoutContext": 0
+    },
+    "1samuel": {
+      "total": 2286,
+      "withContext": 2286,
+      "withoutContext": 0
+    },
+    "2samuel": {
+      "total": 1963,
+      "withContext": 1963,
+      "withoutContext": 0
+    },
+    "1reis": {
+      "total": 2285,
+      "withContext": 2285,
+      "withoutContext": 0
+    },
+    "2reis": {
+      "total": 2069,
+      "withContext": 2069,
+      "withoutContext": 0
+    },
+    "1cronicas": {
+      "total": 2467,
+      "withContext": 2467,
+      "withoutContext": 0
+    },
+    "2cronicas": {
+      "total": 2289,
+      "withContext": 2289,
+      "withoutContext": 0
+    },
+    "esdras": {
+      "total": 730,
+      "withContext": 730,
+      "withoutContext": 0
+    },
+    "neemias": {
+      "total": 1043,
+      "withContext": 1043,
+      "withoutContext": 0
+    },
+    "ester": {
+      "total": 456,
+      "withContext": 456,
+      "withoutContext": 0
+    },
+    "jo": {
+      "total": 2817,
+      "withContext": 2817,
+      "withoutContext": 0
+    },
+    "salmos": {
+      "total": 6800,
+      "withContext": 6800,
+      "withoutContext": 0
+    },
+    "proverbios": {
+      "total": 2426,
+      "withContext": 2426,
+      "withoutContext": 0
+    },
+    "eclesiastes": {
+      "total": 608,
+      "withContext": 608,
+      "withoutContext": 0
+    },
+    "cantares": {
+      "total": 285,
+      "withContext": 285,
+      "withoutContext": 0
+    },
+    "isaias": {
+      "total": 3456,
+      "withContext": 3456,
+      "withoutContext": 0
+    },
+    "jeremias": {
+      "total": 3801,
+      "withContext": 3801,
+      "withoutContext": 0
+    },
+    "lamentacoes": {
+      "total": 417,
+      "withContext": 417,
+      "withoutContext": 0
+    },
+    "ezequiel": {
+      "total": 3463,
+      "withContext": 3463,
+      "withoutContext": 0
+    },
+    "daniel": {
+      "total": 923,
+      "withContext": 923,
+      "withoutContext": 0
+    },
+    "oseias": {
+      "total": 528,
+      "withContext": 528,
+      "withoutContext": 0
+    },
+    "joel": {
+      "total": 195,
+      "withContext": 195,
+      "withoutContext": 0
+    },
+    "amos": {
+      "total": 408,
+      "withContext": 408,
+      "withoutContext": 0
+    },
+    "obadias": {
+      "total": 58,
+      "withContext": 58,
+      "withoutContext": 0
+    },
+    "jonas": {
+      "total": 140,
+      "withContext": 140,
+      "withoutContext": 0
+    },
+    "miqueias": {
+      "total": 282,
+      "withContext": 282,
+      "withoutContext": 0
+    },
+    "naum": {
+      "total": 119,
+      "withContext": 119,
+      "withoutContext": 0
+    },
+    "habacuque": {
+      "total": 153,
+      "withContext": 153,
+      "withoutContext": 0
+    },
+    "sofonias": {
+      "total": 145,
+      "withContext": 145,
+      "withoutContext": 0
+    },
+    "ageu": {
+      "total": 112,
+      "withContext": 112,
+      "withoutContext": 0
+    },
+    "zacarias": {
+      "total": 592,
+      "withContext": 592,
+      "withoutContext": 0
+    },
+    "malaquias": {
+      "total": 153,
+      "withContext": 153,
+      "withoutContext": 0
+    },
+    "mateus": {
+      "total": 2516,
+      "withContext": 2516,
+      "withoutContext": 0
+    },
+    "marcos": {
+      "total": 1608,
+      "withContext": 1608,
+      "withoutContext": 0
+    },
+    "lucas": {
+      "total": 2775,
+      "withContext": 2775,
+      "withoutContext": 0
+    },
+    "joao": {
+      "total": 2134,
+      "withContext": 2134,
+      "withoutContext": 0
+    },
+    "atos": {
+      "total": 2486,
+      "withContext": 2486,
+      "withoutContext": 0
+    },
+    "romanos": {
+      "total": 1116,
+      "withContext": 1116,
+      "withoutContext": 0
+    },
+    "1corintios": {
+      "total": 1105,
+      "withContext": 1105,
+      "withoutContext": 0
+    },
+    "2corintios": {
+      "total": 666,
+      "withContext": 666,
+      "withoutContext": 0
+    },
+    "galatas": {
+      "total": 388,
+      "withContext": 388,
+      "withoutContext": 0
+    },
+    "efesios": {
+      "total": 392,
+      "withContext": 392,
+      "withoutContext": 0
+    },
+    "filipenses": {
+      "total": 270,
+      "withContext": 270,
+      "withoutContext": 0
+    },
+    "colossenses": {
+      "total": 249,
+      "withContext": 249,
+      "withoutContext": 0
+    },
+    "1tessalonicenses": {
+      "total": 228,
+      "withContext": 228,
+      "withoutContext": 0
+    },
+    "2tessalonicenses": {
+      "total": 128,
+      "withContext": 128,
+      "withoutContext": 0
+    },
+    "1timoteo": {
+      "total": 283,
+      "withContext": 283,
+      "withoutContext": 0
+    },
+    "2timoteo": {
+      "total": 206,
+      "withContext": 206,
+      "withoutContext": 0
+    },
+    "tito": {
+      "total": 122,
+      "withContext": 122,
+      "withoutContext": 0
+    },
+    "filemom": {
+      "total": 62,
+      "withContext": 62,
+      "withoutContext": 0
+    },
+    "hebreus": {
+      "total": 781,
+      "withContext": 781,
+      "withoutContext": 0
+    },
+    "tiago": {
+      "total": 272,
+      "withContext": 272,
+      "withoutContext": 0
+    },
+    "1pedro": {
+      "total": 261,
+      "withContext": 261,
+      "withoutContext": 0
+    },
+    "2pedro": {
+      "total": 152,
+      "withContext": 152,
+      "withoutContext": 0
+    },
+    "1joao": {
+      "total": 252,
+      "withContext": 252,
+      "withoutContext": 0
+    },
+    "2joao": {
+      "total": 29,
+      "withContext": 29,
+      "withoutContext": 0
+    },
+    "3joao": {
+      "total": 37,
+      "withContext": 37,
+      "withoutContext": 0
+    },
+    "judas": {
+      "total": 62,
+      "withContext": 62,
+      "withoutContext": 0
+    },
+    "apocalipse": {
+      "total": 986,
+      "withContext": 986,
+      "withoutContext": 0
+    }
+  },
+  "validationStats": {
+    "totalEntries": 82714,
+    "invalidKey": 0,
+    "invalidStrong": 0,
+    "emptyBase": 0,
+    "emptyContext": 0,
+    "invalidReferences": 0
+  }
+}

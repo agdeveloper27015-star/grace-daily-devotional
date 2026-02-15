@@ -1,0 +1,13 @@
+{
+  "generatedAt": "2026-02-15T03:20:54.874Z",
+  "stats": {
+    "totalEntries": 82714,
+    "invalidKey": 0,
+    "invalidStrong": 0,
+    "emptyBase": 0,
+    "emptyContext": 0,
+    "invalidReferences": 0
+  },
+  "issuesPreview": [],
+  "totalIssues": 0
+}

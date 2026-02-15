@@ -9,7 +9,12 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "dictionary:audit": "node scripts/dictionary/audit.ts",
+    "dictionary:expand": "node scripts/dictionary/expand.ts",
+    "dictionary:validate": "node scripts/dictionary/validate.ts",
+    "dictionary:build-shards": "node scripts/dictionary/build-shards.ts",
+    "dictionary:report": "node scripts/dictionary/report.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.95.3",
