@@ -11,7 +11,12 @@ import { signOut } from '../services/authService';
 import { getUserSettings, setThemePreference } from '../services/themeService';
 import { STORAGE_KEYS } from '../services/storageKeys';
 
-const Profile: React.FC = () => {
+interface ProfileProps {
+  isAuthenticated: boolean;
+  onRequestSignIn?: () => Promise<void> | void;
+}
+
+const Profile: React.FC<ProfileProps> = ({ isAuthenticated, onRequestSignIn }) => {
   const [stats, setStats] = useState({
     versesRead: 0,
     chaptersRead: 0,
@@ -136,6 +141,19 @@ const Profile: React.FC = () => {
     }
   };
 
+  const handleSignIn = async () => {
+    try {
+      if (onRequestSignIn) {
+        await onRequestSignIn();
+        return;
+      }
+      showFeedback('Sincronizacao indisponivel nesta configuracao.');
+    } catch (error) {
+      const message = error instanceof Error ? error.message : 'Falha ao iniciar login.';
+      showFeedback(message);
+    }
+  };
+
   const cards = [
     { label: 'Versiculos lidos', value: stats.versesRead },
     { label: 'Capitulos lidos', value: stats.chaptersRead },
@@ -153,7 +171,11 @@ const Profile: React.FC = () => {
           <div>
             <p className="section-kicker">Meu perfil</p>
             <h2 className="editorial-title text-4xl leading-none sm:text-5xl">Conta e jornada</h2>
-            <p className="mt-2 text-sm text-cream-muted">Seus dados estao sincronizados na nuvem e disponiveis em todos os dispositivos.</p>
+            <p className="mt-2 text-sm text-cream-muted">
+              {isAuthenticated
+                ? 'Seus dados estao sincronizados na nuvem e disponiveis em todos os dispositivos.'
+                : 'Você está em modo local; faça login para sincronizar entre dispositivos.'}
+            </p>
           </div>
           <div className="inline-flex h-16 w-16 items-center justify-center rounded-full border border-grace-border bg-grace-surface-2">
             <svg className="h-8 w-8 text-terra" fill="none" stroke="currentColor" strokeWidth={1.6} viewBox="0 0 24 24">
@@ -246,10 +268,23 @@ const Profile: React.FC = () => {
             <span className="text-xs text-cream-muted">{installAvailable ? 'Disponivel' : 'Ja instalado ou indisponivel'}</span>
           </button>
 
-          <button onClick={handleSignOut} className="state-card flex w-full items-center justify-between p-4 text-left transition hover:bg-grace-surface-2">
-            <span className="text-sm font-semibold text-cream">Sair da conta</span>
-            <span className="text-xs text-cream-muted">Google OAuth</span>
-          </button>
+          {isAuthenticated ? (
+            <button onClick={handleSignOut} className="state-card flex w-full items-center justify-between p-4 text-left transition hover:bg-grace-surface-2">
+              <span className="text-sm font-semibold text-cream">Sair da conta</span>
+              <span className="text-xs text-cream-muted">Google OAuth</span>
+            </button>
+          ) : (
+            <button
+              onClick={() => {
+                void handleSignIn();
+              }}
+              disabled={!onRequestSignIn}
+              className="state-card flex w-full items-center justify-between p-4 text-left transition hover:bg-grace-surface-2 disabled:opacity-60"
+            >
+              <span className="text-sm font-semibold text-cream">Entrar para sincronizar</span>
+              <span className="text-xs text-cream-muted">{onRequestSignIn ? 'Google OAuth' : 'Indisponivel'}</span>
+            </button>
+          )}
         </div>
       </div>
 

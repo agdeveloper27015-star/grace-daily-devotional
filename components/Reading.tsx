@@ -70,7 +70,7 @@ const Reading: React.FC<ReadingProps> = ({ initialTarget, onTargetConsumed, onFo
   // Dictionary
   const [studyMode, setStudyMode] = useState(() => {
     const saved = localStorage.getItem('grace_study_mode');
-    return saved ? JSON.parse(saved) : true;
+    return saved ? JSON.parse(saved) : false;
   });
   const [dictionaryWords, setDictionaryWords] = useState<Map<number, VerseDictionaryWords>>(new Map());
   const [showDictionaryModal, setShowDictionaryModal] = useState(false);
@@ -524,11 +524,7 @@ const Reading: React.FC<ReadingProps> = ({ initialTarget, onTargetConsumed, onFo
 
   const renderDictionaryWarmupBanner = () => {
     if (dictionaryWarmupStatus.phase === 'done') {
-      return (
-        <div className="mb-4 rounded-2xl border border-grace-border bg-grace-surface px-4 py-3 text-xs text-cream-muted">
-          Dicionário offline pronto para uso.
-        </div>
-      );
+      return null;
     }
 
     if (dictionaryWarmupStatus.phase === 'error') {

@@ -18,6 +18,7 @@ const serviceRole = Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!;
 const vapidPublicKey = Deno.env.get('VAPID_PUBLIC_KEY')!;
 const vapidPrivateKey = Deno.env.get('VAPID_PRIVATE_KEY')!;
 const vapidSubject = Deno.env.get('VAPID_SUBJECT') ?? 'mailto:dev@grace.local';
+const cronSecret = Deno.env.get('CRON_SECRET');
 
 webpush.setVapidDetails(vapidSubject, vapidPublicKey, vapidPrivateKey);
 
@@ -51,7 +52,29 @@ const shouldSendNow = (row: PushRow, now: Date): boolean => {
   return row.last_sent_on !== today;
 };
 
-Deno.serve(async () => {
+Deno.serve(async (request) => {
+  if (request.method !== 'GET' && request.method !== 'POST') {
+    return new Response(JSON.stringify({ error: 'Method not allowed' }), {
+      status: 405,
+      headers: { 'content-type': 'application/json' },
+    });
+  }
+
+  if (!cronSecret) {
+    return new Response(JSON.stringify({ error: 'CRON_SECRET is not configured' }), {
+      status: 500,
+      headers: { 'content-type': 'application/json' },
+    });
+  }
+
+  const providedSecret = request.headers.get('x-cron-secret');
+  if (providedSecret !== cronSecret) {
+    return new Response(JSON.stringify({ error: 'Unauthorized' }), {
+      status: 401,
+      headers: { 'content-type': 'application/json' },
+    });
+  }
+
   const now = new Date();
 
   const { data, error } = await supabase

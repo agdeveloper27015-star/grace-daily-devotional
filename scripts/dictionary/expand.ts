@@ -152,11 +152,13 @@ const callOpenAI = async (payload: unknown): Promise<Record<string, unknown>> =>
   return extractJsonObject(content);
 };
 
-const callGemini = async (payload: unknown): Promise<Record<string, unknown>> => {
+const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+
+const callGeminiOnce = async (payload: unknown): Promise<Response> => {
   const key = getGeminiKey();
   if (!key) throw new Error('GEMINI_API_KEY ausente');
 
-  const model = process.env.GEMINI_MODEL || 'gemini-1.5-pro';
+  const model = process.env.GEMINI_MODEL || 'gemini-3-flash-preview';
   const prompt = [
     'Retorne somente JSON válido.',
     'Para cada chave, preencha os campos não vazios:',
@@ -167,28 +169,39 @@ const callGemini = async (payload: unknown): Promise<Record<string, unknown>> =>
   ].join('\n');
 
   const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`;
-  const response = await fetch(endpoint, {
+  return fetch(endpoint, {
     method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
+    headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       contents: [{ parts: [{ text: prompt }] }],
-      generationConfig: {
-        temperature: 0.2,
-      },
+      generationConfig: { temperature: 0.2 },
     }),
   });
+};
 
-  if (!response.ok) {
-    throw new Error(`Gemini request failed (${response.status})`);
+const callGemini = async (payload: unknown): Promise<Record<string, unknown>> => {
+  const maxRetries = 8;
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    const response = await callGeminiOnce(payload);
+
+    if (response.status === 429) {
+      const retryAfter = Math.min(60, Math.max(5, 2 ** attempt * 2));
+      console.warn(`[gemini] 429 rate limited, retrying in ${retryAfter}s (attempt ${attempt + 1}/${maxRetries})`);
+      await sleep(retryAfter * 1000);
+      continue;
+    }
+
+    if (!response.ok) {
+      throw new Error(`Gemini request failed (${response.status})`);
+    }
+
+    const data = (await response.json()) as {
+      candidates?: Array<{ content?: { parts?: Array<{ text?: string }> } }>;
+    };
+    const content = data.candidates?.[0]?.content?.parts?.map((part) => part.text || '').join('\n') || '{}';
+    return extractJsonObject(content);
   }
-
-  const data = (await response.json()) as {
-    candidates?: Array<{ content?: { parts?: Array<{ text?: string }> } }>;
-  };
-  const content = data.candidates?.[0]?.content?.parts?.map((part) => part.text || '').join('\n') || '{}';
-  return extractJsonObject(content);
+  throw new Error('Gemini: max retries exceeded (429)');
 };
 
 const sanitizeGeneratedEntry = (

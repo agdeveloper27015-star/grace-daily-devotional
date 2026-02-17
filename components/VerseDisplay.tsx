@@ -123,102 +123,117 @@ const VerseDisplay: React.FC<VerseDisplayProps> = ({
   if (currentParagraph.length > 0) paragraphs.push(currentParagraph);
 
   return (
-    <section className="animate-in fade-in slide-in-from-bottom-4 duration-700 space-y-5">
-      <header className="paper-panel p-5 sm:p-6">
-        <div className="flex flex-wrap items-center gap-3">
-          <button onClick={onGoToChapters} className="icon-button inline-flex h-9 w-9 items-center justify-center" aria-label="Voltar">
-            <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-            </svg>
-          </button>
+    <section className="reading-session animate-in fade-in slide-in-from-bottom-4 duration-700">
+      <article className="reading-session-card paper-panel">
+        <header className="reading-session-header p-4 sm:p-5">
+          <div className="reading-session-header__row">
+            <div className="reading-session-header__book">
+              <button
+                onClick={onGoToChapters}
+                className="icon-button inline-flex h-9 w-9 items-center justify-center"
+                aria-label="Voltar"
+              >
+                <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                </svg>
+              </button>
 
-          <div className="min-w-0 flex-1">
-            <p className="section-kicker">Leitura ativa</p>
-            <h2 className="editorial-title truncate text-4xl leading-none sm:text-5xl">{chapter.bookName}</h2>
-            <p className="mt-1 text-sm text-cream-muted">Capítulo {chapter.chapterNumber}</p>
+              <div className="min-w-0">
+                <h2 className="reading-session-title editorial-title">
+                  {chapter.bookName}
+                  <span>{chapter.chapterNumber}</span>
+                </h2>
+                <p className="reading-session-subtitle">Capitulo {chapter.chapterNumber}</p>
+              </div>
+            </div>
+
+            <div className="reading-session-header__actions">
+              <button
+                onClick={onEnterFocusMode}
+                className="pill-button px-4 py-2 text-xs font-semibold uppercase tracking-wider"
+              >
+                Foco
+              </button>
+              <button
+                onClick={onToggleStudyMode}
+                className={`px-4 py-2 text-xs font-semibold uppercase tracking-wider ${
+                  studyMode ? 'pill-button-accent' : 'pill-button'
+                }`}
+              >
+                {studyMode ? 'Estudo' : 'Leitura'}
+              </button>
+            </div>
           </div>
 
-          <button onClick={onEnterFocusMode} className="pill-button px-4 py-2 text-xs font-semibold uppercase tracking-wider">
-            Foco
-          </button>
-          <button
-            onClick={onToggleStudyMode}
-            className={`px-4 py-2 text-xs font-semibold uppercase tracking-wider ${
-              studyMode ? 'pill-button-accent' : 'pill-button'
-            }`}
-          >
-            {studyMode ? 'Modo Estudo' : 'Modo Leitura'}
-          </button>
+          {studyMode && loadingDictionary && (
+            <div className="reading-session-header__loading mt-4 inline-flex items-center gap-2 rounded-full border border-grace-border bg-grace-surface-2 px-3 py-1.5 text-xs text-cream-muted">
+              <span className="h-3 w-3 animate-spin rounded-full border-2 border-terra border-t-transparent" />
+              Carregando dicionario local...
+            </div>
+          )}
+        </header>
+
+        <div className="reading-session-scripture p-5 sm:p-7" onClick={() => onSelectVerse(null)}>
+          {paragraphs.map((paragraph, paragraphIndex) => {
+            const paragraphHasSelected = selectedVerse !== null && paragraph.some((verse) => verse.number === selectedVerse);
+            const selectedVerseObj = paragraphHasSelected ? paragraph.find((verse) => verse.number === selectedVerse) : null;
+
+            return (
+              <React.Fragment key={paragraphIndex}>
+                <p className="reading-body reading-session-scripture__paragraph mb-2 text-cream-dark">
+                  {paragraph.map((verse) => (
+                    <span
+                      key={verse.number}
+                      id={`verse-${verse.number}`}
+                      className={`inline cursor-pointer rounded-[4px] px-[2px] transition ${getHighlightClass(verseHighlights, verse.number)} ${
+                        highlightedVerse === verse.number
+                          ? 'bg-[rgba(47,59,82,0.14)]'
+                          : selectedVerse === verse.number
+                          ? 'bg-[rgba(47,59,82,0.09)]'
+                          : ''
+                      }`}
+                      onClick={(event) => {
+                        event.stopPropagation();
+                        onSelectVerse(selectedVerse === verse.number ? null : verse.number);
+                      }}
+                    >
+                      <sup className="verse-chip mr-[2px] ml-[2px] select-none">{verse.number}</sup>
+                      {studyMode ? renderVerseText(verse) : <span>{verse.text}</span>}
+                      {' '}
+                    </span>
+                  ))}
+                </p>
+
+                {paragraphHasSelected && selectedVerseObj && (
+                  <VerseActionBar
+                    verse={selectedVerseObj}
+                    bookName={chapter.bookName}
+                    chapterNumber={chapter.chapterNumber}
+                    isFavorited={favoritedVerses.has(`${selectedVerseObj.number}`)}
+                    hasNote={versesWithNotes.has(`${selectedVerseObj.number}`)}
+                    highlightColor={verseHighlights.get(selectedVerseObj.number)}
+                    onToggleFavorite={onToggleFavorite}
+                    onOpenNote={onOpenNote}
+                    onShare={onShare}
+                    onHighlight={onHighlight}
+                    onRemoveHighlight={onRemoveHighlight}
+                  />
+                )}
+
+                {!paragraphHasSelected && <div className="mb-4" />}
+              </React.Fragment>
+            );
+          })}
         </div>
-
-        {studyMode && loadingDictionary && (
-          <div className="mt-4 inline-flex items-center gap-2 rounded-full border border-grace-border bg-grace-surface-2 px-3 py-1.5 text-xs text-cream-muted">
-            <span className="h-3 w-3 animate-spin rounded-full border-2 border-terra border-t-transparent" />
-            Carregando dicionário local...
-          </div>
-        )}
-      </header>
-
-      <article className="paper-panel p-5 sm:p-7" onClick={() => onSelectVerse(null)}>
-        {paragraphs.map((paragraph, paragraphIndex) => {
-          const paragraphHasSelected = selectedVerse !== null && paragraph.some((verse) => verse.number === selectedVerse);
-          const selectedVerseObj = paragraphHasSelected ? paragraph.find((verse) => verse.number === selectedVerse) : null;
-
-          return (
-            <React.Fragment key={paragraphIndex}>
-              <p className="reading-body mb-2 text-[1.16rem] text-cream-dark">
-                {paragraph.map((verse) => (
-                  <span
-                    key={verse.number}
-                    id={`verse-${verse.number}`}
-                    className={`inline cursor-pointer rounded-[4px] px-[2px] transition ${getHighlightClass(verseHighlights, verse.number)} ${
-                      highlightedVerse === verse.number
-                        ? 'bg-[rgba(47,59,82,0.14)]'
-                        : selectedVerse === verse.number
-                        ? 'bg-[rgba(47,59,82,0.09)]'
-                        : ''
-                    }`}
-                    onClick={(event) => {
-                      event.stopPropagation();
-                      onSelectVerse(selectedVerse === verse.number ? null : verse.number);
-                    }}
-                  >
-                    <sup className="verse-chip mr-[2px] ml-[2px] select-none">{verse.number}</sup>
-                    {studyMode ? renderVerseText(verse) : <span>{verse.text}</span>}
-                    {' '}
-                  </span>
-                ))}
-              </p>
-
-              {paragraphHasSelected && selectedVerseObj && (
-                <VerseActionBar
-                  verse={selectedVerseObj}
-                  bookName={chapter.bookName}
-                  chapterNumber={chapter.chapterNumber}
-                  isFavorited={favoritedVerses.has(`${selectedVerseObj.number}`)}
-                  hasNote={versesWithNotes.has(`${selectedVerseObj.number}`)}
-                  highlightColor={verseHighlights.get(selectedVerseObj.number)}
-                  onToggleFavorite={onToggleFavorite}
-                  onOpenNote={onOpenNote}
-                  onShare={onShare}
-                  onHighlight={onHighlight}
-                  onRemoveHighlight={onRemoveHighlight}
-                />
-              )}
-
-              {!paragraphHasSelected && <div className="mb-4" />}
-            </React.Fragment>
-          );
-        })}
       </article>
 
-      <footer className="paper-panel flex items-center justify-between gap-3 p-4 sm:p-5">
+      <footer className="reading-session-nav paper-panel flex items-center justify-between gap-3 p-4 sm:p-5">
         <button onClick={onPreviousChapter} className="pill-button px-4 py-2 text-xs font-semibold uppercase tracking-wider">
           Anterior
         </button>
-        <span className="meta-label">{chapter.bookName} {chapter.chapterNumber}</span>
+        <span className="meta-label">Capitulo {chapter.chapterNumber}</span>
         <button onClick={onNextChapter} className="pill-button px-4 py-2 text-xs font-semibold uppercase tracking-wider">
-          Próximo
+          Proximo
         </button>
       </footer>
     </section>

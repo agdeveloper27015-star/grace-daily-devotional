@@ -9,6 +9,7 @@ export const STORAGE_KEYS = {
   chaptersRead: 'grace_chapters_read',
   readingPlan: 'grace_reading_plan_state',
   syncMeta: 'grace_sync_meta',
+  syncBannerDismissedAt: 'grace_sync_banner_dismissed_at',
 } as const;
 
 export type StorageKey = (typeof STORAGE_KEYS)[keyof typeof STORAGE_KEYS];
